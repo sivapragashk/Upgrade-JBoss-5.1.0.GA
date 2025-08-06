@@ -1,0 +1,5 @@
+2011-03-08 23:21:54,471 INFO   [DynamicFieldsMappingAction] INFO 
+2011-03-08 23:21:54,471 WARN   [DynamicFieldsMappingAction] WARN 
+2011-03-08 23:21:54,471 DEBUG  [DynamicFieldsMappingAction] DEBUG 
+2011-03-08 23:21:54,471 ERROR  [DynamicFieldsMappingAction] ERROR 
+2011-03-08 23:21:54,471 FATAL  [DynamicFieldsMappingAction] FATAL 

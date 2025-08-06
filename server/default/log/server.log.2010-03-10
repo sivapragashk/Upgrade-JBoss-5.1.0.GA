@@ -1,0 +1,71 @@
+2010-03-10 00:18:32,502 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Runtime shutdown hook called, forceHalt: true
+2010-03-10 00:18:32,721 INFO  [org.apache.coyote.http11.Http11Protocol] (JBoss Shutdown Hook) Pausing Coyote HTTP/1.1 on http-127.0.0.1-8080
+2010-03-10 00:18:32,846 INFO  [org.apache.coyote.http11.Http11Protocol] (JBoss Shutdown Hook) Stopping Coyote HTTP/1.1 on http-127.0.0.1-8080
+2010-03-10 00:18:32,846 INFO  [org.apache.coyote.ajp.AjpProtocol] (JBoss Shutdown Hook) Pausing Coyote AJP/1.3 on ajp-127.0.0.1-8009
+2010-03-10 00:18:32,846 INFO  [org.apache.coyote.ajp.AjpProtocol] (JBoss Shutdown Hook) Stopping Coyote AJP/1.3 on ajp-127.0.0.1-8009
+2010-03-10 00:18:32,971 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@14767c2 undeployed
+2010-03-10 00:18:32,971 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@1c5dc73 undeployed
+2010-03-10 00:18:32,971 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@32566d undeployed
+2010-03-10 00:18:32,986 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/web-console
+2010-03-10 00:18:33,033 INFO  [org.jboss.jms.server.destination.QueueService] (JBoss Shutdown Hook) Queue[/queue/ExpiryQueue] stopped
+2010-03-10 00:18:33,033 INFO  [org.jboss.jms.server.destination.QueueService] (JBoss Shutdown Hook) Queue[/queue/DLQ] stopped
+2010-03-10 00:18:33,127 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2010-03-10 00:18:33,393 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureProfileServiceBean ejbName: SecureProfileService
+2010-03-10 00:18:33,455 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2010-03-10 00:18:34,174 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureDeploymentManager ejbName: SecureDeploymentManager
+2010-03-10 00:18:34,361 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2010-03-10 00:18:34,377 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureManagementView ejbName: SecureManagementView
+2010-03-10 00:18:34,424 INFO  [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] (JBoss Shutdown Hook) Unbind EJB LocalHome 'IRReportsEJB' from jndi 'EJB/IRReportsLocalHome'
+2010-03-10 00:18:34,486 INFO  [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] (JBoss Shutdown Hook) Unbind EJB LocalHome 'SAPAccessBean' from jndi 'local/SAPAccessBean@21715028'
+2010-03-10 00:18:34,486 INFO  [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] (JBoss Shutdown Hook) Unbind EJB LocalHome 'FabOSRealtimeUpdateObject' from jndi 'ejb/jndi/LocalRealtimeUpdateHome'
+2010-03-10 00:18:34,486 INFO  [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] (JBoss Shutdown Hook) Unbind EJB LocalHome 'DocumentManagerEJB' from jndi 'ejb/jndi/LocalDocumentManagerHome'
+2010-03-10 00:18:34,486 INFO  [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] (JBoss Shutdown Hook) Unbind EJB LocalHome 'DBAccessBean' from jndi 'EJB/DBAccessBeanLocal'
+2010-03-10 00:18:34,502 INFO  [org.jboss.proxy.ejb.ProxyFactory] (JBoss Shutdown Hook) Unbind EJB Home 'IRReportsEJB' from jndi 'EJB/IRReportsHome'
+2010-03-10 00:18:34,502 INFO  [org.jboss.ejb.EjbModule] (JBoss Shutdown Hook) Undeployed IRReportsEJB
+2010-03-10 00:18:34,549 INFO  [org.jboss.proxy.ejb.ProxyFactory] (JBoss Shutdown Hook) Unbind EJB Home 'SAPAccessBean' from jndi 'EJB/jndi/SAPAccessBean'
+2010-03-10 00:18:34,549 INFO  [org.jboss.ejb.EjbModule] (JBoss Shutdown Hook) Undeployed SAPAccessBean
+2010-03-10 00:18:34,549 INFO  [org.jboss.proxy.ejb.ProxyFactory] (JBoss Shutdown Hook) Unbind EJB Home 'JobSchedulerObject' from jndi 'ejb/jndi/JobSchedulerHome'
+2010-03-10 00:18:34,565 INFO  [org.jboss.ejb.EjbModule] (JBoss Shutdown Hook) Undeployed JobSchedulerObject
+2010-03-10 00:18:34,565 INFO  [org.jboss.proxy.ejb.ProxyFactory] (JBoss Shutdown Hook) Unbind EJB Home 'FabOSRealtimeUpdateObject' from jndi 'ejb/jndi/RealtimeUpdateHome'
+2010-03-10 00:18:34,596 INFO  [org.jboss.ejb.EjbModule] (JBoss Shutdown Hook) Undeployed FabOSRealtimeUpdateObject
+2010-03-10 00:18:34,752 INFO  [org.jboss.proxy.ejb.ProxyFactory] (JBoss Shutdown Hook) Unbind EJB Home 'LDAPAuthenticationEJB' from jndi 'ejb/jndi/LDAPAuthentication'
+2010-03-10 00:18:34,752 INFO  [org.jboss.ejb.EjbModule] (JBoss Shutdown Hook) Undeployed LDAPAuthenticationEJB
+2010-03-10 00:18:34,752 INFO  [org.jboss.proxy.ejb.ProxyFactory] (JBoss Shutdown Hook) Unbind EJB Home 'DocumentManagerEJB' from jndi 'ejb/jndi/DocumentManagerHome'
+2010-03-10 00:18:34,752 INFO  [org.jboss.ejb.EjbModule] (JBoss Shutdown Hook) Undeployed DocumentManagerEJB
+2010-03-10 00:18:34,768 INFO  [org.jboss.proxy.ejb.ProxyFactory] (JBoss Shutdown Hook) Unbind EJB Home 'DBAccessBean' from jndi 'EJB/DBAccessBean'
+2010-03-10 00:18:34,768 INFO  [org.jboss.ejb.EjbModule] (JBoss Shutdown Hook) Undeployed DBAccessBean
+2010-03-10 00:18:34,846 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' from JNDI name 'java:JmsXA'
+2010-03-10 00:18:35,080 INFO  [org.jboss.jms.server.ServerPeer] (JBoss Shutdown Hook) JMS ServerPeer[0] stopped
+2010-03-10 00:18:35,111 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/invoker
+2010-03-10 00:18:35,315 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/juddi
+2010-03-10 00:18:35,330 INFO  [org.apache.juddi.registry.RegistryServlet] (JBoss Shutdown Hook) jUDDI Stopping: Cleaning up existing resources.
+2010-03-10 00:18:35,330 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/admin-console
+2010-03-10 00:18:35,330 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/
+2010-03-10 00:18:35,346 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/SapRfcWS
+2010-03-10 00:18:35,346 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/content
+2010-03-10 00:18:35,346 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/directweb
+2010-03-10 00:18:35,361 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/docrepository
+2010-03-10 00:18:35,361 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/greeting
+2010-03-10 00:18:35,361 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/jbossws
+2010-03-10 00:18:35,377 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/jmx-console
+2010-03-10 00:18:35,377 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/orderstatus
+2010-03-10 00:18:35,377 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/orderstatusws
+2010-03-10 00:18:35,471 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/users
+2010-03-10 00:18:35,471 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/loftware
+2010-03-10 00:18:36,596 INFO  [org.apache.catalina.core.StandardService] (JBoss Shutdown Hook) Stopping service jboss.web
+2010-03-10 00:18:36,768 INFO  [org.jboss.mail.MailService] (JBoss Shutdown Hook) Mail service 'java:/Mail' removed from JNDI
+2010-03-10 00:18:36,971 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=HDFabDS' from JNDI name 'java:HDFabDS'
+2010-03-10 00:18:36,986 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=JDBCIntranetDS' from JNDI name 'java:JDBCIntranetDS'
+2010-03-10 00:18:37,002 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=OrderStatusDS' from JNDI name 'java:OrderStatusDS'
+2010-03-10 00:18:37,018 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=PIPDS' from JNDI name 'java:PIPDS'
+2010-03-10 00:18:37,033 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=PLSDS' from JNDI name 'java:PLSDS'
+2010-03-10 00:18:37,033 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' from JNDI name 'java:DefaultDS'
+2010-03-10 00:18:37,299 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2010-03-10 00:18:37,580 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2010-03-10 00:18:37,580 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2010-03-10 00:18:38,111 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (JBoss Shutdown Hook) Stopping transaction recovery manager
+2010-03-10 00:18:38,190 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (JBoss Shutdown Hook) Destroying TransactionManagerService
+2010-03-10 00:18:39,174 INFO  [org.jboss.jdbc.HypersonicDatabase] (JBoss Shutdown Hook) Database standalone closed clean
+2010-03-10 00:18:39,674 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (JBoss Shutdown Hook) remove: jboss.ws:context=SapRfcWS,endpoint=SapRfcAccessService
+2010-03-10 00:19:02,611 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (JBoss Shutdown Hook) remove: jboss.ws:context=greeting,endpoint=GreetingWebService
+2010-03-10 00:19:12,545 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Shutdown complete

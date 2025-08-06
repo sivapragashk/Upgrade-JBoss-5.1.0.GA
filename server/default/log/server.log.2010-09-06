@@ -1,0 +1,627 @@
+2010-09-06 16:36:56,761 INFO  [org.jboss.web.WebService] (main) Using RMI server codebase: http://127.0.0.1:8083/
+2010-09-06 16:37:19,697 INFO  [org.jboss.wsf.common.management.AbstractServerConfig] (main) JBoss Web Services - Native Server
+2010-09-06 16:37:19,697 INFO  [org.jboss.wsf.common.management.AbstractServerConfig] (main) 3.2.2.GA
+2010-09-06 16:37:22,822 INFO  [org.jboss.dependency.plugins.AttributeCallbackItem] (main) Owner callback not implemented.
+2010-09-06 16:37:28,306 INFO  [org.jboss.logbridge.LogNotificationListener] (main) Adding notification listener for logging mbean "jboss.system:service=Logging,type=Log4jService" to server org.jboss.mx.server.MBeanServerImpl@73a5d3[ defaultDomain='jboss' ]
+2010-09-06 16:38:49,284 INFO  [org.jboss.deployment.dependency.ContainerDependencyMetaData] (main) addJndiDependency, JndiDependencyMetaData@18a4ec6{ejb/jndi/LDAPAuthentication}
+2010-09-06 16:39:02,003 INFO  [org.jboss.deployment.dependency.ContainerDependencyMetaData] (main) addJndiDependency, JndiDependencyMetaData@131fa4b{ejb/jndi/RealtimeUpdateHome}
+2010-09-06 16:39:07,206 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@25708990{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/DBAccessEJB.jar/}
+2010-09-06 16:39:07,206 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@25708990{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/DBAccessEJB.jar/}
+2010-09-06 16:39:07,206 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@25708990{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/DBAccessEJB.jar/}
+2010-09-06 16:39:07,206 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@27014058{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/IRReportsEJB.jar/}
+2010-09-06 16:39:07,206 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@27014058{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/IRReportsEJB.jar/}
+2010-09-06 16:39:07,206 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@27014058{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/IRReportsEJB.jar/}
+2010-09-06 16:39:07,206 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@31052549{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/SAPAccessEJB.jar/}
+2010-09-06 16:39:07,206 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@31052549{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/SAPAccessEJB.jar/}
+2010-09-06 16:39:07,206 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@31052549{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/SAPAccessEJB.jar/}
+2010-09-06 16:39:07,206 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@18067451{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/ScheduleJobsEJB.jar/}
+2010-09-06 16:39:07,206 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@18067451{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/ScheduleJobsEJB.jar/}
+2010-09-06 16:39:07,206 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@18067451{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/ScheduleJobsEJB.jar/}
+2010-09-06 16:39:07,222 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@32986216{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/ldapejb.jar/}
+2010-09-06 16:39:07,222 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@32986216{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/ldapejb.jar/}
+2010-09-06 16:39:07,222 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@32986216{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/ldapejb.jar/}
+2010-09-06 16:39:07,222 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@30120695{vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/profileservice-secured.jar/}
+2010-09-06 16:39:07,222 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@30120695{vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/profileservice-secured.jar/}
+2010-09-06 16:39:07,222 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@30120695{vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/profileservice-secured.jar/}
+2010-09-06 16:39:07,222 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@30120695{vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/profileservice-secured.jar/}
+2010-09-06 16:39:07,222 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@19255108{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/tdsejb.jar/}
+2010-09-06 16:39:07,222 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@19255108{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/tdsejb.jar/}
+2010-09-06 16:39:07,222 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@19255108{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/tdsejb.jar/}
+2010-09-06 16:39:07,222 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@29419690{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/SapRfcWS.war/}
+2010-09-06 16:39:07,222 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@29419690{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/SapRfcWS.war/}
+2010-09-06 16:39:07,222 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@29419690{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/SapRfcWS.war/}
+2010-09-06 16:39:07,534 INFO  [STDOUT] (main) Starting with message.SAPConnectionPool=StartUp Service
+2010-09-06 16:39:07,565 ERROR [STDERR] (main) java.io.FileNotFoundException: \opt\files\WLstartup\SAP_Pools.xml
+2010-09-06 16:39:07,565 ERROR [STDERR] (main) 	at org.jboss.net.protocol.file.FileURLConnection.connect(FileURLConnection.java:105)
+2010-09-06 16:39:07,565 ERROR [STDERR] (main) 	at org.jboss.net.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:112)
+2010-09-06 16:39:07,565 ERROR [STDERR] (main) 	at org.apache.xerces.impl.XMLEntityManager.setupCurrentEntity(Unknown Source)
+2010-09-06 16:39:07,565 ERROR [STDERR] (main) 	at org.apache.xerces.impl.XMLVersionDetector.determineDocVersion(Unknown Source)
+2010-09-06 16:39:07,565 ERROR [STDERR] (main) 	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+2010-09-06 16:39:07,565 ERROR [STDERR] (main) 	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+2010-09-06 16:39:07,565 ERROR [STDERR] (main) 	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+2010-09-06 16:39:07,565 ERROR [STDERR] (main) 	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+2010-09-06 16:39:07,565 ERROR [STDERR] (main) 	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+2010-09-06 16:39:07,565 ERROR [STDERR] (main) 	at com.hd.SAPConnectionPool.loadDocument(SAPConnectionPool.java:141)
+2010-09-06 16:39:07,565 ERROR [STDERR] (main) 	at com.hd.SAPConnectionPool.connect(SAPConnectionPool.java:30)
+2010-09-06 16:39:07,565 ERROR [STDERR] (main) 	at com.hd.StartUpService.start(StartUpService.java:29)
+2010-09-06 16:39:07,565 ERROR [STDERR] (main) 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2010-09-06 16:39:07,565 ERROR [STDERR] (main) 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+2010-09-06 16:39:07,565 ERROR [STDERR] (main) 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+2010-09-06 16:39:07,565 ERROR [STDERR] (main) 	at java.lang.reflect.Method.invoke(Method.java:597)
+2010-09-06 16:39:07,565 ERROR [STDERR] (main) 	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:157)
+2010-09-06 16:39:07,565 ERROR [STDERR] (main) 	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:96)
+2010-09-06 16:39:07,565 ERROR [STDERR] (main) 	at org.jboss.mx.server.Invocation.invoke(Invocation.java:88)
+2010-09-06 16:39:07,565 ERROR [STDERR] (main) 	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+2010-09-06 16:39:07,565 ERROR [STDERR] (main) 	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:668)
+2010-09-06 16:39:07,565 ERROR [STDERR] (main) 	at org.jboss.system.microcontainer.ServiceProxy.invoke(ServiceProxy.java:206)
+2010-09-06 16:39:07,565 ERROR [STDERR] (main) 	at $Proxy38.start(Unknown Source)
+2010-09-06 16:39:07,565 ERROR [STDERR] (main) 	at org.jboss.system.microcontainer.StartStopLifecycleAction.installAction(StartStopLifecycleAction.java:42)
+2010-09-06 16:39:07,565 ERROR [STDERR] (main) 	at org.jboss.system.microcontainer.StartStopLifecycleAction.installAction(StartStopLifecycleAction.java:37)
+2010-09-06 16:39:07,565 ERROR [STDERR] (main) 	at org.jboss.dependency.plugins.action.SimpleControllerContextAction.simpleInstallAction(SimpleControllerContextAction.java:62)
+2010-09-06 16:39:07,565 ERROR [STDERR] (main) 	at org.jboss.dependency.plugins.action.AccessControllerContextAction.install(AccessControllerContextAction.java:71)
+2010-09-06 16:39:07,565 ERROR [STDERR] (main) 	at org.jboss.dependency.plugins.AbstractControllerContextActions.install(AbstractControllerContextActions.java:51)
+2010-09-06 16:39:07,565 ERROR [STDERR] (main) 	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+2010-09-06 16:39:07,565 ERROR [STDERR] (main) 	at org.jboss.system.microcontainer.ServiceControllerContext.install(ServiceControllerContext.java:286)
+2010-09-06 16:39:07,565 ERROR [STDERR] (main) 	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+2010-09-06 16:39:07,565 ERROR [STDERR] (main) 	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+2010-09-06 16:39:07,565 ERROR [STDERR] (main) 	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+2010-09-06 16:39:07,581 ERROR [STDERR] (main) 	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+2010-09-06 16:39:07,581 ERROR [STDERR] (main) 	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+2010-09-06 16:39:07,581 ERROR [STDERR] (main) 	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+2010-09-06 16:39:07,581 ERROR [STDERR] (main) 	at org.jboss.system.ServiceController.doChange(ServiceController.java:688)
+2010-09-06 16:39:07,581 ERROR [STDERR] (main) 	at org.jboss.system.ServiceController.start(ServiceController.java:460)
+2010-09-06 16:39:07,581 ERROR [STDERR] (main) 	at org.jboss.system.deployers.ServiceDeployer.start(ServiceDeployer.java:163)
+2010-09-06 16:39:07,581 ERROR [STDERR] (main) 	at org.jboss.system.deployers.ServiceDeployer.deploy(ServiceDeployer.java:99)
+2010-09-06 16:39:07,581 ERROR [STDERR] (main) 	at org.jboss.system.deployers.ServiceDeployer.deploy(ServiceDeployer.java:46)
+2010-09-06 16:39:07,581 ERROR [STDERR] (main) 	at org.jboss.deployers.spi.deployer.helpers.AbstractSimpleRealDeployer.internalDeploy(AbstractSimpleRealDeployer.java:62)
+2010-09-06 16:39:07,581 ERROR [STDERR] (main) 	at org.jboss.deployers.spi.deployer.helpers.AbstractRealDeployer.deploy(AbstractRealDeployer.java:50)
+2010-09-06 16:39:07,581 ERROR [STDERR] (main) 	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:171)
+2010-09-06 16:39:07,581 ERROR [STDERR] (main) 	at org.jboss.deployers.plugins.deployers.DeployersImpl.doDeploy(DeployersImpl.java:1439)
+2010-09-06 16:39:07,581 ERROR [STDERR] (main) 	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1157)
+2010-09-06 16:39:07,581 ERROR [STDERR] (main) 	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1178)
+2010-09-06 16:39:07,581 ERROR [STDERR] (main) 	at org.jboss.deployers.plugins.deployers.DeployersImpl.install(DeployersImpl.java:1098)
+2010-09-06 16:39:07,581 ERROR [STDERR] (main) 	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+2010-09-06 16:39:07,581 ERROR [STDERR] (main) 	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+2010-09-06 16:39:07,581 ERROR [STDERR] (main) 	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+2010-09-06 16:39:07,581 ERROR [STDERR] (main) 	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+2010-09-06 16:39:07,581 ERROR [STDERR] (main) 	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+2010-09-06 16:39:07,581 ERROR [STDERR] (main) 	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+2010-09-06 16:39:07,581 ERROR [STDERR] (main) 	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+2010-09-06 16:39:07,581 ERROR [STDERR] (main) 	at org.jboss.deployers.plugins.deployers.DeployersImpl.process(DeployersImpl.java:781)
+2010-09-06 16:39:07,581 ERROR [STDERR] (main) 	at org.jboss.deployers.plugins.main.MainDeployerImpl.process(MainDeployerImpl.java:702)
+2010-09-06 16:39:07,581 ERROR [STDERR] (main) 	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.process(MainDeployerAdapter.java:117)
+2010-09-06 16:39:07,581 ERROR [STDERR] (main) 	at org.jboss.system.server.profileservice.repository.ProfileDeployAction.install(ProfileDeployAction.java:70)
+2010-09-06 16:39:07,581 ERROR [STDERR] (main) 	at org.jboss.system.server.profileservice.repository.AbstractProfileAction.install(AbstractProfileAction.java:53)
+2010-09-06 16:39:07,581 ERROR [STDERR] (main) 	at org.jboss.system.server.profileservice.repository.AbstractProfileService.install(AbstractProfileService.java:361)
+2010-09-06 16:39:07,581 ERROR [STDERR] (main) 	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+2010-09-06 16:39:07,581 ERROR [STDERR] (main) 	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+2010-09-06 16:39:07,581 ERROR [STDERR] (main) 	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+2010-09-06 16:39:07,581 ERROR [STDERR] (main) 	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+2010-09-06 16:39:07,581 ERROR [STDERR] (main) 	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+2010-09-06 16:39:07,581 ERROR [STDERR] (main) 	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+2010-09-06 16:39:07,581 ERROR [STDERR] (main) 	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+2010-09-06 16:39:07,581 ERROR [STDERR] (main) 	at org.jboss.system.server.profileservice.repository.AbstractProfileService.activateProfile(AbstractProfileService.java:306)
+2010-09-06 16:39:07,581 ERROR [STDERR] (main) 	at org.jboss.system.server.profileservice.ProfileServiceBootstrap.start(ProfileServiceBootstrap.java:271)
+2010-09-06 16:39:07,581 ERROR [STDERR] (main) 	at org.jboss.bootstrap.AbstractServerImpl.start(AbstractServerImpl.java:461)
+2010-09-06 16:39:07,581 ERROR [STDERR] (main) 	at org.jboss.Main.boot(Main.java:221)
+2010-09-06 16:39:07,581 ERROR [STDERR] (main) 	at org.jboss.Main$1.run(Main.java:556)
+2010-09-06 16:39:07,581 ERROR [STDERR] (main) 	at java.lang.Thread.run(Thread.java:619)
+2010-09-06 16:39:07,581 INFO  [STDOUT] (main) Unable to load SAP Connection Pool config file.
+2010-09-06 16:39:07,581 INFO  [STDOUT] (main) Starting with message.JNDIContext=StartUp Service
+2010-09-06 16:39:07,925 INFO  [STDOUT] (main) Starting Job SchedulerStartUp Service
+2010-09-06 16:39:07,925 INFO  [STDOUT] (main) <------------Job Scheduler Stopped---------->
+2010-09-06 16:39:15,940 INFO  [org.jboss.mx.remoting.service.JMXConnectorServerService] (main) JMX Connector server: service:jmx:rmi://127.0.0.1/jndi/rmi://127.0.0.1:1090/jmxconnector
+2010-09-06 16:39:17,628 INFO  [org.jboss.mail.MailService] (main) Mail Service bound to java:/Mail
+2010-09-06 16:39:27,112 WARN  [org.jboss.jms.server.jbosssx.JBossASSecurityMetadataStore] (main) WARNING! POTENTIAL SECURITY RISK. It has been detected that the MessageSucker component which sucks messages from one node to another has not had its password changed from the installation default. Please see the JBoss Messaging user guide for instructions on how to do this.
+2010-09-06 16:39:27,205 WARN  [org.jboss.annotation.factory.AnnotationCreator] (main) No ClassLoader provided, using TCCL: org.jboss.managed.api.annotation.ManagementComponent
+2010-09-06 16:39:27,534 WARN  [org.jboss.annotation.factory.AnnotationCreator] (main) No ClassLoader provided, using TCCL: org.jboss.managed.api.annotation.ManagementComponent
+2010-09-06 16:39:27,799 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) JBossTS Transaction Service (JTA version - tag:JBOSSTS_4_6_1_GA) - JBoss Inc.
+2010-09-06 16:39:27,799 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Setting up property manager MBean and JMX layer
+2010-09-06 16:39:28,924 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Initializing recovery manager
+2010-09-06 16:39:30,346 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Recovery manager configured
+2010-09-06 16:39:30,346 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Binding TransactionManager JNDI Reference
+2010-09-06 16:39:30,471 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Starting transaction recovery manager
+2010-09-06 16:39:32,174 INFO  [org.apache.catalina.core.AprLifecycleListener] (main) The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.6.0_16\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\program files\imagemagick-6.3.5-q16;C:\Program Files\Java\jdk1.6.0_16\bin;D:\oracle\ora92\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\ZipGenius 6\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727;C:\Program Files\Microsoft Visual Studio 8\SDK\v2.0\Bin;D:\maven-2.0.7\bin;C:\Program Files\TortoiseSVN\bin;C:\apache-ant-1.8.0\bin;D:\jboss-5.1.0.GA\bin
+2010-09-06 16:39:32,377 INFO  [org.apache.coyote.http11.Http11Protocol] (main) Initializing Coyote HTTP/1.1 on http-127.0.0.1-8080
+2010-09-06 16:39:32,393 INFO  [org.apache.coyote.ajp.AjpProtocol] (main) Initializing Coyote AJP/1.3 on ajp-127.0.0.1-8009
+2010-09-06 16:39:32,487 INFO  [org.apache.catalina.core.StandardService] (main) Starting service jboss.web
+2010-09-06 16:39:32,487 INFO  [org.apache.catalina.core.StandardEngine] (main) Starting Servlet Engine: JBoss Web/2.1.3.GA
+2010-09-06 16:39:32,643 INFO  [org.apache.catalina.startup.Catalina] (main) Server startup in 256 ms
+2010-09-06 16:39:32,783 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/juddi
+2010-09-06 16:39:36,018 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Loading jUDDI configuration.
+2010-09-06 16:39:36,065 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Resources loaded from: /WEB-INF/juddi.properties
+2010-09-06 16:39:36,065 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Initializing jUDDI components.
+2010-09-06 16:39:36,611 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/invoker
+2010-09-06 16:39:37,361 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/web-console
+2010-09-06 16:39:39,268 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/jboss-local-jdbc.rar/META-INF/ra.xml
+2010-09-06 16:39:39,346 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/jboss-xa-jdbc.rar/META-INF/ra.xml
+2010-09-06 16:39:39,439 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/jms-ra.rar/META-INF/ra.xml
+2010-09-06 16:39:39,502 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/mail-ra.rar/META-INF/ra.xml
+2010-09-06 16:39:39,611 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/quartz-ra.rar/META-INF/ra.xml
+2010-09-06 16:39:40,268 INFO  [org.quartz.simpl.SimpleThreadPool] (main) Job execution threads will use class loader of thread: main
+2010-09-06 16:39:40,408 INFO  [org.quartz.core.SchedulerSignalerImpl] (main) Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2010-09-06 16:39:40,424 INFO  [org.quartz.core.QuartzScheduler] (main) Quartz Scheduler v.1.7.2 created.
+2010-09-06 16:39:40,424 INFO  [org.quartz.simpl.RAMJobStore] (main) RAMJobStore initialized.
+2010-09-06 16:39:40,424 INFO  [org.quartz.impl.StdSchedulerFactory] (main) Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2010-09-06 16:39:40,424 INFO  [org.quartz.impl.StdSchedulerFactory] (main) Quartz scheduler version: 1.7.2
+2010-09-06 16:39:40,424 INFO  [org.quartz.core.QuartzScheduler] (main) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2010-09-06 16:39:41,643 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=HdFabDS' to JNDI name 'java:HdFabDS'
+2010-09-06 16:39:41,924 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=JDBCIntranetDS' to JNDI name 'java:JDBCIntranetDS'
+2010-09-06 16:39:42,158 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=OrderStatusDS' to JNDI name 'java:OrderStatusDS'
+2010-09-06 16:39:42,314 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=PIPDS' to JNDI name 'java:PIPDS'
+2010-09-06 16:39:43,346 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=PLSDS' to JNDI name 'java:PLSDS'
+2010-09-06 16:39:46,346 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' to JNDI name 'java:DefaultDS'
+2010-09-06 16:39:48,158 INFO  [org.jboss.jms.server.ServerPeer] (main) JBoss Messaging 1.4.3.GA server [0] started
+2010-09-06 16:39:48,533 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2010-09-06 16:39:48,533 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@57726c started
+2010-09-06 16:39:48,549 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2010-09-06 16:39:48,549 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@37118b started
+2010-09-06 16:39:48,549 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactoryJNDIMapper] (main) supportsFailover attribute is true on connection factory: jboss.messaging.connectionfactory:service=ClusteredConnectionFactory but post office is non clustered. So connection factory will *not* support failover
+2010-09-06 16:39:48,549 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactoryJNDIMapper] (main) supportsLoadBalancing attribute is true on connection factory: jboss.messaging.connectionfactory:service=ClusteredConnectionFactory but post office is non clustered. So connection factory will *not* support load balancing
+2010-09-06 16:39:48,549 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2010-09-06 16:39:48,549 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@cc612 started
+2010-09-06 16:39:48,720 INFO  [org.jboss.jms.server.destination.QueueService] (main) Queue[/queue/DLQ] started, fullSize=200000, pageSize=2000, downCacheSize=2000
+2010-09-06 16:39:48,736 INFO  [org.jboss.jms.server.destination.QueueService] (main) Queue[/queue/ExpiryQueue] started, fullSize=200000, pageSize=2000, downCacheSize=2000
+2010-09-06 16:39:49,174 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' to JNDI name 'java:JmsXA'
+2010-09-06 16:39:49,424 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main) installing bean: ejb/#DBAccessBean,uid398201
+2010-09-06 16:39:49,424 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main)   with dependencies:
+2010-09-06 16:39:49,424 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main)   and supplies:
+2010-09-06 16:39:49,424 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main) 	jndi:EJB/DBAccessBean
+2010-09-06 16:39:49,424 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main) 	jndi:EJB/DBAccessBeanLocal
+2010-09-06 16:39:50,095 INFO  [org.jboss.ejb.EjbModule] (main) Deploying DBAccessBean
+2010-09-06 16:39:50,408 WARN  [org.jboss.ejb.EjbModule] (main) EJB configured to bypass security. Please verify if this is intended. Bean=DBAccessBean Deployment=vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/DBAccessEJB.jar/
+2010-09-06 16:39:50,720 INFO  [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] (main) Bound EJB LocalHome 'DBAccessBean' to jndi 'EJB/DBAccessBeanLocal'
+2010-09-06 16:39:50,767 INFO  [org.jboss.proxy.ejb.ProxyFactory] (main) Bound EJB Home 'DBAccessBean' to jndi 'EJB/DBAccessBean'
+2010-09-06 16:39:50,892 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main) installing bean: ejb/#IRReportsEJB,uid28120464
+2010-09-06 16:39:50,892 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main)   with dependencies:
+2010-09-06 16:39:50,892 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main)   and supplies:
+2010-09-06 16:39:50,892 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main) 	jndi:EJB/IRReportsHome
+2010-09-06 16:39:50,892 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main) 	jndi:EJB/IRReportsLocalHome
+2010-09-06 16:39:51,283 INFO  [org.jboss.ejb.EjbModule] (main) Deploying IRReportsEJB
+2010-09-06 16:39:51,627 WARN  [org.jboss.ejb.EjbModule] (main) EJB configured to bypass security. Please verify if this is intended. Bean=IRReportsEJB Deployment=vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/IRReportsEJB.jar/
+2010-09-06 16:39:51,752 INFO  [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] (main) Bound EJB LocalHome 'IRReportsEJB' to jndi 'EJB/IRReportsLocalHome'
+2010-09-06 16:39:51,783 INFO  [org.jboss.proxy.ejb.ProxyFactory] (main) Bound EJB Home 'IRReportsEJB' to jndi 'EJB/IRReportsHome'
+2010-09-06 16:39:51,970 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main) installing bean: ejb/#SAPAccessBean,uid6105012
+2010-09-06 16:39:51,970 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main)   with dependencies:
+2010-09-06 16:39:51,970 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main)   and supplies:
+2010-09-06 16:39:51,970 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main) 	jndi:local/SAPAccessBean@403681
+2010-09-06 16:39:51,970 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main) 	jndi:EJB/jndi/SAPAccessBean
+2010-09-06 16:39:52,424 INFO  [org.jboss.ejb.EjbModule] (main) Deploying SAPAccessBean
+2010-09-06 16:39:52,752 WARN  [org.jboss.ejb.EjbModule] (main) EJB configured to bypass security. Please verify if this is intended. Bean=SAPAccessBean Deployment=vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/SAPAccessEJB.jar/
+2010-09-06 16:39:52,814 INFO  [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] (main) Bound EJB LocalHome 'SAPAccessBean' to jndi 'local/SAPAccessBean@403681'
+2010-09-06 16:39:52,830 INFO  [org.jboss.proxy.ejb.ProxyFactory] (main) Bound EJB Home 'SAPAccessBean' to jndi 'EJB/jndi/SAPAccessBean'
+2010-09-06 16:39:52,877 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main) installing bean: ejb/#FabOSRealtimeUpdateObject,uid17957211
+2010-09-06 16:39:52,877 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main)   with dependencies:
+2010-09-06 16:39:52,877 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main)   and supplies:
+2010-09-06 16:39:52,877 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main) 	jndi:ejb/jndi/LocalRealtimeUpdateHome
+2010-09-06 16:39:52,877 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main) 	jndi:ejb/jndi/RealtimeUpdateHome
+2010-09-06 16:39:52,877 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main) installing bean: ejb/#JobSchedulerObject,uid18288211
+2010-09-06 16:39:52,877 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main)   with dependencies:
+2010-09-06 16:39:52,877 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main)   and supplies:
+2010-09-06 16:39:52,877 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main) 	jndi:ejb/jndi/JobSchedulerHome
+2010-09-06 16:39:53,267 INFO  [org.jboss.ejb.EjbModule] (main) Deploying FabOSRealtimeUpdateObject
+2010-09-06 16:39:53,283 WARN  [org.jboss.ejb.EjbModule] (main) EJB configured to bypass security. Please verify if this is intended. Bean=FabOSRealtimeUpdateObject Deployment=vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/ScheduleJobsEJB.jar/
+2010-09-06 16:39:53,298 INFO  [org.jboss.ejb.EjbModule] (main) Deploying JobSchedulerObject
+2010-09-06 16:39:53,298 WARN  [org.jboss.ejb.EjbModule] (main) EJB configured to bypass security. Please verify if this is intended. Bean=JobSchedulerObject Deployment=vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/ScheduleJobsEJB.jar/
+2010-09-06 16:39:53,892 INFO  [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] (main) Bound EJB LocalHome 'FabOSRealtimeUpdateObject' to jndi 'ejb/jndi/LocalRealtimeUpdateHome'
+2010-09-06 16:39:53,908 INFO  [org.jboss.proxy.ejb.ProxyFactory] (main) Bound EJB Home 'FabOSRealtimeUpdateObject' to jndi 'ejb/jndi/RealtimeUpdateHome'
+2010-09-06 16:39:53,923 INFO  [org.jboss.proxy.ejb.ProxyFactory] (main) Bound EJB Home 'JobSchedulerObject' to jndi 'ejb/jndi/JobSchedulerHome'
+2010-09-06 16:39:53,986 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main) installing bean: ejb/#LDAPAuthenticationEJB,uid6737041
+2010-09-06 16:39:53,986 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main)   with dependencies:
+2010-09-06 16:39:53,986 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main)   and supplies:
+2010-09-06 16:39:53,986 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main) 	jndi:ejb/jndi/LDAPAuthentication
+2010-09-06 16:39:54,330 INFO  [org.jboss.ejb.EjbModule] (main) Deploying LDAPAuthenticationEJB
+2010-09-06 16:39:54,361 WARN  [org.jboss.ejb.EjbModule] (main) EJB configured to bypass security. Please verify if this is intended. Bean=LDAPAuthenticationEJB Deployment=vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/ldapejb.jar/
+2010-09-06 16:39:54,470 INFO  [org.jboss.proxy.ejb.ProxyFactory] (main) Bound EJB Home 'LDAPAuthenticationEJB' to jndi 'ejb/jndi/LDAPAuthentication'
+2010-09-06 16:39:57,314 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Created KernelDeployment for: profileservice-secured.jar
+2010-09-06 16:39:57,345 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2010-09-06 16:39:57,345 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2010-09-06 16:39:57,345 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2010-09-06 16:39:57,345 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView
+2010-09-06 16:39:57,345 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2010-09-06 16:39:57,345 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2010-09-06 16:39:57,345 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.profileservice.spi.ProfileService
+2010-09-06 16:39:57,345 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureProfileService/remote
+2010-09-06 16:39:57,345 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureProfileService/remote-org.jboss.profileservice.spi.ProfileService
+2010-09-06 16:39:57,345 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2010-09-06 16:39:57,345 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2010-09-06 16:39:57,345 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2010-09-06 16:39:57,345 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2010-09-06 16:39:57,345 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2010-09-06 16:39:57,345 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2010-09-06 16:39:57,345 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureDeploymentManager/remote-org.jboss.deployers.spi.management.deploy.DeploymentManager
+2010-09-06 16:39:57,345 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.deployers.spi.management.deploy.DeploymentManager
+2010-09-06 16:39:57,345 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureDeploymentManager/remote
+2010-09-06 16:39:57,345 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2010-09-06 16:39:57,345 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2010-09-06 16:39:57,345 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2010-09-06 16:39:57,345 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2010-09-06 16:39:57,345 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2010-09-06 16:39:57,345 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2010-09-06 16:39:57,345 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView
+2010-09-06 16:39:57,345 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.deployers.spi.management.ManagementView
+2010-09-06 16:39:57,345 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote
+2010-09-06 16:39:57,345 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2010-09-06 16:39:57,392 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@1322b41{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2010-09-06 16:39:57,392 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@92b535{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2010-09-06 16:39:57,392 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@dca1b0{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2010-09-06 16:39:57,876 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2010-09-06 16:39:58,033 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureDeploymentManager ejbName: SecureDeploymentManager
+2010-09-06 16:39:58,314 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureDeploymentManager/remote - EJB3.x Default Remote Business Interface
+	SecureDeploymentManager/remote-org.jboss.deployers.spi.management.deploy.DeploymentManager - EJB3.x Remote Business Interface
+
+2010-09-06 16:39:58,455 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2010-09-06 16:39:58,455 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureManagementView ejbName: SecureManagementView
+2010-09-06 16:39:58,548 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureManagementView/remote - EJB3.x Default Remote Business Interface
+	SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView - EJB3.x Remote Business Interface
+
+2010-09-06 16:39:58,705 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2010-09-06 16:39:58,705 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureProfileServiceBean ejbName: SecureProfileService
+2010-09-06 16:39:58,720 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureProfileService/remote - EJB3.x Default Remote Business Interface
+	SecureProfileService/remote-org.jboss.profileservice.spi.ProfileService - EJB3.x Remote Business Interface
+
+2010-09-06 16:39:59,361 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main) installing bean: ejb/#DocumentManagerEJB,uid3339820
+2010-09-06 16:39:59,361 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main)   with dependencies:
+2010-09-06 16:39:59,361 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main)   and supplies:
+2010-09-06 16:39:59,361 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main) 	jndi:ejb/jndi/DocumentManagerHome
+2010-09-06 16:39:59,361 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main) 	jndi:ejb/jndi/LocalDocumentManagerHome
+2010-09-06 16:39:59,845 INFO  [org.jboss.ejb.EjbModule] (main) Deploying DocumentManagerEJB
+2010-09-06 16:40:00,251 WARN  [org.jboss.ejb.EjbModule] (main) EJB configured to bypass security. Please verify if this is intended. Bean=DocumentManagerEJB Deployment=vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/tdsejb.jar/
+2010-09-06 16:40:00,314 INFO  [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] (main) Bound EJB LocalHome 'DocumentManagerEJB' to jndi 'ejb/jndi/LocalDocumentManagerHome'
+2010-09-06 16:40:00,345 INFO  [org.jboss.proxy.ejb.ProxyFactory] (main) Bound EJB Home 'DocumentManagerEJB' to jndi 'ejb/jndi/DocumentManagerHome'
+2010-09-06 16:40:00,861 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/admin-console
+2010-09-06 16:40:03,158 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (main) Initializing Mojarra (1.2_12-b01-FCS) for context '/admin-console'
+2010-09-06 16:40:22,329 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/
+2010-09-06 16:40:29,251 INFO  [org.jboss.wsf.stack.jbws.WSDLFilePublisher] (main) WSDL published to: file:/D:/jboss-5.1.0.GA/server/default/data/wsdl/SapRfcWS.war/SapRfcAccessService7583487047730646993.wsdl
+2010-09-06 16:40:29,485 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (main) register: jboss.ws:context=SapRfcWS,endpoint=SapRfcAccessService
+2010-09-06 16:40:30,173 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/SapRfcWS
+2010-09-06 16:40:30,891 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/content
+2010-09-06 16:40:55,656 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/directweb
+2010-09-06 16:41:00,828 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/docrepository
+2010-09-06 16:41:05,703 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/es
+2010-09-06 16:41:07,343 INFO  [org.jboss.wsf.stack.jbws.WSDLFilePublisher] (main) WSDL published to: file:/D:/jboss-5.1.0.GA/server/default/data/wsdl/greeting.war/GreetingService790213031162550207.wsdl
+2010-09-06 16:41:07,390 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (main) register: jboss.ws:context=greeting,endpoint=GreetingWebService
+2010-09-06 16:41:07,812 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/greeting
+2010-09-06 16:41:17,031 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/hdes
+2010-09-06 16:41:19,281 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/jbossws
+2010-09-06 16:41:20,046 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/jmx-console
+2010-09-06 16:41:21,077 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/loftware
+2010-09-06 16:41:25,952 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/orderstatus
+2010-09-06 16:41:29,124 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/orderstatusws
+2010-09-06 16:41:31,046 ERROR [STDERR] (main) log4j:ERROR A "org.jboss.logging.appender.FileAppender" object is not assignable to a "org.apache.log4j.Appender" variable.
+2010-09-06 16:41:31,046 ERROR [STDERR] (main) log4j:ERROR The class "org.apache.log4j.Appender" was loaded by 
+2010-09-06 16:41:31,046 ERROR [STDERR] (main) log4j:ERROR [BaseClassLoader@1f3198f{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/orderstatusws.war/}] whereas object of type 
+2010-09-06 16:41:31,046 ERROR [STDERR] (main) log4j:ERROR "org.jboss.logging.appender.FileAppender" was loaded by [org.jboss.bootstrap.NoAnnotationURLClassLoader@a32b].
+2010-09-06 16:41:31,046 ERROR [STDERR] (main) log4j:ERROR Could not instantiate appender named "FILE".
+2010-09-06 16:41:31,749 INFO  [STDOUT] (main) 16:41:31,749 INFO  [ValidatorPlugIn] Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2010-09-06 16:41:31,749 INFO  [STDOUT] (main) 16:41:31,749 INFO  [ValidatorPlugIn] Loading validation rules file from '/WEB-INF/validation.xml'
+2010-09-06 16:41:34,827 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/users
+2010-09-06 16:41:38,796 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/pipreports
+2010-09-06 16:41:40,811 INFO  [org.apache.myfaces.config.FacesConfigurator] (main) Reading standard config org/apache/myfaces/resource/standard-faces-config.xml
+2010-09-06 16:41:41,014 INFO  [org.apache.myfaces.config.FacesConfigurator] (main) Reading config vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/pipreports.ear/PIPReportsWebApp/WEB-INF/lib/tomahawk-1.1.3.jar/META-INF/faces-config.xml
+2010-09-06 16:41:41,061 INFO  [org.apache.myfaces.config.FacesConfigurator] (main) Reading config /WEB-INF/app-faces-config.xml
+2010-09-06 16:41:42,171 INFO  [org.apache.myfaces.webapp.StartupServletContextListener] (main) ServletContext 'D:\jboss-5.1.0.GA\server\default\tmp\a0245-3hwuaa-gdr882b5-1-gdr8ehm1-aw\PIPReportsWebApp\' initialized.
+2010-09-06 16:41:42,171 INFO  [org.apache.myfaces.webapp.StartupServletContextListener] (main) Serialization provider : class org.apache.myfaces.shared_impl.util.serial.DefaultSerialFactory
+2010-09-06 16:41:42,171 WARN  [org.jboss.web.jsf.integration.config.JBossJSFConfigureListener] (main) MyFaces JSF implementation found!  This version of JBoss AS ships with the java.net implementation of JSF.  There are known issues when mixing JSF implementations.  This warning does not apply to MyFaces component libraries such as Tomahawk.  However, myfaces-impl.jar and myfaces-api.jar should not be used without disabling the built-in JSF implementation.  See the JBoss wiki for more details.
+2010-09-06 16:41:42,171 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (main) Initializing Mojarra (1.2_12-b01-FCS) for context '/pipreports'
+2010-09-06 16:41:42,702 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[localhost].[/pipreports]] (main) Exception sending context initialized event to listener instance of class org.jboss.web.jsf.integration.config.JBossJSFConfigureListener
+com.sun.faces.config.ConfigurationException: CONFIGURATION FAILED! 
+  Source Document: vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/pipreports.ear/PIPReportsWebApp/WEB-INF/lib/tomahawk-1.1.3.jar/META-INF/faces-config.xml
+  Cause: Class 'org.apache.myfaces.renderkit.html.util.ExtensionsPhaseListener' is not an instance of 'interface javax.faces.event.PhaseListener'
+	at com.sun.faces.config.ConfigManager.initialize(ConfigManager.java:213)
+	at com.sun.faces.config.ConfigureListener.contextInitialized(ConfigureListener.java:196)
+	at org.jboss.web.jsf.integration.config.JBossJSFConfigureListener.contextInitialized(JBossJSFConfigureListener.java:60)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:3910)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4393)
+	at org.jboss.web.tomcat.service.deployers.TomcatDeployment.performDeployInternal(TomcatDeployment.java:310)
+	at org.jboss.web.tomcat.service.deployers.TomcatDeployment.performDeploy(TomcatDeployment.java:142)
+	at org.jboss.web.deployers.AbstractWarDeployment.start(AbstractWarDeployment.java:461)
+	at org.jboss.web.deployers.WebModule.startModule(WebModule.java:118)
+	at org.jboss.web.deployers.WebModule.start(WebModule.java:97)
+	at sun.reflect.GeneratedMethodAccessor289.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:157)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:96)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:88)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:668)
+	at org.jboss.system.microcontainer.ServiceProxy.invoke(ServiceProxy.java:206)
+	at $Proxy38.start(Unknown Source)
+	at org.jboss.system.microcontainer.StartStopLifecycleAction.installAction(StartStopLifecycleAction.java:42)
+	at org.jboss.system.microcontainer.StartStopLifecycleAction.installAction(StartStopLifecycleAction.java:37)
+	at org.jboss.dependency.plugins.action.SimpleControllerContextAction.simpleInstallAction(SimpleControllerContextAction.java:62)
+	at org.jboss.dependency.plugins.action.AccessControllerContextAction.install(AccessControllerContextAction.java:71)
+	at org.jboss.dependency.plugins.AbstractControllerContextActions.install(AbstractControllerContextActions.java:51)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.system.microcontainer.ServiceControllerContext.install(ServiceControllerContext.java:286)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.system.ServiceController.doChange(ServiceController.java:688)
+	at org.jboss.system.ServiceController.start(ServiceController.java:460)
+	at org.jboss.system.deployers.ServiceDeployer.start(ServiceDeployer.java:163)
+	at org.jboss.system.deployers.ServiceDeployer.deploy(ServiceDeployer.java:99)
+	at org.jboss.system.deployers.ServiceDeployer.deploy(ServiceDeployer.java:46)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractSimpleRealDeployer.internalDeploy(AbstractSimpleRealDeployer.java:62)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractRealDeployer.deploy(AbstractRealDeployer.java:50)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:171)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doDeploy(DeployersImpl.java:1439)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1157)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1178)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1210)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.install(DeployersImpl.java:1098)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.process(DeployersImpl.java:781)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.process(MainDeployerImpl.java:702)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.process(MainDeployerAdapter.java:117)
+	at org.jboss.system.server.profileservice.repository.ProfileDeployAction.install(ProfileDeployAction.java:70)
+	at org.jboss.system.server.profileservice.repository.AbstractProfileAction.install(AbstractProfileAction.java:53)
+	at org.jboss.system.server.profileservice.repository.AbstractProfileService.install(AbstractProfileService.java:361)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.system.server.profileservice.repository.AbstractProfileService.activateProfile(AbstractProfileService.java:306)
+	at org.jboss.system.server.profileservice.ProfileServiceBootstrap.start(ProfileServiceBootstrap.java:271)
+	at org.jboss.bootstrap.AbstractServerImpl.start(AbstractServerImpl.java:461)
+	at org.jboss.Main.boot(Main.java:221)
+	at org.jboss.Main$1.run(Main.java:556)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: com.sun.faces.config.ConfigurationException: 
+  Source Document: vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/pipreports.ear/PIPReportsWebApp/WEB-INF/lib/tomahawk-1.1.3.jar/META-INF/faces-config.xml
+  Cause: Class 'org.apache.myfaces.renderkit.html.util.ExtensionsPhaseListener' is not an instance of 'interface javax.faces.event.PhaseListener'
+	at com.sun.faces.config.processor.AbstractConfigProcessor.createInstance(AbstractConfigProcessor.java:259)
+	at com.sun.faces.config.processor.LifecycleConfigProcessor.addPhaseListeners(LifecycleConfigProcessor.java:141)
+	at com.sun.faces.config.processor.LifecycleConfigProcessor.process(LifecycleConfigProcessor.java:114)
+	at com.sun.faces.config.processor.AbstractConfigProcessor.invokeNext(AbstractConfigProcessor.java:108)
+	at com.sun.faces.config.processor.FactoryConfigProcessor.process(FactoryConfigProcessor.java:132)
+	at com.sun.faces.config.ConfigManager.initialize(ConfigManager.java:203)
+	... 71 more
+2010-09-06 16:41:42,718 ERROR [org.apache.catalina.core.StandardContext] (main) Error listenerStart
+2010-09-06 16:41:42,718 ERROR [org.apache.catalina.core.StandardContext] (main) Context [/pipreports] startup failed due to previous errors
+2010-09-06 16:41:42,764 ERROR [org.jboss.kernel.plugins.dependency.AbstractKernelController] (main) Error installing to Start: name=jboss.web.deployment:war=/pipreports state=Create mode=Manual requiredState=Installed
+org.jboss.deployers.spi.DeploymentException: URL file:/D:/jboss-5.1.0.GA/server/default/tmp/a0245-3hwuaa-gdr882b5-1-gdr8ehm1-aw/PIPReportsWebApp/ deployment failed
+	at org.jboss.web.tomcat.service.deployers.TomcatDeployment.performDeployInternal(TomcatDeployment.java:331)
+	at org.jboss.web.tomcat.service.deployers.TomcatDeployment.performDeploy(TomcatDeployment.java:142)
+	at org.jboss.web.deployers.AbstractWarDeployment.start(AbstractWarDeployment.java:461)
+	at org.jboss.web.deployers.WebModule.startModule(WebModule.java:118)
+	at org.jboss.web.deployers.WebModule.start(WebModule.java:97)
+	at sun.reflect.GeneratedMethodAccessor289.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:157)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:96)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:88)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:668)
+	at org.jboss.system.microcontainer.ServiceProxy.invoke(ServiceProxy.java:206)
+	at $Proxy38.start(Unknown Source)
+	at org.jboss.system.microcontainer.StartStopLifecycleAction.installAction(StartStopLifecycleAction.java:42)
+	at org.jboss.system.microcontainer.StartStopLifecycleAction.installAction(StartStopLifecycleAction.java:37)
+	at org.jboss.dependency.plugins.action.SimpleControllerContextAction.simpleInstallAction(SimpleControllerContextAction.java:62)
+	at org.jboss.dependency.plugins.action.AccessControllerContextAction.install(AccessControllerContextAction.java:71)
+	at org.jboss.dependency.plugins.AbstractControllerContextActions.install(AbstractControllerContextActions.java:51)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.system.microcontainer.ServiceControllerContext.install(ServiceControllerContext.java:286)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.system.ServiceController.doChange(ServiceController.java:688)
+	at org.jboss.system.ServiceController.start(ServiceController.java:460)
+	at org.jboss.system.deployers.ServiceDeployer.start(ServiceDeployer.java:163)
+	at org.jboss.system.deployers.ServiceDeployer.deploy(ServiceDeployer.java:99)
+	at org.jboss.system.deployers.ServiceDeployer.deploy(ServiceDeployer.java:46)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractSimpleRealDeployer.internalDeploy(AbstractSimpleRealDeployer.java:62)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractRealDeployer.deploy(AbstractRealDeployer.java:50)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:171)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doDeploy(DeployersImpl.java:1439)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1157)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1178)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1210)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.install(DeployersImpl.java:1098)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.process(DeployersImpl.java:781)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.process(MainDeployerImpl.java:702)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.process(MainDeployerAdapter.java:117)
+	at org.jboss.system.server.profileservice.repository.ProfileDeployAction.install(ProfileDeployAction.java:70)
+	at org.jboss.system.server.profileservice.repository.AbstractProfileAction.install(AbstractProfileAction.java:53)
+	at org.jboss.system.server.profileservice.repository.AbstractProfileService.install(AbstractProfileService.java:361)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.system.server.profileservice.repository.AbstractProfileService.activateProfile(AbstractProfileService.java:306)
+	at org.jboss.system.server.profileservice.ProfileServiceBootstrap.start(ProfileServiceBootstrap.java:271)
+	at org.jboss.bootstrap.AbstractServerImpl.start(AbstractServerImpl.java:461)
+	at org.jboss.Main.boot(Main.java:221)
+	at org.jboss.Main$1.run(Main.java:556)
+	at java.lang.Thread.run(Thread.java:619)
+2010-09-06 16:41:44,389 ERROR [org.jboss.kernel.plugins.dependency.AbstractKernelController] (main) Error installing to Real: name=vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/pipreports.ear/ state=PreReal mode=Manual requiredState=Real
+org.jboss.deployers.spi.DeploymentException: URL file:/D:/jboss-5.1.0.GA/server/default/tmp/a0245-3hwuaa-gdr882b5-1-gdr8ehm1-aw/PIPReportsWebApp/ deployment failed
+	at org.jboss.web.tomcat.service.deployers.TomcatDeployment.performDeployInternal(TomcatDeployment.java:331)
+	at org.jboss.web.tomcat.service.deployers.TomcatDeployment.performDeploy(TomcatDeployment.java:142)
+	at org.jboss.web.deployers.AbstractWarDeployment.start(AbstractWarDeployment.java:461)
+	at org.jboss.web.deployers.WebModule.startModule(WebModule.java:118)
+	at org.jboss.web.deployers.WebModule.start(WebModule.java:97)
+	at sun.reflect.GeneratedMethodAccessor289.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:157)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:96)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:88)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:668)
+	at org.jboss.system.microcontainer.ServiceProxy.invoke(ServiceProxy.java:206)
+	at $Proxy38.start(Unknown Source)
+	at org.jboss.system.microcontainer.StartStopLifecycleAction.installAction(StartStopLifecycleAction.java:42)
+	at org.jboss.system.microcontainer.StartStopLifecycleAction.installAction(StartStopLifecycleAction.java:37)
+	at org.jboss.dependency.plugins.action.SimpleControllerContextAction.simpleInstallAction(SimpleControllerContextAction.java:62)
+	at org.jboss.dependency.plugins.action.AccessControllerContextAction.install(AccessControllerContextAction.java:71)
+	at org.jboss.dependency.plugins.AbstractControllerContextActions.install(AbstractControllerContextActions.java:51)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.system.microcontainer.ServiceControllerContext.install(ServiceControllerContext.java:286)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.system.ServiceController.doChange(ServiceController.java:688)
+	at org.jboss.system.ServiceController.start(ServiceController.java:460)
+	at org.jboss.system.deployers.ServiceDeployer.start(ServiceDeployer.java:163)
+	at org.jboss.system.deployers.ServiceDeployer.deploy(ServiceDeployer.java:99)
+	at org.jboss.system.deployers.ServiceDeployer.deploy(ServiceDeployer.java:46)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractSimpleRealDeployer.internalDeploy(AbstractSimpleRealDeployer.java:62)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractRealDeployer.deploy(AbstractRealDeployer.java:50)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:171)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doDeploy(DeployersImpl.java:1439)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1157)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1178)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1210)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.install(DeployersImpl.java:1098)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.process(DeployersImpl.java:781)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.process(MainDeployerImpl.java:702)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.process(MainDeployerAdapter.java:117)
+	at org.jboss.system.server.profileservice.repository.ProfileDeployAction.install(ProfileDeployAction.java:70)
+	at org.jboss.system.server.profileservice.repository.AbstractProfileAction.install(AbstractProfileAction.java:53)
+	at org.jboss.system.server.profileservice.repository.AbstractProfileService.install(AbstractProfileService.java:361)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.system.server.profileservice.repository.AbstractProfileService.activateProfile(AbstractProfileService.java:306)
+	at org.jboss.system.server.profileservice.ProfileServiceBootstrap.start(ProfileServiceBootstrap.java:271)
+	at org.jboss.bootstrap.AbstractServerImpl.start(AbstractServerImpl.java:461)
+	at org.jboss.Main.boot(Main.java:221)
+	at org.jboss.Main$1.run(Main.java:556)
+	at java.lang.Thread.run(Thread.java:619)
+2010-09-06 16:41:44,624 ERROR [org.jboss.system.server.profileservice.ProfileServiceBootstrap] (main) Failed to load profile: Summary of incomplete deployments (SEE PREVIOUS ERRORS FOR DETAILS):
+
+DEPLOYMENTS IN ERROR:
+  Deployment "vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/pipreports.ear/" is in error due to the following reason(s): org.jboss.deployers.spi.DeploymentException: URL file:/D:/jboss-5.1.0.GA/server/default/tmp/a0245-3hwuaa-gdr882b5-1-gdr8ehm1-aw/PIPReportsWebApp/ deployment failed
+
+2010-09-06 16:41:44,811 INFO  [org.apache.coyote.http11.Http11Protocol] (main) Starting Coyote HTTP/1.1 on http-127.0.0.1-8080
+2010-09-06 16:41:44,874 INFO  [org.apache.coyote.ajp.AjpProtocol] (main) Starting Coyote AJP/1.3 on ajp-127.0.0.1-8009
+2010-09-06 16:41:44,905 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (main) JBoss (Microcontainer) [5.1.0.GA (build: SVNTag=JBoss_5_1_0_GA date=200905221634)] Started in 5m:11s:267ms
+2010-09-06 20:32:42,095 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Runtime shutdown hook called, forceHalt: true
+2010-09-06 20:32:42,330 INFO  [org.apache.coyote.http11.Http11Protocol] (JBoss Shutdown Hook) Pausing Coyote HTTP/1.1 on http-127.0.0.1-8080
+2010-09-06 20:32:42,455 INFO  [org.apache.coyote.http11.Http11Protocol] (JBoss Shutdown Hook) Stopping Coyote HTTP/1.1 on http-127.0.0.1-8080
+2010-09-06 20:32:42,627 INFO  [org.apache.coyote.ajp.AjpProtocol] (JBoss Shutdown Hook) Pausing Coyote AJP/1.3 on ajp-127.0.0.1-8009
+2010-09-06 20:32:42,627 INFO  [org.apache.coyote.ajp.AjpProtocol] (JBoss Shutdown Hook) Stopping Coyote AJP/1.3 on ajp-127.0.0.1-8009
+2010-09-06 20:32:42,674 INFO  [STDOUT] (JBoss Shutdown Hook) Stopping with message=StartUp Service
+2010-09-06 20:32:42,705 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@57726c undeployed
+2010-09-06 20:32:42,705 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@cc612 undeployed
+2010-09-06 20:32:42,705 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@37118b undeployed
+2010-09-06 20:32:42,720 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/web-console
+2010-09-06 20:32:42,830 INFO  [org.jboss.jms.server.destination.QueueService] (JBoss Shutdown Hook) Queue[/queue/ExpiryQueue] stopped
+2010-09-06 20:32:42,830 INFO  [org.jboss.jms.server.destination.QueueService] (JBoss Shutdown Hook) Queue[/queue/DLQ] stopped
+2010-09-06 20:32:43,049 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2010-09-06 20:32:43,205 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureProfileServiceBean ejbName: SecureProfileService
+2010-09-06 20:32:48,423 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2010-09-06 20:32:49,314 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureDeploymentManager ejbName: SecureDeploymentManager
+2010-09-06 20:32:49,392 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2010-09-06 20:32:49,392 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureManagementView ejbName: SecureManagementView
+2010-09-06 20:32:49,580 INFO  [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] (JBoss Shutdown Hook) Unbind EJB LocalHome 'DBAccessBean' from jndi 'EJB/DBAccessBeanLocal'
+2010-09-06 20:32:49,642 INFO  [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] (JBoss Shutdown Hook) Unbind EJB LocalHome 'IRReportsEJB' from jndi 'EJB/IRReportsLocalHome'
+2010-09-06 20:32:49,642 INFO  [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] (JBoss Shutdown Hook) Unbind EJB LocalHome 'SAPAccessBean' from jndi 'local/SAPAccessBean@403681'
+2010-09-06 20:32:49,642 INFO  [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] (JBoss Shutdown Hook) Unbind EJB LocalHome 'FabOSRealtimeUpdateObject' from jndi 'ejb/jndi/LocalRealtimeUpdateHome'
+2010-09-06 20:32:49,658 INFO  [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] (JBoss Shutdown Hook) Unbind EJB LocalHome 'DocumentManagerEJB' from jndi 'ejb/jndi/LocalDocumentManagerHome'
+2010-09-06 20:32:49,658 INFO  [org.jboss.proxy.ejb.ProxyFactory] (JBoss Shutdown Hook) Unbind EJB Home 'DBAccessBean' from jndi 'EJB/DBAccessBean'
+2010-09-06 20:32:49,658 INFO  [org.jboss.ejb.EjbModule] (JBoss Shutdown Hook) Undeployed DBAccessBean
+2010-09-06 20:32:49,673 INFO  [org.jboss.proxy.ejb.ProxyFactory] (JBoss Shutdown Hook) Unbind EJB Home 'IRReportsEJB' from jndi 'EJB/IRReportsHome'
+2010-09-06 20:32:49,673 INFO  [org.jboss.ejb.EjbModule] (JBoss Shutdown Hook) Undeployed IRReportsEJB
+2010-09-06 20:32:49,673 INFO  [org.jboss.proxy.ejb.ProxyFactory] (JBoss Shutdown Hook) Unbind EJB Home 'SAPAccessBean' from jndi 'EJB/jndi/SAPAccessBean'
+2010-09-06 20:32:49,689 INFO  [org.jboss.ejb.EjbModule] (JBoss Shutdown Hook) Undeployed SAPAccessBean
+2010-09-06 20:32:49,689 INFO  [org.jboss.proxy.ejb.ProxyFactory] (JBoss Shutdown Hook) Unbind EJB Home 'JobSchedulerObject' from jndi 'ejb/jndi/JobSchedulerHome'
+2010-09-06 20:32:49,689 INFO  [org.jboss.ejb.EjbModule] (JBoss Shutdown Hook) Undeployed JobSchedulerObject
+2010-09-06 20:32:49,689 INFO  [org.jboss.proxy.ejb.ProxyFactory] (JBoss Shutdown Hook) Unbind EJB Home 'FabOSRealtimeUpdateObject' from jndi 'ejb/jndi/RealtimeUpdateHome'
+2010-09-06 20:32:49,689 INFO  [org.jboss.ejb.EjbModule] (JBoss Shutdown Hook) Undeployed FabOSRealtimeUpdateObject
+2010-09-06 20:32:49,720 INFO  [org.jboss.proxy.ejb.ProxyFactory] (JBoss Shutdown Hook) Unbind EJB Home 'LDAPAuthenticationEJB' from jndi 'ejb/jndi/LDAPAuthentication'
+2010-09-06 20:32:49,720 INFO  [org.jboss.ejb.EjbModule] (JBoss Shutdown Hook) Undeployed LDAPAuthenticationEJB
+2010-09-06 20:32:49,736 INFO  [org.jboss.proxy.ejb.ProxyFactory] (JBoss Shutdown Hook) Unbind EJB Home 'DocumentManagerEJB' from jndi 'ejb/jndi/DocumentManagerHome'
+2010-09-06 20:32:49,736 INFO  [org.jboss.ejb.EjbModule] (JBoss Shutdown Hook) Undeployed DocumentManagerEJB
+2010-09-06 20:32:49,767 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' from JNDI name 'java:JmsXA'
+2010-09-06 20:32:50,142 INFO  [org.jboss.jms.server.ServerPeer] (JBoss Shutdown Hook) JMS ServerPeer[0] stopped
+2010-09-06 20:32:50,158 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/invoker
+2010-09-06 20:32:50,595 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/juddi
+2010-09-06 20:32:50,595 INFO  [org.apache.juddi.registry.RegistryServlet] (JBoss Shutdown Hook) jUDDI Stopping: Cleaning up existing resources.
+2010-09-06 20:32:50,611 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/admin-console
+2010-09-06 20:32:50,611 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/
+2010-09-06 20:32:50,611 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/SapRfcWS
+2010-09-06 20:32:50,627 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/content
+2010-09-06 20:32:50,627 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/directweb
+2010-09-06 20:32:50,627 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/docrepository
+2010-09-06 20:32:50,642 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/es
+2010-09-06 20:32:50,642 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/greeting
+2010-09-06 20:32:50,642 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/hdes
+2010-09-06 20:32:50,658 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/jbossws
+2010-09-06 20:32:50,658 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/jmx-console
+2010-09-06 20:32:50,689 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/loftware
+2010-09-06 20:32:52,705 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/orderstatus
+2010-09-06 20:32:52,720 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/orderstatusws
+2010-09-06 20:32:52,939 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/users
+2010-09-06 20:32:52,939 INFO  [org.apache.catalina.core.StandardService] (JBoss Shutdown Hook) Stopping service jboss.web
+2010-09-06 20:32:53,173 INFO  [org.jboss.mail.MailService] (JBoss Shutdown Hook) Mail service 'java:/Mail' removed from JNDI
+2010-09-06 20:32:53,314 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=HdFabDS' from JNDI name 'java:HdFabDS'
+2010-09-06 20:32:53,314 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=JDBCIntranetDS' from JNDI name 'java:JDBCIntranetDS'
+2010-09-06 20:32:53,314 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=OrderStatusDS' from JNDI name 'java:OrderStatusDS'
+2010-09-06 20:32:53,314 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=PIPDS' from JNDI name 'java:PIPDS'
+2010-09-06 20:32:53,314 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=PLSDS' from JNDI name 'java:PLSDS'
+2010-09-06 20:32:53,330 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' from JNDI name 'java:DefaultDS'
+2010-09-06 20:32:53,517 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2010-09-06 20:32:53,517 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2010-09-06 20:32:53,517 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2010-09-06 20:32:53,939 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (JBoss Shutdown Hook) Stopping transaction recovery manager
+2010-09-06 20:32:53,939 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (JBoss Shutdown Hook) Destroying TransactionManagerService
+2010-09-06 20:32:55,095 INFO  [org.jboss.jdbc.HypersonicDatabase] (JBoss Shutdown Hook) Database standalone closed clean
+2010-09-06 20:32:55,705 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (JBoss Shutdown Hook) remove: jboss.ws:context=SapRfcWS,endpoint=SapRfcAccessService
+2010-09-06 20:33:14,048 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (JBoss Shutdown Hook) remove: jboss.ws:context=greeting,endpoint=GreetingWebService
+2010-09-06 20:33:29,189 ERROR [STDERR] (Thread-20) java.io.FileNotFoundException: D:\jboss-5.1.0.GA\server\default\tmp\a0245-3hwuaa-gdr882b5-1-gdr8e5yr-as\loftware.war\WEB-INF\classes\lpsrepeat\logs\LPS Web Push Notification Client.log (The system cannot find the path specified)
+2010-09-06 20:33:29,189 ERROR [STDERR] (Thread-20) 	at java.io.FileOutputStream.openAppend(Native Method)
+2010-09-06 20:33:29,189 ERROR [STDERR] (Thread-20) 	at java.io.FileOutputStream.<init>(FileOutputStream.java:177)
+2010-09-06 20:33:29,189 ERROR [STDERR] (Thread-20) 	at java.io.FileOutputStream.<init>(FileOutputStream.java:102)
+2010-09-06 20:33:29,189 ERROR [STDERR] (Thread-20) 	at lpspush.PushClient.log(PushClient.java:593)
+2010-09-06 20:33:29,189 ERROR [STDERR] (Thread-20) 	at lpspush.PushClient.run(PushClient.java:302)
+2010-09-06 20:33:29,189 ERROR [STDERR] (Thread-20) 	at java.lang.Thread.run(Thread.java:619)
+2010-09-06 20:33:37,626 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Shutdown complete

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:root xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns2="urn:org:jboss:profileservice:persistence:managed-component:1.0" name="org.jboss.resource.metadata.mcf.ManagedConnectionFactoryDeploymentGroup" class-name="org.jboss.resource.metadata.mcf.ManagedConnectionFactoryDeploymentGroup">
+    <ns2:component modification="MODIFIED" original-name="HdFabDS" name="HdFabDS" class-name="org.jboss.resource.metadata.mcf.LocalDataSourceDeploymentMetaData">
+        <ns2:properties>
+            <ns2:property name="prepared-statement-cache-size">
+                <ns2:simple>0</ns2:simple>
+            </ns2:property>
+            <ns2:property name="driver-class">
+                <ns2:simple>oracle.jdbc.driver.OracleDriver</ns2:simple>
+            </ns2:property>
+            <ns2:property name="isSameRM-override-value">
+                <ns2:simple>false</ns2:simple>
+            </ns2:property>
+            <ns2:property name="use-strict-min">
+                <ns2:simple>false</ns2:simple>
+            </ns2:property>
+            <ns2:property name="password">
+                <ns2:simple>hd1apps</ns2:simple>
+            </ns2:property>
+            <ns2:property name="max-pool-size">
+                <ns2:simple>10</ns2:simple>
+            </ns2:property>
+            <ns2:property name="set-tx-query-timeout">
+                <ns2:simple>false</ns2:simple>
+            </ns2:property>
+            <ns2:property name="jndi-name">
+                <ns2:simple>HdFabDS</ns2:simple>
+            </ns2:property>
+            <ns2:property name="metadata">
+                <ns2:composite>
+                    <ns2:simple name="typeMapping">Oracle9i</ns2:simple>
+                </ns2:composite>
+            </ns2:property>
+            <ns2:property name="statistics-formatter">
+                <ns2:simple>org.jboss.resource.statistic.pool.JBossDefaultSubPoolStatisticFormatter</ns2:simple>
+            </ns2:property>
+            <ns2:property name="jmx-invoker-name">
+                <ns2:simple>jboss:service=invoker,type=jrmp</ns2:simple>
+            </ns2:property>
+            <ns2:property name="blocking-timeout-millis">
+                <ns2:simple>30000</ns2:simple>
+            </ns2:property>
+            <ns2:property name="validate-on-match">
+                <ns2:simple>true</ns2:simple>
+            </ns2:property>
+            <ns2:property name="rar-name">
+                <ns2:simple>jboss-local-jdbc.rar</ns2:simple>
+            </ns2:property>
+            <ns2:property name="allocation-retry-wait-millis">
+                <ns2:simple>5000</ns2:simple>
+            </ns2:property>
+            <ns2:property name="background-validation-millis">
+                <ns2:simple>0</ns2:simple>
+            </ns2:property>
+            <ns2:property name="connection-definition">
+                <ns2:simple>javax.sql.DataSource</ns2:simple>
+            </ns2:property>
+            <ns2:property name="type-mapping">
+                <ns2:simple>Oracle9i</ns2:simple>
+            </ns2:property>
+            <ns2:property name="background-validation">
+                <ns2:simple>false</ns2:simple>
+            </ns2:property>
+            <ns2:property name="exception-sorter-class-name">
+                <ns2:simple>org.jboss.resource.adapter.jdbc.vendor.OracleExceptionSorter</ns2:simple>
+            </ns2:property>
+            <ns2:property name="check-valid-connection-sql">
+                <ns2:simple>SELECT * FROM DUAL</ns2:simple>
+            </ns2:property>
+            <ns2:property name="user-name">
+                <ns2:simple>hdfab</ns2:simple>
+            </ns2:property>
+            <ns2:property name="connection-properties">
+                <ns2:composite/>
+            </ns2:property>
+            <ns2:property name="query-timeout">
+                <ns2:simple>0</ns2:simple>
+            </ns2:property>
+            <ns2:property name="idle-timeout-minutes">
+                <ns2:simple>30</ns2:simple>
+            </ns2:property>
+            <ns2:property name="use-java-context">
+                <ns2:simple>true</ns2:simple>
+            </ns2:property>
+            <ns2:property name="prefill">
+                <ns2:simple>false</ns2:simple>
+            </ns2:property>
+            <ns2:property name="min-pool-size">
+                <ns2:simple>2</ns2:simple>
+            </ns2:property>
+            <ns2:property name="allocation-retry">
+                <ns2:simple>0</ns2:simple>
+            </ns2:property>
+            <ns2:property name="track-connection-by-tx">
+                <ns2:simple>true</ns2:simple>
+            </ns2:property>
+            <ns2:property name="security-domain">
+                <ns2:composite>
+                    <ns2:simple name="domain"></ns2:simple>
+                    <ns2:enum name="securityDeploymentType">DOMAIN</ns2:enum>
+                </ns2:composite>
+            </ns2:property>
+            <ns2:property name="no-tx-separate-pools">
+                <ns2:simple>false</ns2:simple>
+            </ns2:property>
+            <ns2:property name="connection-url">
+                <ns2:simple>jdbc:oracle:thin:@203.197.149.215:1521:orcl</ns2:simple>
+            </ns2:property>
+            <ns2:property name="share-prepared-statements">
+                <ns2:simple>false</ns2:simple>
+            </ns2:property>
+            <ns2:property name="use-try-lock">
+                <ns2:simple>60000</ns2:simple>
+            </ns2:property>
+        </ns2:properties>
+    </ns2:component>
+</ns2:root>

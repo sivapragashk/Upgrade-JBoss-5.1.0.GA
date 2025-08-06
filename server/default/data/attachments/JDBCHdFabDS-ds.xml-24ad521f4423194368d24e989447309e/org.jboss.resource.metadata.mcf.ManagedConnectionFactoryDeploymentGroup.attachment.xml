@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns="urn:org:jboss:profileservice:persistence:managed-component:1.0" name="org.jboss.resource.metadata.mcf.ManagedConnectionFactoryDeploymentGroup" class-name="org.jboss.resource.metadata.mcf.ManagedConnectionFactoryDeploymentGroup">
+    <component modification="MODIFIED" original-name="JDBCHdFabDS" name="JDBCHdFabDS" class-name="org.jboss.resource.metadata.mcf.LocalDataSourceDeploymentMetaData">
+        <properties>
+            <property name="prepared-statement-cache-size">
+                <simple>0</simple>
+            </property>
+            <property name="driver-class">
+                <simple>oracle.jdbc.driver.OracleDriver</simple>
+            </property>
+            <property name="isSameRM-override-value">
+                <simple>false</simple>
+            </property>
+            <property name="use-strict-min">
+                <simple>false</simple>
+            </property>
+            <property name="password">
+                <simple>hd1apps</simple>
+            </property>
+            <property name="max-pool-size">
+                <simple>10</simple>
+            </property>
+            <property name="set-tx-query-timeout">
+                <simple>false</simple>
+            </property>
+            <property name="jndi-name">
+                <simple>JDBCHdFabDS</simple>
+            </property>
+            <property name="metadata">
+                <composite>
+                    <simple name="typeMapping">Oracle9i</simple>
+                </composite>
+            </property>
+            <property name="statistics-formatter">
+                <simple>org.jboss.resource.statistic.pool.JBossDefaultSubPoolStatisticFormatter</simple>
+            </property>
+            <property name="jmx-invoker-name">
+                <simple>jboss:service=invoker,type=jrmp</simple>
+            </property>
+            <property name="blocking-timeout-millis">
+                <simple>30000</simple>
+            </property>
+            <property name="validate-on-match">
+                <simple>true</simple>
+            </property>
+            <property name="rar-name">
+                <simple>jboss-local-jdbc.rar</simple>
+            </property>
+            <property name="allocation-retry-wait-millis">
+                <simple>5000</simple>
+            </property>
+            <property name="background-validation-millis">
+                <simple>0</simple>
+            </property>
+            <property name="connection-definition">
+                <simple>javax.sql.DataSource</simple>
+            </property>
+            <property name="type-mapping">
+                <simple>Oracle9i</simple>
+            </property>
+            <property name="background-validation">
+                <simple>false</simple>
+            </property>
+            <property name="exception-sorter-class-name">
+                <simple>org.jboss.resource.adapter.jdbc.vendor.OracleExceptionSorter</simple>
+            </property>
+            <property name="check-valid-connection-sql">
+                <simple>SELECT * FROM DUAL</simple>
+            </property>
+            <property name="user-name">
+                <simple>hdfab</simple>
+            </property>
+            <property name="connection-properties">
+                <composite/>
+            </property>
+            <property name="query-timeout">
+                <simple>0</simple>
+            </property>
+            <property name="idle-timeout-minutes">
+                <simple>30</simple>
+            </property>
+            <property name="use-java-context">
+                <simple>true</simple>
+            </property>
+            <property name="prefill">
+                <simple>false</simple>
+            </property>
+            <property name="min-pool-size">
+                <simple>2</simple>
+            </property>
+            <property name="allocation-retry">
+                <simple>0</simple>
+            </property>
+            <property name="track-connection-by-tx">
+                <simple>true</simple>
+            </property>
+            <property name="security-domain">
+                <composite>
+                    <simple name="domain"></simple>
+                    <enum name="securityDeploymentType">DOMAIN</enum>
+                </composite>
+            </property>
+            <property name="no-tx-separate-pools">
+                <simple>false</simple>
+            </property>
+            <property name="connection-url">
+                <simple>jdbc:oracle:oci:@oradbprd:1521:webdev</simple>
+            </property>
+            <property name="share-prepared-statements">
+                <simple>false</simple>
+            </property>
+            <property name="use-try-lock">
+                <simple>60000</simple>
+            </property>
+        </properties>
+    </component>
+</root>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:root xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns2="urn:org:jboss:profileservice:persistence:managed-component:1.0" name="org.jboss.resource.metadata.mcf.ManagedConnectionFactoryDeploymentGroup" class-name="org.jboss.resource.metadata.mcf.ManagedConnectionFactoryDeploymentGroup">
+    <ns2:component modification="REMOVED" original-name="JDBCIntranetDS" name="JDBCIntranetDS" class-name="org.jboss.resource.metadata.mcf.LocalDataSourceDeploymentMetaData">
+        <ns2:properties/>
+    </ns2:component>
+</ns2:root>

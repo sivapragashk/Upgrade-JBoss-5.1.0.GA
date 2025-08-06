@@ -1,0 +1,1172 @@
+2012-09-13 15:55:27,743 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/shade-o-matic
+2012-09-13 15:57:05,320 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/shade-o-matic
+2012-09-13 16:01:55,808 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Runtime shutdown hook called, forceHalt: true
+2012-09-13 16:01:55,895 INFO  [org.apache.coyote.http11.Http11Protocol] (JBoss Shutdown Hook) Pausing Coyote HTTP/1.1 on http-127.0.0.1-9090
+2012-09-13 16:01:55,955 INFO  [org.apache.coyote.http11.Http11Protocol] (JBoss Shutdown Hook) Stopping Coyote HTTP/1.1 on http-127.0.0.1-9090
+2012-09-13 16:01:55,958 INFO  [org.apache.coyote.ajp.AjpProtocol] (JBoss Shutdown Hook) Pausing Coyote AJP/1.3 on ajp-127.0.0.1-9019
+2012-09-13 16:01:55,959 INFO  [org.apache.coyote.ajp.AjpProtocol] (JBoss Shutdown Hook) Stopping Coyote AJP/1.3 on ajp-127.0.0.1-9019
+2012-09-13 16:01:56,056 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@12bed4f undeployed
+2012-09-13 16:01:56,057 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@9319ef undeployed
+2012-09-13 16:01:56,058 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@8af06d undeployed
+2012-09-13 16:01:56,063 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/web-console
+2012-09-13 16:01:56,076 INFO  [org.jboss.jms.server.destination.QueueService] (JBoss Shutdown Hook) Queue[/queue/ExpiryQueue] stopped
+2012-09-13 16:01:56,077 INFO  [org.jboss.jms.server.destination.QueueService] (JBoss Shutdown Hook) Queue[/queue/DLQ] stopped
+2012-09-13 16:01:56,153 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2012-09-13 16:01:56,200 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureProfileServiceBean ejbName: SecureProfileService
+2012-09-13 16:01:56,260 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2012-09-13 16:01:56,280 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureDeploymentManager ejbName: SecureDeploymentManager
+2012-09-13 16:01:56,325 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2012-09-13 16:01:56,336 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureManagementView ejbName: SecureManagementView
+2012-09-13 16:01:56,358 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' from JNDI name 'java:JmsXA'
+2012-09-13 16:01:56,595 INFO  [org.jboss.jms.server.ServerPeer] (JBoss Shutdown Hook) JMS ServerPeer[0] stopped
+2012-09-13 16:01:56,615 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/invoker
+2012-09-13 16:01:56,709 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/juddi
+2012-09-13 16:01:56,711 INFO  [org.apache.juddi.registry.RegistryServlet] (JBoss Shutdown Hook) jUDDI Stopping: Cleaning up existing resources.
+2012-09-13 16:01:56,712 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/admin-console
+2012-09-13 16:01:56,714 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/
+2012-09-13 16:01:56,756 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/jbossws
+2012-09-13 16:01:56,764 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/jmx-console
+2012-09-13 16:01:56,767 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/open-search-webapp-1.0
+2012-09-13 16:01:56,773 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/shade-o-matic
+2012-09-13 16:01:56,826 INFO  [org.apache.catalina.core.StandardService] (JBoss Shutdown Hook) Stopping service jboss.web
+2012-09-13 16:01:56,932 INFO  [org.jboss.mail.MailService] (JBoss Shutdown Hook) Mail service 'java:/Mail' removed from JNDI
+2012-09-13 16:01:57,037 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=CEDGDS' from JNDI name 'java:CEDGDS'
+2012-09-13 16:01:57,038 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=HDFabDS' from JNDI name 'java:HDFabDS'
+2012-09-13 16:01:57,039 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=IntranetDS' from JNDI name 'java:IntranetDS'
+2012-09-13 16:01:57,041 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=JDBCCedgDS' from JNDI name 'java:JDBCCedgDS'
+2012-09-13 16:01:57,042 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=JDBCIntranetDS' from JNDI name 'java:JDBCIntranetDS'
+2012-09-13 16:01:57,043 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=OnlineSurveyDS' from JNDI name 'java:OnlineSurveyDS'
+2012-09-13 16:01:57,044 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=OrderStatusDS' from JNDI name 'java:OrderStatusDS'
+2012-09-13 16:01:57,045 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=PIPDS' from JNDI name 'java:PIPDS'
+2012-09-13 16:01:57,046 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=PLSDS' from JNDI name 'java:PLSDS'
+2012-09-13 16:01:57,048 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=ShadeOMaticDS' from JNDI name 'java:ShadeOMaticDS'
+2012-09-13 16:01:57,050 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' from JNDI name 'java:DefaultDS'
+2012-09-13 16:01:57,691 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2012-09-13 16:01:57,694 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2012-09-13 16:01:57,696 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2012-09-13 16:01:57,866 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (JBoss Shutdown Hook) Stopping transaction recovery manager
+2012-09-13 16:01:57,868 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (JBoss Shutdown Hook) Destroying TransactionManagerService
+2012-09-13 16:01:58,346 INFO  [org.jboss.jdbc.HypersonicDatabase] (JBoss Shutdown Hook) Database standalone closed clean
+2012-09-13 16:02:01,409 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Shutdown complete
+2012-09-13 16:02:13,516 INFO  [org.jboss.web.WebService] (main) Using RMI server codebase: http://127.0.0.1:8083/
+2012-09-13 16:02:18,668 INFO  [org.jboss.wsf.common.management.AbstractServerConfig] (main) JBoss Web Services - Native Server
+2012-09-13 16:02:18,668 INFO  [org.jboss.wsf.common.management.AbstractServerConfig] (main) 3.2.2.GA
+2012-09-13 16:02:19,699 INFO  [org.jboss.dependency.plugins.AttributeCallbackItem] (main) Owner callback not implemented.
+2012-09-13 16:02:21,867 INFO  [org.jboss.logbridge.LogNotificationListener] (main) Adding notification listener for logging mbean "jboss.system:service=Logging,type=Log4jService" to server org.jboss.mx.server.MBeanServerImpl@886ad0[ defaultDomain='jboss' ]
+2012-09-13 16:02:32,096 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@16655481{vfsfile:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/profileservice-secured.jar/}
+2012-09-13 16:02:32,102 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@16655481{vfsfile:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/profileservice-secured.jar/}
+2012-09-13 16:02:32,102 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@16655481{vfsfile:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/profileservice-secured.jar/}
+2012-09-13 16:02:32,103 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@16655481{vfsfile:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/profileservice-secured.jar/}
+2012-09-13 16:02:35,350 INFO  [org.jboss.mx.remoting.service.JMXConnectorServerService] (main) JMX Connector server: service:jmx:rmi://127.0.0.1/jndi/rmi://127.0.0.1:1090/jmxconnector
+2012-09-13 16:02:35,583 INFO  [org.jboss.mail.MailService] (main) Mail Service bound to java:/Mail
+2012-09-13 16:02:56,542 WARN  [org.jboss.jms.server.jbosssx.JBossASSecurityMetadataStore] (main) WARNING! POTENTIAL SECURITY RISK. It has been detected that the MessageSucker component which sucks messages from one node to another has not had its password changed from the installation default. Please see the JBoss Messaging user guide for instructions on how to do this.
+2012-09-13 16:02:56,553 WARN  [org.jboss.annotation.factory.AnnotationCreator] (main) No ClassLoader provided, using TCCL: org.jboss.managed.api.annotation.ManagementComponent
+2012-09-13 16:02:56,638 WARN  [org.jboss.annotation.factory.AnnotationCreator] (main) No ClassLoader provided, using TCCL: org.jboss.managed.api.annotation.ManagementComponent
+2012-09-13 16:02:56,720 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) JBossTS Transaction Service (JTA version - tag:JBOSSTS_4_6_1_GA) - JBoss Inc.
+2012-09-13 16:02:56,721 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Setting up property manager MBean and JMX layer
+2012-09-13 16:02:56,948 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Initializing recovery manager
+2012-09-13 16:02:57,097 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Recovery manager configured
+2012-09-13 16:02:57,100 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Binding TransactionManager JNDI Reference
+2012-09-13 16:02:57,138 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Starting transaction recovery manager
+2012-09-13 16:02:57,548 INFO  [org.apache.catalina.core.AprLifecycleListener] (main) The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.6.0_16\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.6.0_16\bin;C:\Program Files\QuickTime\QTSystem\;C:\Program Files\TortoiseSVN\bin
+2012-09-13 16:02:57,590 INFO  [org.apache.coyote.http11.Http11Protocol] (main) Initializing Coyote HTTP/1.1 on http-127.0.0.1-9090
+2012-09-13 16:02:57,591 INFO  [org.apache.coyote.ajp.AjpProtocol] (main) Initializing Coyote AJP/1.3 on ajp-127.0.0.1-9019
+2012-09-13 16:02:57,615 INFO  [org.apache.catalina.core.StandardService] (main) Starting service jboss.web
+2012-09-13 16:02:57,618 INFO  [org.apache.catalina.core.StandardEngine] (main) Starting Servlet Engine: JBoss Web/2.1.3.GA
+2012-09-13 16:02:57,650 INFO  [org.apache.catalina.startup.Catalina] (main) Server startup in 58 ms
+2012-09-13 16:02:57,668 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/web-console
+2012-09-13 16:02:58,450 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/juddi
+2012-09-13 16:02:58,526 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Loading jUDDI configuration.
+2012-09-13 16:02:58,539 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Resources loaded from: /WEB-INF/juddi.properties
+2012-09-13 16:02:58,540 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Initializing jUDDI components.
+2012-09-13 16:02:58,635 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/invoker
+2012-09-13 16:02:58,851 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/jboss-local-jdbc.rar/META-INF/ra.xml
+2012-09-13 16:02:59,050 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/jboss-xa-jdbc.rar/META-INF/ra.xml
+2012-09-13 16:02:59,069 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/jms-ra.rar/META-INF/ra.xml
+2012-09-13 16:02:59,130 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/mail-ra.rar/META-INF/ra.xml
+2012-09-13 16:02:59,173 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/quartz-ra.rar/META-INF/ra.xml
+2012-09-13 16:02:59,263 INFO  [org.quartz.simpl.SimpleThreadPool] (main) Job execution threads will use class loader of thread: main
+2012-09-13 16:02:59,302 INFO  [org.quartz.core.SchedulerSignalerImpl] (main) Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2012-09-13 16:02:59,303 INFO  [org.quartz.core.QuartzScheduler] (main) Quartz Scheduler v.1.7.2 created.
+2012-09-13 16:02:59,307 INFO  [org.quartz.simpl.RAMJobStore] (main) RAMJobStore initialized.
+2012-09-13 16:02:59,308 INFO  [org.quartz.impl.StdSchedulerFactory] (main) Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2012-09-13 16:02:59,308 INFO  [org.quartz.impl.StdSchedulerFactory] (main) Quartz scheduler version: 1.7.2
+2012-09-13 16:02:59,309 INFO  [org.quartz.core.QuartzScheduler] (main) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2012-09-13 16:02:59,494 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=CEDGDS' to JNDI name 'java:CEDGDS'
+2012-09-13 16:02:59,587 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=HDFabDS' to JNDI name 'java:HDFabDS'
+2012-09-13 16:02:59,620 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=IntranetDS' to JNDI name 'java:IntranetDS'
+2012-09-13 16:02:59,668 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=JDBCCedgDS' to JNDI name 'java:JDBCCedgDS'
+2012-09-13 16:02:59,710 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=JDBCIntranetDS' to JNDI name 'java:JDBCIntranetDS'
+2012-09-13 16:02:59,755 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=OnlineSurveyDS' to JNDI name 'java:OnlineSurveyDS'
+2012-09-13 16:02:59,814 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=OrderStatusDS' to JNDI name 'java:OrderStatusDS'
+2012-09-13 16:02:59,894 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=PIPDS' to JNDI name 'java:PIPDS'
+2012-09-13 16:02:59,941 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=PLSDS' to JNDI name 'java:PLSDS'
+2012-09-13 16:02:59,984 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=ShadeOMaticDS' to JNDI name 'java:ShadeOMaticDS'
+2012-09-13 16:03:00,457 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' to JNDI name 'java:DefaultDS'
+2012-09-13 16:03:01,024 INFO  [org.jboss.jms.server.ServerPeer] (main) JBoss Messaging 1.4.3.GA server [0] started
+2012-09-13 16:03:01,109 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2012-09-13 16:03:01,109 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@4e1099 started
+2012-09-13 16:03:01,121 INFO  [org.jboss.jms.server.destination.QueueService] (main) Queue[/queue/DLQ] started, fullSize=200000, pageSize=2000, downCacheSize=2000
+2012-09-13 16:03:01,127 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2012-09-13 16:03:01,128 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@3a26ab started
+2012-09-13 16:03:01,129 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactoryJNDIMapper] (main) supportsFailover attribute is true on connection factory: jboss.messaging.connectionfactory:service=ClusteredConnectionFactory but post office is non clustered. So connection factory will *not* support failover
+2012-09-13 16:03:01,135 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactoryJNDIMapper] (main) supportsLoadBalancing attribute is true on connection factory: jboss.messaging.connectionfactory:service=ClusteredConnectionFactory but post office is non clustered. So connection factory will *not* support load balancing
+2012-09-13 16:03:01,137 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2012-09-13 16:03:01,138 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@2bfad9 started
+2012-09-13 16:03:01,140 INFO  [org.jboss.jms.server.destination.QueueService] (main) Queue[/queue/ExpiryQueue] started, fullSize=200000, pageSize=2000, downCacheSize=2000
+2012-09-13 16:03:01,217 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' to JNDI name 'java:JmsXA'
+2012-09-13 16:03:01,554 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Created KernelDeployment for: profileservice-secured.jar
+2012-09-13 16:03:01,561 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2012-09-13 16:03:01,561 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2012-09-13 16:03:01,562 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2012-09-13 16:03:01,569 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView
+2012-09-13 16:03:01,581 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2012-09-13 16:03:01,582 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2012-09-13 16:03:01,586 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.profileservice.spi.ProfileService
+2012-09-13 16:03:01,587 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureProfileService/remote
+2012-09-13 16:03:01,588 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureProfileService/remote-org.jboss.profileservice.spi.ProfileService
+2012-09-13 16:03:01,589 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2012-09-13 16:03:01,591 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2012-09-13 16:03:01,592 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2012-09-13 16:03:01,593 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2012-09-13 16:03:01,594 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2012-09-13 16:03:01,595 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2012-09-13 16:03:01,604 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureDeploymentManager/remote-org.jboss.deployers.spi.management.deploy.DeploymentManager
+2012-09-13 16:03:01,605 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.deployers.spi.management.deploy.DeploymentManager
+2012-09-13 16:03:01,606 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureDeploymentManager/remote
+2012-09-13 16:03:01,608 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2012-09-13 16:03:01,609 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2012-09-13 16:03:01,610 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2012-09-13 16:03:01,611 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2012-09-13 16:03:01,620 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2012-09-13 16:03:01,621 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2012-09-13 16:03:01,622 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView
+2012-09-13 16:03:01,623 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.deployers.spi.management.ManagementView
+2012-09-13 16:03:01,624 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote
+2012-09-13 16:03:01,626 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2012-09-13 16:03:01,632 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@186527e{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2012-09-13 16:03:01,632 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@fc48ce{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2012-09-13 16:03:01,637 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@469b16{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2012-09-13 16:03:02,321 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2012-09-13 16:03:02,333 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureDeploymentManager ejbName: SecureDeploymentManager
+2012-09-13 16:03:02,372 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureDeploymentManager/remote - EJB3.x Default Remote Business Interface
+	SecureDeploymentManager/remote-org.jboss.deployers.spi.management.deploy.DeploymentManager - EJB3.x Remote Business Interface
+
+2012-09-13 16:03:02,440 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2012-09-13 16:03:02,441 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureManagementView ejbName: SecureManagementView
+2012-09-13 16:03:02,450 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureManagementView/remote - EJB3.x Default Remote Business Interface
+	SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView - EJB3.x Remote Business Interface
+
+2012-09-13 16:03:02,475 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2012-09-13 16:03:02,477 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureProfileServiceBean ejbName: SecureProfileService
+2012-09-13 16:03:02,485 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureProfileService/remote - EJB3.x Default Remote Business Interface
+	SecureProfileService/remote-org.jboss.profileservice.spi.ProfileService - EJB3.x Remote Business Interface
+
+2012-09-13 16:03:02,606 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/admin-console
+2012-09-13 16:03:02,721 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (main) Initializing Mojarra (1.2_12-b01-FCS) for context '/admin-console'
+2012-09-13 16:03:04,487 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/
+2012-09-13 16:03:04,557 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/jbossws
+2012-09-13 16:03:04,621 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/jmx-console
+2012-09-13 16:03:04,712 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/open-search-webapp-1.0
+2012-09-13 16:03:04,990 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/shade-o-matic
+2012-09-13 16:03:05,112 INFO  [org.apache.coyote.http11.Http11Protocol] (main) Starting Coyote HTTP/1.1 on http-127.0.0.1-9090
+2012-09-13 16:03:05,129 INFO  [org.apache.coyote.ajp.AjpProtocol] (main) Starting Coyote AJP/1.3 on ajp-127.0.0.1-9019
+2012-09-13 16:03:05,137 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (main) JBoss (Microcontainer) [5.1.0.GA (build: SVNTag=JBoss_5_1_0_GA date=200905221634)] Started in 59s:259ms
+2012-09-13 16:03:08,302 INFO  [org.quartz.utils.UpdateChecker] (Timer-1) New update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+2012-09-13 16:04:47,811 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/shade-o-matic
+2012-09-13 16:04:50,629 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/shade-o-matic
+2012-09-13 17:44:35,711 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/shade-o-matic
+2012-09-13 17:44:40,904 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/shade-o-matic
+2012-09-13 17:45:21,177 INFO  [STDOUT] (http-127.0.0.1-9090-2) mode-->true
+2012-09-13 17:47:16,670 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Runtime shutdown hook called, forceHalt: true
+2012-09-13 17:47:16,673 INFO  [org.apache.coyote.http11.Http11Protocol] (JBoss Shutdown Hook) Pausing Coyote HTTP/1.1 on http-127.0.0.1-9090
+2012-09-13 17:47:16,764 INFO  [org.apache.coyote.http11.Http11Protocol] (JBoss Shutdown Hook) Stopping Coyote HTTP/1.1 on http-127.0.0.1-9090
+2012-09-13 17:47:16,768 INFO  [org.apache.coyote.ajp.AjpProtocol] (JBoss Shutdown Hook) Pausing Coyote AJP/1.3 on ajp-127.0.0.1-9019
+2012-09-13 17:47:16,771 INFO  [org.apache.coyote.ajp.AjpProtocol] (JBoss Shutdown Hook) Stopping Coyote AJP/1.3 on ajp-127.0.0.1-9019
+2012-09-13 17:47:16,942 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@4e1099 undeployed
+2012-09-13 17:47:16,962 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@2bfad9 undeployed
+2012-09-13 17:47:16,965 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@3a26ab undeployed
+2012-09-13 17:47:16,987 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/web-console
+2012-09-13 17:47:17,058 INFO  [org.jboss.jms.server.destination.QueueService] (JBoss Shutdown Hook) Queue[/queue/ExpiryQueue] stopped
+2012-09-13 17:47:17,060 INFO  [org.jboss.jms.server.destination.QueueService] (JBoss Shutdown Hook) Queue[/queue/DLQ] stopped
+2012-09-13 17:47:17,108 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2012-09-13 17:47:17,288 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureProfileServiceBean ejbName: SecureProfileService
+2012-09-13 17:47:17,332 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2012-09-13 17:47:17,350 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureDeploymentManager ejbName: SecureDeploymentManager
+2012-09-13 17:47:17,386 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2012-09-13 17:47:17,391 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureManagementView ejbName: SecureManagementView
+2012-09-13 17:47:17,460 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' from JNDI name 'java:JmsXA'
+2012-09-13 17:47:17,594 INFO  [org.jboss.jms.server.ServerPeer] (JBoss Shutdown Hook) JMS ServerPeer[0] stopped
+2012-09-13 17:47:17,605 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/invoker
+2012-09-13 17:47:17,716 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/juddi
+2012-09-13 17:47:17,724 INFO  [org.apache.juddi.registry.RegistryServlet] (JBoss Shutdown Hook) jUDDI Stopping: Cleaning up existing resources.
+2012-09-13 17:47:17,772 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/admin-console
+2012-09-13 17:47:17,813 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/
+2012-09-13 17:47:17,827 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/jbossws
+2012-09-13 17:47:17,834 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/jmx-console
+2012-09-13 17:47:17,837 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/open-search-webapp-1.0
+2012-09-13 17:47:17,842 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/shade-o-matic
+2012-09-13 17:47:17,879 INFO  [org.apache.catalina.core.StandardService] (JBoss Shutdown Hook) Stopping service jboss.web
+2012-09-13 17:47:18,050 INFO  [org.jboss.mail.MailService] (JBoss Shutdown Hook) Mail service 'java:/Mail' removed from JNDI
+2012-09-13 17:47:18,235 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=CEDGDS' from JNDI name 'java:CEDGDS'
+2012-09-13 17:47:18,236 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=HDFabDS' from JNDI name 'java:HDFabDS'
+2012-09-13 17:47:18,244 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=IntranetDS' from JNDI name 'java:IntranetDS'
+2012-09-13 17:47:18,260 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=JDBCCedgDS' from JNDI name 'java:JDBCCedgDS'
+2012-09-13 17:47:18,261 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=JDBCIntranetDS' from JNDI name 'java:JDBCIntranetDS'
+2012-09-13 17:47:18,262 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=OnlineSurveyDS' from JNDI name 'java:OnlineSurveyDS'
+2012-09-13 17:47:18,263 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=OrderStatusDS' from JNDI name 'java:OrderStatusDS'
+2012-09-13 17:47:18,270 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=PIPDS' from JNDI name 'java:PIPDS'
+2012-09-13 17:47:18,271 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=PLSDS' from JNDI name 'java:PLSDS'
+2012-09-13 17:47:18,282 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=ShadeOMaticDS' from JNDI name 'java:ShadeOMaticDS'
+2012-09-13 17:47:18,283 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' from JNDI name 'java:DefaultDS'
+2012-09-13 17:47:18,997 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2012-09-13 17:47:18,999 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2012-09-13 17:47:19,001 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2012-09-13 17:47:19,418 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (JBoss Shutdown Hook) Stopping transaction recovery manager
+2012-09-13 17:47:19,420 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (JBoss Shutdown Hook) Destroying TransactionManagerService
+2012-09-13 17:47:19,938 INFO  [org.jboss.jdbc.HypersonicDatabase] (JBoss Shutdown Hook) Database standalone closed clean
+2012-09-13 17:47:23,167 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Shutdown complete
+2012-09-13 17:47:34,853 INFO  [org.jboss.web.WebService] (main) Using RMI server codebase: http://127.0.0.1:8083/
+2012-09-13 17:47:39,624 INFO  [org.jboss.wsf.common.management.AbstractServerConfig] (main) JBoss Web Services - Native Server
+2012-09-13 17:47:39,626 INFO  [org.jboss.wsf.common.management.AbstractServerConfig] (main) 3.2.2.GA
+2012-09-13 17:47:40,575 INFO  [org.jboss.dependency.plugins.AttributeCallbackItem] (main) Owner callback not implemented.
+2012-09-13 17:47:42,638 INFO  [org.jboss.logbridge.LogNotificationListener] (main) Adding notification listener for logging mbean "jboss.system:service=Logging,type=Log4jService" to server org.jboss.mx.server.MBeanServerImpl@6c2896[ defaultDomain='jboss' ]
+2012-09-13 17:47:51,456 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@27672070{vfsfile:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/profileservice-secured.jar/}
+2012-09-13 17:47:51,463 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@27672070{vfsfile:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/profileservice-secured.jar/}
+2012-09-13 17:47:51,464 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@27672070{vfsfile:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/profileservice-secured.jar/}
+2012-09-13 17:47:51,464 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@27672070{vfsfile:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/profileservice-secured.jar/}
+2012-09-13 17:47:54,514 INFO  [org.jboss.mx.remoting.service.JMXConnectorServerService] (main) JMX Connector server: service:jmx:rmi://127.0.0.1/jndi/rmi://127.0.0.1:1090/jmxconnector
+2012-09-13 17:47:54,786 INFO  [org.jboss.mail.MailService] (main) Mail Service bound to java:/Mail
+2012-09-13 17:48:04,995 WARN  [org.jboss.jms.server.jbosssx.JBossASSecurityMetadataStore] (main) WARNING! POTENTIAL SECURITY RISK. It has been detected that the MessageSucker component which sucks messages from one node to another has not had its password changed from the installation default. Please see the JBoss Messaging user guide for instructions on how to do this.
+2012-09-13 17:48:05,008 WARN  [org.jboss.annotation.factory.AnnotationCreator] (main) No ClassLoader provided, using TCCL: org.jboss.managed.api.annotation.ManagementComponent
+2012-09-13 17:48:05,084 WARN  [org.jboss.annotation.factory.AnnotationCreator] (main) No ClassLoader provided, using TCCL: org.jboss.managed.api.annotation.ManagementComponent
+2012-09-13 17:48:05,149 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) JBossTS Transaction Service (JTA version - tag:JBOSSTS_4_6_1_GA) - JBoss Inc.
+2012-09-13 17:48:05,149 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Setting up property manager MBean and JMX layer
+2012-09-13 17:48:05,333 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Initializing recovery manager
+2012-09-13 17:48:05,475 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Recovery manager configured
+2012-09-13 17:48:05,481 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Binding TransactionManager JNDI Reference
+2012-09-13 17:48:05,503 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Starting transaction recovery manager
+2012-09-13 17:48:05,906 INFO  [org.apache.catalina.core.AprLifecycleListener] (main) The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.6.0_16\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.6.0_16\bin;C:\Program Files\QuickTime\QTSystem\;C:\Program Files\TortoiseSVN\bin
+2012-09-13 17:48:05,954 INFO  [org.apache.coyote.http11.Http11Protocol] (main) Initializing Coyote HTTP/1.1 on http-127.0.0.1-9090
+2012-09-13 17:48:05,955 INFO  [org.apache.coyote.ajp.AjpProtocol] (main) Initializing Coyote AJP/1.3 on ajp-127.0.0.1-9019
+2012-09-13 17:48:05,995 INFO  [org.apache.catalina.core.StandardService] (main) Starting service jboss.web
+2012-09-13 17:48:05,997 INFO  [org.apache.catalina.core.StandardEngine] (main) Starting Servlet Engine: JBoss Web/2.1.3.GA
+2012-09-13 17:48:06,035 INFO  [org.apache.catalina.startup.Catalina] (main) Server startup in 80 ms
+2012-09-13 17:48:06,053 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/invoker
+2012-09-13 17:48:06,613 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/web-console
+2012-09-13 17:48:06,825 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/juddi
+2012-09-13 17:48:06,857 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Loading jUDDI configuration.
+2012-09-13 17:48:06,871 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Resources loaded from: /WEB-INF/juddi.properties
+2012-09-13 17:48:06,871 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Initializing jUDDI components.
+2012-09-13 17:48:07,178 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/jboss-local-jdbc.rar/META-INF/ra.xml
+2012-09-13 17:48:07,379 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/jboss-xa-jdbc.rar/META-INF/ra.xml
+2012-09-13 17:48:07,397 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/jms-ra.rar/META-INF/ra.xml
+2012-09-13 17:48:07,459 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/mail-ra.rar/META-INF/ra.xml
+2012-09-13 17:48:07,503 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/quartz-ra.rar/META-INF/ra.xml
+2012-09-13 17:48:07,582 INFO  [org.quartz.simpl.SimpleThreadPool] (main) Job execution threads will use class loader of thread: main
+2012-09-13 17:48:07,618 INFO  [org.quartz.core.SchedulerSignalerImpl] (main) Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2012-09-13 17:48:07,619 INFO  [org.quartz.core.QuartzScheduler] (main) Quartz Scheduler v.1.7.2 created.
+2012-09-13 17:48:07,666 INFO  [org.quartz.simpl.RAMJobStore] (main) RAMJobStore initialized.
+2012-09-13 17:48:07,668 INFO  [org.quartz.impl.StdSchedulerFactory] (main) Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2012-09-13 17:48:07,668 INFO  [org.quartz.impl.StdSchedulerFactory] (main) Quartz scheduler version: 1.7.2
+2012-09-13 17:48:07,672 INFO  [org.quartz.core.QuartzScheduler] (main) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2012-09-13 17:48:07,907 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=CEDGDS' to JNDI name 'java:CEDGDS'
+2012-09-13 17:48:07,957 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=HDFabDS' to JNDI name 'java:HDFabDS'
+2012-09-13 17:48:07,996 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=IntranetDS' to JNDI name 'java:IntranetDS'
+2012-09-13 17:48:08,040 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=JDBCCedgDS' to JNDI name 'java:JDBCCedgDS'
+2012-09-13 17:48:08,074 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=JDBCIntranetDS' to JNDI name 'java:JDBCIntranetDS'
+2012-09-13 17:48:08,116 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=OnlineSurveyDS' to JNDI name 'java:OnlineSurveyDS'
+2012-09-13 17:48:08,161 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=OrderStatusDS' to JNDI name 'java:OrderStatusDS'
+2012-09-13 17:48:08,206 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=PIPDS' to JNDI name 'java:PIPDS'
+2012-09-13 17:48:08,251 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=PLSDS' to JNDI name 'java:PLSDS'
+2012-09-13 17:48:08,294 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=ShadeOMaticDS' to JNDI name 'java:ShadeOMaticDS'
+2012-09-13 17:48:09,327 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' to JNDI name 'java:DefaultDS'
+2012-09-13 17:48:09,788 INFO  [org.jboss.jms.server.ServerPeer] (main) JBoss Messaging 1.4.3.GA server [0] started
+2012-09-13 17:48:09,875 INFO  [org.jboss.jms.server.destination.QueueService] (main) Queue[/queue/ExpiryQueue] started, fullSize=200000, pageSize=2000, downCacheSize=2000
+2012-09-13 17:48:09,879 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactoryJNDIMapper] (main) supportsFailover attribute is true on connection factory: jboss.messaging.connectionfactory:service=ClusteredConnectionFactory but post office is non clustered. So connection factory will *not* support failover
+2012-09-13 17:48:09,880 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactoryJNDIMapper] (main) supportsLoadBalancing attribute is true on connection factory: jboss.messaging.connectionfactory:service=ClusteredConnectionFactory but post office is non clustered. So connection factory will *not* support load balancing
+2012-09-13 17:48:09,943 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2012-09-13 17:48:09,944 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@209fca started
+2012-09-13 17:48:09,946 INFO  [org.jboss.jms.server.destination.QueueService] (main) Queue[/queue/DLQ] started, fullSize=200000, pageSize=2000, downCacheSize=2000
+2012-09-13 17:48:09,946 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2012-09-13 17:48:09,947 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@d8c8a9 started
+2012-09-13 17:48:09,949 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2012-09-13 17:48:09,950 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@1816407 started
+2012-09-13 17:48:10,012 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' to JNDI name 'java:JmsXA'
+2012-09-13 17:48:10,382 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Created KernelDeployment for: profileservice-secured.jar
+2012-09-13 17:48:10,390 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2012-09-13 17:48:10,391 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2012-09-13 17:48:10,392 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2012-09-13 17:48:10,397 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView
+2012-09-13 17:48:10,398 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2012-09-13 17:48:10,399 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2012-09-13 17:48:10,400 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.profileservice.spi.ProfileService
+2012-09-13 17:48:10,401 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureProfileService/remote
+2012-09-13 17:48:10,403 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureProfileService/remote-org.jboss.profileservice.spi.ProfileService
+2012-09-13 17:48:10,404 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2012-09-13 17:48:10,406 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2012-09-13 17:48:10,406 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2012-09-13 17:48:10,408 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2012-09-13 17:48:10,409 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2012-09-13 17:48:10,415 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2012-09-13 17:48:10,416 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureDeploymentManager/remote-org.jboss.deployers.spi.management.deploy.DeploymentManager
+2012-09-13 17:48:10,417 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.deployers.spi.management.deploy.DeploymentManager
+2012-09-13 17:48:10,418 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureDeploymentManager/remote
+2012-09-13 17:48:10,420 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2012-09-13 17:48:10,421 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2012-09-13 17:48:10,422 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2012-09-13 17:48:10,423 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2012-09-13 17:48:10,424 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2012-09-13 17:48:10,425 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2012-09-13 17:48:10,432 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView
+2012-09-13 17:48:10,433 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.deployers.spi.management.ManagementView
+2012-09-13 17:48:10,434 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote
+2012-09-13 17:48:10,435 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2012-09-13 17:48:10,442 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@6755f0{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2012-09-13 17:48:10,442 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@37e964{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2012-09-13 17:48:10,443 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@9b3b0c{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2012-09-13 17:48:10,602 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2012-09-13 17:48:10,609 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureDeploymentManager ejbName: SecureDeploymentManager
+2012-09-13 17:48:10,692 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureDeploymentManager/remote - EJB3.x Default Remote Business Interface
+	SecureDeploymentManager/remote-org.jboss.deployers.spi.management.deploy.DeploymentManager - EJB3.x Remote Business Interface
+
+2012-09-13 17:48:10,738 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2012-09-13 17:48:10,739 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureManagementView ejbName: SecureManagementView
+2012-09-13 17:48:10,752 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureManagementView/remote - EJB3.x Default Remote Business Interface
+	SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView - EJB3.x Remote Business Interface
+
+2012-09-13 17:48:10,776 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2012-09-13 17:48:10,777 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureProfileServiceBean ejbName: SecureProfileService
+2012-09-13 17:48:10,786 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureProfileService/remote - EJB3.x Default Remote Business Interface
+	SecureProfileService/remote-org.jboss.profileservice.spi.ProfileService - EJB3.x Remote Business Interface
+
+2012-09-13 17:48:10,914 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/admin-console
+2012-09-13 17:48:11,063 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (main) Initializing Mojarra (1.2_12-b01-FCS) for context '/admin-console'
+2012-09-13 17:48:12,806 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/
+2012-09-13 17:48:12,865 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/jbossws
+2012-09-13 17:48:12,948 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/jmx-console
+2012-09-13 17:48:13,173 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/open-search-webapp-1.0
+2012-09-13 17:48:13,386 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/shade-o-matic
+2012-09-13 17:48:13,466 INFO  [org.apache.coyote.http11.Http11Protocol] (main) Starting Coyote HTTP/1.1 on http-127.0.0.1-9090
+2012-09-13 17:48:13,480 INFO  [org.apache.coyote.ajp.AjpProtocol] (main) Starting Coyote AJP/1.3 on ajp-127.0.0.1-9019
+2012-09-13 17:48:13,489 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (main) JBoss (Microcontainer) [5.1.0.GA (build: SVNTag=JBoss_5_1_0_GA date=200905221634)] Started in 45s:445ms
+2012-09-13 17:48:13,998 INFO  [org.quartz.utils.UpdateChecker] (Timer-1) New update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+2012-09-13 17:48:26,424 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/shade-o-matic
+2012-09-13 17:48:26,959 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/shade-o-matic
+2012-09-13 17:48:46,523 INFO  [STDOUT] (http-127.0.0.1-9090-2) mode-->true
+2012-09-13 17:58:11,066 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/shade-o-matic
+2012-09-13 17:58:13,912 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/shade-o-matic
+2012-09-13 17:58:28,829 INFO  [STDOUT] (http-127.0.0.1-9090-3) mode-->true
+2012-09-13 18:00:31,836 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/shade-o-matic
+2012-09-13 18:00:32,182 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/shade-o-matic
+2012-09-13 18:00:50,831 INFO  [STDOUT] (http-127.0.0.1-9090-6) mode-->true
+2012-09-13 18:01:45,368 INFO  [STDOUT] (http-127.0.0.1-9090-3) mode-->true
+2012-09-13 18:02:23,702 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/shade-o-matic
+2012-09-13 18:02:29,347 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/shade-o-matic
+2012-09-13 18:02:38,953 INFO  [STDOUT] (http-127.0.0.1-9090-3) mode-->true
+2012-09-13 18:02:56,957 INFO  [STDOUT] (http-127.0.0.1-9090-3) mode-->true
+2012-09-13 18:03:33,066 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/shade-o-matic
+2012-09-13 18:03:38,709 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/shade-o-matic
+2012-09-13 18:03:46,376 INFO  [STDOUT] (http-127.0.0.1-9090-4) mode-->true
+2012-09-13 18:04:21,196 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/shade-o-matic
+2012-09-13 18:04:21,533 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/shade-o-matic
+2012-09-13 18:04:29,767 INFO  [STDOUT] (http-127.0.0.1-9090-6) mode-->true
+2012-09-13 18:05:46,396 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/shade-o-matic
+2012-09-13 18:05:52,028 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/shade-o-matic
+2012-09-13 18:06:22,802 INFO  [STDOUT] (http-127.0.0.1-9090-1) mode-->true
+2012-09-13 18:06:47,125 INFO  [STDOUT] (http-127.0.0.1-9090-10) mode-->true
+2012-09-13 18:08:47,206 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/shade-o-matic
+2012-09-13 18:08:47,539 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/shade-o-matic
+2012-09-13 18:08:57,699 INFO  [STDOUT] (http-127.0.0.1-9090-11) mode-->true
+2012-09-13 18:12:19,745 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/shade-o-matic
+2012-09-13 18:12:20,092 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/shade-o-matic
+2012-09-13 18:12:33,332 INFO  [STDOUT] (http-127.0.0.1-9090-8) mode-->true
+2012-09-13 18:14:06,172 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/shade-o-matic
+2012-09-13 18:14:11,958 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/shade-o-matic
+2012-09-13 18:14:19,576 INFO  [STDOUT] (http-127.0.0.1-9090-1) mode-->true
+2012-09-13 18:15:42,098 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/shade-o-matic
+2012-09-13 18:15:42,331 WARN  [org.jboss.webservices.integration.util.ASHelper] (HDScanner) Cannot load servlet class: com.hd.som.servlet.TemplateContentServlet
+java.lang.ClassNotFoundException: com.hd.som.servlet.TemplateContentServlet from BaseClassLoader@186dfef{VFSClassLoaderPolicy@1d7e792{name=vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/shade-o-matic.war/ domain=ClassLoaderDomain@e395e8{name=vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/shade-o-matic.war/ parentPolicy=AFTER_BUT_JAVA_BEFORE parent=ClassLoaderDomain@8e4805{DefaultDomain}} roots=[MemoryContextHandler@27537279[path= context=vfsmemory://4swg4g-bf5wj8-h71tpvzx-1-h71uq6nh-ao real=vfsmemory://4swg4g-bf5wj8-h71tpvzx-1-h71uq6nh-ao], ZipEntryHandler@2773569[path=shade-o-matic.war/WEB-INF/classes context=file:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/ real=file:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/shade-o-matic.war/WEB-INF/classes], DelegatingHandler@8283650[path=shade-o-matic.war/WEB-INF/lib/commons-fileupload-1.0.jar context=file:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/ real=file:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/shade-o-matic.war/WEB-INF/lib/commons-fileupload-1.0.jar]]  delegates=null exported=[com.hd.som.action, com.hd.som.utils, com.hd.som.servlet, org.apache.commons.fileupload, com.hd.som.model, com.hd.som.dao, META-INF, com.hd.som.servlet.model, com.hd.som.database] <IMPORT-ALL>NON_EMPTY}}
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClass(BaseClassLoader.java:448)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at org.jboss.webservices.integration.util.ASHelper.getEndpointClass(ASHelper.java:295)
+	at org.jboss.webservices.integration.util.ASHelper.getWebServiceServlets(ASHelper.java:398)
+	at org.jboss.webservices.integration.util.ASHelper.getJaxwsServlets(ASHelper.java:194)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.isJaxwsJseDeployment(WSTypeDeployer.java:153)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.internalDeploy(WSTypeDeployer.java:68)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractRealDeployer.deploy(AbstractRealDeployer.java:50)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:171)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doDeploy(DeployersImpl.java:1439)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1157)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.install(DeployersImpl.java:1098)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.process(DeployersImpl.java:781)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.process(MainDeployerImpl.java:702)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.process(MainDeployerAdapter.java:117)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:362)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2012-09-13 18:15:42,539 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/shade-o-matic
+2012-09-13 18:30:15,136 INFO  [STDOUT] (http-127.0.0.1-9090-1) mode-->true
+2012-09-13 18:30:24,800 INFO  [org.apache.catalina.core.ContainerBase.[jboss.web].[localhost].[/shade-o-matic]] (http-127.0.0.1-9090-11) Marking servlet ContentControlServlet as unavailable
+2012-09-13 18:30:24,801 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[localhost].[/shade-o-matic].[ContentControlServlet]] (http-127.0.0.1-9090-11) Allocate exception for servlet ContentControlServlet
+java.lang.ClassNotFoundException: com.hd.som.servlet.TemplateContentServlet
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:200)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:188)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:307)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at org.jboss.web.tomcat.service.TomcatInjectionContainer.newInstance(TomcatInjectionContainer.java:262)
+	at org.jboss.web.tomcat.service.TomcatInjectionContainer.newInstance(TomcatInjectionContainer.java:256)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1006)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:777)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:129)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.jboss.web.tomcat.security.SecurityAssociationValve.invoke(SecurityAssociationValve.java:190)
+	at org.jboss.web.tomcat.security.JaccContextValve.invoke(JaccContextValve.java:92)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.process(SecurityContextEstablishmentValve.java:126)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.invoke(SecurityContextEstablishmentValve.java:70)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:330)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:829)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:598)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:619)
+2012-09-13 18:31:10,181 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/shade-o-matic
+2012-09-13 18:31:15,834 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/shade-o-matic
+2012-09-13 18:31:24,075 INFO  [STDOUT] (http-127.0.0.1-9090-11) mode-->true
+2012-09-13 18:35:25,220 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/shade-o-matic
+2012-09-13 18:35:25,545 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/shade-o-matic
+2012-09-13 18:35:42,961 INFO  [STDOUT] (http-127.0.0.1-9090-7) 1
+2012-09-13 18:35:43,086 INFO  [STDOUT] (http-127.0.0.1-9090-7) 2
+2012-09-13 18:35:45,706 INFO  [STDOUT] (http-127.0.0.1-9090-9) 1
+2012-09-13 18:35:45,706 INFO  [STDOUT] (http-127.0.0.1-9090-9) 2
+2012-09-13 18:35:46,935 INFO  [STDOUT] (http-127.0.0.1-9090-9) mode-->true
+2012-09-13 18:35:49,000 INFO  [STDOUT] (http-127.0.0.1-9090-10) 1
+2012-09-13 18:35:49,000 INFO  [STDOUT] (http-127.0.0.1-9090-10) 2
+2012-09-13 18:35:55,428 INFO  [STDOUT] (http-127.0.0.1-9090-11) 1
+2012-09-13 18:35:55,447 INFO  [STDOUT] (http-127.0.0.1-9090-11) 2
+2012-09-13 18:35:55,447 INFO  [STDOUT] (http-127.0.0.1-9090-11) ContentControlServlet
+2012-09-13 18:35:55,449 INFO  [STDOUT] (http-127.0.0.1-9090-11) LoadContentAction
+2012-09-13 18:37:38,175 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/shade-o-matic
+2012-09-13 18:37:38,481 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/shade-o-matic
+2012-09-13 18:37:51,973 INFO  [STDOUT] (http-127.0.0.1-9090-7) mode-->true
+2012-09-13 18:40:20,913 INFO  [STDOUT] (http-127.0.0.1-9090-11) Error processing request - BaseControlServlet : java.lang.NullPointerException
+2012-09-13 18:40:20,913 INFO  [STDOUT] (http-127.0.0.1-9090-11) Error saving content details - java.lang.NullPointerException
+2012-09-13 18:40:20,914 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[localhost].[/shade-o-matic].[ContentControlServlet]] (http-127.0.0.1-9090-11) Servlet.service() for servlet ContentControlServlet threw exception
+java.lang.NullPointerException
+	at com.hd.som.servlet.BaseSOMControlServlet.checkApplicationMode(Unknown Source)
+	at com.hd.som.servlet.BaseControlServlet.defaultAction(Unknown Source)
+	at com.hd.som.servlet.BaseControlServlet.doPost(Unknown Source)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:637)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.jboss.web.tomcat.filters.ReplyHeaderFilter.doFilter(ReplyHeaderFilter.java:96)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:235)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.jboss.web.tomcat.security.SecurityAssociationValve.invoke(SecurityAssociationValve.java:190)
+	at org.jboss.web.tomcat.security.JaccContextValve.invoke(JaccContextValve.java:92)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.process(SecurityContextEstablishmentValve.java:126)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.invoke(SecurityContextEstablishmentValve.java:70)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:330)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:829)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:598)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:619)
+2012-09-13 18:40:51,021 INFO  [STDOUT] (http-127.0.0.1-9090-11) Error processing request - BaseControlServlet : java.lang.NullPointerException
+2012-09-13 18:40:51,021 INFO  [STDOUT] (http-127.0.0.1-9090-11) Error saving content details - java.lang.NullPointerException
+2012-09-13 18:40:51,022 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[localhost].[/shade-o-matic].[ContentControlServlet]] (http-127.0.0.1-9090-11) Servlet.service() for servlet ContentControlServlet threw exception
+java.lang.NullPointerException
+	at com.hd.som.servlet.BaseSOMControlServlet.checkApplicationMode(Unknown Source)
+	at com.hd.som.servlet.BaseControlServlet.defaultAction(Unknown Source)
+	at com.hd.som.servlet.BaseControlServlet.doPost(Unknown Source)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:637)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.jboss.web.tomcat.filters.ReplyHeaderFilter.doFilter(ReplyHeaderFilter.java:96)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:235)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.jboss.web.tomcat.security.SecurityAssociationValve.invoke(SecurityAssociationValve.java:190)
+	at org.jboss.web.tomcat.security.JaccContextValve.invoke(JaccContextValve.java:92)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.process(SecurityContextEstablishmentValve.java:126)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.invoke(SecurityContextEstablishmentValve.java:70)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:330)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:829)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:598)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:619)
+2012-09-13 18:43:39,683 INFO  [STDOUT] (http-127.0.0.1-9090-9) Error processing request - BaseControlServlet : java.lang.NullPointerException
+2012-09-13 18:43:39,684 INFO  [STDOUT] (http-127.0.0.1-9090-9) Error saving content details - java.lang.NullPointerException
+2012-09-13 18:43:39,684 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[localhost].[/shade-o-matic].[ContentControlServlet]] (http-127.0.0.1-9090-9) Servlet.service() for servlet ContentControlServlet threw exception
+java.lang.NullPointerException
+	at com.hd.som.servlet.BaseSOMControlServlet.checkApplicationMode(Unknown Source)
+	at com.hd.som.servlet.BaseControlServlet.defaultAction(Unknown Source)
+	at com.hd.som.servlet.BaseControlServlet.doPost(Unknown Source)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:637)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.jboss.web.tomcat.filters.ReplyHeaderFilter.doFilter(ReplyHeaderFilter.java:96)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:235)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.jboss.web.tomcat.security.SecurityAssociationValve.invoke(SecurityAssociationValve.java:190)
+	at org.jboss.web.tomcat.security.JaccContextValve.invoke(JaccContextValve.java:92)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.process(SecurityContextEstablishmentValve.java:126)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.invoke(SecurityContextEstablishmentValve.java:70)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:330)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:829)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:598)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:619)
+2012-09-13 18:47:37,557 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/shade-o-matic
+2012-09-13 18:47:37,881 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/shade-o-matic
+2012-09-13 18:47:46,378 INFO  [STDOUT] (http-127.0.0.1-9090-7) 1{htm_sectionId=, htm_menuId=, htm_controlleraction=EnableEditMode, htm_subMenuId=}
+2012-09-13 18:47:46,380 INFO  [STDOUT] (http-127.0.0.1-9090-7) 2
+2012-09-13 18:47:46,380 INFO  [STDOUT] (http-127.0.0.1-9090-7) 3
+2012-09-13 18:47:50,634 INFO  [STDOUT] (http-127.0.0.1-9090-7) 1{htm_sectionId=, htm_menuId=1, htm_controlleraction=LoadTemplate, htm_subMenuId=1}
+2012-09-13 18:47:51,726 INFO  [STDOUT] (http-127.0.0.1-9090-7) 2
+2012-09-13 18:47:51,726 INFO  [STDOUT] (http-127.0.0.1-9090-7) 3
+2012-09-13 18:47:51,806 INFO  [STDOUT] (http-127.0.0.1-9090-7) mode-->true
+2012-09-13 18:47:53,244 INFO  [STDOUT] (http-127.0.0.1-9090-7) 1{htm_sectionId=4, htm_menuId=1, htm_controlleraction=LoadSectionItems, htm_subMenuId=1}
+2012-09-13 18:47:54,392 INFO  [STDOUT] (http-127.0.0.1-9090-7) 2
+2012-09-13 18:47:54,393 INFO  [STDOUT] (http-127.0.0.1-9090-7) 3
+2012-09-13 18:48:12,049 INFO  [STDOUT] (http-127.0.0.1-9090-7) TEMP_Image-
+2012-09-13 18:48:12,049 INFO  [STDOUT] (http-127.0.0.1-9090-7) Header-Test Header
+2012-09-13 18:48:12,050 INFO  [STDOUT] (http-127.0.0.1-9090-7) Content-testing honeycomb shades<br />
+2012-09-13 18:48:12,050 INFO  [STDOUT] (http-127.0.0.1-9090-7) TEMP_VideoFile-
+2012-09-13 18:48:12,051 INFO  [STDOUT] (http-127.0.0.1-9090-7) htm_controlleraction-savecontent
+2012-09-13 18:48:12,051 INFO  [STDOUT] (http-127.0.0.1-9090-7) htm_menuId-1
+2012-09-13 18:48:12,051 INFO  [STDOUT] (http-127.0.0.1-9090-7) htm_subMenuId-1
+2012-09-13 18:48:12,052 INFO  [STDOUT] (http-127.0.0.1-9090-7) htm_sectionId-4
+2012-09-13 18:48:12,052 INFO  [STDOUT] (http-127.0.0.1-9090-7) Path E:\som\1/1
+2012-09-13 18:48:12,054 INFO  [STDOUT] (http-127.0.0.1-9090-7) Error processing request - BaseControlServlet : java.lang.NullPointerException
+2012-09-13 18:48:12,054 INFO  [STDOUT] (http-127.0.0.1-9090-7) 1null
+2012-09-13 18:48:12,056 INFO  [STDOUT] (http-127.0.0.1-9090-7) Error saving content details - java.lang.NullPointerException
+2012-09-13 18:48:12,057 INFO  [STDOUT] (http-127.0.0.1-9090-7) 2
+2012-09-13 18:48:12,057 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[localhost].[/shade-o-matic].[ContentControlServlet]] (http-127.0.0.1-9090-7) Servlet.service() for servlet ContentControlServlet threw exception
+java.lang.NullPointerException
+	at com.hd.som.servlet.BaseSOMControlServlet.checkApplicationMode(Unknown Source)
+	at com.hd.som.servlet.BaseControlServlet.defaultAction(Unknown Source)
+	at com.hd.som.servlet.BaseControlServlet.doPost(Unknown Source)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:637)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.jboss.web.tomcat.filters.ReplyHeaderFilter.doFilter(ReplyHeaderFilter.java:96)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:235)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.jboss.web.tomcat.security.SecurityAssociationValve.invoke(SecurityAssociationValve.java:190)
+	at org.jboss.web.tomcat.security.JaccContextValve.invoke(JaccContextValve.java:92)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.process(SecurityContextEstablishmentValve.java:126)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.invoke(SecurityContextEstablishmentValve.java:70)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:330)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:829)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:598)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:619)
+2012-09-13 18:51:26,207 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/shade-o-matic
+2012-09-13 18:51:31,845 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/shade-o-matic
+2012-09-13 18:51:39,213 INFO  [STDOUT] (http-127.0.0.1-9090-11) 1{htm_sectionId=, htm_menuId=, htm_controlleraction=EnableEditMode, htm_subMenuId=}
+2012-09-13 18:51:39,216 INFO  [STDOUT] (http-127.0.0.1-9090-11) 2
+2012-09-13 18:51:39,216 INFO  [STDOUT] (http-127.0.0.1-9090-11) 3
+2012-09-13 18:51:41,015 INFO  [STDOUT] (http-127.0.0.1-9090-11) 1{htm_sectionId=, htm_menuId=1, htm_controlleraction=LoadTemplate, htm_subMenuId=1}
+2012-09-13 18:51:42,094 INFO  [STDOUT] (http-127.0.0.1-9090-11) 2
+2012-09-13 18:51:42,095 INFO  [STDOUT] (http-127.0.0.1-9090-11) 3
+2012-09-13 18:51:42,162 INFO  [STDOUT] (http-127.0.0.1-9090-11) mode-->true
+2012-09-13 18:51:43,246 INFO  [STDOUT] (http-127.0.0.1-9090-11) 1{htm_sectionId=2, htm_menuId=1, htm_controlleraction=LoadSectionItems, htm_subMenuId=1}
+2012-09-13 18:51:44,355 INFO  [STDOUT] (http-127.0.0.1-9090-11) 2
+2012-09-13 18:51:44,355 INFO  [STDOUT] (http-127.0.0.1-9090-11) 3
+2012-09-13 18:51:45,246 INFO  [STDOUT] (http-127.0.0.1-9090-8) 1{htm_sectionId=4, htm_menuId=1, htm_controlleraction=LoadSectionItems, htm_subMenuId=1}
+2012-09-13 18:51:46,331 INFO  [STDOUT] (http-127.0.0.1-9090-8) 2
+2012-09-13 18:51:46,332 INFO  [STDOUT] (http-127.0.0.1-9090-8) 3
+2012-09-13 18:52:00,631 INFO  [STDOUT] (http-127.0.0.1-9090-8) TEMP_Image-
+2012-09-13 18:52:00,631 INFO  [STDOUT] (http-127.0.0.1-9090-8) Header-Test Header
+2012-09-13 18:52:00,631 INFO  [STDOUT] (http-127.0.0.1-9090-8) Content-testing honeycomb<br />
+2012-09-13 18:52:00,631 INFO  [STDOUT] (http-127.0.0.1-9090-8) TEMP_VideoFile-
+2012-09-13 18:52:00,632 INFO  [STDOUT] (http-127.0.0.1-9090-8) htm_controlleraction-savecontent
+2012-09-13 18:52:00,632 INFO  [STDOUT] (http-127.0.0.1-9090-8) htm_menuId-1
+2012-09-13 18:52:00,632 INFO  [STDOUT] (http-127.0.0.1-9090-8) htm_subMenuId-1
+2012-09-13 18:52:00,632 INFO  [STDOUT] (http-127.0.0.1-9090-8) htm_sectionId-4
+2012-09-13 18:52:00,632 INFO  [STDOUT] (http-127.0.0.1-9090-8) Path E:\som\1\1
+2012-09-13 18:52:00,633 INFO  [STDOUT] (http-127.0.0.1-9090-8) Error processing request - BaseControlServlet : java.lang.NullPointerException
+2012-09-13 18:52:00,633 INFO  [STDOUT] (http-127.0.0.1-9090-8) 1null
+2012-09-13 18:52:00,635 INFO  [STDOUT] (http-127.0.0.1-9090-8) Error saving content details - java.lang.NullPointerException
+2012-09-13 18:52:00,636 INFO  [STDOUT] (http-127.0.0.1-9090-8) 2
+2012-09-13 18:52:00,636 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[localhost].[/shade-o-matic].[ContentControlServlet]] (http-127.0.0.1-9090-8) Servlet.service() for servlet ContentControlServlet threw exception
+java.lang.NullPointerException
+	at com.hd.som.servlet.BaseSOMControlServlet.checkApplicationMode(Unknown Source)
+	at com.hd.som.servlet.BaseControlServlet.defaultAction(Unknown Source)
+	at com.hd.som.servlet.BaseControlServlet.doPost(Unknown Source)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:637)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.jboss.web.tomcat.filters.ReplyHeaderFilter.doFilter(ReplyHeaderFilter.java:96)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:235)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.jboss.web.tomcat.security.SecurityAssociationValve.invoke(SecurityAssociationValve.java:190)
+	at org.jboss.web.tomcat.security.JaccContextValve.invoke(JaccContextValve.java:92)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.process(SecurityContextEstablishmentValve.java:126)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.invoke(SecurityContextEstablishmentValve.java:70)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:330)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:829)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:598)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:619)
+2012-09-13 18:52:45,181 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Runtime shutdown hook called, forceHalt: true
+2012-09-13 18:52:45,185 INFO  [org.apache.coyote.http11.Http11Protocol] (JBoss Shutdown Hook) Pausing Coyote HTTP/1.1 on http-127.0.0.1-9090
+2012-09-13 18:52:45,209 INFO  [org.apache.coyote.http11.Http11Protocol] (JBoss Shutdown Hook) Stopping Coyote HTTP/1.1 on http-127.0.0.1-9090
+2012-09-13 18:52:45,223 INFO  [org.apache.coyote.ajp.AjpProtocol] (JBoss Shutdown Hook) Pausing Coyote AJP/1.3 on ajp-127.0.0.1-9019
+2012-09-13 18:52:45,237 INFO  [org.apache.coyote.ajp.AjpProtocol] (JBoss Shutdown Hook) Stopping Coyote AJP/1.3 on ajp-127.0.0.1-9019
+2012-09-13 18:52:45,284 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@d8c8a9 undeployed
+2012-09-13 18:52:45,290 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@209fca undeployed
+2012-09-13 18:52:45,290 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@1816407 undeployed
+2012-09-13 18:52:45,318 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/web-console
+2012-09-13 18:52:45,327 INFO  [org.jboss.jms.server.destination.QueueService] (JBoss Shutdown Hook) Queue[/queue/ExpiryQueue] stopped
+2012-09-13 18:52:45,328 INFO  [org.jboss.jms.server.destination.QueueService] (JBoss Shutdown Hook) Queue[/queue/DLQ] stopped
+2012-09-13 18:52:45,333 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2012-09-13 18:52:45,339 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureProfileServiceBean ejbName: SecureProfileService
+2012-09-13 18:52:45,362 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2012-09-13 18:52:45,388 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureDeploymentManager ejbName: SecureDeploymentManager
+2012-09-13 18:52:45,412 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2012-09-13 18:52:45,416 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureManagementView ejbName: SecureManagementView
+2012-09-13 18:52:45,454 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' from JNDI name 'java:JmsXA'
+2012-09-13 18:52:45,477 INFO  [org.jboss.jms.server.ServerPeer] (JBoss Shutdown Hook) JMS ServerPeer[0] stopped
+2012-09-13 18:52:45,483 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/invoker
+2012-09-13 18:52:45,511 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/juddi
+2012-09-13 18:52:45,512 INFO  [org.apache.juddi.registry.RegistryServlet] (JBoss Shutdown Hook) jUDDI Stopping: Cleaning up existing resources.
+2012-09-13 18:52:45,514 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/admin-console
+2012-09-13 18:52:45,516 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/
+2012-09-13 18:52:45,518 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/jbossws
+2012-09-13 18:52:45,520 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/jmx-console
+2012-09-13 18:52:45,523 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/open-search-webapp-1.0
+2012-09-13 18:52:45,528 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/shade-o-matic
+2012-09-13 18:52:45,573 INFO  [org.apache.catalina.core.StandardService] (JBoss Shutdown Hook) Stopping service jboss.web
+2012-09-13 18:52:45,641 INFO  [org.jboss.mail.MailService] (JBoss Shutdown Hook) Mail service 'java:/Mail' removed from JNDI
+2012-09-13 18:52:45,696 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=CEDGDS' from JNDI name 'java:CEDGDS'
+2012-09-13 18:52:45,697 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=HDFabDS' from JNDI name 'java:HDFabDS'
+2012-09-13 18:52:45,697 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=IntranetDS' from JNDI name 'java:IntranetDS'
+2012-09-13 18:52:45,698 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=JDBCCedgDS' from JNDI name 'java:JDBCCedgDS'
+2012-09-13 18:52:45,698 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=JDBCIntranetDS' from JNDI name 'java:JDBCIntranetDS'
+2012-09-13 18:52:45,699 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=OnlineSurveyDS' from JNDI name 'java:OnlineSurveyDS'
+2012-09-13 18:52:45,699 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=OrderStatusDS' from JNDI name 'java:OrderStatusDS'
+2012-09-13 18:52:45,700 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=PIPDS' from JNDI name 'java:PIPDS'
+2012-09-13 18:52:45,700 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=PLSDS' from JNDI name 'java:PLSDS'
+2012-09-13 18:52:45,701 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=ShadeOMaticDS' from JNDI name 'java:ShadeOMaticDS'
+2012-09-13 18:52:45,702 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' from JNDI name 'java:DefaultDS'
+2012-09-13 18:52:46,271 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2012-09-13 18:52:46,271 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2012-09-13 18:52:46,273 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2012-09-13 18:52:46,407 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (JBoss Shutdown Hook) Stopping transaction recovery manager
+2012-09-13 18:52:46,408 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (JBoss Shutdown Hook) Destroying TransactionManagerService
+2012-09-13 18:52:46,637 INFO  [org.jboss.jdbc.HypersonicDatabase] (JBoss Shutdown Hook) Database standalone closed clean
+2012-09-13 18:52:48,692 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Shutdown complete
+2012-09-13 18:52:55,736 INFO  [org.jboss.web.WebService] (main) Using RMI server codebase: http://127.0.0.1:8083/
+2012-09-13 18:52:59,544 INFO  [org.jboss.wsf.common.management.AbstractServerConfig] (main) JBoss Web Services - Native Server
+2012-09-13 18:52:59,545 INFO  [org.jboss.wsf.common.management.AbstractServerConfig] (main) 3.2.2.GA
+2012-09-13 18:53:00,342 INFO  [org.jboss.dependency.plugins.AttributeCallbackItem] (main) Owner callback not implemented.
+2012-09-13 18:53:02,445 INFO  [org.jboss.logbridge.LogNotificationListener] (main) Adding notification listener for logging mbean "jboss.system:service=Logging,type=Log4jService" to server org.jboss.mx.server.MBeanServerImpl@886ad0[ defaultDomain='jboss' ]
+2012-09-13 18:53:09,673 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@29674519{vfsfile:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/profileservice-secured.jar/}
+2012-09-13 18:53:09,673 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@29674519{vfsfile:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/profileservice-secured.jar/}
+2012-09-13 18:53:09,674 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@29674519{vfsfile:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/profileservice-secured.jar/}
+2012-09-13 18:53:09,674 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@29674519{vfsfile:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/profileservice-secured.jar/}
+2012-09-13 18:53:12,286 INFO  [org.jboss.mx.remoting.service.JMXConnectorServerService] (main) JMX Connector server: service:jmx:rmi://127.0.0.1/jndi/rmi://127.0.0.1:1090/jmxconnector
+2012-09-13 18:53:12,477 INFO  [org.jboss.mail.MailService] (main) Mail Service bound to java:/Mail
+2012-09-13 18:53:22,353 WARN  [org.jboss.jms.server.jbosssx.JBossASSecurityMetadataStore] (main) WARNING! POTENTIAL SECURITY RISK. It has been detected that the MessageSucker component which sucks messages from one node to another has not had its password changed from the installation default. Please see the JBoss Messaging user guide for instructions on how to do this.
+2012-09-13 18:53:22,363 WARN  [org.jboss.annotation.factory.AnnotationCreator] (main) No ClassLoader provided, using TCCL: org.jboss.managed.api.annotation.ManagementComponent
+2012-09-13 18:53:22,409 WARN  [org.jboss.annotation.factory.AnnotationCreator] (main) No ClassLoader provided, using TCCL: org.jboss.managed.api.annotation.ManagementComponent
+2012-09-13 18:53:22,445 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) JBossTS Transaction Service (JTA version - tag:JBOSSTS_4_6_1_GA) - JBoss Inc.
+2012-09-13 18:53:22,445 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Setting up property manager MBean and JMX layer
+2012-09-13 18:53:22,591 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Initializing recovery manager
+2012-09-13 18:53:22,732 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Recovery manager configured
+2012-09-13 18:53:22,734 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Binding TransactionManager JNDI Reference
+2012-09-13 18:53:22,758 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Starting transaction recovery manager
+2012-09-13 18:53:23,032 INFO  [org.apache.catalina.core.AprLifecycleListener] (main) The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.6.0_16\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.6.0_16\bin;C:\Program Files\QuickTime\QTSystem\;C:\Program Files\TortoiseSVN\bin
+2012-09-13 18:53:23,072 INFO  [org.apache.coyote.http11.Http11Protocol] (main) Initializing Coyote HTTP/1.1 on http-127.0.0.1-9090
+2012-09-13 18:53:23,073 INFO  [org.apache.coyote.ajp.AjpProtocol] (main) Initializing Coyote AJP/1.3 on ajp-127.0.0.1-9019
+2012-09-13 18:53:23,091 INFO  [org.apache.catalina.core.StandardService] (main) Starting service jboss.web
+2012-09-13 18:53:23,094 INFO  [org.apache.catalina.core.StandardEngine] (main) Starting Servlet Engine: JBoss Web/2.1.3.GA
+2012-09-13 18:53:23,139 INFO  [org.apache.catalina.startup.Catalina] (main) Server startup in 65 ms
+2012-09-13 18:53:23,156 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/invoker
+2012-09-13 18:53:23,513 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/juddi
+2012-09-13 18:53:23,545 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Loading jUDDI configuration.
+2012-09-13 18:53:23,546 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Resources loaded from: /WEB-INF/juddi.properties
+2012-09-13 18:53:23,546 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Initializing jUDDI components.
+2012-09-13 18:53:23,670 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/web-console
+2012-09-13 18:53:24,048 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/jboss-local-jdbc.rar/META-INF/ra.xml
+2012-09-13 18:53:24,249 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/jboss-xa-jdbc.rar/META-INF/ra.xml
+2012-09-13 18:53:24,267 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/jms-ra.rar/META-INF/ra.xml
+2012-09-13 18:53:24,328 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/mail-ra.rar/META-INF/ra.xml
+2012-09-13 18:53:24,353 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/quartz-ra.rar/META-INF/ra.xml
+2012-09-13 18:53:24,409 INFO  [org.quartz.simpl.SimpleThreadPool] (main) Job execution threads will use class loader of thread: main
+2012-09-13 18:53:24,442 INFO  [org.quartz.core.SchedulerSignalerImpl] (main) Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2012-09-13 18:53:24,447 INFO  [org.quartz.core.QuartzScheduler] (main) Quartz Scheduler v.1.7.2 created.
+2012-09-13 18:53:24,449 INFO  [org.quartz.simpl.RAMJobStore] (main) RAMJobStore initialized.
+2012-09-13 18:53:24,449 INFO  [org.quartz.impl.StdSchedulerFactory] (main) Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2012-09-13 18:53:24,449 INFO  [org.quartz.impl.StdSchedulerFactory] (main) Quartz scheduler version: 1.7.2
+2012-09-13 18:53:24,450 INFO  [org.quartz.core.QuartzScheduler] (main) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2012-09-13 18:53:24,528 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=CEDGDS' to JNDI name 'java:CEDGDS'
+2012-09-13 18:53:24,568 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=HDFabDS' to JNDI name 'java:HDFabDS'
+2012-09-13 18:53:24,612 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=IntranetDS' to JNDI name 'java:IntranetDS'
+2012-09-13 18:53:24,647 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=JDBCCedgDS' to JNDI name 'java:JDBCCedgDS'
+2012-09-13 18:53:24,686 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=JDBCIntranetDS' to JNDI name 'java:JDBCIntranetDS'
+2012-09-13 18:53:24,724 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=OnlineSurveyDS' to JNDI name 'java:OnlineSurveyDS'
+2012-09-13 18:53:24,764 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=OrderStatusDS' to JNDI name 'java:OrderStatusDS'
+2012-09-13 18:53:24,807 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=PIPDS' to JNDI name 'java:PIPDS'
+2012-09-13 18:53:24,898 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=PLSDS' to JNDI name 'java:PLSDS'
+2012-09-13 18:53:24,945 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=ShadeOMaticDS' to JNDI name 'java:ShadeOMaticDS'
+2012-09-13 18:53:25,257 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' to JNDI name 'java:DefaultDS'
+2012-09-13 18:53:25,560 INFO  [org.jboss.jms.server.ServerPeer] (main) JBoss Messaging 1.4.3.GA server [0] started
+2012-09-13 18:53:25,640 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2012-09-13 18:53:25,640 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@1e9b5bb started
+2012-09-13 18:53:25,651 INFO  [org.jboss.jms.server.destination.QueueService] (main) Queue[/queue/DLQ] started, fullSize=200000, pageSize=2000, downCacheSize=2000
+2012-09-13 18:53:25,651 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactoryJNDIMapper] (main) supportsFailover attribute is true on connection factory: jboss.messaging.connectionfactory:service=ClusteredConnectionFactory but post office is non clustered. So connection factory will *not* support failover
+2012-09-13 18:53:25,652 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactoryJNDIMapper] (main) supportsLoadBalancing attribute is true on connection factory: jboss.messaging.connectionfactory:service=ClusteredConnectionFactory but post office is non clustered. So connection factory will *not* support load balancing
+2012-09-13 18:53:25,656 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2012-09-13 18:53:25,656 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@1f1be44 started
+2012-09-13 18:53:25,658 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2012-09-13 18:53:25,658 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@1b37735 started
+2012-09-13 18:53:25,659 INFO  [org.jboss.jms.server.destination.QueueService] (main) Queue[/queue/ExpiryQueue] started, fullSize=200000, pageSize=2000, downCacheSize=2000
+2012-09-13 18:53:25,717 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' to JNDI name 'java:JmsXA'
+2012-09-13 18:53:25,994 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Created KernelDeployment for: profileservice-secured.jar
+2012-09-13 18:53:25,998 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2012-09-13 18:53:25,999 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2012-09-13 18:53:25,999 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2012-09-13 18:53:25,999 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView
+2012-09-13 18:53:25,999 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2012-09-13 18:53:25,999 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2012-09-13 18:53:25,999 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.profileservice.spi.ProfileService
+2012-09-13 18:53:26,000 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureProfileService/remote
+2012-09-13 18:53:26,000 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureProfileService/remote-org.jboss.profileservice.spi.ProfileService
+2012-09-13 18:53:26,000 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2012-09-13 18:53:26,001 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2012-09-13 18:53:26,002 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2012-09-13 18:53:26,002 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2012-09-13 18:53:26,002 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2012-09-13 18:53:26,002 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2012-09-13 18:53:26,002 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureDeploymentManager/remote-org.jboss.deployers.spi.management.deploy.DeploymentManager
+2012-09-13 18:53:26,002 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.deployers.spi.management.deploy.DeploymentManager
+2012-09-13 18:53:26,003 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureDeploymentManager/remote
+2012-09-13 18:53:26,003 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2012-09-13 18:53:26,004 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2012-09-13 18:53:26,004 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2012-09-13 18:53:26,004 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2012-09-13 18:53:26,004 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2012-09-13 18:53:26,004 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2012-09-13 18:53:26,004 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView
+2012-09-13 18:53:26,005 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.deployers.spi.management.ManagementView
+2012-09-13 18:53:26,005 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote
+2012-09-13 18:53:26,005 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2012-09-13 18:53:26,011 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@468ec2{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2012-09-13 18:53:26,011 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@f8d390{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2012-09-13 18:53:26,012 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@6a5f89{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2012-09-13 18:53:26,731 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2012-09-13 18:53:26,740 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureDeploymentManager ejbName: SecureDeploymentManager
+2012-09-13 18:53:26,774 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureDeploymentManager/remote - EJB3.x Default Remote Business Interface
+	SecureDeploymentManager/remote-org.jboss.deployers.spi.management.deploy.DeploymentManager - EJB3.x Remote Business Interface
+
+2012-09-13 18:53:26,807 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2012-09-13 18:53:26,807 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureManagementView ejbName: SecureManagementView
+2012-09-13 18:53:26,814 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureManagementView/remote - EJB3.x Default Remote Business Interface
+	SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView - EJB3.x Remote Business Interface
+
+2012-09-13 18:53:26,838 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2012-09-13 18:53:26,839 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureProfileServiceBean ejbName: SecureProfileService
+2012-09-13 18:53:26,846 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureProfileService/remote - EJB3.x Default Remote Business Interface
+	SecureProfileService/remote-org.jboss.profileservice.spi.ProfileService - EJB3.x Remote Business Interface
+
+2012-09-13 18:53:26,976 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/admin-console
+2012-09-13 18:53:27,111 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (main) Initializing Mojarra (1.2_12-b01-FCS) for context '/admin-console'
+2012-09-13 18:53:28,667 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/
+2012-09-13 18:53:28,793 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/jbossws
+2012-09-13 18:53:28,854 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/jmx-console
+2012-09-13 18:53:29,058 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/open-search-webapp-1.0
+2012-09-13 18:53:29,277 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/shade-o-matic
+2012-09-13 18:53:29,415 INFO  [org.apache.coyote.http11.Http11Protocol] (main) Starting Coyote HTTP/1.1 on http-127.0.0.1-9090
+2012-09-13 18:53:29,430 INFO  [org.apache.coyote.ajp.AjpProtocol] (main) Starting Coyote AJP/1.3 on ajp-127.0.0.1-9019
+2012-09-13 18:53:29,437 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (main) JBoss (Microcontainer) [5.1.0.GA (build: SVNTag=JBoss_5_1_0_GA date=200905221634)] Started in 37s:945ms
+2012-09-13 18:53:30,667 INFO  [org.quartz.utils.UpdateChecker] (Timer-1) New update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+2012-09-13 18:56:23,406 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/shade-o-matic
+2012-09-13 18:56:29,120 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/shade-o-matic
+2012-09-13 18:56:39,002 INFO  [STDOUT] (http-127.0.0.1-9090-5) 1{htm_sectionId=, htm_menuId=, htm_controlleraction=EnableEditMode, htm_subMenuId=}
+2012-09-13 18:56:39,003 INFO  [STDOUT] (http-127.0.0.1-9090-5) 2
+2012-09-13 18:56:39,014 INFO  [STDOUT] (http-127.0.0.1-9090-5) 3
+2012-09-13 18:56:40,461 INFO  [STDOUT] (http-127.0.0.1-9090-2) 1{htm_sectionId=, htm_menuId=1, htm_controlleraction=LoadTemplate, htm_subMenuId=1}
+2012-09-13 18:56:43,937 INFO  [STDOUT] (http-127.0.0.1-9090-2) 2
+2012-09-13 18:56:43,938 INFO  [STDOUT] (http-127.0.0.1-9090-2) 3
+2012-09-13 18:56:44,045 INFO  [STDOUT] (http-127.0.0.1-9090-2) mode-->true
+2012-09-13 18:56:46,332 INFO  [STDOUT] (http-127.0.0.1-9090-1) 1{htm_sectionId=4, htm_menuId=1, htm_controlleraction=LoadSectionItems, htm_subMenuId=1}
+2012-09-13 18:56:47,650 INFO  [STDOUT] (http-127.0.0.1-9090-1) 2
+2012-09-13 18:56:47,651 INFO  [STDOUT] (http-127.0.0.1-9090-1) 3
+2012-09-13 18:57:19,590 INFO  [STDOUT] (http-127.0.0.1-9090-5) 1{htm_sectionId=, htm_menuId=1, htm_controlleraction=LoadTemplate, htm_subMenuId=1}
+2012-09-13 18:57:20,796 INFO  [STDOUT] (http-127.0.0.1-9090-5) 2
+2012-09-13 18:57:20,796 INFO  [STDOUT] (http-127.0.0.1-9090-5) 3
+2012-09-13 18:57:20,805 INFO  [STDOUT] (http-127.0.0.1-9090-5) mode-->false
+2012-09-13 18:57:23,227 INFO  [STDOUT] (http-127.0.0.1-9090-5) 1{htm_sectionId=, htm_menuId=1, htm_controlleraction=EnableEditMode, htm_subMenuId=1}
+2012-09-13 18:57:23,227 INFO  [STDOUT] (http-127.0.0.1-9090-5) 2
+2012-09-13 18:57:23,228 INFO  [STDOUT] (http-127.0.0.1-9090-5) 3
+2012-09-13 18:57:26,390 INFO  [STDOUT] (http-127.0.0.1-9090-5) 1{htm_sectionId=, htm_menuId=1, htm_controlleraction=LoadTemplate, htm_subMenuId=1}
+2012-09-13 18:57:27,592 INFO  [STDOUT] (http-127.0.0.1-9090-5) 2
+2012-09-13 18:57:27,592 INFO  [STDOUT] (http-127.0.0.1-9090-5) 3
+2012-09-13 18:57:27,596 INFO  [STDOUT] (http-127.0.0.1-9090-5) mode-->true
+2012-09-13 18:57:30,049 INFO  [STDOUT] (http-127.0.0.1-9090-5) 1{htm_sectionId=4, htm_menuId=1, htm_controlleraction=LoadSectionItems, htm_subMenuId=1}
+2012-09-13 18:57:31,192 INFO  [STDOUT] (http-127.0.0.1-9090-5) 2
+2012-09-13 18:57:31,192 INFO  [STDOUT] (http-127.0.0.1-9090-5) 3
+2012-09-13 18:57:44,496 INFO  [STDOUT] (http-127.0.0.1-9090-5) TEMP_Image-
+2012-09-13 18:57:44,497 INFO  [STDOUT] (http-127.0.0.1-9090-5) Header-Test Header
+2012-09-13 18:57:44,497 INFO  [STDOUT] (http-127.0.0.1-9090-5) Content-testing content<br />
+2012-09-13 18:57:44,497 INFO  [STDOUT] (http-127.0.0.1-9090-5) TEMP_VideoFile-
+2012-09-13 18:57:44,498 INFO  [STDOUT] (http-127.0.0.1-9090-5) htm_controlleraction-savecontent
+2012-09-13 18:57:44,498 INFO  [STDOUT] (http-127.0.0.1-9090-5) htm_menuId-1
+2012-09-13 18:57:44,498 INFO  [STDOUT] (http-127.0.0.1-9090-5) htm_subMenuId-1
+2012-09-13 18:57:44,499 INFO  [STDOUT] (http-127.0.0.1-9090-5) htm_sectionId-4
+2012-09-13 18:57:44,499 INFO  [STDOUT] (http-127.0.0.1-9090-5) Path E:\som\1\1
+2012-09-13 18:57:44,499 INFO  [STDOUT] (http-127.0.0.1-9090-5) 1
+2012-09-13 18:57:44,500 INFO  [STDOUT] (http-127.0.0.1-9090-5) 2
+2012-09-13 18:57:44,500 INFO  [STDOUT] (http-127.0.0.1-9090-5) 1
+2012-09-13 18:57:44,500 INFO  [STDOUT] (http-127.0.0.1-9090-5) 1
+2012-09-13 18:57:44,501 INFO  [STDOUT] (http-127.0.0.1-9090-5) 1
+2012-09-13 18:57:44,501 INFO  [STDOUT] (http-127.0.0.1-9090-5) 1
+2012-09-13 18:57:44,501 INFO  [STDOUT] (http-127.0.0.1-9090-5) 2
+2012-09-13 18:57:44,502 INFO  [STDOUT] (http-127.0.0.1-9090-5) 3
+2012-09-13 18:57:44,502 INFO  [STDOUT] (http-127.0.0.1-9090-5) 4StandardCordlock.png
+2012-09-13 18:57:44,503 INFO  [STDOUT] (http-127.0.0.1-9090-5) Error processing request - BaseControlServlet : java.lang.NullPointerException
+2012-09-13 18:57:44,504 INFO  [STDOUT] (http-127.0.0.1-9090-5) 1null
+2012-09-13 18:57:44,505 INFO  [STDOUT] (http-127.0.0.1-9090-5) Error saving content details - java.lang.NullPointerException
+2012-09-13 18:57:44,506 INFO  [STDOUT] (http-127.0.0.1-9090-5) 2
+2012-09-13 18:57:44,506 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[localhost].[/shade-o-matic].[ContentControlServlet]] (http-127.0.0.1-9090-5) Servlet.service() for servlet ContentControlServlet threw exception
+java.lang.NullPointerException
+	at com.hd.som.servlet.BaseSOMControlServlet.checkApplicationMode(Unknown Source)
+	at com.hd.som.servlet.BaseControlServlet.defaultAction(Unknown Source)
+	at com.hd.som.servlet.BaseControlServlet.doPost(Unknown Source)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:637)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.jboss.web.tomcat.filters.ReplyHeaderFilter.doFilter(ReplyHeaderFilter.java:96)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:235)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.jboss.web.tomcat.security.SecurityAssociationValve.invoke(SecurityAssociationValve.java:190)
+	at org.jboss.web.tomcat.security.JaccContextValve.invoke(JaccContextValve.java:92)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.process(SecurityContextEstablishmentValve.java:126)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.invoke(SecurityContextEstablishmentValve.java:70)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:330)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:829)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:598)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:619)
+2012-09-13 19:00:17,217 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/shade-o-matic
+2012-09-13 19:00:17,573 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/shade-o-matic
+2012-09-13 19:00:24,181 INFO  [STDOUT] (http-127.0.0.1-9090-6) 1{htm_sectionId=, htm_menuId=, htm_controlleraction=EnableEditMode, htm_subMenuId=}
+2012-09-13 19:00:24,183 INFO  [STDOUT] (http-127.0.0.1-9090-6) 2
+2012-09-13 19:00:24,184 INFO  [STDOUT] (http-127.0.0.1-9090-6) 3
+2012-09-13 19:00:26,232 INFO  [STDOUT] (http-127.0.0.1-9090-6) 1{htm_sectionId=, htm_menuId=1, htm_controlleraction=LoadTemplate, htm_subMenuId=1}
+2012-09-13 19:00:27,817 INFO  [STDOUT] (http-127.0.0.1-9090-6) 2
+2012-09-13 19:00:27,818 INFO  [STDOUT] (http-127.0.0.1-9090-6) 3
+2012-09-13 19:00:27,909 INFO  [STDOUT] (http-127.0.0.1-9090-6) mode-->true
+2012-09-13 19:00:29,947 INFO  [STDOUT] (http-127.0.0.1-9090-6) 1{htm_sectionId=4, htm_menuId=1, htm_controlleraction=LoadSectionItems, htm_subMenuId=1}
+2012-09-13 19:00:31,561 INFO  [STDOUT] (http-127.0.0.1-9090-6) 2
+2012-09-13 19:00:31,562 INFO  [STDOUT] (http-127.0.0.1-9090-6) 3
+2012-09-13 19:00:43,203 INFO  [STDOUT] (http-127.0.0.1-9090-6) TEMP_Image-
+2012-09-13 19:00:43,203 INFO  [STDOUT] (http-127.0.0.1-9090-6) Header-Test Header
+2012-09-13 19:00:43,204 INFO  [STDOUT] (http-127.0.0.1-9090-6) Content-<span data-scayt_word="gdsdf" data-scaytid="1">gdsdf</span> <span data-scayt_word="sfsdf" data-scaytid="2">sfsdf</span> <span data-scayt_word="sdfdfsff" data-scaytid="3">sdfdfsff</span><br />
+2012-09-13 19:00:43,204 INFO  [STDOUT] (http-127.0.0.1-9090-6) TEMP_VideoFile-
+2012-09-13 19:00:43,204 INFO  [STDOUT] (http-127.0.0.1-9090-6) htm_controlleraction-savecontent
+2012-09-13 19:00:43,204 INFO  [STDOUT] (http-127.0.0.1-9090-6) htm_menuId-1
+2012-09-13 19:00:43,204 INFO  [STDOUT] (http-127.0.0.1-9090-6) htm_subMenuId-1
+2012-09-13 19:00:43,205 INFO  [STDOUT] (http-127.0.0.1-9090-6) htm_sectionId-4
+2012-09-13 19:00:43,205 INFO  [STDOUT] (http-127.0.0.1-9090-6) Path E:\som\1\1
+2012-09-13 19:00:43,205 INFO  [STDOUT] (http-127.0.0.1-9090-6) 1
+2012-09-13 19:00:43,206 INFO  [STDOUT] (http-127.0.0.1-9090-6) 2
+2012-09-13 19:00:43,206 INFO  [STDOUT] (http-127.0.0.1-9090-6) 1
+2012-09-13 19:00:43,206 INFO  [STDOUT] (http-127.0.0.1-9090-6) 1
+2012-09-13 19:00:43,206 INFO  [STDOUT] (http-127.0.0.1-9090-6) 1
+2012-09-13 19:00:43,207 INFO  [STDOUT] (http-127.0.0.1-9090-6) 1
+2012-09-13 19:00:43,207 INFO  [STDOUT] (http-127.0.0.1-9090-6) 2
+2012-09-13 19:00:43,207 INFO  [STDOUT] (http-127.0.0.1-9090-6) 3
+2012-09-13 19:00:43,207 INFO  [STDOUT] (http-127.0.0.1-9090-6) 4StandardCordlock.png
+2012-09-13 19:00:43,207 INFO  [STDOUT] (http-127.0.0.1-9090-6) 6
+2012-09-13 19:00:43,207 INFO  [STDOUT] (http-127.0.0.1-9090-6) 7
+2012-09-13 19:00:43,208 INFO  [STDOUT] (http-127.0.0.1-9090-6) Error processing request - BaseControlServlet : java.lang.NullPointerException
+2012-09-13 19:00:43,208 INFO  [STDOUT] (http-127.0.0.1-9090-6) 1null
+2012-09-13 19:00:43,210 INFO  [STDOUT] (http-127.0.0.1-9090-6) Error saving content details - java.lang.NullPointerException
+2012-09-13 19:00:43,210 INFO  [STDOUT] (http-127.0.0.1-9090-6) 2
+2012-09-13 19:00:43,210 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[localhost].[/shade-o-matic].[ContentControlServlet]] (http-127.0.0.1-9090-6) Servlet.service() for servlet ContentControlServlet threw exception
+java.lang.NullPointerException
+	at com.hd.som.servlet.BaseSOMControlServlet.checkApplicationMode(Unknown Source)
+	at com.hd.som.servlet.BaseControlServlet.defaultAction(Unknown Source)
+	at com.hd.som.servlet.BaseControlServlet.doPost(Unknown Source)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:637)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.jboss.web.tomcat.filters.ReplyHeaderFilter.doFilter(ReplyHeaderFilter.java:96)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:235)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.jboss.web.tomcat.security.SecurityAssociationValve.invoke(SecurityAssociationValve.java:190)
+	at org.jboss.web.tomcat.security.JaccContextValve.invoke(JaccContextValve.java:92)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.process(SecurityContextEstablishmentValve.java:126)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.invoke(SecurityContextEstablishmentValve.java:70)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:330)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:829)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:598)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:619)
+2012-09-13 19:02:35,422 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/shade-o-matic
+2012-09-13 19:02:35,792 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/shade-o-matic
+2012-09-13 19:02:46,092 INFO  [STDOUT] (http-127.0.0.1-9090-4) 1{htm_sectionId=, htm_menuId=, htm_controlleraction=EnableEditMode, htm_subMenuId=}
+2012-09-13 19:02:46,093 INFO  [STDOUT] (http-127.0.0.1-9090-4) 2
+2012-09-13 19:02:46,094 INFO  [STDOUT] (http-127.0.0.1-9090-4) 3
+2012-09-13 19:02:48,634 INFO  [STDOUT] (http-127.0.0.1-9090-4) 1{htm_sectionId=, htm_menuId=1, htm_controlleraction=LoadTemplate, htm_subMenuId=1}
+2012-09-13 19:02:49,714 INFO  [STDOUT] (http-127.0.0.1-9090-4) 2
+2012-09-13 19:02:49,714 INFO  [STDOUT] (http-127.0.0.1-9090-4) 3
+2012-09-13 19:02:49,783 INFO  [STDOUT] (http-127.0.0.1-9090-4) mode-->true
+2012-09-13 19:02:51,737 INFO  [STDOUT] (http-127.0.0.1-9090-4) 1{htm_sectionId=4, htm_menuId=1, htm_controlleraction=LoadSectionItems, htm_subMenuId=1}
+2012-09-13 19:02:52,803 INFO  [STDOUT] (http-127.0.0.1-9090-4) 2
+2012-09-13 19:02:52,803 INFO  [STDOUT] (http-127.0.0.1-9090-4) 3
+2012-09-13 19:03:06,598 INFO  [STDOUT] (http-127.0.0.1-9090-4) TEMP_Image-
+2012-09-13 19:03:06,598 INFO  [STDOUT] (http-127.0.0.1-9090-4) Header-Test Header
+2012-09-13 19:03:06,598 INFO  [STDOUT] (http-127.0.0.1-9090-4) Content-tests <span data-scayt_word="adhaksd" data-scaytid="1">adhaksd</span> <span data-scayt_word="asd" data-scaytid="2">asd</span> <span data-scayt_word="kahdkashd" data-scaytid="3">kahdkashd</span><br />
+2012-09-13 19:03:06,598 INFO  [STDOUT] (http-127.0.0.1-9090-4) TEMP_VideoFile-
+2012-09-13 19:03:06,599 INFO  [STDOUT] (http-127.0.0.1-9090-4) htm_controlleraction-savecontent
+2012-09-13 19:03:06,599 INFO  [STDOUT] (http-127.0.0.1-9090-4) htm_menuId-1
+2012-09-13 19:03:06,599 INFO  [STDOUT] (http-127.0.0.1-9090-4) htm_subMenuId-1
+2012-09-13 19:03:06,599 INFO  [STDOUT] (http-127.0.0.1-9090-4) htm_sectionId-4
+2012-09-13 19:03:06,599 INFO  [STDOUT] (http-127.0.0.1-9090-4) Path E:\som\1\1
+2012-09-13 19:03:06,600 INFO  [STDOUT] (http-127.0.0.1-9090-4) 1
+2012-09-13 19:03:06,600 INFO  [STDOUT] (http-127.0.0.1-9090-4) 2
+2012-09-13 19:03:06,600 INFO  [STDOUT] (http-127.0.0.1-9090-4) 1
+2012-09-13 19:03:06,600 INFO  [STDOUT] (http-127.0.0.1-9090-4) 1
+2012-09-13 19:03:06,600 INFO  [STDOUT] (http-127.0.0.1-9090-4) 1
+2012-09-13 19:03:06,601 INFO  [STDOUT] (http-127.0.0.1-9090-4) 1
+2012-09-13 19:03:06,601 INFO  [STDOUT] (http-127.0.0.1-9090-4) 2
+2012-09-13 19:03:06,601 INFO  [STDOUT] (http-127.0.0.1-9090-4) 3
+2012-09-13 19:03:06,601 INFO  [STDOUT] (http-127.0.0.1-9090-4) 4StandardCordlock.png
+2012-09-13 19:03:06,601 INFO  [STDOUT] (http-127.0.0.1-9090-4) 6
+2012-09-13 19:03:06,602 INFO  [STDOUT] (http-127.0.0.1-9090-4) 7
+2012-09-13 19:03:06,603 INFO  [STDOUT] (http-127.0.0.1-9090-4) Error processing request - BaseControlServlet : java.lang.NullPointerException
+2012-09-13 19:03:06,603 INFO  [STDOUT] (http-127.0.0.1-9090-4) 1null
+2012-09-13 19:03:06,605 INFO  [STDOUT] (http-127.0.0.1-9090-4) Error saving content details - java.lang.NullPointerException
+2012-09-13 19:03:06,605 INFO  [STDOUT] (http-127.0.0.1-9090-4) 2
+2012-09-13 19:03:06,605 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[localhost].[/shade-o-matic].[ContentControlServlet]] (http-127.0.0.1-9090-4) Servlet.service() for servlet ContentControlServlet threw exception
+java.lang.NullPointerException
+	at com.hd.som.servlet.BaseSOMControlServlet.checkApplicationMode(Unknown Source)
+	at com.hd.som.servlet.BaseControlServlet.defaultAction(Unknown Source)
+	at com.hd.som.servlet.BaseControlServlet.doPost(Unknown Source)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:637)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.jboss.web.tomcat.filters.ReplyHeaderFilter.doFilter(ReplyHeaderFilter.java:96)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:235)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.jboss.web.tomcat.security.SecurityAssociationValve.invoke(SecurityAssociationValve.java:190)
+	at org.jboss.web.tomcat.security.JaccContextValve.invoke(JaccContextValve.java:92)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.process(SecurityContextEstablishmentValve.java:126)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.invoke(SecurityContextEstablishmentValve.java:70)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:330)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:829)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:598)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:619)
+2012-09-13 19:04:16,565 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/shade-o-matic
+2012-09-13 19:04:16,957 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/shade-o-matic
+2012-09-13 19:04:25,290 INFO  [STDOUT] (http-127.0.0.1-9090-4) 1{htm_sectionId=, htm_menuId=, htm_controlleraction=EnableEditMode, htm_subMenuId=}
+2012-09-13 19:04:25,292 INFO  [STDOUT] (http-127.0.0.1-9090-4) 2
+2012-09-13 19:04:25,292 INFO  [STDOUT] (http-127.0.0.1-9090-4) 3
+2012-09-13 19:04:28,613 INFO  [STDOUT] (http-127.0.0.1-9090-4) 1{htm_sectionId=, htm_menuId=1, htm_controlleraction=LoadTemplate, htm_subMenuId=1}
+2012-09-13 19:04:29,685 INFO  [STDOUT] (http-127.0.0.1-9090-4) 2
+2012-09-13 19:04:29,686 INFO  [STDOUT] (http-127.0.0.1-9090-4) 3
+2012-09-13 19:04:29,777 INFO  [STDOUT] (http-127.0.0.1-9090-4) mode-->true
+2012-09-13 19:04:45,995 INFO  [STDOUT] (http-127.0.0.1-9090-4) 1{htm_sectionId=4, htm_menuId=1, htm_controlleraction=LoadSectionItems, htm_subMenuId=1}
+2012-09-13 19:04:47,069 INFO  [STDOUT] (http-127.0.0.1-9090-4) 2
+2012-09-13 19:04:47,069 INFO  [STDOUT] (http-127.0.0.1-9090-4) 3
+2012-09-13 19:04:58,154 INFO  [STDOUT] (http-127.0.0.1-9090-4) TEMP_Image-
+2012-09-13 19:04:58,154 INFO  [STDOUT] (http-127.0.0.1-9090-4) Header-Test Header
+2012-09-13 19:04:58,155 INFO  [STDOUT] (http-127.0.0.1-9090-4) Content-<span data-scayt_word="asdhasd" data-scaytid="1">asdhasd</span> <span data-scayt_word="ldals" data-scaytid="2">ldals</span> <span data-scayt_word="dla" data-scaytid="3">dla</span><br />
+2012-09-13 19:04:58,155 INFO  [STDOUT] (http-127.0.0.1-9090-4) TEMP_VideoFile-
+2012-09-13 19:04:58,156 INFO  [STDOUT] (http-127.0.0.1-9090-4) htm_controlleraction-savecontent
+2012-09-13 19:04:58,156 INFO  [STDOUT] (http-127.0.0.1-9090-4) htm_menuId-1
+2012-09-13 19:04:58,156 INFO  [STDOUT] (http-127.0.0.1-9090-4) htm_subMenuId-1
+2012-09-13 19:04:58,157 INFO  [STDOUT] (http-127.0.0.1-9090-4) htm_sectionId-4
+2012-09-13 19:04:58,157 INFO  [STDOUT] (http-127.0.0.1-9090-4) Path E:\som\1\1
+2012-09-13 19:04:58,157 INFO  [STDOUT] (http-127.0.0.1-9090-4) 1
+2012-09-13 19:04:58,158 INFO  [STDOUT] (http-127.0.0.1-9090-4) 2
+2012-09-13 19:04:58,158 INFO  [STDOUT] (http-127.0.0.1-9090-4) 1
+2012-09-13 19:04:58,158 INFO  [STDOUT] (http-127.0.0.1-9090-4) 1
+2012-09-13 19:04:58,159 INFO  [STDOUT] (http-127.0.0.1-9090-4) 1
+2012-09-13 19:04:58,159 INFO  [STDOUT] (http-127.0.0.1-9090-4) 1
+2012-09-13 19:04:58,159 INFO  [STDOUT] (http-127.0.0.1-9090-4) 2
+2012-09-13 19:04:58,160 INFO  [STDOUT] (http-127.0.0.1-9090-4) 3
+2012-09-13 19:04:58,160 INFO  [STDOUT] (http-127.0.0.1-9090-4) 4CordlessLift.png
+2012-09-13 19:04:58,160 INFO  [STDOUT] (http-127.0.0.1-9090-4) 6
+2012-09-13 19:04:58,161 INFO  [STDOUT] (http-127.0.0.1-9090-4) 7E:\som\1\1----CordlessLift.png---org.apache.commons.fileupload.DefaultFileItem@1649784
+2012-09-13 19:04:58,162 INFO  [STDOUT] (http-127.0.0.1-9090-4) Error processing request - BaseControlServlet : java.lang.NullPointerException
+2012-09-13 19:04:58,162 INFO  [STDOUT] (http-127.0.0.1-9090-4) 1null
+2012-09-13 19:04:58,164 INFO  [STDOUT] (http-127.0.0.1-9090-4) Error saving content details - java.lang.NullPointerException
+2012-09-13 19:04:58,165 INFO  [STDOUT] (http-127.0.0.1-9090-4) 2
+2012-09-13 19:04:58,165 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[localhost].[/shade-o-matic].[ContentControlServlet]] (http-127.0.0.1-9090-4) Servlet.service() for servlet ContentControlServlet threw exception
+java.lang.NullPointerException
+	at com.hd.som.servlet.BaseSOMControlServlet.checkApplicationMode(Unknown Source)
+	at com.hd.som.servlet.BaseControlServlet.defaultAction(Unknown Source)
+	at com.hd.som.servlet.BaseControlServlet.doPost(Unknown Source)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:637)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.jboss.web.tomcat.filters.ReplyHeaderFilter.doFilter(ReplyHeaderFilter.java:96)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:235)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.jboss.web.tomcat.security.SecurityAssociationValve.invoke(SecurityAssociationValve.java:190)
+	at org.jboss.web.tomcat.security.JaccContextValve.invoke(JaccContextValve.java:92)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.process(SecurityContextEstablishmentValve.java:126)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.invoke(SecurityContextEstablishmentValve.java:70)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:330)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:829)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:598)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:619)
+2012-09-13 19:06:47,332 INFO  [STDOUT] (http-127.0.0.1-9090-6) 1{htm_sectionId=4, htm_menuId=1, htm_controlleraction=LoadSectionItems, htm_subMenuId=1}
+2012-09-13 19:06:48,423 INFO  [STDOUT] (http-127.0.0.1-9090-6) 2
+2012-09-13 19:06:48,424 INFO  [STDOUT] (http-127.0.0.1-9090-6) 3
+2012-09-13 19:07:03,265 INFO  [STDOUT] (http-127.0.0.1-9090-6) TEMP_Image-
+2012-09-13 19:07:03,266 INFO  [STDOUT] (http-127.0.0.1-9090-6) Header-Test Header
+2012-09-13 19:07:03,266 INFO  [STDOUT] (http-127.0.0.1-9090-6) Content-testing honeycomb shades<br />
+2012-09-13 19:07:03,267 INFO  [STDOUT] (http-127.0.0.1-9090-6) TEMP_VideoFile-
+2012-09-13 19:07:03,267 INFO  [STDOUT] (http-127.0.0.1-9090-6) htm_controlleraction-savecontent
+2012-09-13 19:07:03,267 INFO  [STDOUT] (http-127.0.0.1-9090-6) htm_menuId-1
+2012-09-13 19:07:03,268 INFO  [STDOUT] (http-127.0.0.1-9090-6) htm_subMenuId-1
+2012-09-13 19:07:03,268 INFO  [STDOUT] (http-127.0.0.1-9090-6) htm_sectionId-4
+2012-09-13 19:07:03,268 INFO  [STDOUT] (http-127.0.0.1-9090-6) Path E:\som\1\1
+2012-09-13 19:07:03,269 INFO  [STDOUT] (http-127.0.0.1-9090-6) 1
+2012-09-13 19:07:03,269 INFO  [STDOUT] (http-127.0.0.1-9090-6) 2
+2012-09-13 19:07:03,269 INFO  [STDOUT] (http-127.0.0.1-9090-6) 1
+2012-09-13 19:07:03,269 INFO  [STDOUT] (http-127.0.0.1-9090-6) 1
+2012-09-13 19:07:03,270 INFO  [STDOUT] (http-127.0.0.1-9090-6) 1
+2012-09-13 19:07:03,270 INFO  [STDOUT] (http-127.0.0.1-9090-6) 1
+2012-09-13 19:07:03,271 INFO  [STDOUT] (http-127.0.0.1-9090-6) 2
+2012-09-13 19:07:03,271 INFO  [STDOUT] (http-127.0.0.1-9090-6) 3
+2012-09-13 19:07:03,272 INFO  [STDOUT] (http-127.0.0.1-9090-6) 4StandardCordlock.png
+2012-09-13 19:07:03,272 INFO  [STDOUT] (http-127.0.0.1-9090-6) 6
+2012-09-13 19:07:03,272 INFO  [STDOUT] (http-127.0.0.1-9090-6) 7E:\som\1\1----StandardCordlock.png---org.apache.commons.fileupload.DefaultFileItem@26f29f
+2012-09-13 19:07:03,296 INFO  [STDOUT] (http-127.0.0.1-9090-6) 8
+2012-09-13 19:07:03,296 INFO  [STDOUT] (http-127.0.0.1-9090-6) VideoFile--StandardCordlock.png
+2012-09-13 19:07:03,297 INFO  [STDOUT] (http-127.0.0.1-9090-6) 1
+2012-09-13 19:07:03,297 INFO  [STDOUT] (http-127.0.0.1-9090-6) 1
+2012-09-13 19:07:03,298 INFO  [STDOUT] (http-127.0.0.1-9090-6) 1
+2012-09-13 19:07:03,298 INFO  [STDOUT] (http-127.0.0.1-9090-6) 1
+2012-09-13 19:07:03,298 INFO  [STDOUT] (http-127.0.0.1-9090-6) 1
+2012-09-13 19:07:03,298 INFO  [STDOUT] (http-127.0.0.1-9090-6) 1{htm_sectionId=4, Header=Test Header, VideoFile=StandardCordlock.png, htm_menuId=1, TEMP_VideoFile=, htm_controlleraction=savecontent, Content=testing honeycomb shades<br />
+, htm_subMenuId=1, TEMP_Image=}
+2012-09-13 19:07:12,249 INFO  [STDOUT] (http-127.0.0.1-9090-6) 2
+2012-09-13 19:07:12,249 INFO  [STDOUT] (http-127.0.0.1-9090-6) 3
+2012-09-13 20:07:32,046 INFO  [STDOUT] (http-127.0.0.1-9090-6) 1{}
+2012-09-13 20:07:32,047 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[localhost].[/shade-o-matic].[TemplateControlServlet]] (http-127.0.0.1-9090-6) Servlet.service() for servlet TemplateControlServlet threw exception
+java.lang.NullPointerException
+	at com.hd.som.action.LoadTemplateAction.executeAction(Unknown Source)
+	at com.hd.som.action.BaseControllerAction.doAction(Unknown Source)
+	at com.hd.som.servlet.TemplateControlServlet.execute(Unknown Source)
+	at com.hd.som.servlet.BaseControlServlet.defaultAction(Unknown Source)
+	at com.hd.som.servlet.BaseControlServlet.doGet(Unknown Source)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.jboss.web.tomcat.filters.ReplyHeaderFilter.doFilter(ReplyHeaderFilter.java:96)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:235)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.jboss.web.tomcat.security.SecurityAssociationValve.invoke(SecurityAssociationValve.java:190)
+	at org.jboss.web.tomcat.security.JaccContextValve.invoke(JaccContextValve.java:92)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.process(SecurityContextEstablishmentValve.java:126)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.invoke(SecurityContextEstablishmentValve.java:70)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:330)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:829)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:598)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:619)

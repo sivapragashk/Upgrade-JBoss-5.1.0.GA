@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns="urn:org:jboss:profileservice:persistence:managed-component:1.0" name="org.jboss.resource.metadata.mcf.ManagedConnectionFactoryDeploymentGroup" class-name="org.jboss.resource.metadata.mcf.ManagedConnectionFactoryDeploymentGroup">
+    <component modification="REMOVED" original-name="jdbc_IntranetDS" name="jdbc_IntranetDS" class-name="org.jboss.resource.metadata.mcf.LocalDataSourceDeploymentMetaData">
+        <properties/>
+    </component>
+</root>

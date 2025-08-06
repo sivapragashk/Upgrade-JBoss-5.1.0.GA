@@ -1,0 +1,414 @@
+2010-02-24 18:40:22,676 INFO  [org.jboss.web.WebService] (main) Using RMI server codebase: http://127.0.0.1:8083/
+2010-02-24 18:40:37,645 INFO  [org.jboss.wsf.stack.jbws.NativeServerConfig] (main) JBoss Web Services - Stack Native Core
+2010-02-24 18:40:37,645 INFO  [org.jboss.wsf.stack.jbws.NativeServerConfig] (main) 3.1.2.GA
+2010-02-24 18:40:38,332 INFO  [org.jboss.dependency.plugins.AttributeCallbackItem] (main) Owner callback not implemented.
+2010-02-24 18:40:40,582 INFO  [org.jboss.logbridge.LogNotificationListener] (main) Adding notification listener for logging mbean "jboss.system:service=Logging,type=Log4jService" to server org.jboss.mx.server.MBeanServerImpl@8ef177[ defaultDomain='jboss' ]
+2010-02-24 18:41:20,098 INFO  [org.jboss.deployment.dependency.ContainerDependencyMetaData] (main) addJndiDependency, JndiDependencyMetaData@46d7c4{ejb/jndi/LDAPAuthentication}
+2010-02-24 18:41:23,207 INFO  [org.jboss.deployment.dependency.ContainerDependencyMetaData] (main) addJndiDependency, JndiDependencyMetaData@15d6331{ejb/jndi/RealtimeUpdateHome}
+2010-02-24 18:41:25,301 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@9096718{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/SAPAccessEJB.jar/}
+2010-02-24 18:41:25,301 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@9096718{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/SAPAccessEJB.jar/}
+2010-02-24 18:41:25,301 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@9096718{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/SAPAccessEJB.jar/}
+2010-02-24 18:41:25,301 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@8426950{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/ldapejb.jar/}
+2010-02-24 18:41:25,301 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@8426950{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/ldapejb.jar/}
+2010-02-24 18:41:25,301 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@8426950{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/ldapejb.jar/}
+2010-02-24 18:41:25,301 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@11807358{vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/profileservice-secured.jar/}
+2010-02-24 18:41:25,301 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@11807358{vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/profileservice-secured.jar/}
+2010-02-24 18:41:25,316 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@11807358{vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/profileservice-secured.jar/}
+2010-02-24 18:41:25,316 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@11807358{vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/profileservice-secured.jar/}
+2010-02-24 18:41:25,332 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@12800125{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/tdsejb.jar/}
+2010-02-24 18:41:25,332 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@12800125{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/tdsejb.jar/}
+2010-02-24 18:41:25,348 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@12800125{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/tdsejb.jar/}
+2010-02-24 18:41:25,363 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@18952401{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/ScheduleJobs.ear/ScheduleJobsEJB/}
+2010-02-24 18:41:25,379 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@18952401{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/ScheduleJobs.ear/ScheduleJobsEJB/}
+2010-02-24 18:41:25,379 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@18952401{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/ScheduleJobs.ear/ScheduleJobsEJB/}
+2010-02-24 18:41:25,473 INFO  [STDOUT] (main) Starting with message.SAPConnectionPool=StartUp Service - Testing
+2010-02-24 18:41:25,488 ERROR [STDERR] (main) java.io.FileNotFoundException: \opt\files\WLstartup\SAP_Pools.xml
+2010-02-24 18:41:25,504 ERROR [STDERR] (main) 	at org.jboss.net.protocol.file.FileURLConnection.connect(FileURLConnection.java:105)
+2010-02-24 18:41:25,504 ERROR [STDERR] (main) 	at org.jboss.net.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:112)
+2010-02-24 18:41:25,504 ERROR [STDERR] (main) 	at org.apache.xerces.impl.XMLEntityManager.setupCurrentEntity(Unknown Source)
+2010-02-24 18:41:25,520 ERROR [STDERR] (main) 	at org.apache.xerces.impl.XMLVersionDetector.determineDocVersion(Unknown Source)
+2010-02-24 18:41:25,520 ERROR [STDERR] (main) 	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+2010-02-24 18:41:25,520 ERROR [STDERR] (main) 	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+2010-02-24 18:41:25,520 ERROR [STDERR] (main) 	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+2010-02-24 18:41:25,535 ERROR [STDERR] (main) 	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+2010-02-24 18:41:25,535 ERROR [STDERR] (main) 	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+2010-02-24 18:41:25,535 ERROR [STDERR] (main) 	at com.hd.SAPConnectionPool.loadDocument(SAPConnectionPool.java:141)
+2010-02-24 18:41:25,535 ERROR [STDERR] (main) 	at com.hd.SAPConnectionPool.connect(SAPConnectionPool.java:30)
+2010-02-24 18:41:25,551 ERROR [STDERR] (main) 	at com.hd.StartUpService.start(StartUpService.java:29)
+2010-02-24 18:41:25,551 ERROR [STDERR] (main) 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2010-02-24 18:41:25,551 ERROR [STDERR] (main) 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+2010-02-24 18:41:25,551 ERROR [STDERR] (main) 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+2010-02-24 18:41:25,566 ERROR [STDERR] (main) 	at java.lang.reflect.Method.invoke(Method.java:597)
+2010-02-24 18:41:25,566 ERROR [STDERR] (main) 	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:157)
+2010-02-24 18:41:25,566 ERROR [STDERR] (main) 	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:96)
+2010-02-24 18:41:25,566 ERROR [STDERR] (main) 	at org.jboss.mx.server.Invocation.invoke(Invocation.java:88)
+2010-02-24 18:41:25,582 ERROR [STDERR] (main) 	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+2010-02-24 18:41:25,582 ERROR [STDERR] (main) 	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:668)
+2010-02-24 18:41:25,582 ERROR [STDERR] (main) 	at org.jboss.system.microcontainer.ServiceProxy.invoke(ServiceProxy.java:206)
+2010-02-24 18:41:25,582 ERROR [STDERR] (main) 	at $Proxy38.start(Unknown Source)
+2010-02-24 18:41:25,598 ERROR [STDERR] (main) 	at org.jboss.system.microcontainer.StartStopLifecycleAction.installAction(StartStopLifecycleAction.java:42)
+2010-02-24 18:41:25,598 ERROR [STDERR] (main) 	at org.jboss.system.microcontainer.StartStopLifecycleAction.installAction(StartStopLifecycleAction.java:37)
+2010-02-24 18:41:25,598 ERROR [STDERR] (main) 	at org.jboss.dependency.plugins.action.SimpleControllerContextAction.simpleInstallAction(SimpleControllerContextAction.java:62)
+2010-02-24 18:41:25,613 ERROR [STDERR] (main) 	at org.jboss.dependency.plugins.action.AccessControllerContextAction.install(AccessControllerContextAction.java:71)
+2010-02-24 18:41:25,613 ERROR [STDERR] (main) 	at org.jboss.dependency.plugins.AbstractControllerContextActions.install(AbstractControllerContextActions.java:51)
+2010-02-24 18:41:25,613 ERROR [STDERR] (main) 	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+2010-02-24 18:41:25,613 ERROR [STDERR] (main) 	at org.jboss.system.microcontainer.ServiceControllerContext.install(ServiceControllerContext.java:286)
+2010-02-24 18:41:25,629 ERROR [STDERR] (main) 	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+2010-02-24 18:41:25,629 ERROR [STDERR] (main) 	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+2010-02-24 18:41:25,629 ERROR [STDERR] (main) 	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+2010-02-24 18:41:25,629 ERROR [STDERR] (main) 	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+2010-02-24 18:41:25,645 ERROR [STDERR] (main) 	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+2010-02-24 18:41:25,645 ERROR [STDERR] (main) 	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+2010-02-24 18:41:25,645 ERROR [STDERR] (main) 	at org.jboss.system.ServiceController.doChange(ServiceController.java:688)
+2010-02-24 18:41:25,645 ERROR [STDERR] (main) 	at org.jboss.system.ServiceController.start(ServiceController.java:460)
+2010-02-24 18:41:25,660 ERROR [STDERR] (main) 	at org.jboss.system.deployers.ServiceDeployer.start(ServiceDeployer.java:163)
+2010-02-24 18:41:25,660 ERROR [STDERR] (main) 	at org.jboss.system.deployers.ServiceDeployer.deploy(ServiceDeployer.java:99)
+2010-02-24 18:41:25,660 ERROR [STDERR] (main) 	at org.jboss.system.deployers.ServiceDeployer.deploy(ServiceDeployer.java:46)
+2010-02-24 18:41:25,660 ERROR [STDERR] (main) 	at org.jboss.deployers.spi.deployer.helpers.AbstractSimpleRealDeployer.internalDeploy(AbstractSimpleRealDeployer.java:62)
+2010-02-24 18:41:25,676 ERROR [STDERR] (main) 	at org.jboss.deployers.spi.deployer.helpers.AbstractRealDeployer.deploy(AbstractRealDeployer.java:50)
+2010-02-24 18:41:25,676 ERROR [STDERR] (main) 	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:171)
+2010-02-24 18:41:25,676 ERROR [STDERR] (main) 	at org.jboss.deployers.plugins.deployers.DeployersImpl.doDeploy(DeployersImpl.java:1439)
+2010-02-24 18:41:25,676 ERROR [STDERR] (main) 	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1157)
+2010-02-24 18:41:25,691 ERROR [STDERR] (main) 	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1178)
+2010-02-24 18:41:25,691 ERROR [STDERR] (main) 	at org.jboss.deployers.plugins.deployers.DeployersImpl.install(DeployersImpl.java:1098)
+2010-02-24 18:41:25,691 ERROR [STDERR] (main) 	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+2010-02-24 18:41:25,691 ERROR [STDERR] (main) 	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+2010-02-24 18:41:25,707 ERROR [STDERR] (main) 	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+2010-02-24 18:41:25,707 ERROR [STDERR] (main) 	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+2010-02-24 18:41:25,707 ERROR [STDERR] (main) 	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+2010-02-24 18:41:25,723 ERROR [STDERR] (main) 	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+2010-02-24 18:41:25,723 ERROR [STDERR] (main) 	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+2010-02-24 18:41:25,723 ERROR [STDERR] (main) 	at org.jboss.deployers.plugins.deployers.DeployersImpl.process(DeployersImpl.java:781)
+2010-02-24 18:41:25,723 ERROR [STDERR] (main) 	at org.jboss.deployers.plugins.main.MainDeployerImpl.process(MainDeployerImpl.java:702)
+2010-02-24 18:41:25,738 ERROR [STDERR] (main) 	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.process(MainDeployerAdapter.java:117)
+2010-02-24 18:41:25,738 ERROR [STDERR] (main) 	at org.jboss.system.server.profileservice.repository.ProfileDeployAction.install(ProfileDeployAction.java:70)
+2010-02-24 18:41:25,738 ERROR [STDERR] (main) 	at org.jboss.system.server.profileservice.repository.AbstractProfileAction.install(AbstractProfileAction.java:53)
+2010-02-24 18:41:25,738 ERROR [STDERR] (main) 	at org.jboss.system.server.profileservice.repository.AbstractProfileService.install(AbstractProfileService.java:361)
+2010-02-24 18:41:25,754 ERROR [STDERR] (main) 	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+2010-02-24 18:41:25,754 ERROR [STDERR] (main) 	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+2010-02-24 18:41:25,754 ERROR [STDERR] (main) 	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+2010-02-24 18:41:25,754 ERROR [STDERR] (main) 	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+2010-02-24 18:41:25,770 ERROR [STDERR] (main) 	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+2010-02-24 18:41:25,770 ERROR [STDERR] (main) 	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+2010-02-24 18:41:25,770 ERROR [STDERR] (main) 	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+2010-02-24 18:41:25,770 ERROR [STDERR] (main) 	at org.jboss.system.server.profileservice.repository.AbstractProfileService.activateProfile(AbstractProfileService.java:306)
+2010-02-24 18:41:25,785 ERROR [STDERR] (main) 	at org.jboss.system.server.profileservice.ProfileServiceBootstrap.start(ProfileServiceBootstrap.java:271)
+2010-02-24 18:41:25,785 ERROR [STDERR] (main) 	at org.jboss.bootstrap.AbstractServerImpl.start(AbstractServerImpl.java:461)
+2010-02-24 18:41:25,785 ERROR [STDERR] (main) 	at org.jboss.Main.boot(Main.java:221)
+2010-02-24 18:41:25,785 ERROR [STDERR] (main) 	at org.jboss.Main$1.run(Main.java:556)
+2010-02-24 18:41:25,801 ERROR [STDERR] (main) 	at java.lang.Thread.run(Thread.java:619)
+2010-02-24 18:41:25,801 INFO  [STDOUT] (main) Unable to load SAP Connection Pool config file.
+2010-02-24 18:41:25,801 INFO  [STDOUT] (main) Starting with message.JNDIContext=StartUp Service - Testing
+2010-02-24 18:41:25,863 INFO  [STDOUT] (main) Starting Job SchedulerStartUp Service - Testing
+2010-02-24 18:41:27,035 INFO  [org.quartz.simpl.SimpleThreadPool] (main) Job execution threads will use class loader of thread: main
+2010-02-24 18:41:27,145 INFO  [org.quartz.core.SchedulerSignalerImpl] (main) Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2010-02-24 18:41:27,160 INFO  [org.quartz.core.QuartzScheduler] (main) Quartz Scheduler v.1.7.2 created.
+2010-02-24 18:41:27,160 INFO  [org.quartz.simpl.RAMJobStore] (main) RAMJobStore initialized.
+2010-02-24 18:41:27,176 INFO  [org.quartz.impl.StdSchedulerFactory] (main) Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2010-02-24 18:41:27,176 INFO  [org.quartz.impl.StdSchedulerFactory] (main) Quartz scheduler version: 1.7.2
+2010-02-24 18:41:27,176 INFO  [org.quartz.core.QuartzScheduler] (main) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2010-02-24 18:41:30,098 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-1) Job name: Job1
+2010-02-24 18:41:30,098 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-1) Trigger name: cronTrigger1
+2010-02-24 18:41:30,145 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-1) Firing Time: Wed Feb 24 18:41:30 IST 2010
+2010-02-24 18:41:32,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-2) Job name: Job2
+2010-02-24 18:41:32,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-2) Trigger name: cronTrigger2
+2010-02-24 18:41:32,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-2) Firing Time: Wed Feb 24 18:41:32 IST 2010
+2010-02-24 18:41:33,723 INFO  [org.jboss.mx.remoting.service.JMXConnectorServerService] (main) JMX Connector server: service:jmx:rmi://127.0.0.1/jndi/rmi://127.0.0.1:1090/jmxconnector
+2010-02-24 18:41:34,129 INFO  [org.jboss.mail.MailService] (main) Mail Service bound to java:/Mail
+2010-02-24 18:41:35,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-3) Job name: Job1
+2010-02-24 18:41:35,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-3) Trigger name: cronTrigger1
+2010-02-24 18:41:35,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-3) Firing Time: Wed Feb 24 18:41:35 IST 2010
+2010-02-24 18:41:40,020 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-4) Job name: Job1
+2010-02-24 18:41:40,020 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-4) Trigger name: cronTrigger1
+2010-02-24 18:41:40,035 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-4) Firing Time: Wed Feb 24 18:41:40 IST 2010
+2010-02-24 18:41:40,020 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-5) Job name: Job2
+2010-02-24 18:41:40,051 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-5) Trigger name: cronTrigger2
+2010-02-24 18:41:40,066 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-5) Firing Time: Wed Feb 24 18:41:40 IST 2010
+2010-02-24 18:41:40,285 WARN  [org.jboss.jms.server.jbosssx.JBossASSecurityMetadataStore] (main) WARNING! POTENTIAL SECURITY RISK. It has been detected that the MessageSucker component which sucks messages from one node to another has not had its password changed from the installation default. Please see the JBoss Messaging user guide for instructions on how to do this.
+2010-02-24 18:41:40,332 WARN  [org.jboss.annotation.factory.AnnotationCreator] (main) No ClassLoader provided, using TCCL: org.jboss.managed.api.annotation.ManagementComponent
+2010-02-24 18:41:40,551 WARN  [org.jboss.annotation.factory.AnnotationCreator] (main) No ClassLoader provided, using TCCL: org.jboss.managed.api.annotation.ManagementComponent
+2010-02-24 18:41:40,691 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) JBossTS Transaction Service (JTA version - tag:JBOSSTS_4_6_1_GA) - JBoss Inc.
+2010-02-24 18:41:40,691 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Setting up property manager MBean and JMX layer
+2010-02-24 18:41:41,207 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Initializing recovery manager
+2010-02-24 18:41:41,613 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Recovery manager configured
+2010-02-24 18:41:41,660 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Binding TransactionManager JNDI Reference
+2010-02-24 18:41:41,785 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Starting transaction recovery manager
+2010-02-24 18:41:42,816 INFO  [org.apache.catalina.core.AprLifecycleListener] (main) The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.6.0_16\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\program files\imagemagick-6.3.5-q16;C:\Program Files\Java\jdk1.6.0_16\bin;D:\oracle\ora92\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\ZipGenius 6\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727;C:\Program Files\Microsoft Visual Studio 8\SDK\v2.0\Bin;D:\maven-2.0.7\bin;C:\Program Files\TortoiseSVN\bin
+2010-02-24 18:41:43,176 INFO  [org.apache.coyote.http11.Http11Protocol] (main) Initializing Coyote HTTP/1.1 on http-127.0.0.1-8080
+2010-02-24 18:41:43,191 INFO  [org.apache.coyote.ajp.AjpProtocol] (main) Initializing Coyote AJP/1.3 on ajp-127.0.0.1-8009
+2010-02-24 18:41:43,270 INFO  [org.apache.catalina.core.StandardService] (main) Starting service jboss.web
+2010-02-24 18:41:43,270 INFO  [org.apache.catalina.core.StandardEngine] (main) Starting Servlet Engine: JBoss Web/2.1.3.GA
+2010-02-24 18:41:43,363 INFO  [org.apache.catalina.startup.Catalina] (main) Server startup in 159 ms
+2010-02-24 18:41:43,426 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/web-console
+2010-02-24 18:41:45,191 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-6) Job name: Job1
+2010-02-24 18:41:45,191 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-6) Trigger name: cronTrigger1
+2010-02-24 18:41:45,207 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-6) Firing Time: Wed Feb 24 18:41:45 IST 2010
+2010-02-24 18:41:46,223 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/jbossws
+2010-02-24 18:41:46,332 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/invoker
+2010-02-24 18:41:46,676 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/jboss-local-jdbc.rar/META-INF/ra.xml
+2010-02-24 18:41:46,785 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/jboss-xa-jdbc.rar/META-INF/ra.xml
+2010-02-24 18:41:47,019 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/jms-ra.rar/META-INF/ra.xml
+2010-02-24 18:41:47,066 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/mail-ra.rar/META-INF/ra.xml
+2010-02-24 18:41:47,160 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/quartz-ra.rar/META-INF/ra.xml
+2010-02-24 18:41:47,207 INFO  [org.quartz.core.QuartzScheduler] (main) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2010-02-24 18:41:47,519 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=HDFabDS' to JNDI name 'java:HDFabDS'
+2010-02-24 18:41:47,691 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=JDBCIntranetDS' to JNDI name 'java:JDBCIntranetDS'
+2010-02-24 18:41:47,801 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=OrderStatusDS' to JNDI name 'java:OrderStatusDS'
+2010-02-24 18:41:47,894 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=PIPDS' to JNDI name 'java:PIPDS'
+2010-02-24 18:41:48,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-7) Job name: Job2
+2010-02-24 18:41:48,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-7) Trigger name: cronTrigger2
+2010-02-24 18:41:48,019 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-7) Firing Time: Wed Feb 24 18:41:48 IST 2010
+2010-02-24 18:41:49,223 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' to JNDI name 'java:DefaultDS'
+2010-02-24 18:41:50,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-8) Job name: Job1
+2010-02-24 18:41:50,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-8) Trigger name: cronTrigger1
+2010-02-24 18:41:50,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-8) Firing Time: Wed Feb 24 18:41:50 IST 2010
+2010-02-24 18:41:50,848 INFO  [org.jboss.jms.server.ServerPeer] (main) JBoss Messaging 1.4.3.GA server [0] started
+2010-02-24 18:41:51,973 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactoryJNDIMapper] (main) supportsFailover attribute is true on connection factory: jboss.messaging.connectionfactory:service=ClusteredConnectionFactory but post office is non clustered. So connection factory will *not* support failover
+2010-02-24 18:41:51,973 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactoryJNDIMapper] (main) supportsLoadBalancing attribute is true on connection factory: jboss.messaging.connectionfactory:service=ClusteredConnectionFactory but post office is non clustered. So connection factory will *not* support load balancing
+2010-02-24 18:41:52,113 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2010-02-24 18:41:52,113 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@eb3965 started
+2010-02-24 18:41:52,144 INFO  [org.jboss.jms.server.destination.QueueService] (main) Queue[/queue/DLQ] started, fullSize=200000, pageSize=2000, downCacheSize=2000
+2010-02-24 18:41:52,144 INFO  [org.jboss.jms.server.destination.QueueService] (main) Queue[/queue/ExpiryQueue] started, fullSize=200000, pageSize=2000, downCacheSize=2000
+2010-02-24 18:41:52,160 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2010-02-24 18:41:52,160 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@1133baf started
+2010-02-24 18:41:52,160 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2010-02-24 18:41:52,176 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@170848 started
+2010-02-24 18:41:52,363 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' to JNDI name 'java:JmsXA'
+2010-02-24 18:41:52,738 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main) installing bean: ejb/#SAPAccessBean,uid20713850
+2010-02-24 18:41:52,754 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main)   with dependencies:
+2010-02-24 18:41:52,754 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main)   and supplies:
+2010-02-24 18:41:52,754 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main) 	jndi:local/SAPAccessBean@17633424
+2010-02-24 18:41:52,769 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main) 	jndi:EJB/jndi/SAPAccessBean
+2010-02-24 18:41:53,129 INFO  [org.jboss.ejb.EjbModule] (main) Deploying SAPAccessBean
+2010-02-24 18:41:53,223 WARN  [org.jboss.ejb.EjbModule] (main) EJB configured to bypass security. Please verify if this is intended. Bean=SAPAccessBean Deployment=vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/SAPAccessEJB.jar/
+2010-02-24 18:41:53,754 INFO  [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] (main) Bound EJB LocalHome 'SAPAccessBean' to jndi 'local/SAPAccessBean@17633424'
+2010-02-24 18:41:53,801 INFO  [org.jboss.proxy.ejb.ProxyFactory] (main) Bound EJB Home 'SAPAccessBean' to jndi 'EJB/jndi/SAPAccessBean'
+2010-02-24 18:41:53,879 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main) installing bean: ejb/#LDAPAuthenticationEJB,uid18027353
+2010-02-24 18:41:53,879 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main)   with dependencies:
+2010-02-24 18:41:53,894 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main)   and supplies:
+2010-02-24 18:41:53,894 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main) 	jndi:ejb/jndi/LDAPAuthentication
+2010-02-24 18:41:53,973 INFO  [org.jboss.ejb.EjbModule] (main) Deploying LDAPAuthenticationEJB
+2010-02-24 18:41:53,988 WARN  [org.jboss.ejb.EjbModule] (main) EJB configured to bypass security. Please verify if this is intended. Bean=LDAPAuthenticationEJB Deployment=vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/ldapejb.jar/
+2010-02-24 18:41:54,051 INFO  [org.jboss.proxy.ejb.ProxyFactory] (main) Bound EJB Home 'LDAPAuthenticationEJB' to jndi 'ejb/jndi/LDAPAuthentication'
+2010-02-24 18:41:55,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-9) Job name: Job1
+2010-02-24 18:41:55,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-9) Trigger name: cronTrigger1
+2010-02-24 18:41:55,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-9) Firing Time: Wed Feb 24 18:41:55 IST 2010
+2010-02-24 18:41:55,082 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Created KernelDeployment for: profileservice-secured.jar
+2010-02-24 18:41:55,129 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2010-02-24 18:41:55,129 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2010-02-24 18:41:55,129 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2010-02-24 18:41:55,129 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView
+2010-02-24 18:41:55,144 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2010-02-24 18:41:55,144 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2010-02-24 18:41:55,144 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.profileservice.spi.ProfileService
+2010-02-24 18:41:55,144 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureProfileService/remote
+2010-02-24 18:41:55,160 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureProfileService/remote-org.jboss.profileservice.spi.ProfileService
+2010-02-24 18:41:55,160 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2010-02-24 18:41:55,176 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2010-02-24 18:41:55,191 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2010-02-24 18:41:55,191 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2010-02-24 18:41:55,191 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2010-02-24 18:41:55,191 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2010-02-24 18:41:55,207 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureDeploymentManager/remote-org.jboss.deployers.spi.management.deploy.DeploymentManager
+2010-02-24 18:41:55,207 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.deployers.spi.management.deploy.DeploymentManager
+2010-02-24 18:41:55,207 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureDeploymentManager/remote
+2010-02-24 18:41:55,207 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2010-02-24 18:41:55,223 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2010-02-24 18:41:55,223 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2010-02-24 18:41:55,223 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2010-02-24 18:41:55,238 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2010-02-24 18:41:55,238 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2010-02-24 18:41:55,238 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView
+2010-02-24 18:41:55,238 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.deployers.spi.management.ManagementView
+2010-02-24 18:41:55,254 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote
+2010-02-24 18:41:55,254 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2010-02-24 18:41:55,301 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@991ba7{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2010-02-24 18:41:55,316 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@1149b6c{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2010-02-24 18:41:55,316 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@1315619{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2010-02-24 18:41:55,691 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2010-02-24 18:41:55,754 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureDeploymentManager ejbName: SecureDeploymentManager
+2010-02-24 18:41:55,973 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureDeploymentManager/remote - EJB3.x Default Remote Business Interface
+	SecureDeploymentManager/remote-org.jboss.deployers.spi.management.deploy.DeploymentManager - EJB3.x Remote Business Interface
+
+2010-02-24 18:41:56,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-10) Job name: Job2
+2010-02-24 18:41:56,019 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-10) Trigger name: cronTrigger2
+2010-02-24 18:41:56,019 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-10) Firing Time: Wed Feb 24 18:41:56 IST 2010
+2010-02-24 18:41:56,223 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2010-02-24 18:41:56,223 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureManagementView ejbName: SecureManagementView
+2010-02-24 18:41:56,254 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureManagementView/remote - EJB3.x Default Remote Business Interface
+	SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView - EJB3.x Remote Business Interface
+
+2010-02-24 18:41:56,363 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2010-02-24 18:41:56,363 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureProfileServiceBean ejbName: SecureProfileService
+2010-02-24 18:41:56,394 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureProfileService/remote - EJB3.x Default Remote Business Interface
+	SecureProfileService/remote-org.jboss.profileservice.spi.ProfileService - EJB3.x Remote Business Interface
+
+2010-02-24 18:41:56,582 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main) installing bean: ejb/#DocumentManagerEJB,uid23163462
+2010-02-24 18:41:56,582 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main)   with dependencies:
+2010-02-24 18:41:56,598 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main)   and supplies:
+2010-02-24 18:41:56,598 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main) 	jndi:ejb/jndi/DocumentManagerHome
+2010-02-24 18:41:56,598 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main) 	jndi:ejb/jndi/LocalDocumentManagerHome
+2010-02-24 18:41:56,785 INFO  [org.jboss.ejb.EjbModule] (main) Deploying DocumentManagerEJB
+2010-02-24 18:41:56,801 WARN  [org.jboss.ejb.EjbModule] (main) EJB configured to bypass security. Please verify if this is intended. Bean=DocumentManagerEJB Deployment=vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/tdsejb.jar/
+2010-02-24 18:41:56,848 INFO  [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] (main) Bound EJB LocalHome 'DocumentManagerEJB' to jndi 'ejb/jndi/LocalDocumentManagerHome'
+2010-02-24 18:41:56,879 INFO  [org.jboss.proxy.ejb.ProxyFactory] (main) Bound EJB Home 'DocumentManagerEJB' to jndi 'ejb/jndi/DocumentManagerHome'
+2010-02-24 18:41:57,129 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/admin-console
+2010-02-24 18:41:58,285 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (main) Initializing Mojarra (1.2_12-b01-FCS) for context '/admin-console'
+2010-02-24 18:42:00,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-1) Job name: Job1
+2010-02-24 18:42:00,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-2) Job name: Job2
+2010-02-24 18:42:00,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-1) Trigger name: cronTrigger1
+2010-02-24 18:42:00,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-2) Trigger name: cronTrigger2
+2010-02-24 18:42:00,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-1) Firing Time: Wed Feb 24 18:42:00 IST 2010
+2010-02-24 18:42:00,019 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-2) Firing Time: Wed Feb 24 18:42:00 IST 2010
+2010-02-24 18:42:05,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-3) Job name: Job1
+2010-02-24 18:42:05,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-3) Trigger name: cronTrigger1
+2010-02-24 18:42:05,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-3) Firing Time: Wed Feb 24 18:42:05 IST 2010
+2010-02-24 18:42:07,301 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/
+2010-02-24 18:42:07,441 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/content
+2010-02-24 18:42:08,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-4) Job name: Job2
+2010-02-24 18:42:08,019 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-4) Trigger name: cronTrigger2
+2010-02-24 18:42:08,019 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-4) Firing Time: Wed Feb 24 18:42:08 IST 2010
+2010-02-24 18:42:10,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-5) Job name: Job1
+2010-02-24 18:42:10,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-5) Trigger name: cronTrigger1
+2010-02-24 18:42:10,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-5) Firing Time: Wed Feb 24 18:42:10 IST 2010
+2010-02-24 18:42:13,644 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/directweb
+2010-02-24 18:42:14,832 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/docrepository
+2010-02-24 18:42:15,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-6) Job name: Job1
+2010-02-24 18:42:15,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-6) Trigger name: cronTrigger1
+2010-02-24 18:42:15,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-6) Firing Time: Wed Feb 24 18:42:15 IST 2010
+2010-02-24 18:42:15,019 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/jmx-console
+2010-02-24 18:42:16,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-7) Job name: Job2
+2010-02-24 18:42:16,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-7) Trigger name: cronTrigger2
+2010-02-24 18:42:16,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-7) Firing Time: Wed Feb 24 18:42:16 IST 2010
+2010-02-24 18:42:16,394 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/orderstatus
+2010-02-24 18:42:17,207 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/orderstatusws
+2010-02-24 18:42:18,457 ERROR [STDERR] (main) log4j:ERROR A "org.jboss.logging.appender.FileAppender" object is not assignable to a "org.apache.log4j.Appender" variable.
+2010-02-24 18:42:18,457 ERROR [STDERR] (main) log4j:ERROR The class "org.apache.log4j.Appender" was loaded by 
+2010-02-24 18:42:18,472 ERROR [STDERR] (main) log4j:ERROR [BaseClassLoader@861253{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/orderstatusws.war/}] whereas object of type 
+2010-02-24 18:42:18,472 ERROR [STDERR] (main) log4j:ERROR "org.jboss.logging.appender.FileAppender" was loaded by [org.jboss.bootstrap.NoAnnotationURLClassLoader@8965fb].
+2010-02-24 18:42:18,472 ERROR [STDERR] (main) log4j:ERROR Could not instantiate appender named "FILE".
+2010-02-24 18:42:20,519 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-8) Job name: Job1
+2010-02-24 18:42:20,519 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-8) Trigger name: cronTrigger1
+2010-02-24 18:42:20,519 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-8) Firing Time: Wed Feb 24 18:42:20 IST 2010
+2010-02-24 18:42:20,769 INFO  [STDOUT] (main) 18:42:20,769 INFO  [ValidatorPlugIn] Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2010-02-24 18:42:20,785 INFO  [STDOUT] (main) 18:42:20,785 INFO  [ValidatorPlugIn] Loading validation rules file from '/WEB-INF/validation.xml'
+2010-02-24 18:42:21,816 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/users
+2010-02-24 18:42:21,988 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main) installing bean: ejb/ScheduleJobsEJB#FabOSRealtimeUpdateObject,uid15537039
+2010-02-24 18:42:21,988 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main)   with dependencies:
+2010-02-24 18:42:21,988 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main)   and supplies:
+2010-02-24 18:42:21,988 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main) 	jndi:ejb/jndi/RealtimeUpdateHome
+2010-02-24 18:42:22,113 INFO  [org.jboss.ejb.EjbModule] (main) Deploying FabOSRealtimeUpdateObject
+2010-02-24 18:42:22,129 WARN  [org.jboss.ejb.EjbModule] (main) EJB configured to bypass security. Please verify if this is intended. Bean=FabOSRealtimeUpdateObject Deployment=vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/ScheduleJobs.ear/ScheduleJobsEJB/
+2010-02-24 18:42:22,207 INFO  [org.jboss.proxy.ejb.ProxyFactory] (main) Bound EJB Home 'FabOSRealtimeUpdateObject' to jndi 'ejb/jndi/RealtimeUpdateHome'
+2010-02-24 18:42:22,488 INFO  [org.apache.coyote.http11.Http11Protocol] (main) Starting Coyote HTTP/1.1 on http-127.0.0.1-8080
+2010-02-24 18:42:22,644 INFO  [org.apache.coyote.ajp.AjpProtocol] (main) Starting Coyote AJP/1.3 on ajp-127.0.0.1-8009
+2010-02-24 18:42:22,676 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (main) JBoss (Microcontainer) [5.1.0.GA (build: SVNTag=JBoss_5_1_0_GA date=200905221634)] Started in 2m:17s:234ms
+2010-02-24 18:42:24,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-9) Job name: Job2
+2010-02-24 18:42:24,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-9) Trigger name: cronTrigger2
+2010-02-24 18:42:24,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-9) Firing Time: Wed Feb 24 18:42:24 IST 2010
+2010-02-24 18:42:25,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-10) Job name: Job1
+2010-02-24 18:42:25,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-10) Trigger name: cronTrigger1
+2010-02-24 18:42:25,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-10) Firing Time: Wed Feb 24 18:42:25 IST 2010
+2010-02-24 18:42:30,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-1) Job name: Job1
+2010-02-24 18:42:30,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-1) Trigger name: cronTrigger1
+2010-02-24 18:42:30,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-1) Firing Time: Wed Feb 24 18:42:30 IST 2010
+2010-02-24 18:42:32,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-2) Job name: Job2
+2010-02-24 18:42:32,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-2) Trigger name: cronTrigger2
+2010-02-24 18:42:32,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-2) Firing Time: Wed Feb 24 18:42:32 IST 2010
+2010-02-24 18:42:35,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-3) Job name: Job1
+2010-02-24 18:42:35,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-3) Trigger name: cronTrigger1
+2010-02-24 18:42:35,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-3) Firing Time: Wed Feb 24 18:42:35 IST 2010
+2010-02-24 18:42:40,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-4) Job name: Job1
+2010-02-24 18:42:40,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-4) Trigger name: cronTrigger1
+2010-02-24 18:42:40,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-5) Job name: Job2
+2010-02-24 18:42:40,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-4) Firing Time: Wed Feb 24 18:42:40 IST 2010
+2010-02-24 18:42:40,004 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-5) Trigger name: cronTrigger2
+2010-02-24 18:42:40,019 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-5) Firing Time: Wed Feb 24 18:42:40 IST 2010
+2010-02-24 18:42:45,003 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-6) Job name: Job1
+2010-02-24 18:42:45,003 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-6) Trigger name: cronTrigger1
+2010-02-24 18:42:45,003 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-6) Firing Time: Wed Feb 24 18:42:45 IST 2010
+2010-02-24 18:42:48,003 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-7) Job name: Job2
+2010-02-24 18:42:48,003 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-7) Trigger name: cronTrigger2
+2010-02-24 18:42:48,003 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-7) Firing Time: Wed Feb 24 18:42:48 IST 2010
+2010-02-24 18:42:50,003 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-8) Job name: Job1
+2010-02-24 18:42:50,003 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-8) Trigger name: cronTrigger1
+2010-02-24 18:42:50,003 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-8) Firing Time: Wed Feb 24 18:42:50 IST 2010
+2010-02-24 18:42:55,003 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-9) Job name: Job1
+2010-02-24 18:42:55,003 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-9) Trigger name: cronTrigger1
+2010-02-24 18:42:55,003 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-9) Firing Time: Wed Feb 24 18:42:55 IST 2010
+2010-02-24 18:42:56,003 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-10) Job name: Job2
+2010-02-24 18:42:56,003 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-10) Trigger name: cronTrigger2
+2010-02-24 18:42:56,003 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-10) Firing Time: Wed Feb 24 18:42:56 IST 2010
+2010-02-24 18:43:00,003 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-1) Job name: Job1
+2010-02-24 18:43:00,003 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-1) Trigger name: cronTrigger1
+2010-02-24 18:43:00,003 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-1) Firing Time: Wed Feb 24 18:43:00 IST 2010
+2010-02-24 18:43:00,003 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-2) Job name: Job2
+2010-02-24 18:43:00,019 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-2) Trigger name: cronTrigger2
+2010-02-24 18:43:00,019 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-2) Firing Time: Wed Feb 24 18:43:00 IST 2010
+2010-02-24 18:43:05,003 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-3) Job name: Job1
+2010-02-24 18:43:05,003 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-3) Trigger name: cronTrigger1
+2010-02-24 18:43:05,003 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-3) Firing Time: Wed Feb 24 18:43:05 IST 2010
+2010-02-24 18:43:07,050 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Runtime shutdown hook called, forceHalt: true
+2010-02-24 18:43:07,050 INFO  [org.apache.coyote.http11.Http11Protocol] (JBoss Shutdown Hook) Pausing Coyote HTTP/1.1 on http-127.0.0.1-8080
+2010-02-24 18:43:07,081 INFO  [org.apache.coyote.http11.Http11Protocol] (JBoss Shutdown Hook) Stopping Coyote HTTP/1.1 on http-127.0.0.1-8080
+2010-02-24 18:43:07,097 INFO  [org.apache.coyote.ajp.AjpProtocol] (JBoss Shutdown Hook) Pausing Coyote AJP/1.3 on ajp-127.0.0.1-8009
+2010-02-24 18:43:07,113 INFO  [org.apache.coyote.ajp.AjpProtocol] (JBoss Shutdown Hook) Stopping Coyote AJP/1.3 on ajp-127.0.0.1-8009
+2010-02-24 18:43:07,144 INFO  [STDOUT] (JBoss Shutdown Hook) Stopping with message=StartUp Service - Testing
+2010-02-24 18:43:07,175 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@170848 undeployed
+2010-02-24 18:43:07,191 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@eb3965 undeployed
+2010-02-24 18:43:07,191 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@1133baf undeployed
+2010-02-24 18:43:07,206 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/web-console
+2010-02-24 18:43:07,347 INFO  [org.jboss.jms.server.destination.QueueService] (JBoss Shutdown Hook) Queue[/queue/ExpiryQueue] stopped
+2010-02-24 18:43:07,363 INFO  [org.jboss.jms.server.destination.QueueService] (JBoss Shutdown Hook) Queue[/queue/DLQ] stopped
+2010-02-24 18:43:07,378 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2010-02-24 18:43:07,394 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureProfileServiceBean ejbName: SecureProfileService
+2010-02-24 18:43:07,488 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2010-02-24 18:43:07,566 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureDeploymentManager ejbName: SecureDeploymentManager
+2010-02-24 18:43:07,706 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2010-02-24 18:43:07,722 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureManagementView ejbName: SecureManagementView
+2010-02-24 18:43:07,769 INFO  [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] (JBoss Shutdown Hook) Unbind EJB LocalHome 'SAPAccessBean' from jndi 'local/SAPAccessBean@17633424'
+2010-02-24 18:43:07,785 INFO  [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] (JBoss Shutdown Hook) Unbind EJB LocalHome 'DocumentManagerEJB' from jndi 'ejb/jndi/LocalDocumentManagerHome'
+2010-02-24 18:43:07,816 INFO  [org.jboss.proxy.ejb.ProxyFactory] (JBoss Shutdown Hook) Unbind EJB Home 'SAPAccessBean' from jndi 'EJB/jndi/SAPAccessBean'
+2010-02-24 18:43:07,831 INFO  [org.jboss.ejb.EjbModule] (JBoss Shutdown Hook) Undeployed SAPAccessBean
+2010-02-24 18:43:07,847 INFO  [org.jboss.proxy.ejb.ProxyFactory] (JBoss Shutdown Hook) Unbind EJB Home 'LDAPAuthenticationEJB' from jndi 'ejb/jndi/LDAPAuthentication'
+2010-02-24 18:43:07,847 INFO  [org.jboss.ejb.EjbModule] (JBoss Shutdown Hook) Undeployed LDAPAuthenticationEJB
+2010-02-24 18:43:07,863 INFO  [org.jboss.proxy.ejb.ProxyFactory] (JBoss Shutdown Hook) Unbind EJB Home 'DocumentManagerEJB' from jndi 'ejb/jndi/DocumentManagerHome'
+2010-02-24 18:43:07,863 INFO  [org.jboss.ejb.EjbModule] (JBoss Shutdown Hook) Undeployed DocumentManagerEJB
+2010-02-24 18:43:07,878 INFO  [org.jboss.proxy.ejb.ProxyFactory] (JBoss Shutdown Hook) Unbind EJB Home 'FabOSRealtimeUpdateObject' from jndi 'ejb/jndi/RealtimeUpdateHome'
+2010-02-24 18:43:07,878 INFO  [org.jboss.ejb.EjbModule] (JBoss Shutdown Hook) Undeployed FabOSRealtimeUpdateObject
+2010-02-24 18:43:07,894 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' from JNDI name 'java:JmsXA'
+2010-02-24 18:43:08,003 INFO  [org.jboss.jms.server.ServerPeer] (JBoss Shutdown Hook) JMS ServerPeer[0] stopped
+2010-02-24 18:43:08,003 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-4) Job name: Job2
+2010-02-24 18:43:08,019 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/invoker
+2010-02-24 18:43:08,019 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-4) Trigger name: cronTrigger2
+2010-02-24 18:43:08,019 INFO  [STDOUT] (DefaultQuartzScheduler_Worker-4) Firing Time: Wed Feb 24 18:43:08 IST 2010
+2010-02-24 18:43:08,113 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/jbossws
+2010-02-24 18:43:08,113 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/admin-console
+2010-02-24 18:43:08,128 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/
+2010-02-24 18:43:08,144 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/content
+2010-02-24 18:43:08,160 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/directweb
+2010-02-24 18:43:08,175 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/docrepository
+2010-02-24 18:43:08,175 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/jmx-console
+2010-02-24 18:43:08,191 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/orderstatus
+2010-02-24 18:43:08,300 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/orderstatusws
+2010-02-24 18:43:08,363 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/users
+2010-02-24 18:43:08,378 INFO  [org.apache.catalina.core.StandardService] (JBoss Shutdown Hook) Stopping service jboss.web
+2010-02-24 18:43:08,488 INFO  [org.jboss.mail.MailService] (JBoss Shutdown Hook) Mail service 'java:/Mail' removed from JNDI
+2010-02-24 18:43:08,644 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=HDFabDS' from JNDI name 'java:HDFabDS'
+2010-02-24 18:43:08,660 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=JDBCIntranetDS' from JNDI name 'java:JDBCIntranetDS'
+2010-02-24 18:43:08,675 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=OrderStatusDS' from JNDI name 'java:OrderStatusDS'
+2010-02-24 18:43:08,691 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=PIPDS' from JNDI name 'java:PIPDS'
+2010-02-24 18:43:08,706 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' from JNDI name 'java:DefaultDS'
+2010-02-24 18:43:08,863 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2010-02-24 18:43:08,863 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2010-02-24 18:43:08,863 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2010-02-24 18:43:09,253 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (JBoss Shutdown Hook) Stopping transaction recovery manager
+2010-02-24 18:43:09,253 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (JBoss Shutdown Hook) Destroying TransactionManagerService
+2010-02-24 18:43:09,816 INFO  [org.jboss.jdbc.HypersonicDatabase] (JBoss Shutdown Hook) Database standalone closed clean
+2010-02-24 18:43:18,722 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Shutdown complete

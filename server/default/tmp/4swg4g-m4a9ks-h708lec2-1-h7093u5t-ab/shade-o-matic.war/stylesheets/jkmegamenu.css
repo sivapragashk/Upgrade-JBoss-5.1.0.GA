@@ -1,0 +1,154 @@
+.megamenu{
+position: absolute;
+display: none;
+left: 0;
+top: 0;
+background: white;
+border: 1px solid;
+border-width: 1px 1px;
+padding: 10px;
+font: normal 12px Verdana;
+z-index: 100;
+
+}
+
+.megamenu .column{
+float: left;
+width: 180px; /*width of each menu column*/
+margin-right: 5px;
+}
+
+.megamenu .column ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+.megamenu .column ul li{
+padding-bottom: 5px;
+}
+
+.megamenu .column ul li a{
+    color: #666666;
+    text-decoration: none;
+}
+
+#nav{
+	width: 1000px;
+	height: 33px;
+	margin: 10px auto;
+}
+ul#nav li
+{
+	list-style: none;
+	font-family:'Georgia', arial, serif;
+	font-size: 10pt;
+	color: #887777;
+	float: left;
+	height: 32px;
+	padding-top: 11px;
+	text-decoration: none;
+	text-align: left;
+}
+ul#nav li.liadmin
+{
+	width: 125px;
+	text-align: center;
+	background-image: url(../images/greenBG.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+ul#nav li.licompany
+{
+
+	width: 125px;
+	text-align: center;
+	background-image: url(../images/greenBG.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+ul#nav li.linews
+{
+	width: 125px;
+	text-align: center;
+	background-image: url(../images/greenBG.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+ul#nav li.lireward
+{
+	width: 125px;
+	text-align: center;
+	background-image: url(../images/greenBG.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+ul#nav li.liproducts
+{
+	width: 125px;
+	text-align: center;
+	background-image: url(../images/greenBG.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+ul#nav li.lisupport
+{
+	width: 125px;
+	text-align: center;
+	background-image: url(../images/greenBG.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+ul#nav li.limediacenter
+{
+	width: 125px;
+	text-align: center;
+	background-image: url(../images/greenBG.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+ul#nav li.liepic
+{
+	width: 125px;
+	text-align: center;
+	background-image: url(../images/greenBG.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+ul#nav li.spacermenu
+{
+	width: 125px;
+	text-align: center;
+	background-image: url(../images/greenBG.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+ul#nav li.lidealerlocator
+{
+	width: 125px;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+ul#nav li a 
+{
+	font-family:'Yanone Kaffeesatz', arial, serif;
+	font-size: 13pt;
+	color: #FFFFFF;
+	text-decoration:none;
+}
+.submenuheader{
+    color: #016361;
+    font-family: 'Yanone Kaffeesatz',arial,serif;
+    font-size: 13pt;
+    font-weight: normal;
+    padding-bottom: 8px;
+    text-align: left;
+    text-decoration: none;
+} 

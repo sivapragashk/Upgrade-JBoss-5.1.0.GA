@@ -1,0 +1,1267 @@
+2012-09-19 15:19:35,455 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/shade-o-matic
+2012-09-19 15:19:41,697 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/shade-o-matic
+2012-09-19 15:19:41,771 INFO  [STDOUT] (HDScanner) BaseFilter initialized...
+2012-09-19 15:19:46,370 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[localhost].[/shade-o-matic].[jsp]] (http-127.0.0.1-9090-4) Servlet.service() for servlet jsp threw exception
+java.lang.NullPointerException
+	at com.hd.som.filter.BaseFilter.getAdditionalParams(Unknown Source)
+	at com.hd.som.filter.BaseFilter.doFilter(Unknown Source)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.jboss.web.tomcat.filters.ReplyHeaderFilter.doFilter(ReplyHeaderFilter.java:96)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:235)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.jboss.web.tomcat.security.SecurityAssociationValve.invoke(SecurityAssociationValve.java:190)
+	at org.jboss.web.tomcat.security.JaccContextValve.invoke(JaccContextValve.java:92)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.process(SecurityContextEstablishmentValve.java:126)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.invoke(SecurityContextEstablishmentValve.java:70)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:330)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:829)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:598)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:619)
+2012-09-19 15:21:04,238 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Runtime shutdown hook called, forceHalt: true
+2012-09-19 15:21:04,242 INFO  [org.apache.coyote.http11.Http11Protocol] (JBoss Shutdown Hook) Pausing Coyote HTTP/1.1 on http-127.0.0.1-9090
+2012-09-19 15:21:04,266 INFO  [org.apache.coyote.http11.Http11Protocol] (JBoss Shutdown Hook) Stopping Coyote HTTP/1.1 on http-127.0.0.1-9090
+2012-09-19 15:21:04,270 INFO  [org.apache.coyote.ajp.AjpProtocol] (JBoss Shutdown Hook) Pausing Coyote AJP/1.3 on ajp-127.0.0.1-9019
+2012-09-19 15:21:04,271 INFO  [org.apache.coyote.ajp.AjpProtocol] (JBoss Shutdown Hook) Stopping Coyote AJP/1.3 on ajp-127.0.0.1-9019
+2012-09-19 15:21:04,292 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@ab40bf undeployed
+2012-09-19 15:21:04,293 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@1ad7d8c undeployed
+2012-09-19 15:21:04,294 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@1cc7462 undeployed
+2012-09-19 15:21:04,297 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/web-console
+2012-09-19 15:21:04,306 INFO  [org.jboss.jms.server.destination.QueueService] (JBoss Shutdown Hook) Queue[/queue/ExpiryQueue] stopped
+2012-09-19 15:21:04,306 INFO  [org.jboss.jms.server.destination.QueueService] (JBoss Shutdown Hook) Queue[/queue/DLQ] stopped
+2012-09-19 15:21:04,312 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2012-09-19 15:21:04,348 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureProfileServiceBean ejbName: SecureProfileService
+2012-09-19 15:21:04,394 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2012-09-19 15:21:04,412 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureDeploymentManager ejbName: SecureDeploymentManager
+2012-09-19 15:21:04,436 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2012-09-19 15:21:04,441 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureManagementView ejbName: SecureManagementView
+2012-09-19 15:21:04,465 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' from JNDI name 'java:JmsXA'
+2012-09-19 15:21:04,527 INFO  [org.jboss.jms.server.ServerPeer] (JBoss Shutdown Hook) JMS ServerPeer[0] stopped
+2012-09-19 15:21:04,532 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/invoker
+2012-09-19 15:21:04,566 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/juddi
+2012-09-19 15:21:04,567 INFO  [org.apache.juddi.registry.RegistryServlet] (JBoss Shutdown Hook) jUDDI Stopping: Cleaning up existing resources.
+2012-09-19 15:21:04,569 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/admin-console
+2012-09-19 15:21:04,571 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/
+2012-09-19 15:21:04,573 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/jbossws
+2012-09-19 15:21:04,574 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/jmx-console
+2012-09-19 15:21:04,577 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/open-search-webapp-1.0
+2012-09-19 15:21:04,581 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/shade-o-matic
+2012-09-19 15:21:04,594 INFO  [org.apache.catalina.core.StandardService] (JBoss Shutdown Hook) Stopping service jboss.web
+2012-09-19 15:21:04,637 INFO  [org.jboss.mail.MailService] (JBoss Shutdown Hook) Mail service 'java:/Mail' removed from JNDI
+2012-09-19 15:21:04,703 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=CEDGDS' from JNDI name 'java:CEDGDS'
+2012-09-19 15:21:04,703 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=HDFabDS' from JNDI name 'java:HDFabDS'
+2012-09-19 15:21:04,704 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=IntranetDS' from JNDI name 'java:IntranetDS'
+2012-09-19 15:21:04,704 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=JDBCCedgDS' from JNDI name 'java:JDBCCedgDS'
+2012-09-19 15:21:04,705 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=JDBCIntranetDS' from JNDI name 'java:JDBCIntranetDS'
+2012-09-19 15:21:04,705 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=OnlineSurveyDS' from JNDI name 'java:OnlineSurveyDS'
+2012-09-19 15:21:04,706 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=OrderStatusDS' from JNDI name 'java:OrderStatusDS'
+2012-09-19 15:21:04,707 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=PIPDS' from JNDI name 'java:PIPDS'
+2012-09-19 15:21:04,707 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=PLSDS' from JNDI name 'java:PLSDS'
+2012-09-19 15:21:04,707 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=ShadeOMaticDS' from JNDI name 'java:ShadeOMaticDS'
+2012-09-19 15:21:04,708 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' from JNDI name 'java:DefaultDS'
+2012-09-19 15:21:05,317 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2012-09-19 15:21:05,318 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2012-09-19 15:21:05,319 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2012-09-19 15:21:05,457 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (JBoss Shutdown Hook) Stopping transaction recovery manager
+2012-09-19 15:21:05,459 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (JBoss Shutdown Hook) Destroying TransactionManagerService
+2012-09-19 15:21:05,721 INFO  [org.jboss.jdbc.HypersonicDatabase] (JBoss Shutdown Hook) Database standalone closed clean
+2012-09-19 15:21:07,798 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Shutdown complete
+2012-09-19 15:21:20,644 INFO  [org.jboss.web.WebService] (main) Using RMI server codebase: http://127.0.0.1:8083/
+2012-09-19 15:21:25,967 INFO  [org.jboss.wsf.common.management.AbstractServerConfig] (main) JBoss Web Services - Native Server
+2012-09-19 15:21:25,967 INFO  [org.jboss.wsf.common.management.AbstractServerConfig] (main) 3.2.2.GA
+2012-09-19 15:21:27,069 INFO  [org.jboss.dependency.plugins.AttributeCallbackItem] (main) Owner callback not implemented.
+2012-09-19 15:21:29,096 INFO  [org.jboss.logbridge.LogNotificationListener] (main) Adding notification listener for logging mbean "jboss.system:service=Logging,type=Log4jService" to server org.jboss.mx.server.MBeanServerImpl@d36ff3[ defaultDomain='jboss' ]
+2012-09-19 15:21:39,164 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@12313776{vfsfile:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/profileservice-secured.jar/}
+2012-09-19 15:21:39,165 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@12313776{vfsfile:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/profileservice-secured.jar/}
+2012-09-19 15:21:39,165 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@12313776{vfsfile:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/profileservice-secured.jar/}
+2012-09-19 15:21:39,165 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@12313776{vfsfile:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/profileservice-secured.jar/}
+2012-09-19 15:21:42,363 INFO  [org.jboss.mx.remoting.service.JMXConnectorServerService] (main) JMX Connector server: service:jmx:rmi://127.0.0.1/jndi/rmi://127.0.0.1:1090/jmxconnector
+2012-09-19 15:21:42,631 INFO  [org.jboss.mail.MailService] (main) Mail Service bound to java:/Mail
+2012-09-19 15:21:53,188 WARN  [org.jboss.jms.server.jbosssx.JBossASSecurityMetadataStore] (main) WARNING! POTENTIAL SECURITY RISK. It has been detected that the MessageSucker component which sucks messages from one node to another has not had its password changed from the installation default. Please see the JBoss Messaging user guide for instructions on how to do this.
+2012-09-19 15:21:53,201 WARN  [org.jboss.annotation.factory.AnnotationCreator] (main) No ClassLoader provided, using TCCL: org.jboss.managed.api.annotation.ManagementComponent
+2012-09-19 15:21:53,335 WARN  [org.jboss.annotation.factory.AnnotationCreator] (main) No ClassLoader provided, using TCCL: org.jboss.managed.api.annotation.ManagementComponent
+2012-09-19 15:21:53,418 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) JBossTS Transaction Service (JTA version - tag:JBOSSTS_4_6_1_GA) - JBoss Inc.
+2012-09-19 15:21:53,419 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Setting up property manager MBean and JMX layer
+2012-09-19 15:21:53,901 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Initializing recovery manager
+2012-09-19 15:21:54,277 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Recovery manager configured
+2012-09-19 15:21:54,279 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Binding TransactionManager JNDI Reference
+2012-09-19 15:21:54,319 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Starting transaction recovery manager
+2012-09-19 15:21:54,844 INFO  [org.apache.catalina.core.AprLifecycleListener] (main) The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.6.0_16\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.6.0_16\bin;C:\Program Files\QuickTime\QTSystem\;C:\Program Files\TortoiseSVN\bin
+2012-09-19 15:21:54,937 INFO  [org.apache.coyote.http11.Http11Protocol] (main) Initializing Coyote HTTP/1.1 on http-127.0.0.1-9090
+2012-09-19 15:21:54,951 INFO  [org.apache.coyote.ajp.AjpProtocol] (main) Initializing Coyote AJP/1.3 on ajp-127.0.0.1-9019
+2012-09-19 15:21:54,996 INFO  [org.apache.catalina.core.StandardService] (main) Starting service jboss.web
+2012-09-19 15:21:54,998 INFO  [org.apache.catalina.core.StandardEngine] (main) Starting Servlet Engine: JBoss Web/2.1.3.GA
+2012-09-19 15:21:55,026 INFO  [org.apache.catalina.startup.Catalina] (main) Server startup in 74 ms
+2012-09-19 15:21:55,041 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/invoker
+2012-09-19 15:21:55,510 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/web-console
+2012-09-19 15:21:55,729 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/juddi
+2012-09-19 15:21:55,782 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Loading jUDDI configuration.
+2012-09-19 15:21:55,787 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Resources loaded from: /WEB-INF/juddi.properties
+2012-09-19 15:21:55,787 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Initializing jUDDI components.
+2012-09-19 15:21:56,039 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/jboss-local-jdbc.rar/META-INF/ra.xml
+2012-09-19 15:21:56,241 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/jboss-xa-jdbc.rar/META-INF/ra.xml
+2012-09-19 15:21:56,259 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/jms-ra.rar/META-INF/ra.xml
+2012-09-19 15:21:56,318 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/mail-ra.rar/META-INF/ra.xml
+2012-09-19 15:21:56,362 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/quartz-ra.rar/META-INF/ra.xml
+2012-09-19 15:21:56,453 INFO  [org.quartz.simpl.SimpleThreadPool] (main) Job execution threads will use class loader of thread: main
+2012-09-19 15:21:56,488 INFO  [org.quartz.core.SchedulerSignalerImpl] (main) Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2012-09-19 15:21:56,493 INFO  [org.quartz.core.QuartzScheduler] (main) Quartz Scheduler v.1.7.2 created.
+2012-09-19 15:21:56,497 INFO  [org.quartz.simpl.RAMJobStore] (main) RAMJobStore initialized.
+2012-09-19 15:21:56,497 INFO  [org.quartz.impl.StdSchedulerFactory] (main) Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2012-09-19 15:21:56,497 INFO  [org.quartz.impl.StdSchedulerFactory] (main) Quartz scheduler version: 1.7.2
+2012-09-19 15:21:56,497 INFO  [org.quartz.core.QuartzScheduler] (main) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2012-09-19 15:21:56,708 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=CEDGDS' to JNDI name 'java:CEDGDS'
+2012-09-19 15:21:56,778 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=HDFabDS' to JNDI name 'java:HDFabDS'
+2012-09-19 15:21:56,829 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=IntranetDS' to JNDI name 'java:IntranetDS'
+2012-09-19 15:21:56,861 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=JDBCCedgDS' to JNDI name 'java:JDBCCedgDS'
+2012-09-19 15:21:56,897 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=JDBCIntranetDS' to JNDI name 'java:JDBCIntranetDS'
+2012-09-19 15:21:56,943 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=OnlineSurveyDS' to JNDI name 'java:OnlineSurveyDS'
+2012-09-19 15:21:56,994 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=OrderStatusDS' to JNDI name 'java:OrderStatusDS'
+2012-09-19 15:21:57,043 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=PIPDS' to JNDI name 'java:PIPDS'
+2012-09-19 15:21:57,087 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=PLSDS' to JNDI name 'java:PLSDS'
+2012-09-19 15:21:57,133 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=ShadeOMaticDS' to JNDI name 'java:ShadeOMaticDS'
+2012-09-19 15:21:57,678 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' to JNDI name 'java:DefaultDS'
+2012-09-19 15:21:58,252 INFO  [org.jboss.jms.server.ServerPeer] (main) JBoss Messaging 1.4.3.GA server [0] started
+2012-09-19 15:21:58,323 INFO  [org.jboss.jms.server.destination.QueueService] (main) Queue[/queue/ExpiryQueue] started, fullSize=200000, pageSize=2000, downCacheSize=2000
+2012-09-19 15:21:58,364 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2012-09-19 15:21:58,364 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@1b8e77c started
+2012-09-19 15:21:58,369 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2012-09-19 15:21:58,369 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@1dabf42 started
+2012-09-19 15:21:58,370 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactoryJNDIMapper] (main) supportsFailover attribute is true on connection factory: jboss.messaging.connectionfactory:service=ClusteredConnectionFactory but post office is non clustered. So connection factory will *not* support failover
+2012-09-19 15:21:58,370 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactoryJNDIMapper] (main) supportsLoadBalancing attribute is true on connection factory: jboss.messaging.connectionfactory:service=ClusteredConnectionFactory but post office is non clustered. So connection factory will *not* support load balancing
+2012-09-19 15:21:58,371 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2012-09-19 15:21:58,371 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@19ba7aa started
+2012-09-19 15:21:58,372 INFO  [org.jboss.jms.server.destination.QueueService] (main) Queue[/queue/DLQ] started, fullSize=200000, pageSize=2000, downCacheSize=2000
+2012-09-19 15:21:58,449 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' to JNDI name 'java:JmsXA'
+2012-09-19 15:21:58,784 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Created KernelDeployment for: profileservice-secured.jar
+2012-09-19 15:21:58,788 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2012-09-19 15:21:58,788 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2012-09-19 15:21:58,788 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2012-09-19 15:21:58,788 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView
+2012-09-19 15:21:58,788 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2012-09-19 15:21:58,789 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2012-09-19 15:21:58,789 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.profileservice.spi.ProfileService
+2012-09-19 15:21:58,789 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureProfileService/remote
+2012-09-19 15:21:58,789 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureProfileService/remote-org.jboss.profileservice.spi.ProfileService
+2012-09-19 15:21:58,789 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2012-09-19 15:21:58,790 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2012-09-19 15:21:58,790 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2012-09-19 15:21:58,791 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2012-09-19 15:21:58,791 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2012-09-19 15:21:58,791 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2012-09-19 15:21:58,791 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureDeploymentManager/remote-org.jboss.deployers.spi.management.deploy.DeploymentManager
+2012-09-19 15:21:58,794 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.deployers.spi.management.deploy.DeploymentManager
+2012-09-19 15:21:58,794 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureDeploymentManager/remote
+2012-09-19 15:21:58,794 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2012-09-19 15:21:58,795 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2012-09-19 15:21:58,795 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2012-09-19 15:21:58,795 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2012-09-19 15:21:58,796 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2012-09-19 15:21:58,796 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2012-09-19 15:21:58,796 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView
+2012-09-19 15:21:58,796 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.deployers.spi.management.ManagementView
+2012-09-19 15:21:58,796 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote
+2012-09-19 15:21:58,796 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2012-09-19 15:21:58,801 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@9b964{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2012-09-19 15:21:58,802 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@1a648b8{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2012-09-19 15:21:58,802 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@18ae41{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2012-09-19 15:21:58,961 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2012-09-19 15:21:58,968 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureDeploymentManager ejbName: SecureDeploymentManager
+2012-09-19 15:21:59,017 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureDeploymentManager/remote - EJB3.x Default Remote Business Interface
+	SecureDeploymentManager/remote-org.jboss.deployers.spi.management.deploy.DeploymentManager - EJB3.x Remote Business Interface
+
+2012-09-19 15:21:59,585 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2012-09-19 15:21:59,602 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureManagementView ejbName: SecureManagementView
+2012-09-19 15:21:59,616 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureManagementView/remote - EJB3.x Default Remote Business Interface
+	SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView - EJB3.x Remote Business Interface
+
+2012-09-19 15:21:59,694 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2012-09-19 15:21:59,695 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureProfileServiceBean ejbName: SecureProfileService
+2012-09-19 15:21:59,702 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureProfileService/remote - EJB3.x Default Remote Business Interface
+	SecureProfileService/remote-org.jboss.profileservice.spi.ProfileService - EJB3.x Remote Business Interface
+
+2012-09-19 15:21:59,844 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/admin-console
+2012-09-19 15:21:59,972 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (main) Initializing Mojarra (1.2_12-b01-FCS) for context '/admin-console'
+2012-09-19 15:22:01,668 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/
+2012-09-19 15:22:01,777 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/jbossws
+2012-09-19 15:22:01,947 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/jmx-console
+2012-09-19 15:22:02,124 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/open-search-webapp-1.0
+2012-09-19 15:22:02,372 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/shade-o-matic
+2012-09-19 15:22:02,392 INFO  [STDOUT] (main) BaseFilter initialized...
+2012-09-19 15:22:02,459 INFO  [org.apache.coyote.http11.Http11Protocol] (main) Starting Coyote HTTP/1.1 on http-127.0.0.1-9090
+2012-09-19 15:22:02,473 INFO  [org.apache.coyote.ajp.AjpProtocol] (main) Starting Coyote AJP/1.3 on ajp-127.0.0.1-9019
+2012-09-19 15:22:02,480 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (main) JBoss (Microcontainer) [5.1.0.GA (build: SVNTag=JBoss_5_1_0_GA date=200905221634)] Started in 50s:104ms
+2012-09-19 15:22:03,726 INFO  [org.quartz.utils.UpdateChecker] (Timer-1) New update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+2012-09-19 15:26:21,376 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/shade-o-matic
+2012-09-19 15:26:21,901 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/shade-o-matic
+2012-09-19 15:26:21,971 INFO  [STDOUT] (HDScanner) BaseFilter initialized...
+2012-09-19 15:26:29,007 INFO  [STDOUT] (http-127.0.0.1-9090-1) 1------------------
+2012-09-19 15:26:29,008 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[localhost].[/shade-o-matic].[jsp]] (http-127.0.0.1-9090-1) Servlet.service() for servlet jsp threw exception
+java.lang.NullPointerException
+	at com.hd.som.filter.BaseFilter.getAdditionalParams(Unknown Source)
+	at com.hd.som.filter.BaseFilter.doFilter(Unknown Source)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.jboss.web.tomcat.filters.ReplyHeaderFilter.doFilter(ReplyHeaderFilter.java:96)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:235)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.jboss.web.tomcat.security.SecurityAssociationValve.invoke(SecurityAssociationValve.java:190)
+	at org.jboss.web.tomcat.security.JaccContextValve.invoke(JaccContextValve.java:92)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.process(SecurityContextEstablishmentValve.java:126)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.invoke(SecurityContextEstablishmentValve.java:70)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:330)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:829)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:598)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:619)
+2012-09-19 15:26:30,859 INFO  [STDOUT] (http-127.0.0.1-9090-1) 1------------------
+2012-09-19 15:26:30,860 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[localhost].[/shade-o-matic].[jsp]] (http-127.0.0.1-9090-1) Servlet.service() for servlet jsp threw exception
+java.lang.NullPointerException
+	at com.hd.som.filter.BaseFilter.getAdditionalParams(Unknown Source)
+	at com.hd.som.filter.BaseFilter.doFilter(Unknown Source)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.jboss.web.tomcat.filters.ReplyHeaderFilter.doFilter(ReplyHeaderFilter.java:96)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:235)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.jboss.web.tomcat.security.SecurityAssociationValve.invoke(SecurityAssociationValve.java:190)
+	at org.jboss.web.tomcat.security.JaccContextValve.invoke(JaccContextValve.java:92)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.process(SecurityContextEstablishmentValve.java:126)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.invoke(SecurityContextEstablishmentValve.java:70)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:330)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:829)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:598)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:619)
+2012-09-19 15:28:01,731 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/shade-o-matic
+2012-09-19 15:28:02,131 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/shade-o-matic
+2012-09-19 15:28:02,167 INFO  [STDOUT] (HDScanner) BaseFilter initialized...
+2012-09-19 15:28:03,158 INFO  [STDOUT] (http-127.0.0.1-9090-1) 1------------------
+2012-09-19 15:28:03,159 INFO  [STDOUT] (http-127.0.0.1-9090-1) /shade-o-matic/index.jsp
+2012-09-19 15:28:03,159 INFO  [STDOUT] (http-127.0.0.1-9090-1) /shade-o-matic
+2012-09-19 15:28:03,160 INFO  [STDOUT] (http-127.0.0.1-9090-1) /index.jsp
+2012-09-19 15:28:03,161 INFO  [STDOUT] (http-127.0.0.1-9090-1) reqURI---->/shade-o-matic/index.jsp
+2012-09-19 15:28:04,038 INFO  [STDOUT] (http-127.0.0.1-9090-2) 1------------------
+2012-09-19 15:28:04,039 INFO  [STDOUT] (http-127.0.0.1-9090-2) /shade-o-matic/stylesheets/.css
+2012-09-19 15:28:04,039 INFO  [STDOUT] (http-127.0.0.1-9090-2) /shade-o-matic
+2012-09-19 15:28:04,039 INFO  [STDOUT] (http-127.0.0.1-9090-2) /stylesheets/.css
+2012-09-19 15:28:04,039 INFO  [STDOUT] (http-127.0.0.1-9090-2) reqURI---->/shade-o-matic/stylesheets/.css
+2012-09-19 15:31:26,456 INFO  [STDOUT] (http-127.0.0.1-9090-1) 1------------------
+2012-09-19 15:31:26,457 INFO  [STDOUT] (http-127.0.0.1-9090-1) /shade-o-matic/index.jsp
+2012-09-19 15:31:26,458 INFO  [STDOUT] (http-127.0.0.1-9090-1) /shade-o-matic
+2012-09-19 15:31:26,458 INFO  [STDOUT] (http-127.0.0.1-9090-1) /index.jsp
+2012-09-19 15:31:26,459 INFO  [STDOUT] (http-127.0.0.1-9090-1) reqURI---->/shade-o-matic/index.jsp
+2012-09-19 15:31:26,493 INFO  [STDOUT] (http-127.0.0.1-9090-1) 1------------------
+2012-09-19 15:31:26,493 INFO  [STDOUT] (http-127.0.0.1-9090-1) /shade-o-matic/stylesheets/.css
+2012-09-19 15:31:26,493 INFO  [STDOUT] (http-127.0.0.1-9090-1) /shade-o-matic
+2012-09-19 15:31:26,493 INFO  [STDOUT] (http-127.0.0.1-9090-1) /stylesheets/.css
+2012-09-19 15:31:26,494 INFO  [STDOUT] (http-127.0.0.1-9090-1) reqURI---->/shade-o-matic/stylesheets/.css
+2012-09-19 15:31:26,885 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/shade-o-matic
+2012-09-19 15:31:27,245 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/shade-o-matic
+2012-09-19 15:31:27,272 INFO  [STDOUT] (HDScanner) BaseFilter initialized...
+2012-09-19 15:32:20,756 INFO  [STDOUT] (http-127.0.0.1-9090-1) reqURI---->/shade-o-matic/index.jsp--------->/index.jsp
+2012-09-19 15:32:20,934 INFO  [STDOUT] (http-127.0.0.1-9090-2) reqURI---->/shade-o-matic/stylesheets/style.css--------->/stylesheets/style.css
+2012-09-19 15:32:20,936 INFO  [STDOUT] (http-127.0.0.1-9090-3) reqURI---->/shade-o-matic/stylesheets/jkmegamenu.css--------->/stylesheets/jkmegamenu.css
+2012-09-19 15:32:20,946 INFO  [STDOUT] (http-127.0.0.1-9090-4) reqURI---->/shade-o-matic/stylesheets/.css--------->/stylesheets/.css
+2012-09-19 15:32:20,951 INFO  [STDOUT] (http-127.0.0.1-9090-3) reqURI---->/shade-o-matic/js/shade-o-matic.js--------->/js/shade-o-matic.js
+2012-09-19 15:32:20,952 INFO  [STDOUT] (http-127.0.0.1-9090-2) reqURI---->/shade-o-matic/js/jkmegamenu.js--------->/js/jkmegamenu.js
+2012-09-19 15:32:20,975 INFO  [STDOUT] (http-127.0.0.1-9090-5) reqURI---->/shade-o-matic/js/jquery-1.4.2.min.js--------->/js/jquery-1.4.2.min.js
+2012-09-19 15:32:21,127 INFO  [STDOUT] (http-127.0.0.1-9090-2) reqURI---->/shade-o-matic/images/30-year-logo.png--------->/images/30-year-logo.png
+2012-09-19 15:32:21,127 INFO  [STDOUT] (http-127.0.0.1-9090-1) reqURI---->/shade-o-matic/images/ShadeomaticEpic.jpg--------->/images/ShadeomaticEpic.jpg
+2012-09-19 15:32:21,131 INFO  [STDOUT] (http-127.0.0.1-9090-5) reqURI---->/shade-o-matic/images/ShadeomaticHomeLogo.png--------->/images/ShadeomaticHomeLogo.png
+2012-09-19 15:32:21,185 INFO  [STDOUT] (http-127.0.0.1-9090-5) reqURI---->/shade-o-matic/images/greenBG.jpg--------->/images/greenBG.jpg
+2012-09-19 15:33:59,378 INFO  [STDOUT] (http-127.0.0.1-9090-5) reqURI---->/shade-o-matic/index.jsp--------->/index.jsp
+2012-09-19 15:33:59,414 INFO  [STDOUT] (http-127.0.0.1-9090-5) reqURI---->/shade-o-matic/stylesheets/style.css--------->/stylesheets/style.css
+2012-09-19 15:33:59,422 INFO  [STDOUT] (http-127.0.0.1-9090-2) reqURI---->/shade-o-matic/stylesheets/jkmegamenu.css--------->/stylesheets/jkmegamenu.css
+2012-09-19 15:33:59,423 INFO  [STDOUT] (http-127.0.0.1-9090-5) reqURI---->/shade-o-matic/stylesheets/.css--------->/stylesheets/.css
+2012-09-19 15:33:59,427 INFO  [STDOUT] (http-127.0.0.1-9090-2) reqURI---->/shade-o-matic/js/jquery-1.4.2.min.js--------->/js/jquery-1.4.2.min.js
+2012-09-19 15:33:59,430 INFO  [STDOUT] (http-127.0.0.1-9090-1) reqURI---->/shade-o-matic/js/jkmegamenu.js--------->/js/jkmegamenu.js
+2012-09-19 15:33:59,434 INFO  [STDOUT] (http-127.0.0.1-9090-5) reqURI---->/shade-o-matic/js/shade-o-matic.js--------->/js/shade-o-matic.js
+2012-09-19 15:33:59,469 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/shade-o-matic
+2012-09-19 15:33:59,855 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/shade-o-matic
+2012-09-19 15:33:59,888 INFO  [STDOUT] (HDScanner) BaseFilter initialized...
+2012-09-19 16:54:17,728 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/shade-o-matic
+2012-09-19 16:54:18,070 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/shade-o-matic
+2012-09-19 16:54:18,101 INFO  [STDOUT] (HDScanner) BaseFilter initialized...
+2012-09-19 16:54:53,237 INFO  [STDOUT] (http-127.0.0.1-9090-6) Loading URL shortcuts.......
+2012-09-19 16:54:57,337 INFO  [STDOUT] (http-127.0.0.1-9090-6) menu-->null---null
+2012-09-19 16:55:16,360 INFO  [STDOUT] (http-127.0.0.1-9090-6) menu-->null---null
+2012-09-19 17:21:39,027 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Runtime shutdown hook called, forceHalt: true
+2012-09-19 17:21:39,031 INFO  [org.apache.coyote.http11.Http11Protocol] (JBoss Shutdown Hook) Pausing Coyote HTTP/1.1 on http-127.0.0.1-9090
+2012-09-19 17:21:39,052 INFO  [org.apache.coyote.http11.Http11Protocol] (JBoss Shutdown Hook) Stopping Coyote HTTP/1.1 on http-127.0.0.1-9090
+2012-09-19 17:21:39,056 INFO  [org.apache.coyote.ajp.AjpProtocol] (JBoss Shutdown Hook) Pausing Coyote AJP/1.3 on ajp-127.0.0.1-9019
+2012-09-19 17:21:39,057 INFO  [org.apache.coyote.ajp.AjpProtocol] (JBoss Shutdown Hook) Stopping Coyote AJP/1.3 on ajp-127.0.0.1-9019
+2012-09-19 17:21:39,086 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@1b8e77c undeployed
+2012-09-19 17:21:39,086 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@19ba7aa undeployed
+2012-09-19 17:21:39,087 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@1dabf42 undeployed
+2012-09-19 17:21:39,090 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/web-console
+2012-09-19 17:21:39,099 INFO  [org.jboss.jms.server.destination.QueueService] (JBoss Shutdown Hook) Queue[/queue/ExpiryQueue] stopped
+2012-09-19 17:21:39,100 INFO  [org.jboss.jms.server.destination.QueueService] (JBoss Shutdown Hook) Queue[/queue/DLQ] stopped
+2012-09-19 17:21:39,105 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2012-09-19 17:21:39,111 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureProfileServiceBean ejbName: SecureProfileService
+2012-09-19 17:21:39,137 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2012-09-19 17:21:39,151 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureDeploymentManager ejbName: SecureDeploymentManager
+2012-09-19 17:21:39,185 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2012-09-19 17:21:39,189 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureManagementView ejbName: SecureManagementView
+2012-09-19 17:21:39,222 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' from JNDI name 'java:JmsXA'
+2012-09-19 17:21:39,234 INFO  [org.jboss.jms.server.ServerPeer] (JBoss Shutdown Hook) JMS ServerPeer[0] stopped
+2012-09-19 17:21:39,241 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/invoker
+2012-09-19 17:21:39,267 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/juddi
+2012-09-19 17:21:39,269 INFO  [org.apache.juddi.registry.RegistryServlet] (JBoss Shutdown Hook) jUDDI Stopping: Cleaning up existing resources.
+2012-09-19 17:21:39,270 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/admin-console
+2012-09-19 17:21:39,272 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/
+2012-09-19 17:21:39,274 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/jbossws
+2012-09-19 17:21:39,277 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/jmx-console
+2012-09-19 17:21:39,280 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/open-search-webapp-1.0
+2012-09-19 17:21:39,290 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/shade-o-matic
+2012-09-19 17:21:39,313 INFO  [org.apache.catalina.core.StandardService] (JBoss Shutdown Hook) Stopping service jboss.web
+2012-09-19 17:21:39,364 INFO  [org.jboss.mail.MailService] (JBoss Shutdown Hook) Mail service 'java:/Mail' removed from JNDI
+2012-09-19 17:21:39,422 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=CEDGDS' from JNDI name 'java:CEDGDS'
+2012-09-19 17:21:39,423 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=HDFabDS' from JNDI name 'java:HDFabDS'
+2012-09-19 17:21:39,424 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=IntranetDS' from JNDI name 'java:IntranetDS'
+2012-09-19 17:21:39,424 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=JDBCCedgDS' from JNDI name 'java:JDBCCedgDS'
+2012-09-19 17:21:39,425 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=JDBCIntranetDS' from JNDI name 'java:JDBCIntranetDS'
+2012-09-19 17:21:39,426 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=OnlineSurveyDS' from JNDI name 'java:OnlineSurveyDS'
+2012-09-19 17:21:39,426 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=OrderStatusDS' from JNDI name 'java:OrderStatusDS'
+2012-09-19 17:21:39,427 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=PIPDS' from JNDI name 'java:PIPDS'
+2012-09-19 17:21:39,428 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=PLSDS' from JNDI name 'java:PLSDS'
+2012-09-19 17:21:39,429 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=ShadeOMaticDS' from JNDI name 'java:ShadeOMaticDS'
+2012-09-19 17:21:39,430 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' from JNDI name 'java:DefaultDS'
+2012-09-19 17:21:40,035 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2012-09-19 17:21:40,036 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2012-09-19 17:21:40,037 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2012-09-19 17:21:40,163 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (JBoss Shutdown Hook) Stopping transaction recovery manager
+2012-09-19 17:21:40,164 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (JBoss Shutdown Hook) Destroying TransactionManagerService
+2012-09-19 17:21:40,397 INFO  [org.jboss.jdbc.HypersonicDatabase] (JBoss Shutdown Hook) Database standalone closed clean
+2012-09-19 17:21:42,546 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Shutdown complete
+2012-09-19 17:21:51,280 INFO  [org.jboss.web.WebService] (main) Using RMI server codebase: http://127.0.0.1:8083/
+2012-09-19 17:21:55,375 INFO  [org.jboss.wsf.common.management.AbstractServerConfig] (main) JBoss Web Services - Native Server
+2012-09-19 17:21:55,375 INFO  [org.jboss.wsf.common.management.AbstractServerConfig] (main) 3.2.2.GA
+2012-09-19 17:21:56,357 INFO  [org.jboss.dependency.plugins.AttributeCallbackItem] (main) Owner callback not implemented.
+2012-09-19 17:21:58,307 INFO  [org.jboss.logbridge.LogNotificationListener] (main) Adding notification listener for logging mbean "jboss.system:service=Logging,type=Log4jService" to server org.jboss.mx.server.MBeanServerImpl@886ad0[ defaultDomain='jboss' ]
+2012-09-19 17:22:07,153 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@5655985{vfsfile:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/profileservice-secured.jar/}
+2012-09-19 17:22:07,154 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@5655985{vfsfile:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/profileservice-secured.jar/}
+2012-09-19 17:22:07,159 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@5655985{vfsfile:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/profileservice-secured.jar/}
+2012-09-19 17:22:07,159 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@5655985{vfsfile:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/profileservice-secured.jar/}
+2012-09-19 17:22:10,118 INFO  [org.jboss.mx.remoting.service.JMXConnectorServerService] (main) JMX Connector server: service:jmx:rmi://127.0.0.1/jndi/rmi://127.0.0.1:1090/jmxconnector
+2012-09-19 17:22:10,341 INFO  [org.jboss.mail.MailService] (main) Mail Service bound to java:/Mail
+2012-09-19 17:22:20,320 WARN  [org.jboss.jms.server.jbosssx.JBossASSecurityMetadataStore] (main) WARNING! POTENTIAL SECURITY RISK. It has been detected that the MessageSucker component which sucks messages from one node to another has not had its password changed from the installation default. Please see the JBoss Messaging user guide for instructions on how to do this.
+2012-09-19 17:22:20,331 WARN  [org.jboss.annotation.factory.AnnotationCreator] (main) No ClassLoader provided, using TCCL: org.jboss.managed.api.annotation.ManagementComponent
+2012-09-19 17:22:20,381 WARN  [org.jboss.annotation.factory.AnnotationCreator] (main) No ClassLoader provided, using TCCL: org.jboss.managed.api.annotation.ManagementComponent
+2012-09-19 17:22:20,421 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) JBossTS Transaction Service (JTA version - tag:JBOSSTS_4_6_1_GA) - JBoss Inc.
+2012-09-19 17:22:20,421 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Setting up property manager MBean and JMX layer
+2012-09-19 17:22:20,582 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Initializing recovery manager
+2012-09-19 17:22:20,694 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Recovery manager configured
+2012-09-19 17:22:20,694 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Binding TransactionManager JNDI Reference
+2012-09-19 17:22:20,719 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Starting transaction recovery manager
+2012-09-19 17:22:21,027 INFO  [org.apache.catalina.core.AprLifecycleListener] (main) The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.6.0_16\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.6.0_16\bin;C:\Program Files\QuickTime\QTSystem\;C:\Program Files\TortoiseSVN\bin
+2012-09-19 17:22:21,067 INFO  [org.apache.coyote.http11.Http11Protocol] (main) Initializing Coyote HTTP/1.1 on http-127.0.0.1-9090
+2012-09-19 17:22:21,070 INFO  [org.apache.coyote.ajp.AjpProtocol] (main) Initializing Coyote AJP/1.3 on ajp-127.0.0.1-9019
+2012-09-19 17:22:21,089 INFO  [org.apache.catalina.core.StandardService] (main) Starting service jboss.web
+2012-09-19 17:22:21,095 INFO  [org.apache.catalina.core.StandardEngine] (main) Starting Servlet Engine: JBoss Web/2.1.3.GA
+2012-09-19 17:22:21,137 INFO  [org.apache.catalina.startup.Catalina] (main) Server startup in 66 ms
+2012-09-19 17:22:21,152 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/web-console
+2012-09-19 17:22:21,755 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/juddi
+2012-09-19 17:22:21,792 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Loading jUDDI configuration.
+2012-09-19 17:22:21,793 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Resources loaded from: /WEB-INF/juddi.properties
+2012-09-19 17:22:21,793 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Initializing jUDDI components.
+2012-09-19 17:22:21,888 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/invoker
+2012-09-19 17:22:22,105 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/jboss-local-jdbc.rar/META-INF/ra.xml
+2012-09-19 17:22:22,285 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/jboss-xa-jdbc.rar/META-INF/ra.xml
+2012-09-19 17:22:22,304 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/jms-ra.rar/META-INF/ra.xml
+2012-09-19 17:22:22,359 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/mail-ra.rar/META-INF/ra.xml
+2012-09-19 17:22:22,382 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/quartz-ra.rar/META-INF/ra.xml
+2012-09-19 17:22:22,455 INFO  [org.quartz.simpl.SimpleThreadPool] (main) Job execution threads will use class loader of thread: main
+2012-09-19 17:22:22,484 INFO  [org.quartz.core.SchedulerSignalerImpl] (main) Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2012-09-19 17:22:22,485 INFO  [org.quartz.core.QuartzScheduler] (main) Quartz Scheduler v.1.7.2 created.
+2012-09-19 17:22:22,491 INFO  [org.quartz.simpl.RAMJobStore] (main) RAMJobStore initialized.
+2012-09-19 17:22:22,492 INFO  [org.quartz.impl.StdSchedulerFactory] (main) Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2012-09-19 17:22:22,492 INFO  [org.quartz.impl.StdSchedulerFactory] (main) Quartz scheduler version: 1.7.2
+2012-09-19 17:22:22,492 INFO  [org.quartz.core.QuartzScheduler] (main) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2012-09-19 17:22:22,723 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=CEDGDS' to JNDI name 'java:CEDGDS'
+2012-09-19 17:22:22,792 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=HDFabDS' to JNDI name 'java:HDFabDS'
+2012-09-19 17:22:22,850 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=IntranetDS' to JNDI name 'java:IntranetDS'
+2012-09-19 17:22:22,895 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=JDBCCedgDS' to JNDI name 'java:JDBCCedgDS'
+2012-09-19 17:22:22,929 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=JDBCIntranetDS' to JNDI name 'java:JDBCIntranetDS'
+2012-09-19 17:22:22,981 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=OnlineSurveyDS' to JNDI name 'java:OnlineSurveyDS'
+2012-09-19 17:22:23,032 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=OrderStatusDS' to JNDI name 'java:OrderStatusDS'
+2012-09-19 17:22:23,140 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=PIPDS' to JNDI name 'java:PIPDS'
+2012-09-19 17:22:23,204 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=PLSDS' to JNDI name 'java:PLSDS'
+2012-09-19 17:22:23,245 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=ShadeOMaticDS' to JNDI name 'java:ShadeOMaticDS'
+2012-09-19 17:22:23,600 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' to JNDI name 'java:DefaultDS'
+2012-09-19 17:22:23,991 INFO  [org.jboss.jms.server.ServerPeer] (main) JBoss Messaging 1.4.3.GA server [0] started
+2012-09-19 17:22:24,057 INFO  [org.jboss.jms.server.destination.QueueService] (main) Queue[/queue/ExpiryQueue] started, fullSize=200000, pageSize=2000, downCacheSize=2000
+2012-09-19 17:22:24,102 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2012-09-19 17:22:24,102 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@1ea59b4 started
+2012-09-19 17:22:24,108 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2012-09-19 17:22:24,109 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@1de398 started
+2012-09-19 17:22:24,110 INFO  [org.jboss.jms.server.destination.QueueService] (main) Queue[/queue/DLQ] started, fullSize=200000, pageSize=2000, downCacheSize=2000
+2012-09-19 17:22:24,110 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactoryJNDIMapper] (main) supportsFailover attribute is true on connection factory: jboss.messaging.connectionfactory:service=ClusteredConnectionFactory but post office is non clustered. So connection factory will *not* support failover
+2012-09-19 17:22:24,111 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactoryJNDIMapper] (main) supportsLoadBalancing attribute is true on connection factory: jboss.messaging.connectionfactory:service=ClusteredConnectionFactory but post office is non clustered. So connection factory will *not* support load balancing
+2012-09-19 17:22:24,112 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2012-09-19 17:22:24,112 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@fa874b started
+2012-09-19 17:22:24,207 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' to JNDI name 'java:JmsXA'
+2012-09-19 17:22:24,456 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Created KernelDeployment for: profileservice-secured.jar
+2012-09-19 17:22:24,472 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2012-09-19 17:22:24,473 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2012-09-19 17:22:24,473 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2012-09-19 17:22:24,473 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView
+2012-09-19 17:22:24,473 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2012-09-19 17:22:24,473 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2012-09-19 17:22:24,473 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.profileservice.spi.ProfileService
+2012-09-19 17:22:24,474 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureProfileService/remote
+2012-09-19 17:22:24,474 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureProfileService/remote-org.jboss.profileservice.spi.ProfileService
+2012-09-19 17:22:24,474 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2012-09-19 17:22:24,475 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2012-09-19 17:22:24,475 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2012-09-19 17:22:24,475 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2012-09-19 17:22:24,475 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2012-09-19 17:22:24,475 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2012-09-19 17:22:24,985 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureDeploymentManager/remote-org.jboss.deployers.spi.management.deploy.DeploymentManager
+2012-09-19 17:22:24,985 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.deployers.spi.management.deploy.DeploymentManager
+2012-09-19 17:22:24,985 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureDeploymentManager/remote
+2012-09-19 17:22:24,985 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2012-09-19 17:22:24,986 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2012-09-19 17:22:24,986 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2012-09-19 17:22:24,986 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2012-09-19 17:22:24,987 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2012-09-19 17:22:24,987 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2012-09-19 17:22:24,987 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView
+2012-09-19 17:22:24,987 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.deployers.spi.management.ManagementView
+2012-09-19 17:22:24,987 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote
+2012-09-19 17:22:24,987 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2012-09-19 17:22:24,992 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@5a6d04{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2012-09-19 17:22:24,992 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@1a28b34{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2012-09-19 17:22:24,993 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@14a1209{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2012-09-19 17:22:25,116 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2012-09-19 17:22:25,123 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureDeploymentManager ejbName: SecureDeploymentManager
+2012-09-19 17:22:25,155 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureDeploymentManager/remote - EJB3.x Default Remote Business Interface
+	SecureDeploymentManager/remote-org.jboss.deployers.spi.management.deploy.DeploymentManager - EJB3.x Remote Business Interface
+
+2012-09-19 17:22:25,194 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2012-09-19 17:22:25,195 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureManagementView ejbName: SecureManagementView
+2012-09-19 17:22:25,203 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureManagementView/remote - EJB3.x Default Remote Business Interface
+	SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView - EJB3.x Remote Business Interface
+
+2012-09-19 17:22:25,229 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2012-09-19 17:22:25,230 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureProfileServiceBean ejbName: SecureProfileService
+2012-09-19 17:22:25,236 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureProfileService/remote - EJB3.x Default Remote Business Interface
+	SecureProfileService/remote-org.jboss.profileservice.spi.ProfileService - EJB3.x Remote Business Interface
+
+2012-09-19 17:22:25,360 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/admin-console
+2012-09-19 17:22:25,502 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (main) Initializing Mojarra (1.2_12-b01-FCS) for context '/admin-console'
+2012-09-19 17:22:27,122 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/
+2012-09-19 17:22:27,163 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/jbossws
+2012-09-19 17:22:27,237 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/jmx-console
+2012-09-19 17:22:27,456 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/open-search-webapp-1.0
+2012-09-19 17:22:27,735 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/shade-o-matic
+2012-09-19 17:22:27,763 INFO  [STDOUT] (main) BaseFilter initialized...
+2012-09-19 17:22:27,823 INFO  [org.apache.coyote.http11.Http11Protocol] (main) Starting Coyote HTTP/1.1 on http-127.0.0.1-9090
+2012-09-19 17:22:27,838 INFO  [org.apache.coyote.ajp.AjpProtocol] (main) Starting Coyote AJP/1.3 on ajp-127.0.0.1-9019
+2012-09-19 17:22:27,849 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (main) JBoss (Microcontainer) [5.1.0.GA (build: SVNTag=JBoss_5_1_0_GA date=200905221634)] Started in 41s:153ms
+2012-09-19 17:22:28,663 INFO  [org.quartz.utils.UpdateChecker] (Timer-1) New update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+2012-09-19 17:23:39,935 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/shade-o-matic
+2012-09-19 17:23:40,361 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/shade-o-matic
+2012-09-19 17:23:40,408 INFO  [STDOUT] (HDScanner) BaseFilter initialized...
+2012-09-19 17:23:48,505 INFO  [STDOUT] (http-127.0.0.1-9090-1) Loading URL shortcuts.......
+2012-09-19 17:23:52,458 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[localhost].[/shade-o-matic].[default]] (http-127.0.0.1-9090-1) Servlet.service() for servlet default threw exception
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at com.hd.som.filter.URLInterceptor.execute(Unknown Source)
+	at com.hd.som.filter.BaseFilter.doFilter(Unknown Source)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.jboss.web.tomcat.filters.ReplyHeaderFilter.doFilter(ReplyHeaderFilter.java:96)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:235)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.jboss.web.tomcat.security.SecurityAssociationValve.invoke(SecurityAssociationValve.java:190)
+	at org.jboss.web.tomcat.security.JaccContextValve.invoke(JaccContextValve.java:92)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.process(SecurityContextEstablishmentValve.java:126)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.invoke(SecurityContextEstablishmentValve.java:70)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:330)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:829)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:598)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:619)
+2012-09-19 17:25:30,752 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/shade-o-matic
+2012-09-19 17:25:31,111 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/shade-o-matic
+2012-09-19 17:25:31,142 INFO  [STDOUT] (HDScanner) BaseFilter initialized...
+2012-09-19 17:25:31,758 INFO  [STDOUT] (http-127.0.0.1-9090-1) Loading URL shortcuts.......
+2012-09-19 17:25:33,372 INFO  [STDOUT] (http-127.0.0.1-9090-1) shortcuts---->{Media Center=6,0, Reward Program/Messages=4/17, home=2,8, Products=1,0, Company/Benefits=2/6, Company/Presidents Message=2/8, Reward Program/Packages=4/15, Reward Program/FAQ's=4/14, Products/Honeycomb Shades=1/1, News & Achievements/Announcements=3/11, Reward Program/Reward Activity=4/16, Support=5,0, Support/Contact Us=5/20, Company/Partnership=2/5, Support/FAQ's=5/21, Support/Customer Care=5/18, Company=2,0, Support/Support Forms=5/19, Company/Mission=2/3, News & Achievements/Press Releases=3/9, News & Achievements=3,0, Company/Management Team=2/4, Reward Program/How to Claim=4/13, News & Achievements/Promotions=3/10, Company/History=2/2, Epic=7,0, Company/Contact Us=2/7, Reward Program=4,0, Reward Program/How it works=4/12}
+2012-09-19 17:25:33,374 INFO  [STDOUT] (http-127.0.0.1-9090-1) shortcut---->[Ljava.lang.String;@16fde16
+2012-09-19 17:25:33,374 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[localhost].[/shade-o-matic].[default]] (http-127.0.0.1-9090-1) Servlet.service() for servlet default threw exception
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at com.hd.som.filter.URLInterceptor.execute(Unknown Source)
+	at com.hd.som.filter.BaseFilter.doFilter(Unknown Source)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.jboss.web.tomcat.filters.ReplyHeaderFilter.doFilter(ReplyHeaderFilter.java:96)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:235)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.jboss.web.tomcat.security.SecurityAssociationValve.invoke(SecurityAssociationValve.java:190)
+	at org.jboss.web.tomcat.security.JaccContextValve.invoke(JaccContextValve.java:92)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.process(SecurityContextEstablishmentValve.java:126)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.invoke(SecurityContextEstablishmentValve.java:70)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:330)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:829)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:598)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:619)
+2012-09-19 17:27:21,416 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/shade-o-matic
+2012-09-19 17:27:21,796 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/shade-o-matic
+2012-09-19 17:27:21,830 INFO  [STDOUT] (HDScanner) BaseFilter initialized...
+2012-09-19 17:27:24,821 INFO  [STDOUT] (http-127.0.0.1-9090-1) Loading URL shortcuts.......
+2012-09-19 17:27:26,435 INFO  [STDOUT] (http-127.0.0.1-9090-1) shortcuts---->{/Reward Program/Packages=4/15, /Company/Contact Us=2/7, /News & Achievements/Press Releases=3/9, /Company/Partnership=2/5, /Support/Support Forms=5/19, /Products=1,0, /Reward Program/How it works=4/12, /Reward Program=4,0, /home=2,8, /News & Achievements=3,0, /Media Center=6,0, /Support/FAQ's=5/21, /Reward Program/Messages=4/17, /Company=2,0, /Support/Contact Us=5/20, /Company/Presidents Message=2/8, /Company/Benefits=2/6, /Products/Honeycomb Shades=1/1, /Company/Mission=2/3, /Reward Program/Reward Activity=4/16, /Epic=7,0, /News & Achievements/Announcements=3/11, /News & Achievements/Promotions=3/10, /Support/Customer Care=5/18, /Company/History=2/2, /Support=5,0, /Reward Program/How to Claim=4/13, /Company/Management Team=2/4, /Reward Program/FAQ's=4/14}
+2012-09-19 17:27:26,438 INFO  [STDOUT] (http-127.0.0.1-9090-1) shortcut---->[Ljava.lang.String;@1d81be9
+2012-09-19 17:27:35,353 INFO  [STDOUT] (http-127.0.0.1-9090-5) shortcuts---->{/Reward Program/Packages=4/15, /Company/Contact Us=2/7, /News & Achievements/Press Releases=3/9, /Company/Partnership=2/5, /Support/Support Forms=5/19, /Products=1,0, /Reward Program/How it works=4/12, /Reward Program=4,0, /home=2,8, /News & Achievements=3,0, /Media Center=6,0, /Support/FAQ's=5/21, /Reward Program/Messages=4/17, /Company=2,0, /Support/Contact Us=5/20, /Company/Presidents Message=2/8, /Company/Benefits=2/6, /Products/Honeycomb Shades=1/1, /Company/Mission=2/3, /Reward Program/Reward Activity=4/16, /Epic=7,0, /News & Achievements/Announcements=3/11, /News & Achievements/Promotions=3/10, /Support/Customer Care=5/18, /Company/History=2/2, /Support=5,0, /Reward Program/How to Claim=4/13, /Company/Management Team=2/4, /Reward Program/FAQ's=4/14}
+2012-09-19 17:27:35,357 INFO  [STDOUT] (http-127.0.0.1-9090-5) shortcut---->[Ljava.lang.String;@1a94ed4
+2012-09-19 17:27:35,358 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[localhost].[/shade-o-matic].[default]] (http-127.0.0.1-9090-5) Servlet.service() for servlet default threw exception
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at com.hd.som.filter.URLInterceptor.execute(Unknown Source)
+	at com.hd.som.filter.BaseFilter.doFilter(Unknown Source)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.jboss.web.tomcat.filters.ReplyHeaderFilter.doFilter(ReplyHeaderFilter.java:96)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:235)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.jboss.web.tomcat.security.SecurityAssociationValve.invoke(SecurityAssociationValve.java:190)
+	at org.jboss.web.tomcat.security.JaccContextValve.invoke(JaccContextValve.java:92)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.process(SecurityContextEstablishmentValve.java:126)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.invoke(SecurityContextEstablishmentValve.java:70)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:330)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:829)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:598)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:619)
+2012-09-19 17:29:38,371 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/shade-o-matic
+2012-09-19 17:29:38,852 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/shade-o-matic
+2012-09-19 17:29:38,909 INFO  [STDOUT] (HDScanner) BaseFilter initialized...
+2012-09-19 17:29:46,201 INFO  [STDOUT] (http-127.0.0.1-9090-1) Loading URL shortcuts.......
+2012-09-19 17:29:47,825 INFO  [STDOUT] (http-127.0.0.1-9090-1) shortcuts---->{/Reward Program/Packages=4/15, /Company/Contact Us=2/7, /News & Achievements/Press Releases=3/9, /Company/Partnership=2/5, /Support/Support Forms=5/19, /Products=1,0, /Reward Program/How it works=4/12, /Reward Program=4,0, /home=2,8, /News & Achievements=3,0, /Media Center=6,0, /Support/FAQ's=5/21, /Reward Program/Messages=4/17, /Company=2,0, /Support/Contact Us=5/20, /Company/Presidents Message=2/8, /Company/Benefits=2/6, /Products/Honeycomb Shades=1/1, /Company/Mission=2/3, /Reward Program/Reward Activity=4/16, /Epic=7,0, /News & Achievements/Announcements=3/11, /News & Achievements/Promotions=3/10, /Support/Customer Care=5/18, /Company/History=2/2, /Support=5,0, /Reward Program/How to Claim=4/13, /Company/Management Team=2/4, /Reward Program/FAQ's=4/14}
+2012-09-19 17:29:47,828 INFO  [STDOUT] (http-127.0.0.1-9090-1) shortcut---->[Ljava.lang.String;@afd506
+2012-09-19 17:29:47,829 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[localhost].[/shade-o-matic].[default]] (http-127.0.0.1-9090-1) Servlet.service() for servlet default threw exception
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at com.hd.som.filter.URLInterceptor.execute(Unknown Source)
+	at com.hd.som.filter.BaseFilter.doFilter(Unknown Source)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.jboss.web.tomcat.filters.ReplyHeaderFilter.doFilter(ReplyHeaderFilter.java:96)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:235)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.jboss.web.tomcat.security.SecurityAssociationValve.invoke(SecurityAssociationValve.java:190)
+	at org.jboss.web.tomcat.security.JaccContextValve.invoke(JaccContextValve.java:92)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.process(SecurityContextEstablishmentValve.java:126)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.invoke(SecurityContextEstablishmentValve.java:70)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:330)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:829)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:598)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:619)
+2012-09-19 17:30:57,712 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/shade-o-matic
+2012-09-19 17:30:58,090 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/shade-o-matic
+2012-09-19 17:30:58,123 INFO  [STDOUT] (HDScanner) BaseFilter initialized...
+2012-09-19 17:31:00,440 INFO  [STDOUT] (http-127.0.0.1-9090-1) Loading URL shortcuts.......
+2012-09-19 17:31:02,054 INFO  [STDOUT] (http-127.0.0.1-9090-1) shortcuts---->{/Reward Program/Packages=4/15, /Company/Contact Us=2/7, /News & Achievements/Press Releases=3/9, /Company/Partnership=2/5, /Support/Support Forms=5/19, /Products=1/0, /Reward Program/How it works=4/12, /Reward Program=4/0, /home=2/8, /News & Achievements=3/0, /Media Center=6/0, /Support/FAQ's=5/21, /Reward Program/Messages=4/17, /Company=2/0, /Support/Contact Us=5/20, /Company/Presidents Message=2/8, /Company/Benefits=2/6, /Products/Honeycomb Shades=1/1, /Company/Mission=2/3, /Reward Program/Reward Activity=4/16, /Epic=7/0, /News & Achievements/Announcements=3/11, /News & Achievements/Promotions=3/10, /Support/Customer Care=5/18, /Company/History=2/2, /Support=5/0, /Reward Program/How to Claim=4/13, /Company/Management Team=2/4, /Reward Program/FAQ's=4/14}
+2012-09-19 17:31:02,056 INFO  [STDOUT] (http-127.0.0.1-9090-1) shortcut---->[Ljava.lang.String;@1debce3
+2012-09-19 17:31:07,410 INFO  [STDOUT] (http-127.0.0.1-9090-6) shortcuts---->{/Reward Program/Packages=4/15, /Company/Contact Us=2/7, /News & Achievements/Press Releases=3/9, /Company/Partnership=2/5, /Support/Support Forms=5/19, /Products=1/0, /Reward Program/How it works=4/12, /Reward Program=4/0, /home=2/8, /News & Achievements=3/0, /Media Center=6/0, /Support/FAQ's=5/21, /Reward Program/Messages=4/17, /Company=2/0, /Support/Contact Us=5/20, /Company/Presidents Message=2/8, /Company/Benefits=2/6, /Products/Honeycomb Shades=1/1, /Company/Mission=2/3, /Reward Program/Reward Activity=4/16, /Epic=7/0, /News & Achievements/Announcements=3/11, /News & Achievements/Promotions=3/10, /Support/Customer Care=5/18, /Company/History=2/2, /Support=5/0, /Reward Program/How to Claim=4/13, /Company/Management Team=2/4, /Reward Program/FAQ's=4/14}
+2012-09-19 17:31:07,419 INFO  [STDOUT] (http-127.0.0.1-9090-6) shortcut---->[Ljava.lang.String;@1e45708
+2012-09-19 17:31:07,419 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[localhost].[/shade-o-matic].[default]] (http-127.0.0.1-9090-6) Servlet.service() for servlet default threw exception
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at com.hd.som.filter.URLInterceptor.execute(Unknown Source)
+	at com.hd.som.filter.BaseFilter.doFilter(Unknown Source)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.jboss.web.tomcat.filters.ReplyHeaderFilter.doFilter(ReplyHeaderFilter.java:96)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:235)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.jboss.web.tomcat.security.SecurityAssociationValve.invoke(SecurityAssociationValve.java:190)
+	at org.jboss.web.tomcat.security.JaccContextValve.invoke(JaccContextValve.java:92)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.process(SecurityContextEstablishmentValve.java:126)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.invoke(SecurityContextEstablishmentValve.java:70)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:330)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:829)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:598)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:619)
+2012-09-19 17:31:10,387 INFO  [STDOUT] (http-127.0.0.1-9090-2) shortcuts---->{/Reward Program/Packages=4/15, /Company/Contact Us=2/7, /News & Achievements/Press Releases=3/9, /Company/Partnership=2/5, /Support/Support Forms=5/19, /Products=1/0, /Reward Program/How it works=4/12, /Reward Program=4/0, /home=2/8, /News & Achievements=3/0, /Media Center=6/0, /Support/FAQ's=5/21, /Reward Program/Messages=4/17, /Company=2/0, /Support/Contact Us=5/20, /Company/Presidents Message=2/8, /Company/Benefits=2/6, /Products/Honeycomb Shades=1/1, /Company/Mission=2/3, /Reward Program/Reward Activity=4/16, /Epic=7/0, /News & Achievements/Announcements=3/11, /News & Achievements/Promotions=3/10, /Support/Customer Care=5/18, /Company/History=2/2, /Support=5/0, /Reward Program/How to Claim=4/13, /Company/Management Team=2/4, /Reward Program/FAQ's=4/14}
+2012-09-19 17:31:10,399 INFO  [STDOUT] (http-127.0.0.1-9090-2) shortcut---->[Ljava.lang.String;@ee3d51
+2012-09-19 17:31:10,399 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[localhost].[/shade-o-matic].[default]] (http-127.0.0.1-9090-2) Servlet.service() for servlet default threw exception
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at com.hd.som.filter.URLInterceptor.execute(Unknown Source)
+	at com.hd.som.filter.BaseFilter.doFilter(Unknown Source)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.jboss.web.tomcat.filters.ReplyHeaderFilter.doFilter(ReplyHeaderFilter.java:96)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:235)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.jboss.web.tomcat.security.SecurityAssociationValve.invoke(SecurityAssociationValve.java:190)
+	at org.jboss.web.tomcat.security.JaccContextValve.invoke(JaccContextValve.java:92)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.process(SecurityContextEstablishmentValve.java:126)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.invoke(SecurityContextEstablishmentValve.java:70)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:330)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:829)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:598)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:619)
+2012-09-19 17:31:12,240 INFO  [STDOUT] (http-127.0.0.1-9090-1) shortcuts---->{/Reward Program/Packages=4/15, /Company/Contact Us=2/7, /News & Achievements/Press Releases=3/9, /Company/Partnership=2/5, /Support/Support Forms=5/19, /Products=1/0, /Reward Program/How it works=4/12, /Reward Program=4/0, /home=2/8, /News & Achievements=3/0, /Media Center=6/0, /Support/FAQ's=5/21, /Reward Program/Messages=4/17, /Company=2/0, /Support/Contact Us=5/20, /Company/Presidents Message=2/8, /Company/Benefits=2/6, /Products/Honeycomb Shades=1/1, /Company/Mission=2/3, /Reward Program/Reward Activity=4/16, /Epic=7/0, /News & Achievements/Announcements=3/11, /News & Achievements/Promotions=3/10, /Support/Customer Care=5/18, /Company/History=2/2, /Support=5/0, /Reward Program/How to Claim=4/13, /Company/Management Team=2/4, /Reward Program/FAQ's=4/14}
+2012-09-19 17:31:12,249 INFO  [STDOUT] (http-127.0.0.1-9090-1) shortcut---->[Ljava.lang.String;@f15ee1
+2012-09-19 17:31:12,250 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[localhost].[/shade-o-matic].[default]] (http-127.0.0.1-9090-1) Servlet.service() for servlet default threw exception
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at com.hd.som.filter.URLInterceptor.execute(Unknown Source)
+	at com.hd.som.filter.BaseFilter.doFilter(Unknown Source)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.jboss.web.tomcat.filters.ReplyHeaderFilter.doFilter(ReplyHeaderFilter.java:96)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:235)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.jboss.web.tomcat.security.SecurityAssociationValve.invoke(SecurityAssociationValve.java:190)
+	at org.jboss.web.tomcat.security.JaccContextValve.invoke(JaccContextValve.java:92)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.process(SecurityContextEstablishmentValve.java:126)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.invoke(SecurityContextEstablishmentValve.java:70)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:330)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:829)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:598)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:619)
+2012-09-19 17:46:44,178 INFO  [STDOUT] (http-127.0.0.1-9090-1) shortcuts---->{/Reward Program/Packages=4/15, /Company/Contact Us=2/7, /News & Achievements/Press Releases=3/9, /Company/Partnership=2/5, /Support/Support Forms=5/19, /Products=1/0, /Reward Program/How it works=4/12, /Reward Program=4/0, /home=2/8, /News & Achievements=3/0, /Media Center=6/0, /Support/FAQ's=5/21, /Reward Program/Messages=4/17, /Company=2/0, /Support/Contact Us=5/20, /Company/Presidents Message=2/8, /Company/Benefits=2/6, /Products/Honeycomb Shades=1/1, /Company/Mission=2/3, /Reward Program/Reward Activity=4/16, /Epic=7/0, /News & Achievements/Announcements=3/11, /News & Achievements/Promotions=3/10, /Support/Customer Care=5/18, /Company/History=2/2, /Support=5/0, /Reward Program/How to Claim=4/13, /Company/Management Team=2/4, /Reward Program/FAQ's=4/14}
+2012-09-19 17:46:44,179 INFO  [STDOUT] (http-127.0.0.1-9090-1) shortcut---->[Ljava.lang.String;@eb7293
+2012-09-19 17:46:48,988 INFO  [STDOUT] (http-127.0.0.1-9090-1) shortcuts---->{/Reward Program/Packages=4/15, /Company/Contact Us=2/7, /News & Achievements/Press Releases=3/9, /Company/Partnership=2/5, /Support/Support Forms=5/19, /Products=1/0, /Reward Program/How it works=4/12, /Reward Program=4/0, /home=2/8, /News & Achievements=3/0, /Media Center=6/0, /Support/FAQ's=5/21, /Reward Program/Messages=4/17, /Company=2/0, /Support/Contact Us=5/20, /Company/Presidents Message=2/8, /Company/Benefits=2/6, /Products/Honeycomb Shades=1/1, /Company/Mission=2/3, /Reward Program/Reward Activity=4/16, /Epic=7/0, /News & Achievements/Announcements=3/11, /News & Achievements/Promotions=3/10, /Support/Customer Care=5/18, /Company/History=2/2, /Support=5/0, /Reward Program/How to Claim=4/13, /Company/Management Team=2/4, /Reward Program/FAQ's=4/14}
+2012-09-19 17:46:48,990 INFO  [STDOUT] (http-127.0.0.1-9090-1) shortcut---->[Ljava.lang.String;@6a6bb8
+2012-09-19 17:46:56,013 INFO  [STDOUT] (http-127.0.0.1-9090-4) shortcuts---->{/Reward Program/Packages=4/15, /Company/Contact Us=2/7, /News & Achievements/Press Releases=3/9, /Company/Partnership=2/5, /Support/Support Forms=5/19, /Products=1/0, /Reward Program/How it works=4/12, /Reward Program=4/0, /home=2/8, /News & Achievements=3/0, /Media Center=6/0, /Support/FAQ's=5/21, /Reward Program/Messages=4/17, /Company=2/0, /Support/Contact Us=5/20, /Company/Presidents Message=2/8, /Company/Benefits=2/6, /Products/Honeycomb Shades=1/1, /Company/Mission=2/3, /Reward Program/Reward Activity=4/16, /Epic=7/0, /News & Achievements/Announcements=3/11, /News & Achievements/Promotions=3/10, /Support/Customer Care=5/18, /Company/History=2/2, /Support=5/0, /Reward Program/How to Claim=4/13, /Company/Management Team=2/4, /Reward Program/FAQ's=4/14}
+2012-09-19 17:46:56,016 INFO  [STDOUT] (http-127.0.0.1-9090-4) shortcut---->[Ljava.lang.String;@2c2c36
+2012-09-19 17:46:56,016 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[localhost].[/shade-o-matic].[default]] (http-127.0.0.1-9090-4) Servlet.service() for servlet default threw exception
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at com.hd.som.filter.URLInterceptor.execute(Unknown Source)
+	at com.hd.som.filter.BaseFilter.doFilter(Unknown Source)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.jboss.web.tomcat.filters.ReplyHeaderFilter.doFilter(ReplyHeaderFilter.java:96)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:235)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.jboss.web.tomcat.security.SecurityAssociationValve.invoke(SecurityAssociationValve.java:190)
+	at org.jboss.web.tomcat.security.JaccContextValve.invoke(JaccContextValve.java:92)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.process(SecurityContextEstablishmentValve.java:126)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.invoke(SecurityContextEstablishmentValve.java:70)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:330)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:829)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:598)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:619)
+2012-09-19 17:47:15,194 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/shade-o-matic
+2012-09-19 17:47:15,598 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/shade-o-matic
+2012-09-19 17:47:15,630 INFO  [STDOUT] (HDScanner) BaseFilter initialized...
+2012-09-19 17:47:20,511 INFO  [STDOUT] (http-127.0.0.1-9090-4) Loading URL shortcuts.......
+2012-09-19 17:47:22,177 INFO  [STDOUT] (http-127.0.0.1-9090-4) shortcuts---->{/Reward Program/Packages=4/15, /Company/Contact Us=2/7, /News & Achievements/Press Releases=3/9, /Company/Partnership=2/5, /Support/Support Forms=5/19, /Products=1/0, /Reward Program/How it works=4/12, /Reward Program=4/0, /home=2/8, /News & Achievements=3/0, /Media Center=6/0, /Support/FAQ's=5/21, /Reward Program/Messages=4/17, /Company=2/0, /Support/Contact Us=5/20, /Company/Presidents Message=2/8, /Company/Benefits=2/6, /Products/Honeycomb Shades=1/1, /Company/Mission=2/3, /Reward Program/Reward Activity=4/16, /Epic=7/0, /News & Achievements/Announcements=3/11, /News & Achievements/Promotions=3/10, /Support/Customer Care=5/18, /Company/History=2/2, /Support=5/0, /Reward Program/How to Claim=4/13, /Company/Management Team=2/4, /Reward Program/FAQ's=4/14}
+2012-09-19 17:47:22,180 INFO  [STDOUT] (http-127.0.0.1-9090-4) shortcut---->[Ljava.lang.String;@1328b7e
+2012-09-19 17:47:28,306 INFO  [STDOUT] (http-127.0.0.1-9090-4) shortcuts---->{/Reward Program/Packages=4/15, /Company/Contact Us=2/7, /News & Achievements/Press Releases=3/9, /Company/Partnership=2/5, /Support/Support Forms=5/19, /Products=1/0, /Reward Program/How it works=4/12, /Reward Program=4/0, /home=2/8, /News & Achievements=3/0, /Media Center=6/0, /Support/FAQ's=5/21, /Reward Program/Messages=4/17, /Company=2/0, /Support/Contact Us=5/20, /Company/Presidents Message=2/8, /Company/Benefits=2/6, /Products/Honeycomb Shades=1/1, /Company/Mission=2/3, /Reward Program/Reward Activity=4/16, /Epic=7/0, /News & Achievements/Announcements=3/11, /News & Achievements/Promotions=3/10, /Support/Customer Care=5/18, /Company/History=2/2, /Support=5/0, /Reward Program/How to Claim=4/13, /Company/Management Team=2/4, /Reward Program/FAQ's=4/14}
+2012-09-19 17:47:28,307 INFO  [STDOUT] (http-127.0.0.1-9090-4) shortcut---->[Ljava.lang.String;@1c64fff
+2012-09-19 17:47:28,308 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[localhost].[/shade-o-matic].[default]] (http-127.0.0.1-9090-4) Servlet.service() for servlet default threw exception
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at com.hd.som.filter.URLInterceptor.execute(Unknown Source)
+	at com.hd.som.filter.BaseFilter.doFilter(Unknown Source)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.jboss.web.tomcat.filters.ReplyHeaderFilter.doFilter(ReplyHeaderFilter.java:96)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:235)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.jboss.web.tomcat.security.SecurityAssociationValve.invoke(SecurityAssociationValve.java:190)
+	at org.jboss.web.tomcat.security.JaccContextValve.invoke(JaccContextValve.java:92)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.process(SecurityContextEstablishmentValve.java:126)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.invoke(SecurityContextEstablishmentValve.java:70)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:330)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:829)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:598)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:619)
+2012-09-19 17:47:30,202 INFO  [STDOUT] (http-127.0.0.1-9090-1) shortcuts---->{/Reward Program/Packages=4/15, /Company/Contact Us=2/7, /News & Achievements/Press Releases=3/9, /Company/Partnership=2/5, /Support/Support Forms=5/19, /Products=1/0, /Reward Program/How it works=4/12, /Reward Program=4/0, /home=2/8, /News & Achievements=3/0, /Media Center=6/0, /Support/FAQ's=5/21, /Reward Program/Messages=4/17, /Company=2/0, /Support/Contact Us=5/20, /Company/Presidents Message=2/8, /Company/Benefits=2/6, /Products/Honeycomb Shades=1/1, /Company/Mission=2/3, /Reward Program/Reward Activity=4/16, /Epic=7/0, /News & Achievements/Announcements=3/11, /News & Achievements/Promotions=3/10, /Support/Customer Care=5/18, /Company/History=2/2, /Support=5/0, /Reward Program/How to Claim=4/13, /Company/Management Team=2/4, /Reward Program/FAQ's=4/14}
+2012-09-19 17:47:30,204 INFO  [STDOUT] (http-127.0.0.1-9090-1) shortcut---->[Ljava.lang.String;@1ed34f1
+2012-09-19 17:47:30,204 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[localhost].[/shade-o-matic].[default]] (http-127.0.0.1-9090-1) Servlet.service() for servlet default threw exception
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at com.hd.som.filter.URLInterceptor.execute(Unknown Source)
+	at com.hd.som.filter.BaseFilter.doFilter(Unknown Source)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.jboss.web.tomcat.filters.ReplyHeaderFilter.doFilter(ReplyHeaderFilter.java:96)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:235)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.jboss.web.tomcat.security.SecurityAssociationValve.invoke(SecurityAssociationValve.java:190)
+	at org.jboss.web.tomcat.security.JaccContextValve.invoke(JaccContextValve.java:92)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.process(SecurityContextEstablishmentValve.java:126)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.invoke(SecurityContextEstablishmentValve.java:70)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:330)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:829)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:598)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:619)
+2012-09-19 17:48:29,191 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/shade-o-matic
+2012-09-19 17:48:29,547 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/shade-o-matic
+2012-09-19 17:48:29,584 INFO  [STDOUT] (HDScanner) BaseFilter initialized...
+2012-09-19 17:48:32,991 INFO  [STDOUT] (http-127.0.0.1-9090-1) Loading URL shortcuts.......
+2012-09-19 17:48:34,607 INFO  [STDOUT] (http-127.0.0.1-9090-1) shortcuts---->{/company/history=2/2, /news-achievements/announcements=3/11, /reward-program/how-it-works=4/12, /company/benefits=2/6, /reward-program/reward-activity=4/16, /reward-program/faq=4/14, /media-center=6/0, /company/presidents-message=2/8, /support=5/0, /reward-program=4/0, /support/faq=5/21, /home=2/8, /reward-program/packages=4/15, /support/support-forms=5/19, /support/contact-us=5/20, /news-achievements=3/0, /reward-program/how-to-claim=4/13, /products=1/0, /company=2/0, /company/contact-us=2/7, /support/customer-care=5/18, /company/partnership=2/5, /reward-program/messages=4/17, /company/management-team=2/4, /products/honeycomb-shades=1/1, /news-achievements/promotions=3/10, /epic=7/0, /news-achievements/press-releases=3/9, /company/mission=2/3}
+2012-09-19 17:48:34,610 INFO  [STDOUT] (http-127.0.0.1-9090-1) shortcut---->[Ljava.lang.String;@1dfae7b
+2012-09-19 17:48:42,608 INFO  [STDOUT] (http-127.0.0.1-9090-2) shortcuts---->{/company/history=2/2, /news-achievements/announcements=3/11, /reward-program/how-it-works=4/12, /company/benefits=2/6, /reward-program/reward-activity=4/16, /reward-program/faq=4/14, /media-center=6/0, /company/presidents-message=2/8, /support=5/0, /reward-program=4/0, /support/faq=5/21, /home=2/8, /reward-program/packages=4/15, /support/support-forms=5/19, /support/contact-us=5/20, /news-achievements=3/0, /reward-program/how-to-claim=4/13, /products=1/0, /company=2/0, /company/contact-us=2/7, /support/customer-care=5/18, /company/partnership=2/5, /reward-program/messages=4/17, /company/management-team=2/4, /products/honeycomb-shades=1/1, /news-achievements/promotions=3/10, /epic=7/0, /news-achievements/press-releases=3/9, /company/mission=2/3}
+2012-09-19 17:48:42,610 INFO  [STDOUT] (http-127.0.0.1-9090-2) shortcut---->[Ljava.lang.String;@3ebbb0
+2012-09-19 17:49:20,026 INFO  [STDOUT] (http-127.0.0.1-9090-1) shortcuts---->{/company/history=2/2, /news-achievements/announcements=3/11, /reward-program/how-it-works=4/12, /company/benefits=2/6, /reward-program/reward-activity=4/16, /reward-program/faq=4/14, /media-center=6/0, /company/presidents-message=2/8, /support=5/0, /reward-program=4/0, /support/faq=5/21, /home=2/8, /reward-program/packages=4/15, /support/support-forms=5/19, /support/contact-us=5/20, /news-achievements=3/0, /reward-program/how-to-claim=4/13, /products=1/0, /company=2/0, /company/contact-us=2/7, /support/customer-care=5/18, /company/partnership=2/5, /reward-program/messages=4/17, /company/management-team=2/4, /products/honeycomb-shades=1/1, /news-achievements/promotions=3/10, /epic=7/0, /news-achievements/press-releases=3/9, /company/mission=2/3}
+2012-09-19 17:49:20,028 INFO  [STDOUT] (http-127.0.0.1-9090-1) shortcut---->[Ljava.lang.String;@1905e0c
+2012-09-19 17:55:40,453 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/shade-o-matic
+2012-09-19 17:55:40,462 WARN  [org.jboss.virtual.plugins.context.zip.ZipEntryContext] (HDScanner) IGNORING: Failed to reinitialize context: vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/shade-o-matic.war
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:114)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:131)
+	at org.jboss.virtual.plugins.context.zip.ZipFileWrapper.ensureZipFile(ZipFileWrapper.java:175)
+	at org.jboss.virtual.plugins.context.zip.ZipFileWrapper.acquire(ZipFileWrapper.java:245)
+	at org.jboss.virtual.plugins.context.zip.ZipEntryContext.initEntries(ZipEntryContext.java:484)
+	at org.jboss.virtual.plugins.context.zip.ZipEntryContext.checkIfModified(ZipEntryContext.java:785)
+	at org.jboss.virtual.plugins.context.zip.ZipEntryContext.isLeaf(ZipEntryContext.java:966)
+	at org.jboss.virtual.plugins.context.zip.ZipEntryHandler.isLeaf(ZipEntryHandler.java:129)
+	at org.jboss.virtual.plugins.context.AbstractVirtualFileHandler.structuredFindChild(AbstractVirtualFileHandler.java:677)
+	at org.jboss.virtual.plugins.context.zip.ZipEntryHandler.getChild(ZipEntryHandler.java:165)
+	at org.jboss.virtual.VirtualFile.getChild(VirtualFile.java:481)
+	at org.jboss.classloading.spi.vfs.policy.VFSClassLoaderPolicy.findVirtualFileInfo(VFSClassLoaderPolicy.java:579)
+	at org.jboss.classloading.spi.vfs.policy.VFSClassLoaderPolicy.findChild(VFSClassLoaderPolicy.java:543)
+	at org.jboss.classloading.spi.vfs.policy.VFSClassLoaderPolicy.getResource(VFSClassLoaderPolicy.java:456)
+	at org.jboss.classloader.spi.base.BaseClassLoader$3.run(BaseClassLoader.java:635)
+	at org.jboss.classloader.spi.base.BaseClassLoader$3.run(BaseClassLoader.java:632)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.jboss.classloader.spi.base.BaseClassLoader.getResourceLocally(BaseClassLoader.java:630)
+	at org.jboss.classloader.spi.base.BaseClassLoader.getResourceLocally(BaseClassLoader.java:594)
+	at org.jboss.classloader.spi.base.BaseClassLoaderDomain.findLoader(BaseClassLoaderDomain.java:377)
+	at org.jboss.classloader.spi.base.BaseClassLoaderDomain.loadClass(BaseClassLoaderDomain.java:259)
+	at org.jboss.classloader.spi.base.BaseClassLoaderDomain.loadClass(BaseClassLoaderDomain.java:1119)
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClassFromDomain(BaseClassLoader.java:798)
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClass(BaseClassLoader.java:441)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:300)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:247)
+	at com.sun.naming.internal.VersionHelper12.loadClass(VersionHelper12.java:46)
+	at javax.naming.spi.NamingManager.getObjectFactoryFromReference(NamingManager.java:129)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:302)
+	at javax.naming.spi.NamingManager.getContext(NamingManager.java:422)
+	at javax.naming.spi.ContinuationContext.getTargetContext(ContinuationContext.java:38)
+	at javax.naming.spi.NamingManager.getContinuationContext(NamingManager.java:770)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:832)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at org.jnp.interfaces.NamingContext.resolveLink(NamingContext.java:1346)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:817)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:833)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at org.jboss.web.tomcat.security.SecurityFlushSessionListener.getSecurityManagerService(SecurityFlushSessionListener.java:193)
+	at org.jboss.web.tomcat.security.SecurityFlushSessionListener.getSubjectAndSecurityDomain(SecurityFlushSessionListener.java:160)
+	at org.jboss.web.tomcat.security.SecurityFlushSessionListener.sessionDestroyed(SecurityFlushSessionListener.java:79)
+	at org.apache.catalina.session.StandardSession.expire(StandardSession.java:702)
+	at org.apache.catalina.session.StandardSession.expire(StandardSession.java:660)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:675)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4611)
+	at org.apache.catalina.core.ContainerBase.destroy(ContainerBase.java:1175)
+	at org.apache.catalina.core.StandardContext.destroy(StandardContext.java:4705)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:297)
+	at org.jboss.mx.server.RawDynamicInvoker.invoke(RawDynamicInvoker.java:164)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:668)
+	at org.jboss.web.tomcat.service.deployers.TomcatDeployment.performUndeployInternal(TomcatDeployment.java:596)
+	at org.jboss.web.tomcat.service.deployers.TomcatDeployment.performUndeploy(TomcatDeployment.java:570)
+	at org.jboss.web.deployers.AbstractWarDeployment.stop(AbstractWarDeployment.java:480)
+	at org.jboss.web.deployers.WebModule.stopModule(WebModule.java:133)
+	at org.jboss.web.deployers.WebModule.stop(WebModule.java:102)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:157)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:96)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:88)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:668)
+	at org.jboss.system.microcontainer.ServiceProxy.invoke(ServiceProxy.java:206)
+	at $Proxy38.stop(Unknown Source)
+	at org.jboss.system.microcontainer.StartStopLifecycleAction.uninstallAction(StartStopLifecycleAction.java:56)
+	at org.jboss.system.microcontainer.StartStopLifecycleAction.uninstallAction(StartStopLifecycleAction.java:37)
+	at org.jboss.dependency.plugins.action.SimpleControllerContextAction.simpleUninstallAction(SimpleControllerContextAction.java:79)
+	at org.jboss.dependency.plugins.action.AccessControllerContextAction.uninstall(AccessControllerContextAction.java:131)
+	at org.jboss.dependency.plugins.AbstractControllerContextActions.uninstall(AbstractControllerContextActions.java:58)
+	at org.jboss.dependency.plugins.AbstractControllerContext.uninstall(AbstractControllerContext.java:354)
+	at org.jboss.dependency.plugins.AbstractController.uninstall(AbstractController.java:1664)
+	at org.jboss.dependency.plugins.AbstractController.uninstallContext(AbstractController.java:1275)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:827)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.system.ServiceController.doChange(ServiceController.java:688)
+	at org.jboss.system.ServiceController.stop(ServiceController.java:510)
+	at org.jboss.system.deployers.ServiceDeployer.stop(ServiceDeployer.java:170)
+	at org.jboss.system.deployers.ServiceDeployer.undeploy(ServiceDeployer.java:150)
+	at org.jboss.system.deployers.ServiceDeployer.undeploy(ServiceDeployer.java:46)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractSimpleRealDeployer.internalUndeploy(AbstractSimpleRealDeployer.java:69)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractRealDeployer.undeploy(AbstractRealDeployer.java:112)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.undeploy(DeployerWrapper.java:196)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doUndeploy(DeployersImpl.java:1469)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doUninstallParentLast(DeployersImpl.java:1376)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doUninstallParentLast(DeployersImpl.java:1369)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.uninstall(DeployersImpl.java:1331)
+	at org.jboss.dependency.plugins.AbstractControllerContext.uninstall(AbstractControllerContext.java:354)
+	at org.jboss.dependency.plugins.AbstractController.uninstall(AbstractController.java:1664)
+	at org.jboss.dependency.plugins.AbstractController.uninstallContext(AbstractController.java:1275)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:827)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.process(DeployersImpl.java:694)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.process(MainDeployerImpl.java:679)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.process(MainDeployerAdapter.java:117)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:362)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2012-09-19 17:55:40,867 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/shade-o-matic
+2012-09-19 17:55:40,901 INFO  [STDOUT] (HDScanner) BaseFilter initialized...
+2012-09-19 17:55:47,093 INFO  [STDOUT] (http-127.0.0.1-9090-4) Loading URL shortcuts.......
+2012-09-19 17:55:48,693 INFO  [STDOUT] (http-127.0.0.1-9090-4) shortcuts---->{/company/history=2/2, /news-achievements/announcements=3/11, /reward-program/how-it-works=4/12, /company/benefits=2/6, /reward-program/reward-activity=4/16, /reward-program/faq=4/14, /media-center=6/0, /company/presidents-message=2/8, /support=5/0, /reward-program=4/0, /support/faq=5/21, /home=2/8, /reward-program/packages=4/15, /support/support-forms=5/19, /support/contact-us=5/20, /news-achievements=3/0, /reward-program/how-to-claim=4/13, /products=1/0, /company=2/0, /company/contact-us=2/7, /support/customer-care=5/18, /company/partnership=2/5, /reward-program/messages=4/17, /company/management-team=2/4, /products/honeycomb-shades=1/1, /news-achievements/promotions=3/10, /epic=7/0, /news-achievements/press-releases=3/9, /company/mission=2/3}
+2012-09-19 17:55:48,696 INFO  [STDOUT] (http-127.0.0.1-9090-4) shortcut---->[Ljava.lang.String;@1e0ff38
+2012-09-19 17:55:53,389 INFO  [STDOUT] (http-127.0.0.1-9090-5) shortcuts---->{/company/history=2/2, /news-achievements/announcements=3/11, /reward-program/how-it-works=4/12, /company/benefits=2/6, /reward-program/reward-activity=4/16, /reward-program/faq=4/14, /media-center=6/0, /company/presidents-message=2/8, /support=5/0, /reward-program=4/0, /support/faq=5/21, /home=2/8, /reward-program/packages=4/15, /support/support-forms=5/19, /support/contact-us=5/20, /news-achievements=3/0, /reward-program/how-to-claim=4/13, /products=1/0, /company=2/0, /company/contact-us=2/7, /support/customer-care=5/18, /company/partnership=2/5, /reward-program/messages=4/17, /company/management-team=2/4, /products/honeycomb-shades=1/1, /news-achievements/promotions=3/10, /epic=7/0, /news-achievements/press-releases=3/9, /company/mission=2/3}
+2012-09-19 17:55:53,390 INFO  [STDOUT] (http-127.0.0.1-9090-5) shortcut---->[Ljava.lang.String;@64a90d
+2012-09-19 17:55:58,895 INFO  [STDOUT] (http-127.0.0.1-9090-3) shortcuts---->{/company/history=2/2, /news-achievements/announcements=3/11, /reward-program/how-it-works=4/12, /company/benefits=2/6, /reward-program/reward-activity=4/16, /reward-program/faq=4/14, /media-center=6/0, /company/presidents-message=2/8, /support=5/0, /reward-program=4/0, /support/faq=5/21, /home=2/8, /reward-program/packages=4/15, /support/support-forms=5/19, /support/contact-us=5/20, /news-achievements=3/0, /reward-program/how-to-claim=4/13, /products=1/0, /company=2/0, /company/contact-us=2/7, /support/customer-care=5/18, /company/partnership=2/5, /reward-program/messages=4/17, /company/management-team=2/4, /products/honeycomb-shades=1/1, /news-achievements/promotions=3/10, /epic=7/0, /news-achievements/press-releases=3/9, /company/mission=2/3}
+2012-09-19 17:55:58,897 INFO  [STDOUT] (http-127.0.0.1-9090-3) shortcut---->[Ljava.lang.String;@b2d5e4
+2012-09-19 17:58:10,686 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Runtime shutdown hook called, forceHalt: true
+2012-09-19 17:58:10,696 INFO  [org.apache.coyote.http11.Http11Protocol] (JBoss Shutdown Hook) Pausing Coyote HTTP/1.1 on http-127.0.0.1-9090
+2012-09-19 17:58:10,717 INFO  [org.apache.coyote.http11.Http11Protocol] (JBoss Shutdown Hook) Stopping Coyote HTTP/1.1 on http-127.0.0.1-9090
+2012-09-19 17:58:10,727 INFO  [org.apache.coyote.ajp.AjpProtocol] (JBoss Shutdown Hook) Pausing Coyote AJP/1.3 on ajp-127.0.0.1-9019
+2012-09-19 17:58:10,736 INFO  [org.apache.coyote.ajp.AjpProtocol] (JBoss Shutdown Hook) Stopping Coyote AJP/1.3 on ajp-127.0.0.1-9019
+2012-09-19 17:58:10,768 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@1ea59b4 undeployed
+2012-09-19 17:58:10,769 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@fa874b undeployed
+2012-09-19 17:58:10,769 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@1de398 undeployed
+2012-09-19 17:58:10,788 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/web-console
+2012-09-19 17:58:10,798 INFO  [org.jboss.jms.server.destination.QueueService] (JBoss Shutdown Hook) Queue[/queue/ExpiryQueue] stopped
+2012-09-19 17:58:10,799 INFO  [org.jboss.jms.server.destination.QueueService] (JBoss Shutdown Hook) Queue[/queue/DLQ] stopped
+2012-09-19 17:58:10,804 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2012-09-19 17:58:10,810 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureProfileServiceBean ejbName: SecureProfileService
+2012-09-19 17:58:10,853 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2012-09-19 17:58:10,868 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureDeploymentManager ejbName: SecureDeploymentManager
+2012-09-19 17:58:10,891 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2012-09-19 17:58:10,895 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureManagementView ejbName: SecureManagementView
+2012-09-19 17:58:10,920 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' from JNDI name 'java:JmsXA'
+2012-09-19 17:58:10,931 INFO  [org.jboss.jms.server.ServerPeer] (JBoss Shutdown Hook) JMS ServerPeer[0] stopped
+2012-09-19 17:58:10,937 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/invoker
+2012-09-19 17:58:10,968 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/juddi
+2012-09-19 17:58:10,970 INFO  [org.apache.juddi.registry.RegistryServlet] (JBoss Shutdown Hook) jUDDI Stopping: Cleaning up existing resources.
+2012-09-19 17:58:10,972 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/admin-console
+2012-09-19 17:58:10,976 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/
+2012-09-19 17:58:10,980 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/jbossws
+2012-09-19 17:58:10,984 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/jmx-console
+2012-09-19 17:58:10,989 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/open-search-webapp-1.0
+2012-09-19 17:58:10,993 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/shade-o-matic
+2012-09-19 17:58:11,002 INFO  [org.apache.catalina.core.StandardService] (JBoss Shutdown Hook) Stopping service jboss.web
+2012-09-19 17:58:11,067 INFO  [org.jboss.mail.MailService] (JBoss Shutdown Hook) Mail service 'java:/Mail' removed from JNDI
+2012-09-19 17:58:11,109 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=CEDGDS' from JNDI name 'java:CEDGDS'
+2012-09-19 17:58:11,110 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=HDFabDS' from JNDI name 'java:HDFabDS'
+2012-09-19 17:58:11,111 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=IntranetDS' from JNDI name 'java:IntranetDS'
+2012-09-19 17:58:11,111 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=JDBCCedgDS' from JNDI name 'java:JDBCCedgDS'
+2012-09-19 17:58:11,111 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=JDBCIntranetDS' from JNDI name 'java:JDBCIntranetDS'
+2012-09-19 17:58:11,112 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=OnlineSurveyDS' from JNDI name 'java:OnlineSurveyDS'
+2012-09-19 17:58:11,112 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=OrderStatusDS' from JNDI name 'java:OrderStatusDS'
+2012-09-19 17:58:11,113 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=PIPDS' from JNDI name 'java:PIPDS'
+2012-09-19 17:58:11,113 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=PLSDS' from JNDI name 'java:PLSDS'
+2012-09-19 17:58:11,114 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=ShadeOMaticDS' from JNDI name 'java:ShadeOMaticDS'
+2012-09-19 17:58:11,114 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' from JNDI name 'java:DefaultDS'
+2012-09-19 17:58:11,701 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2012-09-19 17:58:11,703 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2012-09-19 17:58:11,704 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2012-09-19 17:58:11,839 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (JBoss Shutdown Hook) Stopping transaction recovery manager
+2012-09-19 17:58:11,857 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (JBoss Shutdown Hook) Destroying TransactionManagerService
+2012-09-19 17:58:12,077 INFO  [org.jboss.jdbc.HypersonicDatabase] (JBoss Shutdown Hook) Database standalone closed clean
+2012-09-19 17:58:13,950 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Shutdown complete
+2012-09-19 17:58:20,765 INFO  [org.jboss.web.WebService] (main) Using RMI server codebase: http://127.0.0.1:8083/
+2012-09-19 17:58:24,426 INFO  [org.jboss.wsf.common.management.AbstractServerConfig] (main) JBoss Web Services - Native Server
+2012-09-19 17:58:24,427 INFO  [org.jboss.wsf.common.management.AbstractServerConfig] (main) 3.2.2.GA
+2012-09-19 17:58:25,648 INFO  [org.jboss.dependency.plugins.AttributeCallbackItem] (main) Owner callback not implemented.
+2012-09-19 17:58:27,663 INFO  [org.jboss.logbridge.LogNotificationListener] (main) Adding notification listener for logging mbean "jboss.system:service=Logging,type=Log4jService" to server org.jboss.mx.server.MBeanServerImpl@fba502[ defaultDomain='jboss' ]
+2012-09-19 17:58:35,337 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@12319308{vfsfile:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/profileservice-secured.jar/}
+2012-09-19 17:58:35,338 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@12319308{vfsfile:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/profileservice-secured.jar/}
+2012-09-19 17:58:35,338 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@12319308{vfsfile:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/profileservice-secured.jar/}
+2012-09-19 17:58:35,338 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@12319308{vfsfile:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/profileservice-secured.jar/}
+2012-09-19 17:58:38,015 INFO  [org.jboss.mx.remoting.service.JMXConnectorServerService] (main) JMX Connector server: service:jmx:rmi://127.0.0.1/jndi/rmi://127.0.0.1:1090/jmxconnector
+2012-09-19 17:58:38,235 INFO  [org.jboss.mail.MailService] (main) Mail Service bound to java:/Mail
+2012-09-19 17:58:48,145 WARN  [org.jboss.jms.server.jbosssx.JBossASSecurityMetadataStore] (main) WARNING! POTENTIAL SECURITY RISK. It has been detected that the MessageSucker component which sucks messages from one node to another has not had its password changed from the installation default. Please see the JBoss Messaging user guide for instructions on how to do this.
+2012-09-19 17:58:48,158 WARN  [org.jboss.annotation.factory.AnnotationCreator] (main) No ClassLoader provided, using TCCL: org.jboss.managed.api.annotation.ManagementComponent
+2012-09-19 17:58:48,205 WARN  [org.jboss.annotation.factory.AnnotationCreator] (main) No ClassLoader provided, using TCCL: org.jboss.managed.api.annotation.ManagementComponent
+2012-09-19 17:58:48,250 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) JBossTS Transaction Service (JTA version - tag:JBOSSTS_4_6_1_GA) - JBoss Inc.
+2012-09-19 17:58:48,251 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Setting up property manager MBean and JMX layer
+2012-09-19 17:58:48,392 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Initializing recovery manager
+2012-09-19 17:58:48,494 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Recovery manager configured
+2012-09-19 17:58:48,496 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Binding TransactionManager JNDI Reference
+2012-09-19 17:58:48,521 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Starting transaction recovery manager
+2012-09-19 17:58:48,785 INFO  [org.apache.catalina.core.AprLifecycleListener] (main) The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.6.0_16\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.6.0_16\bin;C:\Program Files\QuickTime\QTSystem\;C:\Program Files\TortoiseSVN\bin
+2012-09-19 17:58:48,825 INFO  [org.apache.coyote.http11.Http11Protocol] (main) Initializing Coyote HTTP/1.1 on http-127.0.0.1-9090
+2012-09-19 17:58:48,826 INFO  [org.apache.coyote.ajp.AjpProtocol] (main) Initializing Coyote AJP/1.3 on ajp-127.0.0.1-9019
+2012-09-19 17:58:48,841 INFO  [org.apache.catalina.core.StandardService] (main) Starting service jboss.web
+2012-09-19 17:58:48,843 INFO  [org.apache.catalina.core.StandardEngine] (main) Starting Servlet Engine: JBoss Web/2.1.3.GA
+2012-09-19 17:58:48,875 INFO  [org.apache.catalina.startup.Catalina] (main) Server startup in 48 ms
+2012-09-19 17:58:48,898 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/web-console
+2012-09-19 17:58:49,403 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/invoker
+2012-09-19 17:58:49,457 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/juddi
+2012-09-19 17:58:49,487 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Loading jUDDI configuration.
+2012-09-19 17:58:49,488 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Resources loaded from: /WEB-INF/juddi.properties
+2012-09-19 17:58:49,488 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Initializing jUDDI components.
+2012-09-19 17:58:49,772 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/jboss-local-jdbc.rar/META-INF/ra.xml
+2012-09-19 17:58:49,948 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/jboss-xa-jdbc.rar/META-INF/ra.xml
+2012-09-19 17:58:49,965 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/jms-ra.rar/META-INF/ra.xml
+2012-09-19 17:58:50,021 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/mail-ra.rar/META-INF/ra.xml
+2012-09-19 17:58:50,045 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/quartz-ra.rar/META-INF/ra.xml
+2012-09-19 17:58:50,110 INFO  [org.quartz.simpl.SimpleThreadPool] (main) Job execution threads will use class loader of thread: main
+2012-09-19 17:58:50,143 INFO  [org.quartz.core.SchedulerSignalerImpl] (main) Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2012-09-19 17:58:50,143 INFO  [org.quartz.core.QuartzScheduler] (main) Quartz Scheduler v.1.7.2 created.
+2012-09-19 17:58:50,147 INFO  [org.quartz.simpl.RAMJobStore] (main) RAMJobStore initialized.
+2012-09-19 17:58:50,147 INFO  [org.quartz.impl.StdSchedulerFactory] (main) Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2012-09-19 17:58:50,147 INFO  [org.quartz.impl.StdSchedulerFactory] (main) Quartz scheduler version: 1.7.2
+2012-09-19 17:58:50,147 INFO  [org.quartz.core.QuartzScheduler] (main) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2012-09-19 17:58:50,293 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=CEDGDS' to JNDI name 'java:CEDGDS'
+2012-09-19 17:58:50,354 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=HDFabDS' to JNDI name 'java:HDFabDS'
+2012-09-19 17:58:50,405 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=IntranetDS' to JNDI name 'java:IntranetDS'
+2012-09-19 17:58:50,453 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=JDBCCedgDS' to JNDI name 'java:JDBCCedgDS'
+2012-09-19 17:58:50,494 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=JDBCIntranetDS' to JNDI name 'java:JDBCIntranetDS'
+2012-09-19 17:58:50,534 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=OnlineSurveyDS' to JNDI name 'java:OnlineSurveyDS'
+2012-09-19 17:58:50,583 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=OrderStatusDS' to JNDI name 'java:OrderStatusDS'
+2012-09-19 17:58:50,660 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=PIPDS' to JNDI name 'java:PIPDS'
+2012-09-19 17:58:50,702 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=PLSDS' to JNDI name 'java:PLSDS'
+2012-09-19 17:58:50,751 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=ShadeOMaticDS' to JNDI name 'java:ShadeOMaticDS'
+2012-09-19 17:58:51,069 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' to JNDI name 'java:DefaultDS'
+2012-09-19 17:58:51,347 INFO  [org.jboss.jms.server.ServerPeer] (main) JBoss Messaging 1.4.3.GA server [0] started
+2012-09-19 17:58:51,432 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2012-09-19 17:58:51,432 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@5992c6 started
+2012-09-19 17:58:51,442 INFO  [org.jboss.jms.server.destination.QueueService] (main) Queue[/queue/DLQ] started, fullSize=200000, pageSize=2000, downCacheSize=2000
+2012-09-19 17:58:51,442 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactoryJNDIMapper] (main) supportsFailover attribute is true on connection factory: jboss.messaging.connectionfactory:service=ClusteredConnectionFactory but post office is non clustered. So connection factory will *not* support failover
+2012-09-19 17:58:51,442 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactoryJNDIMapper] (main) supportsLoadBalancing attribute is true on connection factory: jboss.messaging.connectionfactory:service=ClusteredConnectionFactory but post office is non clustered. So connection factory will *not* support load balancing
+2012-09-19 17:58:51,444 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2012-09-19 17:58:51,444 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@1a115d started
+2012-09-19 17:58:51,444 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2012-09-19 17:58:51,444 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@14a81fb started
+2012-09-19 17:58:51,445 INFO  [org.jboss.jms.server.destination.QueueService] (main) Queue[/queue/ExpiryQueue] started, fullSize=200000, pageSize=2000, downCacheSize=2000
+2012-09-19 17:58:51,502 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' to JNDI name 'java:JmsXA'
+2012-09-19 17:58:51,749 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Created KernelDeployment for: profileservice-secured.jar
+2012-09-19 17:58:51,753 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2012-09-19 17:58:51,753 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2012-09-19 17:58:51,753 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2012-09-19 17:58:51,754 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView
+2012-09-19 17:58:51,754 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2012-09-19 17:58:51,754 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2012-09-19 17:58:51,754 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.profileservice.spi.ProfileService
+2012-09-19 17:58:51,754 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureProfileService/remote
+2012-09-19 17:58:51,755 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureProfileService/remote-org.jboss.profileservice.spi.ProfileService
+2012-09-19 17:58:51,755 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2012-09-19 17:58:51,756 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2012-09-19 17:58:51,756 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2012-09-19 17:58:51,756 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2012-09-19 17:58:51,756 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2012-09-19 17:58:51,757 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2012-09-19 17:58:51,757 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureDeploymentManager/remote-org.jboss.deployers.spi.management.deploy.DeploymentManager
+2012-09-19 17:58:51,757 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.deployers.spi.management.deploy.DeploymentManager
+2012-09-19 17:58:51,757 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureDeploymentManager/remote
+2012-09-19 17:58:51,758 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2012-09-19 17:58:51,758 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2012-09-19 17:58:51,759 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2012-09-19 17:58:51,759 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2012-09-19 17:58:51,759 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2012-09-19 17:58:51,759 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2012-09-19 17:58:51,759 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView
+2012-09-19 17:58:51,760 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.deployers.spi.management.ManagementView
+2012-09-19 17:58:51,760 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote
+2012-09-19 17:58:51,760 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2012-09-19 17:58:51,767 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@651177{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2012-09-19 17:58:51,768 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@e50b49{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2012-09-19 17:58:51,769 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@1a2a094{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2012-09-19 17:58:52,406 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2012-09-19 17:58:52,413 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureDeploymentManager ejbName: SecureDeploymentManager
+2012-09-19 17:58:52,440 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureDeploymentManager/remote - EJB3.x Default Remote Business Interface
+	SecureDeploymentManager/remote-org.jboss.deployers.spi.management.deploy.DeploymentManager - EJB3.x Remote Business Interface
+
+2012-09-19 17:58:52,471 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2012-09-19 17:58:52,471 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureManagementView ejbName: SecureManagementView
+2012-09-19 17:58:52,478 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureManagementView/remote - EJB3.x Default Remote Business Interface
+	SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView - EJB3.x Remote Business Interface
+
+2012-09-19 17:58:52,500 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2012-09-19 17:58:52,501 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureProfileServiceBean ejbName: SecureProfileService
+2012-09-19 17:58:52,507 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureProfileService/remote - EJB3.x Default Remote Business Interface
+	SecureProfileService/remote-org.jboss.profileservice.spi.ProfileService - EJB3.x Remote Business Interface
+
+2012-09-19 17:58:52,614 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/admin-console
+2012-09-19 17:58:52,751 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (main) Initializing Mojarra (1.2_12-b01-FCS) for context '/admin-console'
+2012-09-19 17:58:54,077 INFO  [org.quartz.utils.UpdateChecker] (Timer-1) New update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+2012-09-19 17:58:54,242 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/
+2012-09-19 17:58:54,299 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/jbossws
+2012-09-19 17:58:54,380 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/jmx-console
+2012-09-19 17:58:54,592 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/open-search-webapp-1.0
+2012-09-19 17:58:54,828 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/shade-o-matic
+2012-09-19 17:58:54,848 INFO  [STDOUT] (main) BaseFilter initialized...
+2012-09-19 17:58:54,972 INFO  [org.apache.coyote.http11.Http11Protocol] (main) Starting Coyote HTTP/1.1 on http-127.0.0.1-9090
+2012-09-19 17:58:54,986 INFO  [org.apache.coyote.ajp.AjpProtocol] (main) Starting Coyote AJP/1.3 on ajp-127.0.0.1-9019
+2012-09-19 17:58:54,994 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (main) JBoss (Microcontainer) [5.1.0.GA (build: SVNTag=JBoss_5_1_0_GA date=200905221634)] Started in 38s:334ms
+2012-09-19 17:59:31,163 INFO  [STDOUT] (http-127.0.0.1-9090-1) Loading URL shortcuts.......
+2012-09-19 17:59:35,154 INFO  [STDOUT] (http-127.0.0.1-9090-1) shortcuts---->{/company/history=2/2, /news-achievements/announcements=3/11, /reward-program/how-it-works=4/12, /company/benefits=2/6, /reward-program/reward-activity=4/16, /reward-program/faq=4/14, /media-center=6/0, /company/presidents-message=2/8, /support=5/0, /reward-program=4/0, /support/faq=5/21, /home=2/8, /reward-program/packages=4/15, /support/support-forms=5/19, /support/contact-us=5/20, /news-achievements=3/0, /reward-program/how-to-claim=4/13, /products=1/0, /company=2/0, /company/contact-us=2/7, /support/customer-care=5/18, /company/partnership=2/5, /reward-program/messages=4/17, /company/management-team=2/4, /products/honeycomb-shades=1/1, /news-achievements/promotions=3/10, /epic=7/0, /news-achievements/press-releases=3/9, /company/mission=2/3}
+2012-09-19 17:59:35,156 INFO  [STDOUT] (http-127.0.0.1-9090-1) shortcut---->[Ljava.lang.String;@bc3d1e
+2012-09-19 17:59:39,483 INFO  [STDOUT] (http-127.0.0.1-9090-3) shortcuts---->{/company/history=2/2, /news-achievements/announcements=3/11, /reward-program/how-it-works=4/12, /company/benefits=2/6, /reward-program/reward-activity=4/16, /reward-program/faq=4/14, /media-center=6/0, /company/presidents-message=2/8, /support=5/0, /reward-program=4/0, /support/faq=5/21, /home=2/8, /reward-program/packages=4/15, /support/support-forms=5/19, /support/contact-us=5/20, /news-achievements=3/0, /reward-program/how-to-claim=4/13, /products=1/0, /company=2/0, /company/contact-us=2/7, /support/customer-care=5/18, /company/partnership=2/5, /reward-program/messages=4/17, /company/management-team=2/4, /products/honeycomb-shades=1/1, /news-achievements/promotions=3/10, /epic=7/0, /news-achievements/press-releases=3/9, /company/mission=2/3}
+2012-09-19 17:59:39,490 INFO  [STDOUT] (http-127.0.0.1-9090-3) shortcut---->[Ljava.lang.String;@e0bd27
+2012-09-19 17:59:44,841 INFO  [STDOUT] (http-127.0.0.1-9090-5) shortcuts---->{/company/history=2/2, /news-achievements/announcements=3/11, /reward-program/how-it-works=4/12, /company/benefits=2/6, /reward-program/reward-activity=4/16, /reward-program/faq=4/14, /media-center=6/0, /company/presidents-message=2/8, /support=5/0, /reward-program=4/0, /support/faq=5/21, /home=2/8, /reward-program/packages=4/15, /support/support-forms=5/19, /support/contact-us=5/20, /news-achievements=3/0, /reward-program/how-to-claim=4/13, /products=1/0, /company=2/0, /company/contact-us=2/7, /support/customer-care=5/18, /company/partnership=2/5, /reward-program/messages=4/17, /company/management-team=2/4, /products/honeycomb-shades=1/1, /news-achievements/promotions=3/10, /epic=7/0, /news-achievements/press-releases=3/9, /company/mission=2/3}
+2012-09-19 17:59:44,842 INFO  [STDOUT] (http-127.0.0.1-9090-5) shortcut---->[Ljava.lang.String;@1a40ea6
+2012-09-19 18:01:24,726 INFO  [STDOUT] (http-127.0.0.1-9090-1) shortcuts---->{/company/history=2/2, /news-achievements/announcements=3/11, /reward-program/how-it-works=4/12, /company/benefits=2/6, /reward-program/reward-activity=4/16, /reward-program/faq=4/14, /media-center=6/0, /company/presidents-message=2/8, /support=5/0, /reward-program=4/0, /support/faq=5/21, /home=2/8, /reward-program/packages=4/15, /support/support-forms=5/19, /support/contact-us=5/20, /news-achievements=3/0, /reward-program/how-to-claim=4/13, /products=1/0, /company=2/0, /company/contact-us=2/7, /support/customer-care=5/18, /company/partnership=2/5, /reward-program/messages=4/17, /company/management-team=2/4, /products/honeycomb-shades=1/1, /news-achievements/promotions=3/10, /epic=7/0, /news-achievements/press-releases=3/9, /company/mission=2/3}
+2012-09-19 18:01:24,727 INFO  [STDOUT] (http-127.0.0.1-9090-1) shortcut---->[Ljava.lang.String;@16481b0
+2012-09-19 18:01:33,070 INFO  [STDOUT] (http-127.0.0.1-9090-1) shortcuts---->{/company/history=2/2, /news-achievements/announcements=3/11, /reward-program/how-it-works=4/12, /company/benefits=2/6, /reward-program/reward-activity=4/16, /reward-program/faq=4/14, /media-center=6/0, /company/presidents-message=2/8, /support=5/0, /reward-program=4/0, /support/faq=5/21, /home=2/8, /reward-program/packages=4/15, /support/support-forms=5/19, /support/contact-us=5/20, /news-achievements=3/0, /reward-program/how-to-claim=4/13, /products=1/0, /company=2/0, /company/contact-us=2/7, /support/customer-care=5/18, /company/partnership=2/5, /reward-program/messages=4/17, /company/management-team=2/4, /products/honeycomb-shades=1/1, /news-achievements/promotions=3/10, /epic=7/0, /news-achievements/press-releases=3/9, /company/mission=2/3}
+2012-09-19 18:01:33,070 INFO  [STDOUT] (http-127.0.0.1-9090-1) shortcut---->[Ljava.lang.String;@6dad07
+2012-09-19 18:06:20,655 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/shade-o-matic
+2012-09-19 18:06:21,044 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/shade-o-matic
+2012-09-19 18:06:21,087 INFO  [STDOUT] (HDScanner) BaseFilter initialized...
+2012-09-19 18:12:54,894 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/shade-o-matic
+2012-09-19 18:12:55,251 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/shade-o-matic
+2012-09-19 18:12:55,282 INFO  [STDOUT] (HDScanner) BaseFilter initialized...
+2012-09-19 18:13:00,137 INFO  [STDOUT] (http-127.0.0.1-9090-5) Loading URL shortcuts.......
+2012-09-19 18:13:01,762 INFO  [STDOUT] (http-127.0.0.1-9090-5) shortcuts---->{/company/history=2/2, /news-achievements/announcements=3/11, /reward-program/how-it-works=4/12, /company/benefits=2/6, /reward-program/reward-activity=4/16, /reward-program/faq=4/14, /media-center=6/0, /company/presidents-message=2/8, /support=5/0, /reward-program=4/0, /support/faq=5/21, /home=2/8, /reward-program/packages=4/15, /support/support-forms=5/19, /support/contact-us=5/20, /news-achievements=3/0, /reward-program/how-to-claim=4/13, /products=1/0, /company=2/0, /company/contact-us=2/7, /support/customer-care=5/18, /company/partnership=2/5, /reward-program/messages=4/17, /company/management-team=2/4, /products/honeycomb-shades=1/1, /news-achievements/promotions=3/10, /epic=7/0, /news-achievements/press-releases=3/9, /company/mission=2/3}
+2012-09-19 18:13:01,764 INFO  [STDOUT] (http-127.0.0.1-9090-5) shortcut---->[Ljava.lang.String;@34fad8
+2012-09-19 18:13:57,036 INFO  [STDOUT] (http-127.0.0.1-9090-4) shortcuts---->{/company/history=2/2, /news-achievements/announcements=3/11, /reward-program/how-it-works=4/12, /company/benefits=2/6, /reward-program/reward-activity=4/16, /reward-program/faq=4/14, /media-center=6/0, /company/presidents-message=2/8, /support=5/0, /reward-program=4/0, /support/faq=5/21, /home=2/8, /reward-program/packages=4/15, /support/support-forms=5/19, /support/contact-us=5/20, /news-achievements=3/0, /reward-program/how-to-claim=4/13, /products=1/0, /company=2/0, /company/contact-us=2/7, /support/customer-care=5/18, /company/partnership=2/5, /reward-program/messages=4/17, /company/management-team=2/4, /products/honeycomb-shades=1/1, /news-achievements/promotions=3/10, /epic=7/0, /news-achievements/press-releases=3/9, /company/mission=2/3}
+2012-09-19 18:13:57,049 INFO  [STDOUT] (http-127.0.0.1-9090-4) shortcut---->[Ljava.lang.String;@164886c
+2012-09-19 18:14:06,693 INFO  [STDOUT] (http-127.0.0.1-9090-2) shortcuts---->{/company/history=2/2, /news-achievements/announcements=3/11, /reward-program/how-it-works=4/12, /company/benefits=2/6, /reward-program/reward-activity=4/16, /reward-program/faq=4/14, /media-center=6/0, /company/presidents-message=2/8, /support=5/0, /reward-program=4/0, /support/faq=5/21, /home=2/8, /reward-program/packages=4/15, /support/support-forms=5/19, /support/contact-us=5/20, /news-achievements=3/0, /reward-program/how-to-claim=4/13, /products=1/0, /company=2/0, /company/contact-us=2/7, /support/customer-care=5/18, /company/partnership=2/5, /reward-program/messages=4/17, /company/management-team=2/4, /products/honeycomb-shades=1/1, /news-achievements/promotions=3/10, /epic=7/0, /news-achievements/press-releases=3/9, /company/mission=2/3}
+2012-09-19 18:14:06,696 INFO  [STDOUT] (http-127.0.0.1-9090-2) shortcut---->[Ljava.lang.String;@11249bd
+2012-09-19 18:15:41,729 INFO  [STDOUT] (http-127.0.0.1-9090-7) shortcuts---->{/company/history=2/2, /news-achievements/announcements=3/11, /reward-program/how-it-works=4/12, /company/benefits=2/6, /reward-program/reward-activity=4/16, /reward-program/faq=4/14, /media-center=6/0, /company/presidents-message=2/8, /support=5/0, /reward-program=4/0, /support/faq=5/21, /home=2/8, /reward-program/packages=4/15, /support/support-forms=5/19, /support/contact-us=5/20, /news-achievements=3/0, /reward-program/how-to-claim=4/13, /products=1/0, /company=2/0, /company/contact-us=2/7, /support/customer-care=5/18, /company/partnership=2/5, /reward-program/messages=4/17, /company/management-team=2/4, /products/honeycomb-shades=1/1, /news-achievements/promotions=3/10, /epic=7/0, /news-achievements/press-releases=3/9, /company/mission=2/3}
+2012-09-19 18:15:41,730 INFO  [STDOUT] (http-127.0.0.1-9090-7) shortcut---->[Ljava.lang.String;@7c324a
+2012-09-19 18:16:02,087 INFO  [STDOUT] (http-127.0.0.1-9090-1) shortcuts---->{/company/history=2/2, /news-achievements/announcements=3/11, /reward-program/how-it-works=4/12, /company/benefits=2/6, /reward-program/reward-activity=4/16, /reward-program/faq=4/14, /media-center=6/0, /company/presidents-message=2/8, /support=5/0, /reward-program=4/0, /support/faq=5/21, /home=2/8, /reward-program/packages=4/15, /support/support-forms=5/19, /support/contact-us=5/20, /news-achievements=3/0, /reward-program/how-to-claim=4/13, /products=1/0, /company=2/0, /company/contact-us=2/7, /support/customer-care=5/18, /company/partnership=2/5, /reward-program/messages=4/17, /company/management-team=2/4, /products/honeycomb-shades=1/1, /news-achievements/promotions=3/10, /epic=7/0, /news-achievements/press-releases=3/9, /company/mission=2/3}
+2012-09-19 18:16:02,089 INFO  [STDOUT] (http-127.0.0.1-9090-1) shortcut---->[Ljava.lang.String;@f504a4
+2012-09-19 18:16:02,089 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[localhost].[/shade-o-matic].[default]] (http-127.0.0.1-9090-1) Servlet.service() for servlet default threw exception
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at com.hd.som.filter.URLInterceptor.execute(Unknown Source)
+	at com.hd.som.filter.BaseFilter.doFilter(Unknown Source)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.jboss.web.tomcat.filters.ReplyHeaderFilter.doFilter(ReplyHeaderFilter.java:96)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:235)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.jboss.web.tomcat.security.SecurityAssociationValve.invoke(SecurityAssociationValve.java:190)
+	at org.jboss.web.tomcat.security.JaccContextValve.invoke(JaccContextValve.java:92)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.process(SecurityContextEstablishmentValve.java:126)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.invoke(SecurityContextEstablishmentValve.java:70)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:330)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:829)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:598)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:619)
+2012-09-19 18:16:35,872 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/shade-o-matic
+2012-09-19 18:16:36,223 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/shade-o-matic
+2012-09-19 18:16:36,255 INFO  [STDOUT] (HDScanner) BaseFilter initialized...
+2012-09-19 18:16:38,568 INFO  [STDOUT] (http-127.0.0.1-9090-7) Loading URL shortcuts.......
+2012-09-19 18:16:40,175 INFO  [STDOUT] (http-127.0.0.1-9090-7) shortcuts---->{/company/history=2/2, /news-achievements/announcements=3/11, /reward-program/how-it-works=4/12, /company/benefits=2/6, /reward-program/reward-activity=4/16, /reward-program/faq=4/14, /media-center=6/0, /company/presidents-message=2/8, /support=5/0, /reward-program=4/0, /support/faq=5/21, /home=2/8, /reward-program/packages=4/15, /support/support-forms=5/19, /support/contact-us=5/20, /news-achievements=3/0, /reward-program/how-to-claim=4/13, /products=1/0, /company=2/0, /company/contact-us=2/7, /support/customer-care=5/18, /company/partnership=2/5, /reward-program/messages=4/17, /company/management-team=2/4, /products/honeycomb-shades=1/1, /news-achievements/promotions=3/10, /epic=7/0, /news-achievements/press-releases=3/9, /company/mission=2/3}
+2012-09-19 18:16:40,177 INFO  [STDOUT] (http-127.0.0.1-9090-7) shortcut---->[Ljava.lang.String;@1a0a8ec
+2012-09-19 18:21:46,079 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/shade-o-matic
+2012-09-19 18:21:51,688 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/shade-o-matic
+2012-09-19 18:21:51,719 INFO  [STDOUT] (HDScanner) BaseFilter initialized...
+2012-09-19 18:21:53,757 INFO  [STDOUT] (http-127.0.0.1-9090-3) Loading URL shortcuts.......
+2012-09-19 18:21:55,359 INFO  [STDOUT] (http-127.0.0.1-9090-3) shortcuts---->{/company/history=2/2, /news-achievements/announcements=3/11, /reward-program/how-it-works=4/12, /company/benefits=2/6, /reward-program/reward-activity=4/16, /reward-program/faq=4/14, /media-center=6/0, /company/presidents-message=2/8, /support=5/0, /reward-program=4/0, /support/faq=5/21, /home=2/8, /reward-program/packages=4/15, /support/support-forms=5/19, /support/contact-us=5/20, /news-achievements=3/0, /reward-program/how-to-claim=4/13, /products=1/0, /company=2/0, /company/contact-us=2/7, /support/customer-care=5/18, /company/partnership=2/5, /reward-program/messages=4/17, /company/management-team=2/4, /products/honeycomb-shades=1/1, /news-achievements/promotions=3/10, /epic=7/0, /news-achievements/press-releases=3/9, /company/mission=2/3}
+2012-09-19 18:21:55,361 INFO  [STDOUT] (http-127.0.0.1-9090-3) shortcut---->[Ljava.lang.String;@1a89031
+2012-09-19 18:21:59,408 INFO  [STDOUT] (http-127.0.0.1-9090-3) shortcuts---->{/company/history=2/2, /news-achievements/announcements=3/11, /reward-program/how-it-works=4/12, /company/benefits=2/6, /reward-program/reward-activity=4/16, /reward-program/faq=4/14, /media-center=6/0, /company/presidents-message=2/8, /support=5/0, /reward-program=4/0, /support/faq=5/21, /home=2/8, /reward-program/packages=4/15, /support/support-forms=5/19, /support/contact-us=5/20, /news-achievements=3/0, /reward-program/how-to-claim=4/13, /products=1/0, /company=2/0, /company/contact-us=2/7, /support/customer-care=5/18, /company/partnership=2/5, /reward-program/messages=4/17, /company/management-team=2/4, /products/honeycomb-shades=1/1, /news-achievements/promotions=3/10, /epic=7/0, /news-achievements/press-releases=3/9, /company/mission=2/3}
+2012-09-19 18:21:59,412 INFO  [STDOUT] (http-127.0.0.1-9090-3) shortcut---->[Ljava.lang.String;@583a89
+2012-09-19 18:22:05,427 INFO  [STDOUT] (http-127.0.0.1-9090-6) shortcuts---->{/company/history=2/2, /news-achievements/announcements=3/11, /reward-program/how-it-works=4/12, /company/benefits=2/6, /reward-program/reward-activity=4/16, /reward-program/faq=4/14, /media-center=6/0, /company/presidents-message=2/8, /support=5/0, /reward-program=4/0, /support/faq=5/21, /home=2/8, /reward-program/packages=4/15, /support/support-forms=5/19, /support/contact-us=5/20, /news-achievements=3/0, /reward-program/how-to-claim=4/13, /products=1/0, /company=2/0, /company/contact-us=2/7, /support/customer-care=5/18, /company/partnership=2/5, /reward-program/messages=4/17, /company/management-team=2/4, /products/honeycomb-shades=1/1, /news-achievements/promotions=3/10, /epic=7/0, /news-achievements/press-releases=3/9, /company/mission=2/3}
+2012-09-19 18:22:05,428 INFO  [STDOUT] (http-127.0.0.1-9090-6) shortcut---->[Ljava.lang.String;@69341f
+2012-09-19 18:22:12,986 INFO  [STDOUT] (http-127.0.0.1-9090-5) shortcuts---->{/company/history=2/2, /news-achievements/announcements=3/11, /reward-program/how-it-works=4/12, /company/benefits=2/6, /reward-program/reward-activity=4/16, /reward-program/faq=4/14, /media-center=6/0, /company/presidents-message=2/8, /support=5/0, /reward-program=4/0, /support/faq=5/21, /home=2/8, /reward-program/packages=4/15, /support/support-forms=5/19, /support/contact-us=5/20, /news-achievements=3/0, /reward-program/how-to-claim=4/13, /products=1/0, /company=2/0, /company/contact-us=2/7, /support/customer-care=5/18, /company/partnership=2/5, /reward-program/messages=4/17, /company/management-team=2/4, /products/honeycomb-shades=1/1, /news-achievements/promotions=3/10, /epic=7/0, /news-achievements/press-releases=3/9, /company/mission=2/3}
+2012-09-19 18:22:12,987 INFO  [STDOUT] (http-127.0.0.1-9090-5) shortcut---->[Ljava.lang.String;@ccf41c
+2012-09-19 18:22:57,425 INFO  [STDOUT] (http-127.0.0.1-9090-3) shortcuts---->{/company/history=2/2, /news-achievements/announcements=3/11, /reward-program/how-it-works=4/12, /company/benefits=2/6, /reward-program/reward-activity=4/16, /reward-program/faq=4/14, /media-center=6/0, /company/presidents-message=2/8, /support=5/0, /reward-program=4/0, /support/faq=5/21, /home=2/8, /reward-program/packages=4/15, /support/support-forms=5/19, /support/contact-us=5/20, /news-achievements=3/0, /reward-program/how-to-claim=4/13, /products=1/0, /company=2/0, /company/contact-us=2/7, /support/customer-care=5/18, /company/partnership=2/5, /reward-program/messages=4/17, /company/management-team=2/4, /products/honeycomb-shades=1/1, /news-achievements/promotions=3/10, /epic=7/0, /news-achievements/press-releases=3/9, /company/mission=2/3}
+2012-09-19 18:22:57,426 INFO  [STDOUT] (http-127.0.0.1-9090-3) shortcut---->[Ljava.lang.String;@17af37b
+2012-09-19 18:23:05,207 INFO  [STDOUT] (http-127.0.0.1-9090-4) shortcuts---->{/company/history=2/2, /news-achievements/announcements=3/11, /reward-program/how-it-works=4/12, /company/benefits=2/6, /reward-program/reward-activity=4/16, /reward-program/faq=4/14, /media-center=6/0, /company/presidents-message=2/8, /support=5/0, /reward-program=4/0, /support/faq=5/21, /home=2/8, /reward-program/packages=4/15, /support/support-forms=5/19, /support/contact-us=5/20, /news-achievements=3/0, /reward-program/how-to-claim=4/13, /products=1/0, /company=2/0, /company/contact-us=2/7, /support/customer-care=5/18, /company/partnership=2/5, /reward-program/messages=4/17, /company/management-team=2/4, /products/honeycomb-shades=1/1, /news-achievements/promotions=3/10, /epic=7/0, /news-achievements/press-releases=3/9, /company/mission=2/3}
+2012-09-19 18:23:05,207 INFO  [STDOUT] (http-127.0.0.1-9090-4) shortcut---->[Ljava.lang.String;@19c7171
+2012-09-19 18:23:11,930 INFO  [STDOUT] (http-127.0.0.1-9090-4) shortcuts---->{/company/history=2/2, /news-achievements/announcements=3/11, /reward-program/how-it-works=4/12, /company/benefits=2/6, /reward-program/reward-activity=4/16, /reward-program/faq=4/14, /media-center=6/0, /company/presidents-message=2/8, /support=5/0, /reward-program=4/0, /support/faq=5/21, /home=2/8, /reward-program/packages=4/15, /support/support-forms=5/19, /support/contact-us=5/20, /news-achievements=3/0, /reward-program/how-to-claim=4/13, /products=1/0, /company=2/0, /company/contact-us=2/7, /support/customer-care=5/18, /company/partnership=2/5, /reward-program/messages=4/17, /company/management-team=2/4, /products/honeycomb-shades=1/1, /news-achievements/promotions=3/10, /epic=7/0, /news-achievements/press-releases=3/9, /company/mission=2/3}
+2012-09-19 18:23:11,931 INFO  [STDOUT] (http-127.0.0.1-9090-4) shortcut---->[Ljava.lang.String;@126bd42
+2012-09-19 18:23:11,931 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[localhost].[/shade-o-matic].[default]] (http-127.0.0.1-9090-4) Servlet.service() for servlet default threw exception
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at com.hd.som.filter.URLInterceptor.execute(Unknown Source)
+	at com.hd.som.filter.BaseFilter.doFilter(Unknown Source)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.jboss.web.tomcat.filters.ReplyHeaderFilter.doFilter(ReplyHeaderFilter.java:96)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:235)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.jboss.web.tomcat.security.SecurityAssociationValve.invoke(SecurityAssociationValve.java:190)
+	at org.jboss.web.tomcat.security.JaccContextValve.invoke(JaccContextValve.java:92)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.process(SecurityContextEstablishmentValve.java:126)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.invoke(SecurityContextEstablishmentValve.java:70)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:330)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:829)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:598)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:619)
+2012-09-19 18:23:18,721 INFO  [STDOUT] (http-127.0.0.1-9090-8) shortcuts---->{/company/history=2/2, /news-achievements/announcements=3/11, /reward-program/how-it-works=4/12, /company/benefits=2/6, /reward-program/reward-activity=4/16, /reward-program/faq=4/14, /media-center=6/0, /company/presidents-message=2/8, /support=5/0, /reward-program=4/0, /support/faq=5/21, /home=2/8, /reward-program/packages=4/15, /support/support-forms=5/19, /support/contact-us=5/20, /news-achievements=3/0, /reward-program/how-to-claim=4/13, /products=1/0, /company=2/0, /company/contact-us=2/7, /support/customer-care=5/18, /company/partnership=2/5, /reward-program/messages=4/17, /company/management-team=2/4, /products/honeycomb-shades=1/1, /news-achievements/promotions=3/10, /epic=7/0, /news-achievements/press-releases=3/9, /company/mission=2/3}
+2012-09-19 18:23:18,722 INFO  [STDOUT] (http-127.0.0.1-9090-8) shortcut---->[Ljava.lang.String;@1ced5e1
+2012-09-19 18:27:33,056 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/shade-o-matic
+2012-09-19 18:27:33,419 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/shade-o-matic
+2012-09-19 18:27:33,453 INFO  [STDOUT] (HDScanner) BaseFilter initialized...
+2012-09-19 18:27:40,386 INFO  [STDOUT] (http-127.0.0.1-9090-8) Loading URL shortcuts.......
+2012-09-19 18:27:41,986 INFO  [STDOUT] (http-127.0.0.1-9090-8) shortcuts---->{/company/history=2/2, /news-achievements/announcements=3/11, /reward-program/how-it-works=4/12, /company/benefits=2/6, /reward-program/reward-activity=4/16, /reward-program/faq=4/14, /media-center=6/0, /company/presidents-message=2/8, /support=5/0, /reward-program=4/0, /support/faq=5/21, /home=2/8, /reward-program/packages=4/15, /support/support-forms=5/19, /support/contact-us=5/20, /news-achievements=3/0, /reward-program/how-to-claim=4/13, /products=1/0, /company=2/0, /company/contact-us=2/7, /support/customer-care=5/18, /company/partnership=2/5, /reward-program/messages=4/17, /company/management-team=2/4, /products/honeycomb-shades=1/1, /news-achievements/promotions=3/10, /epic=7/0, /news-achievements/press-releases=3/9, /company/mission=2/3}
+2012-09-19 18:27:41,988 INFO  [STDOUT] (http-127.0.0.1-9090-8) shortcut---->[Ljava.lang.String;@a8857e
+2012-09-19 18:27:48,402 INFO  [STDOUT] (http-127.0.0.1-9090-8) shortcuts---->{/company/history=2/2, /news-achievements/announcements=3/11, /reward-program/how-it-works=4/12, /company/benefits=2/6, /reward-program/reward-activity=4/16, /reward-program/faq=4/14, /media-center=6/0, /company/presidents-message=2/8, /support=5/0, /reward-program=4/0, /support/faq=5/21, /home=2/8, /reward-program/packages=4/15, /support/support-forms=5/19, /support/contact-us=5/20, /news-achievements=3/0, /reward-program/how-to-claim=4/13, /products=1/0, /company=2/0, /company/contact-us=2/7, /support/customer-care=5/18, /company/partnership=2/5, /reward-program/messages=4/17, /company/management-team=2/4, /products/honeycomb-shades=1/1, /news-achievements/promotions=3/10, /epic=7/0, /news-achievements/press-releases=3/9, /company/mission=2/3}
+2012-09-19 18:27:48,403 INFO  [STDOUT] (http-127.0.0.1-9090-8) shortcut---->[Ljava.lang.String;@185ead9
+2012-09-19 18:28:41,735 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/shade-o-matic
+2012-09-19 18:28:47,357 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/shade-o-matic
+2012-09-19 18:28:47,388 INFO  [STDOUT] (HDScanner) BaseFilter initialized...
+2012-09-19 18:28:48,380 INFO  [STDOUT] (http-127.0.0.1-9090-3) Loading URL shortcuts.......
+2012-09-19 18:28:49,985 INFO  [STDOUT] (http-127.0.0.1-9090-3) shortcuts---->{/company/history=2/2, /news-achievements/announcements=3/11, /reward-program/how-it-works=4/12, /company/benefits=2/6, /reward-program/reward-activity=4/16, /reward-program/faq=4/14, /media-center=6/0, /company/presidents-message=2/8, /support=5/0, /reward-program=4/0, /support/faq=5/21, /home=2/8, /reward-program/packages=4/15, /support/support-forms=5/19, /support/contact-us=5/20, /news-achievements=3/0, /reward-program/how-to-claim=4/13, /products=1/0, /company=2/0, /company/contact-us=2/7, /support/customer-care=5/18, /company/partnership=2/5, /reward-program/messages=4/17, /company/management-team=2/4, /products/honeycomb-shades=1/1, /news-achievements/promotions=3/10, /epic=7/0, /news-achievements/press-releases=3/9, /company/mission=2/3}
+2012-09-19 18:28:49,987 INFO  [STDOUT] (http-127.0.0.1-9090-3) shortcut---->[Ljava.lang.String;@11cd9ec
+2012-09-19 18:28:56,287 INFO  [STDOUT] (http-127.0.0.1-9090-7) shortcuts---->{/company/history=2/2, /news-achievements/announcements=3/11, /reward-program/how-it-works=4/12, /company/benefits=2/6, /reward-program/reward-activity=4/16, /reward-program/faq=4/14, /media-center=6/0, /company/presidents-message=2/8, /support=5/0, /reward-program=4/0, /support/faq=5/21, /home=2/8, /reward-program/packages=4/15, /support/support-forms=5/19, /support/contact-us=5/20, /news-achievements=3/0, /reward-program/how-to-claim=4/13, /products=1/0, /company=2/0, /company/contact-us=2/7, /support/customer-care=5/18, /company/partnership=2/5, /reward-program/messages=4/17, /company/management-team=2/4, /products/honeycomb-shades=1/1, /news-achievements/promotions=3/10, /epic=7/0, /news-achievements/press-releases=3/9, /company/mission=2/3}
+2012-09-19 18:28:56,289 INFO  [STDOUT] (http-127.0.0.1-9090-7) shortcut---->[Ljava.lang.String;@1c9ead7
+2012-09-19 18:29:39,939 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/shade-o-matic
+2012-09-19 18:29:40,288 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/shade-o-matic
+2012-09-19 18:29:40,325 INFO  [STDOUT] (HDScanner) BaseFilter initialized...
+2012-09-19 18:29:47,085 INFO  [STDOUT] (http-127.0.0.1-9090-8) Loading URL shortcuts.......
+2012-09-19 18:29:48,698 INFO  [STDOUT] (http-127.0.0.1-9090-8) shortcuts---->{/company/history=2/2, /news-achievements/announcements=3/11, /reward-program/how-it-works=4/12, /company/benefits=2/6, /reward-program/reward-activity=4/16, /reward-program/faq=4/14, /media-center=6/0, /company/presidents-message=2/8, /support=5/0, /reward-program=4/0, /support/faq=5/21, /home=2/8, /reward-program/packages=4/15, /support/support-forms=5/19, /support/contact-us=5/20, /news-achievements=3/0, /reward-program/how-to-claim=4/13, /products=1/0, /company=2/0, /company/contact-us=2/7, /support/customer-care=5/18, /company/partnership=2/5, /reward-program/messages=4/17, /company/management-team=2/4, /products/honeycomb-shades=1/1, /news-achievements/promotions=3/10, /epic=7/0, /news-achievements/press-releases=3/9, /company/mission=2/3}
+2012-09-19 18:29:48,700 INFO  [STDOUT] (http-127.0.0.1-9090-8) shortcut---->[Ljava.lang.String;@7139bb
+2012-09-19 18:29:53,616 INFO  [STDOUT] (http-127.0.0.1-9090-4) shortcuts---->{/company/history=2/2, /news-achievements/announcements=3/11, /reward-program/how-it-works=4/12, /company/benefits=2/6, /reward-program/reward-activity=4/16, /reward-program/faq=4/14, /media-center=6/0, /company/presidents-message=2/8, /support=5/0, /reward-program=4/0, /support/faq=5/21, /home=2/8, /reward-program/packages=4/15, /support/support-forms=5/19, /support/contact-us=5/20, /news-achievements=3/0, /reward-program/how-to-claim=4/13, /products=1/0, /company=2/0, /company/contact-us=2/7, /support/customer-care=5/18, /company/partnership=2/5, /reward-program/messages=4/17, /company/management-team=2/4, /products/honeycomb-shades=1/1, /news-achievements/promotions=3/10, /epic=7/0, /news-achievements/press-releases=3/9, /company/mission=2/3}
+2012-09-19 18:29:53,617 INFO  [STDOUT] (http-127.0.0.1-9090-4) shortcut---->[Ljava.lang.String;@63a671
+2012-09-19 18:30:03,551 INFO  [STDOUT] (http-127.0.0.1-9090-5) shortcuts---->{/company/history=2/2, /news-achievements/announcements=3/11, /reward-program/how-it-works=4/12, /company/benefits=2/6, /reward-program/reward-activity=4/16, /reward-program/faq=4/14, /media-center=6/0, /company/presidents-message=2/8, /support=5/0, /reward-program=4/0, /support/faq=5/21, /home=2/8, /reward-program/packages=4/15, /support/support-forms=5/19, /support/contact-us=5/20, /news-achievements=3/0, /reward-program/how-to-claim=4/13, /products=1/0, /company=2/0, /company/contact-us=2/7, /support/customer-care=5/18, /company/partnership=2/5, /reward-program/messages=4/17, /company/management-team=2/4, /products/honeycomb-shades=1/1, /news-achievements/promotions=3/10, /epic=7/0, /news-achievements/press-releases=3/9, /company/mission=2/3}
+2012-09-19 18:30:03,553 INFO  [STDOUT] (http-127.0.0.1-9090-5) shortcut---->[Ljava.lang.String;@a637be
+2012-09-19 18:30:13,591 INFO  [STDOUT] (http-127.0.0.1-9090-3) shortcuts---->{/company/history=2/2, /news-achievements/announcements=3/11, /reward-program/how-it-works=4/12, /company/benefits=2/6, /reward-program/reward-activity=4/16, /reward-program/faq=4/14, /media-center=6/0, /company/presidents-message=2/8, /support=5/0, /reward-program=4/0, /support/faq=5/21, /home=2/8, /reward-program/packages=4/15, /support/support-forms=5/19, /support/contact-us=5/20, /news-achievements=3/0, /reward-program/how-to-claim=4/13, /products=1/0, /company=2/0, /company/contact-us=2/7, /support/customer-care=5/18, /company/partnership=2/5, /reward-program/messages=4/17, /company/management-team=2/4, /products/honeycomb-shades=1/1, /news-achievements/promotions=3/10, /epic=7/0, /news-achievements/press-releases=3/9, /company/mission=2/3}
+2012-09-19 18:30:13,608 INFO  [STDOUT] (http-127.0.0.1-9090-3) shortcut---->[Ljava.lang.String;@1a38280
+2012-09-19 18:31:29,156 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Runtime shutdown hook called, forceHalt: true
+2012-09-19 18:31:29,162 INFO  [org.apache.coyote.http11.Http11Protocol] (JBoss Shutdown Hook) Pausing Coyote HTTP/1.1 on http-127.0.0.1-9090
+2012-09-19 18:31:29,186 INFO  [org.apache.coyote.http11.Http11Protocol] (JBoss Shutdown Hook) Stopping Coyote HTTP/1.1 on http-127.0.0.1-9090
+2012-09-19 18:31:29,204 INFO  [org.apache.coyote.ajp.AjpProtocol] (JBoss Shutdown Hook) Pausing Coyote AJP/1.3 on ajp-127.0.0.1-9019
+2012-09-19 18:31:29,205 INFO  [org.apache.coyote.ajp.AjpProtocol] (JBoss Shutdown Hook) Stopping Coyote AJP/1.3 on ajp-127.0.0.1-9019
+2012-09-19 18:31:29,244 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@14a81fb undeployed
+2012-09-19 18:31:29,245 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@1a115d undeployed
+2012-09-19 18:31:29,246 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@5992c6 undeployed
+2012-09-19 18:31:29,251 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/web-console
+2012-09-19 18:31:29,260 INFO  [org.jboss.jms.server.destination.QueueService] (JBoss Shutdown Hook) Queue[/queue/ExpiryQueue] stopped
+2012-09-19 18:31:29,261 INFO  [org.jboss.jms.server.destination.QueueService] (JBoss Shutdown Hook) Queue[/queue/DLQ] stopped
+2012-09-19 18:31:29,267 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2012-09-19 18:31:29,290 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureProfileServiceBean ejbName: SecureProfileService
+2012-09-19 18:31:29,309 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2012-09-19 18:31:29,323 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureDeploymentManager ejbName: SecureDeploymentManager
+2012-09-19 18:31:29,356 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2012-09-19 18:31:29,360 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureManagementView ejbName: SecureManagementView
+2012-09-19 18:31:29,387 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' from JNDI name 'java:JmsXA'
+2012-09-19 18:31:29,398 INFO  [org.jboss.jms.server.ServerPeer] (JBoss Shutdown Hook) JMS ServerPeer[0] stopped
+2012-09-19 18:31:29,403 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/invoker
+2012-09-19 18:31:29,422 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/juddi
+2012-09-19 18:31:29,423 INFO  [org.apache.juddi.registry.RegistryServlet] (JBoss Shutdown Hook) jUDDI Stopping: Cleaning up existing resources.
+2012-09-19 18:31:29,425 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/admin-console
+2012-09-19 18:31:29,427 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/
+2012-09-19 18:31:29,430 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/jbossws
+2012-09-19 18:31:29,433 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/jmx-console
+2012-09-19 18:31:29,436 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/open-search-webapp-1.0
+2012-09-19 18:31:29,439 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/shade-o-matic
+2012-09-19 18:31:29,453 INFO  [org.apache.catalina.core.StandardService] (JBoss Shutdown Hook) Stopping service jboss.web
+2012-09-19 18:31:29,499 INFO  [org.jboss.mail.MailService] (JBoss Shutdown Hook) Mail service 'java:/Mail' removed from JNDI
+2012-09-19 18:31:29,539 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=CEDGDS' from JNDI name 'java:CEDGDS'
+2012-09-19 18:31:29,539 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=HDFabDS' from JNDI name 'java:HDFabDS'
+2012-09-19 18:31:29,540 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=IntranetDS' from JNDI name 'java:IntranetDS'
+2012-09-19 18:31:29,540 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=JDBCCedgDS' from JNDI name 'java:JDBCCedgDS'
+2012-09-19 18:31:29,541 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=JDBCIntranetDS' from JNDI name 'java:JDBCIntranetDS'
+2012-09-19 18:31:29,541 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=OnlineSurveyDS' from JNDI name 'java:OnlineSurveyDS'
+2012-09-19 18:31:29,542 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=OrderStatusDS' from JNDI name 'java:OrderStatusDS'
+2012-09-19 18:31:29,543 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=PIPDS' from JNDI name 'java:PIPDS'
+2012-09-19 18:31:29,543 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=PLSDS' from JNDI name 'java:PLSDS'
+2012-09-19 18:31:29,544 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=ShadeOMaticDS' from JNDI name 'java:ShadeOMaticDS'
+2012-09-19 18:31:29,545 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' from JNDI name 'java:DefaultDS'
+2012-09-19 18:31:30,119 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2012-09-19 18:31:30,120 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2012-09-19 18:31:30,121 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2012-09-19 18:31:30,268 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (JBoss Shutdown Hook) Stopping transaction recovery manager
+2012-09-19 18:31:30,280 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (JBoss Shutdown Hook) Destroying TransactionManagerService
+2012-09-19 18:31:30,541 INFO  [org.jboss.jdbc.HypersonicDatabase] (JBoss Shutdown Hook) Database standalone closed clean
+2012-09-19 18:31:32,483 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Shutdown complete

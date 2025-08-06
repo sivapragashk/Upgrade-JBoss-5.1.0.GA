@@ -1,0 +1,37 @@
+2011-06-13 18:29:39,674 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/DirectWeb
+2011-06-13 18:29:39,830 INFO  [org.hibernate.jmx.HibernateServiceMBean] (HDScanner) stopping service
+2011-06-13 18:29:39,830 INFO  [org.hibernate.util.NamingHelper] (HDScanner) JNDI InitialContext properties:{}
+2011-06-13 18:29:39,830 INFO  [org.hibernate.impl.SessionFactoryImpl] (HDScanner) closing
+2011-06-13 18:29:39,861 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) Unbinding factory from JNDI name: java:/DirectWebHibernateFactory
+2011-06-13 18:29:39,861 INFO  [org.hibernate.util.NamingHelper] (HDScanner) JNDI InitialContext properties:{}
+2011-06-13 18:29:39,861 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) Unbound factory from JNDI name: java:/DirectWebHibernateFactory
+2011-06-13 18:30:24,783 WARN  [org.jboss.system.server.profileservice.hotdeploy.HDScanner] (HDScanner) Scan failed
+org.jboss.deployers.spi.DeploymentException: Exception determining structure: AbstractVFSDeployment(DirectWeb.ear)
+	at org.jboss.deployers.spi.DeploymentException.rethrowAsDeploymentException(DeploymentException.java:49)
+	at org.jboss.deployers.structure.spi.helpers.AbstractStructuralDeployers.determineStructure(AbstractStructuralDeployers.java:85)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.determineStructure(MainDeployerImpl.java:1004)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.determineDeploymentContext(MainDeployerImpl.java:440)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.addDeployment(MainDeployerImpl.java:390)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.addDeployment(MainDeployerImpl.java:300)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.addDeployment(MainDeployerAdapter.java:86)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:344)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: java.lang.RuntimeException: Error determining structure: DirectWeb.ear
+	at org.jboss.deployment.EARStructure.determineStructure(EARStructure.java:293)
+	at org.jboss.deployers.vfs.plugins.structure.StructureDeployerWrapper.determineStructure(StructureDeployerWrapper.java:73)
+	at org.jboss.deployers.vfs.plugins.structure.VFSStructuralDeployersImpl.doDetermineStructure(VFSStructuralDeployersImpl.java:196)
+	at org.jboss.deployers.vfs.plugins.structure.VFSStructuralDeployersImpl.determineStructure(VFSStructuralDeployersImpl.java:221)
+	at org.jboss.deployers.structure.spi.helpers.AbstractStructuralDeployers.determineStructure(AbstractStructuralDeployers.java:77)
+	... 16 more
+Caused by: java.lang.RuntimeException: DirectWebDB.jar module listed in application.xml does not exist within .ear vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/
+	at org.jboss.deployment.EARStructure.determineStructure(EARStructure.java:272)
+	... 20 more

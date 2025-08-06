@@ -1,0 +1,36 @@
+#admin_faq{
+	border: 1px dashed #616366;
+	height: 50px;
+	width:950px;
+	line-height: 40px;
+}
+#faq_edit_delete_links{
+	height: 20px; 
+	width: 115px;
+}
+#faq_container{
+	margin:25px;
+}
+#faq_content_holder{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#faq_question{
+	color: #016361;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11pt;
+    line-height: 18px;
+    text-align: left;
+    text-decoration: none;
+    width: 960px;
+}
+#faq_answer{
+    color: #666666;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 10pt;
+    font-style: normal;
+    line-height: 18px;
+    text-align: left;
+    text-decoration: none;
+    width: 960px;
+}

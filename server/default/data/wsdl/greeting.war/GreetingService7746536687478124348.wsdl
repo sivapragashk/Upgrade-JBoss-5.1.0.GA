@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions name="GreetingService" targetNamespace="http://webservice.hanbo.tutorial/" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://webservice.hanbo.tutorial/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/">
+  <types>
+    <xs:schema targetNamespace="http://webservice.hanbo.tutorial/" version="1.0" xmlns:tns="http://webservice.hanbo.tutorial/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <xs:element name="greetClient" type="tns:greetClient"/>
+   <xs:element name="greetClientResponse" type="tns:greetClientResponse"/>
+   <xs:complexType name="greetClient">
+    <xs:sequence>
+     <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+    </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="greetClientResponse">
+    <xs:sequence>
+     <xs:element minOccurs="0" name="return" type="xs:string"/>
+    </xs:sequence>
+   </xs:complexType>
+  </xs:schema>
+  </types>
+  <message name="Greeting_greetClient">
+    <part name="greetClient" element="tns:greetClient">
+    </part>
+  </message>
+  <message name="Greeting_greetClientResponse">
+    <part name="greetClientResponse" element="tns:greetClientResponse">
+    </part>
+  </message>
+  <portType name="Greeting">
+    <operation name="greetClient" parameterOrder="greetClient">
+      <input message="tns:Greeting_greetClient">
+    </input>
+      <output message="tns:Greeting_greetClientResponse">
+    </output>
+    </operation>
+  </portType>
+  <binding name="GreetingBinding" type="tns:Greeting">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <operation name="greetClient">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body use="literal"/>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+  </binding>
+  <service name="GreetingService">
+    <port name="GreetingPort" binding="tns:GreetingBinding">
+      <soap:address location="http://127.0.0.1:9090/greeting"/>
+    </port>
+  </service>
+</definitions>

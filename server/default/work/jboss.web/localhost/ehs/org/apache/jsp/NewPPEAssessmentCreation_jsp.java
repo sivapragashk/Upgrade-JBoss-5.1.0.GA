@@ -1,0 +1,1185 @@
+package org.apache.jsp;
+
+import javax.servlet.*;
+import javax.servlet.http.*;
+import javax.servlet.jsp.*;
+import com.hd.ehs.form.EHSDetailsDO;
+import com.hd.ehs.form.EHSMaster;
+import java.util.*;
+import java.util.Calendar;
+import java.text.SimpleDateFormat;
+
+public final class NewPPEAssessmentCreation_jsp extends org.apache.jasper.runtime.HttpJspBase
+    implements org.apache.jasper.runtime.JspSourceDependent {
+
+  private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
+
+  private static java.util.List _jspx_dependants;
+
+  static {
+    _jspx_dependants = new java.util.ArrayList(3);
+    _jspx_dependants.add("/header.jsp");
+    _jspx_dependants.add("/WEB-INF/tlds/struts-html.tld");
+    _jspx_dependants.add("/WEB-INF/tlds/struts-bean.tld");
+  }
+
+  private org.apache.jasper.runtime.TagHandlerPool _005fjspx_005ftagPool_005fhtml_005fform_0026_005fstyleId_005fmethod_005faction;
+  private org.apache.jasper.runtime.TagHandlerPool _005fjspx_005ftagPool_005fhtml_005ftext_0026_005fstyleId_005fsize_005fproperty_005fmaxlength_005fdisabled_005fnobody;
+  private org.apache.jasper.runtime.TagHandlerPool _005fjspx_005ftagPool_005fhtml_005fhidden_0026_005fvalue_005fstyleId_005fproperty_005fnobody;
+  private org.apache.jasper.runtime.TagHandlerPool _005fjspx_005ftagPool_005fhtml_005fhidden_0026_005fstyleId_005fproperty_005fnobody;
+  private org.apache.jasper.runtime.TagHandlerPool _005fjspx_005ftagPool_005fhtml_005fselect_0026_005fstyleId_005fproperty_005fonchange;
+  private org.apache.jasper.runtime.TagHandlerPool _005fjspx_005ftagPool_005fhtml_005foption_0026_005fvalue;
+  private org.apache.jasper.runtime.TagHandlerPool _005fjspx_005ftagPool_005fhtml_005foptionsCollection_0026_005fvalue_005fproperty_005flabel_005fnobody;
+  private org.apache.jasper.runtime.TagHandlerPool _005fjspx_005ftagPool_005fhtml_005ftext_0026_005fstyleId_005fsize_005fproperty_005fnobody;
+  private org.apache.jasper.runtime.TagHandlerPool _005fjspx_005ftagPool_005fhtml_005fselect_0026_005fstyleId_005fproperty;
+  private org.apache.jasper.runtime.TagHandlerPool _005fjspx_005ftagPool_005fhtml_005ftext_0026_005fstyleId_005fsize_005fproperty_005fmaxlength_005fnobody;
+  private org.apache.jasper.runtime.TagHandlerPool _005fjspx_005ftagPool_005fhtml_005fselect_0026_005fstyleId_005fproperty_005fmultiple;
+
+  private javax.el.ExpressionFactory _el_expressionfactory;
+  private org.apache.InstanceManager _jsp_instancemanager;
+
+  public Object getDependants() {
+    return _jspx_dependants;
+  }
+
+  public void _jspInit() {
+    _005fjspx_005ftagPool_005fhtml_005fform_0026_005fstyleId_005fmethod_005faction = org.apache.jasper.runtime.TagHandlerPool.getTagHandlerPool(getServletConfig());
+    _005fjspx_005ftagPool_005fhtml_005ftext_0026_005fstyleId_005fsize_005fproperty_005fmaxlength_005fdisabled_005fnobody = org.apache.jasper.runtime.TagHandlerPool.getTagHandlerPool(getServletConfig());
+    _005fjspx_005ftagPool_005fhtml_005fhidden_0026_005fvalue_005fstyleId_005fproperty_005fnobody = org.apache.jasper.runtime.TagHandlerPool.getTagHandlerPool(getServletConfig());
+    _005fjspx_005ftagPool_005fhtml_005fhidden_0026_005fstyleId_005fproperty_005fnobody = org.apache.jasper.runtime.TagHandlerPool.getTagHandlerPool(getServletConfig());
+    _005fjspx_005ftagPool_005fhtml_005fselect_0026_005fstyleId_005fproperty_005fonchange = org.apache.jasper.runtime.TagHandlerPool.getTagHandlerPool(getServletConfig());
+    _005fjspx_005ftagPool_005fhtml_005foption_0026_005fvalue = org.apache.jasper.runtime.TagHandlerPool.getTagHandlerPool(getServletConfig());
+    _005fjspx_005ftagPool_005fhtml_005foptionsCollection_0026_005fvalue_005fproperty_005flabel_005fnobody = org.apache.jasper.runtime.TagHandlerPool.getTagHandlerPool(getServletConfig());
+    _005fjspx_005ftagPool_005fhtml_005ftext_0026_005fstyleId_005fsize_005fproperty_005fnobody = org.apache.jasper.runtime.TagHandlerPool.getTagHandlerPool(getServletConfig());
+    _005fjspx_005ftagPool_005fhtml_005fselect_0026_005fstyleId_005fproperty = org.apache.jasper.runtime.TagHandlerPool.getTagHandlerPool(getServletConfig());
+    _005fjspx_005ftagPool_005fhtml_005ftext_0026_005fstyleId_005fsize_005fproperty_005fmaxlength_005fnobody = org.apache.jasper.runtime.TagHandlerPool.getTagHandlerPool(getServletConfig());
+    _005fjspx_005ftagPool_005fhtml_005fselect_0026_005fstyleId_005fproperty_005fmultiple = org.apache.jasper.runtime.TagHandlerPool.getTagHandlerPool(getServletConfig());
+    _el_expressionfactory = _jspxFactory.getJspApplicationContext(getServletConfig().getServletContext()).getExpressionFactory();
+    _jsp_instancemanager = org.apache.jasper.runtime.InstanceManagerFactory.getInstanceManager(getServletConfig());
+  }
+
+  public void _jspDestroy() {
+    _005fjspx_005ftagPool_005fhtml_005fform_0026_005fstyleId_005fmethod_005faction.release();
+    _005fjspx_005ftagPool_005fhtml_005ftext_0026_005fstyleId_005fsize_005fproperty_005fmaxlength_005fdisabled_005fnobody.release();
+    _005fjspx_005ftagPool_005fhtml_005fhidden_0026_005fvalue_005fstyleId_005fproperty_005fnobody.release();
+    _005fjspx_005ftagPool_005fhtml_005fhidden_0026_005fstyleId_005fproperty_005fnobody.release();
+    _005fjspx_005ftagPool_005fhtml_005fselect_0026_005fstyleId_005fproperty_005fonchange.release();
+    _005fjspx_005ftagPool_005fhtml_005foption_0026_005fvalue.release();
+    _005fjspx_005ftagPool_005fhtml_005foptionsCollection_0026_005fvalue_005fproperty_005flabel_005fnobody.release();
+    _005fjspx_005ftagPool_005fhtml_005ftext_0026_005fstyleId_005fsize_005fproperty_005fnobody.release();
+    _005fjspx_005ftagPool_005fhtml_005fselect_0026_005fstyleId_005fproperty.release();
+    _005fjspx_005ftagPool_005fhtml_005ftext_0026_005fstyleId_005fsize_005fproperty_005fmaxlength_005fnobody.release();
+    _005fjspx_005ftagPool_005fhtml_005fselect_0026_005fstyleId_005fproperty_005fmultiple.release();
+  }
+
+  public void _jspService(HttpServletRequest request, HttpServletResponse response)
+        throws java.io.IOException, ServletException {
+
+    PageContext pageContext = null;
+    HttpSession session = null;
+    ServletContext application = null;
+    ServletConfig config = null;
+    JspWriter out = null;
+    Object page = this;
+    JspWriter _jspx_out = null;
+    PageContext _jspx_page_context = null;
+
+
+    try {
+      response.setContentType("text/html");
+      pageContext = _jspxFactory.getPageContext(this, request, response,
+      			null, true, 8192, true);
+      _jspx_page_context = pageContext;
+      application = pageContext.getServletContext();
+      config = pageContext.getServletConfig();
+      session = pageContext.getSession();
+      out = pageContext.getOut();
+      _jspx_out = out;
+
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("<html>\r\n");
+      out.write("<title>EHS</title>\r\n");
+      out.write("<head>\r\n");
+      out.write("\t<link href=\"stylesheets/ppe_assessment.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n");
+      out.write("\t<script type=\"text/javascript\" src=\"javascript/jquery-1.2.6.pack.js\"></script>\r\n");
+      out.write("\t<script src=\"javascript/date-picker.js\"></script>\r\n");
+      out.write("<script type=\"text/javascript\">\r\n");
+      out.write("\r\n");
+      out.write("\tfunction submitForm(){\r\n");
+      out.write("\t\tdocument.getElementById('mode').value = \"loadPPEAssessmentDetails\";\r\n");
+      out.write("\t\tdocument.getElementById('currentDate').value = document.getElementById('date').value;\r\n");
+      out.write("\t\tdocument.getElementById('hiddenAssessmentNo').value = document.getElementById('ppeAssessmentNo').value;\r\n");
+      out.write("\t\tvar selectedFacilityIndex = document.getElementById('facility').selectedIndex;\r\n");
+      out.write("\t\tvar selectedDepartmentIndex = document.getElementById('department').selectedIndex;\r\n");
+      out.write("\t\tdocument.getElementById('facilityName').value = document.getElementById('facility').options[selectedFacilityIndex].text;\r\n");
+      out.write("\t\tdocument.getElementById('departmentName').value = document.getElementById('department').options[selectedDepartmentIndex].text;\r\n");
+      out.write("\t\tdocument.getElementById('generalInformation').submit();\r\n");
+      out.write("\t\t\r\n");
+      out.write("\t}\r\n");
+      out.write("\r\n");
+      out.write("\tfunction getChildDetails(parentId,childId){\r\n");
+      out.write("\t\tvar parent = document.getElementById(parentId).value;\r\n");
+      out.write("\t\tvar mode = \"getChildDetails\";\r\n");
+      out.write("\t\t$.ajax({\r\n");
+      out.write("\t        type: \"GET\",\r\n");
+      out.write("\t        url: \"newAssessment.do?mode=\"+mode+\"&parentId=\"+parent,\r\n");
+      out.write("\t        async: true,\r\n");
+      out.write("\t        cache: false,\r\n");
+      out.write("\t        dataType: 'xml', \r\n");
+      out.write("\t        success : parseResults\r\n");
+      out.write("\t \t});\r\n");
+      out.write("\r\n");
+      out.write("\t\tfunction parseResults(xml){\r\n");
+      out.write("\t \t\tvar childSelect = document.getElementById(childId);\r\n");
+      out.write("\t \t\tvar childCount = 0;\r\n");
+      out.write("\t \t\t$(xml).find('ChildList').each(function(){\r\n");
+      out.write("\t\t\t\t var length = $(this).find('length').text();\r\n");
+      out.write("\t\t\t\t if(length >0){\r\n");
+      out.write("\t\t\t\t\t childSelect.length=0;\r\n");
+      out.write("\t\t\t\t\t childSelect.options[childCount++]=new Option(\"Select a Department\",0);\r\n");
+      out.write("\t\t\t\t\t$(this).find('Child').each(function(){\r\n");
+      out.write("\t\t\t\t\t\tvar childId = $(this).find(\"id\").text();\r\n");
+      out.write("\t\t\t\t\t\tvar childValue = $(this).find(\"value\").text();\r\n");
+      out.write("\t\t\t\t\t\tchildSelect.options[childCount++] = new Option(childValue,childId);\r\n");
+      out.write("\t\t\t\t\t});\r\n");
+      out.write("\t\t\t\t }\r\n");
+      out.write("\t\t\t\t});\r\n");
+      out.write("\t \t}\r\n");
+      out.write("\t}\r\n");
+      out.write("\r\n");
+      out.write("\tfunction setValue(selectId,textId){\r\n");
+      out.write("\tvar selectFieldId = document.getElementById(selectId);\r\n");
+      out.write("\tvar textFieldId = document.getElementById(textId);\r\n");
+      out.write("\tif(selectFieldId.value > 0){\r\n");
+      out.write("\t\ttextFieldId.value = selectFieldId.options[selectFieldId.selectedIndex].text;\r\n");
+      out.write("\t}else{\r\n");
+      out.write("\t\ttextFieldId.value ='';\r\n");
+      out.write("\t}\r\n");
+      out.write("\t}\r\n");
+      out.write("</script>\r\n");
+
+	List list = null;
+String facilityName = null;
+String departName = null;
+String jobEquipment = null;
+String analysisDeveloped = null;
+String analysisReviewed = null;
+String dateCreated = null;
+String equipmentNo = null;
+if(session.getAttribute("MASTER_DETAILS")!=null)
+	list = (ArrayList)session.getAttribute("MASTER_DETAILS");
+	if(list !=null){
+		EHSMaster ehsMaster = (EHSMaster)list.get(0);
+ 		facilityName = ehsMaster.getParentName();
+	}
+	if(list !=null){
+		EHSMaster ehsMaster = (EHSMaster)list.get(1);
+ 		departName = ehsMaster.getParentName();
+	}
+	if(list !=null){
+		EHSMaster ehsMaster = (EHSMaster)list.get(2);
+		jobEquipment = ehsMaster.getParentName();
+	}
+	if(list !=null){
+		EHSMaster ehsMaster = (EHSMaster)list.get(3);
+		analysisDeveloped = ehsMaster.getParentName();
+	}
+	if(list !=null){
+		EHSMaster ehsMaster = (EHSMaster)list.get(4);
+		analysisReviewed = ehsMaster.getParentName();
+	}
+	if(list !=null){
+		EHSMaster ehsMaster = (EHSMaster)list.get(5);
+		dateCreated = ehsMaster.getParentName();
+	}
+	if(list !=null){
+		EHSMaster ehsMaster = (EHSMaster)list.get(6);
+		equipmentNo = ehsMaster.getParentName();
+	}
+
+      out.write("\r\n");
+      out.write("</head>\r\n");
+      out.write("<body>\r\n");
+      out.write("\t");
+      out.write("<TABLE style=\"BORDER-COLLAPSE: collapse\" cellSpacing=\"0\" cellPadding=\"0\" width=\"100%\" border=\"0\">\r\n");
+      out.write("\t  <TBODY>\r\n");
+      out.write("\t\t  <TR>\r\n");
+      out.write("\t\t     <TD align=right>\r\n");
+      out.write("\t\t\t\t<table border=\"0\" width=\"100%\">\r\n");
+      out.write("\t\t\t\t\t<tr valign=\"top\">\r\n");
+      out.write("\t\t\t\t\t\t<td width=\"20%\"><IMG src=\"images/logo.gif\"  border=0></td>\r\n");
+      out.write("\t\t\t\t\t</tr>\r\n");
+      out.write("\t\t\t\t\t<tr height=\"7\"><td></td></tr>\r\n");
+      out.write("\t\t\t\t\t<tr>\r\n");
+      out.write("\t\t\t\t\t\t<td colspan=\"2\" align=\"right\">\r\n");
+      out.write("\t\t\t\t\t\t\t<a href=\"/ehs/adminAction.do?mode=getMasterDetails\" class=\"menulink\">General Information</a>|\r\n");
+      out.write("\t\t\t\t\t\t\t<a href=\"/ehs/ppeAssessment.do?mode=loadPPEHazard\" class=\"menulink\">PPE Hazard Assessment</a>|\r\n");
+      out.write("\t\t\t\t\t\t\t<!--<a href=\"/ehs/newAssessment.do?mode=loadGeneralInformation\" class=\"menulink\">New PPE Assessment Creation</a>| -->\r\n");
+      out.write("\t\t\t\t\t\t\t<a href=\"/ehs/newAssessment.do?mode=loadPPEAssessmentModule\" class=\"menulink\">PPE Assessments</a>|\r\n");
+      out.write("\t\t\t\t\t\t\t<a href=\"/ehs/jhaAnalysis.do?mode=loadJHAAnalysisModule\" class=\"menulink\">JHA Analysis</a>|\r\n");
+      out.write("\t\t\t\t\t\t\t<a href=\"javascript:window.close()\" class=\"menulink\">Close</a>&nbsp;\t\r\n");
+      out.write("\t\t\t\t\t\t</td>\r\n");
+      out.write("\t\t\t\t\t</tr>\r\n");
+      out.write("\t\t\t\t</table>\r\n");
+      out.write("\t\t\t</TD>\r\n");
+      out.write("\t\t  </TR>\r\n");
+      out.write("\t  </TBODY>\r\n");
+      out.write("</TABLE>\r\n");
+      out.write("<TABLE class=hd-main cellSpacing=0 cellPadding=0 width=\"100%\" border=0>\r\n");
+      out.write("\t  <TR valign=\"top\">\r\n");
+      out.write("\t    <TD class=hd-titleareaframe colSpan=\"2\">\r\n");
+      out.write("\t\t    <DIV id=\"pagetitle\">\r\n");
+      out.write("\t\t      <TABLE class=hd-titleareaframe cellSpacing=0 cellPadding=0 width=\"100%\" border=0>\r\n");
+      out.write("\t\t\t        <TR>\r\n");
+      out.write("\t\t\t          <TD style=\"PADDING-BOTTOM: 2px\">\r\n");
+      out.write("\t\t\t            <TABLE style=\"PADDING-LEFT: 0px; PADDING-TOP: 0px\" cellSpacing=0 cellPadding=0 border=0 height=\"10\">\r\n");
+      out.write("\t\t\t              <TBODY>\r\n");
+      out.write("           \t\t\t\t\t<TR>\r\n");
+      out.write("\t\t\t\t                <TD style=\"PADDING-TOP: 4px\" noWrap align=middle width=108 height=\"10\">&nbsp;</TD>\r\n");
+      out.write("\t\t\t\t               \r\n");
+      out.write("\t\t\t\t                <TD style=\"PADDING-TOP: 0px\" noWrap height=\"10\"></TD>\r\n");
+      out.write("\t\t\t\t                <TD valign=\"right\"></TD>\r\n");
+      out.write("\t\t\t\t            </TR>\r\n");
+      out.write("\t\t\t\t          </TBODY>\r\n");
+      out.write("\t\t\t\t         </table> \r\n");
+      out.write("\t\t\t\t\t\t</TD>\r\n");
+      out.write("\t\t\t\t\t</TR>\r\n");
+      out.write("\t\t\t </TABLE>\r\n");
+      out.write("\t\t\t</DIV>\r\n");
+      out.write("\t\t</TD>\r\n");
+      out.write("\t</TR>\r\n");
+      out.write("</TABLE>");
+      out.write("\r\n");
+      out.write("\t<div id=\"header\" style=\"text-align:left;\">EHS Tool Box - PPE Assessment Module</div>\r\n");
+      out.write("\t<div id=\"mainheader\">NEW PPE ASSESSMENT CREATION </div>\r\n");
+      out.write("\t\t<div id=\"header\">General Information</div>\r\n");
+      out.write("\t\t");
+      //  html:form
+      org.apache.struts.taglib.html.FormTag _jspx_th_html_005fform_005f0 = (org.apache.struts.taglib.html.FormTag) _005fjspx_005ftagPool_005fhtml_005fform_0026_005fstyleId_005fmethod_005faction.get(org.apache.struts.taglib.html.FormTag.class);
+      _jspx_th_html_005fform_005f0.setPageContext(_jspx_page_context);
+      _jspx_th_html_005fform_005f0.setParent(null);
+      // /NewPPEAssessmentCreation.jsp(110,2) name = action type = null reqTime = true required = true fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+      _jspx_th_html_005fform_005f0.setAction("/newAssessment.do");
+      // /NewPPEAssessmentCreation.jsp(110,2) name = method type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+      _jspx_th_html_005fform_005f0.setMethod("post");
+      // /NewPPEAssessmentCreation.jsp(110,2) name = styleId type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+      _jspx_th_html_005fform_005f0.setStyleId("generalInformation");
+      int _jspx_eval_html_005fform_005f0 = _jspx_th_html_005fform_005f0.doStartTag();
+      if (_jspx_eval_html_005fform_005f0 != javax.servlet.jsp.tagext.Tag.SKIP_BODY) {
+        do {
+          out.write("\r\n");
+          out.write("\t\t<div id=\"displayContentContainer\">\r\n");
+          out.write("\t\t\t<div id=\"displayBodyContent\">\r\n");
+          out.write("\t\t\t\t<div id=\"displayBodyContent_Field\"> \r\n");
+          out.write("\t\t\t\t\t<div id=\"displayBodyContent_Text\">PPE Assessment No : </div>\r\n");
+          out.write("\t\t\t\t\t<div id=\"displayBodyContent_Input_Text\">\r\n");
+          out.write("\t\t\t\t\t\t");
+          if (_jspx_meth_html_005ftext_005f0(_jspx_th_html_005fform_005f0, _jspx_page_context))
+            return;
+          out.write("\r\n");
+          out.write("\t\t\t\t\t\t");
+          if (_jspx_meth_html_005fhidden_005f0(_jspx_th_html_005fform_005f0, _jspx_page_context))
+            return;
+          out.write("\r\n");
+          out.write("\t\t\t\t\t</div>\r\n");
+          out.write("\t\t\t\t</div>\r\n");
+          out.write("\t\t\t\t<div id=\"displayBodyContent_Second_Column_Field\">\r\n");
+          out.write("\t\t\t\t\t<div id=\"displayBodyContent_Second_Column_Text\">");
+if(dateCreated !=null){
+          out.print(dateCreated);
+          out.write(' ');
+}else{
+          out.write("Date Created ");
+}
+          out.write(": </div>\r\n");
+          out.write("\t\t\t\t\t<div id=\"displayBodyContent_Second_Column_Input_Text\">\r\n");
+          out.write("\t\t\t\t\t\t");
+          if (_jspx_meth_html_005ftext_005f1(_jspx_th_html_005fform_005f0, _jspx_page_context))
+            return;
+          out.write("\r\n");
+          out.write("\t\t\t\t\t\t");
+          if (_jspx_meth_html_005fhidden_005f1(_jspx_th_html_005fform_005f0, _jspx_page_context))
+            return;
+          out.write("\r\n");
+          out.write("\t\t\t\t\t\t");
+          if (_jspx_meth_html_005fhidden_005f2(_jspx_th_html_005fform_005f0, _jspx_page_context))
+            return;
+          out.write("\r\n");
+          out.write("\t\t\t\t\t\t<A href=\"javascript:show_calendar('generalInformation.date');\"><IMG alt=\"Calendar\" height=16 src=\"images/calendar.gif\" width=16 border=0></A>\r\n");
+          out.write("\t\t\t\t\t</div>\r\n");
+          out.write("\t\t\t\t</div>\r\n");
+          out.write("\t\t\t\t<div id=\"displayBodyContent_Field\">\r\n");
+          out.write("\t\t\t\t\t\t\r\n");
+          out.write("\t\t\t\t\t<div id=\"displayBodyContent_Text\">");
+if(facilityName !=null){
+          out.print(facilityName);
+}else{
+          out.write("Facility");
+}
+          out.write(": </div>\r\n");
+          out.write("\t\t\t\t\t<div id=\"displayBodyContent_Select_Facility\">\r\n");
+          out.write("\t\t\t\t\t\t");
+          if (_jspx_meth_html_005fselect_005f0(_jspx_th_html_005fform_005f0, _jspx_page_context))
+            return;
+          out.write("\r\n");
+          out.write("\t\t\t\t\t\t");
+          if (_jspx_meth_html_005fhidden_005f3(_jspx_th_html_005fform_005f0, _jspx_page_context))
+            return;
+          out.write("\r\n");
+          out.write("\t\t\t\t\t</div>\r\n");
+          out.write("\t\t\t\t</div>\r\n");
+          out.write("\t\t\t\t<div id=\"displayBodyContent_Second_Column_Field\">\r\n");
+          out.write("\t\t\t\t\t<div id=\"displayBodyContent_Second_Column_Text\"> ");
+if(jobEquipment !=null){
+          out.print(jobEquipment);
+}else{
+          out.write("Job / Equipment");
+}
+          out.write(" : </div>\r\n");
+          out.write("\t\t\t\t\t<div id=\"displayBodyContent_Second_Column_Input_Text\">\r\n");
+          out.write("\t\t\t\t\t\t");
+          if (_jspx_meth_html_005fselect_005f1(_jspx_th_html_005fform_005f0, _jspx_page_context))
+            return;
+          out.write("\r\n");
+          out.write("\t\t\t\t\t</div>\r\n");
+          out.write("\t\t\t\t\t<div id=\"displayBodyContent_Second_Column_Text_Box\">\r\n");
+          out.write("\t\t\t\t\t\t");
+          if (_jspx_meth_html_005ftext_005f2(_jspx_th_html_005fform_005f0, _jspx_page_context))
+            return;
+          out.write("\r\n");
+          out.write("\t\t\t\t\t</div>\r\n");
+          out.write("\t\t\t\t</div>\r\n");
+          out.write("\t\t\t\t<div id=\"displayBodyContent_Field\"> \r\n");
+          out.write("\t\t\t\t\t<div id=\"displayBodyContent_Text\">");
+if(departName !=null){
+          out.print(departName);
+}else{
+          out.write("Department");
+}
+          out.write(" : </div>\r\n");
+          out.write("\t\t\t\t\t<div id=\"displayBodyContent_Select_Department\">\r\n");
+          out.write("\t\t\t\t\t\t");
+          if (_jspx_meth_html_005fselect_005f2(_jspx_th_html_005fform_005f0, _jspx_page_context))
+            return;
+          out.write("\r\n");
+          out.write("\t\t\t\t\t\t");
+          if (_jspx_meth_html_005fhidden_005f4(_jspx_th_html_005fform_005f0, _jspx_page_context))
+            return;
+          out.write("\r\n");
+          out.write("\t\t\t\t\t</div>\r\n");
+          out.write("\t\t\t\t</div>\r\n");
+          out.write("\t\t\t\t<div id=\"displayBodyContent_Second_Column_Field\">\r\n");
+          out.write("\t\t\t\t\t<div id=\"displayBodyContent_Second_Column_Text\"> ");
+if(equipmentNo!=null){ 
+          out.write(' ');
+          out.print(equipmentNo);
+          out.write(' ');
+}else{ 
+          out.write(" Equipment No ");
+}
+          out.write(": </div>\r\n");
+          out.write("\t\t\t\t\t<div id=\"displayBodyContent_Second_Column_Input_Text\">\r\n");
+          out.write("\t\t\t\t\t\t");
+          if (_jspx_meth_html_005ftext_005f3(_jspx_th_html_005fform_005f0, _jspx_page_context))
+            return;
+          out.write("\r\n");
+          out.write("\t\t\t\t\t</div>\r\n");
+          out.write("\t\t\t\t</div>\r\n");
+          out.write("\t\t\t\t<div id=\"displayBodyContent_Field\"> \r\n");
+          out.write("\t\t\t\t\t<div id=\"displayBodyContent_Text\">");
+if(analysisDeveloped !=null){
+          out.print(analysisDeveloped);
+}else{
+          out.write("Analysis Developed By");
+}
+          out.write(": </div>\r\n");
+          out.write("\t\t\t\t\t<div id=\"displayBodyContent_Select_Analysis_Developed\">\r\n");
+          out.write("\t\t\t\t\t\t");
+          if (_jspx_meth_html_005fselect_005f3(_jspx_th_html_005fform_005f0, _jspx_page_context))
+            return;
+          out.write("\r\n");
+          out.write("\t\t\t\t\t</div>\r\n");
+          out.write("\t\t\t\t</div>\r\n");
+          out.write("\t\t\t\t<div>&nbsp;</div>\r\n");
+          out.write("\t\t\t\t<div id=\"displayBodyContent_Field\"> \r\n");
+          out.write("\t\t\t\t\t<div id=\"displayBodyContent_Text\">");
+if(analysisReviewed!=null){
+          out.write(' ');
+          out.print(analysisReviewed);
+          out.write(' ');
+}else{
+          out.write("Analysis Reviewed By");
+}
+          out.write(" : </div>\r\n");
+          out.write("\t\t\t\t\t<div id=\"displayBodyContent_Select_Analysis_Reviewed\">\r\n");
+          out.write("\t\t\t\t\t\t");
+          if (_jspx_meth_html_005fselect_005f4(_jspx_th_html_005fform_005f0, _jspx_page_context))
+            return;
+          out.write("\r\n");
+          out.write("\t\t\t\t\t</div>\r\n");
+          out.write("\t\t\t\t\t<div id=\"displayBodyContent_Text_Box\">\r\n");
+          out.write("\t\t\t\t\t\t");
+          if (_jspx_meth_html_005ftext_005f4(_jspx_th_html_005fform_005f0, _jspx_page_context))
+            return;
+          out.write("\r\n");
+          out.write("\t\t\t\t\t</div>\r\n");
+          out.write("\t\t\t\t</div>\r\n");
+          out.write("\t\t\t\t<div id=\"displayBodyContent_Field\">&nbsp;</div>\r\n");
+          out.write("\t\t\t\t\r\n");
+          out.write("\t\t\t</div>\r\n");
+          out.write("\t\t</div>\r\n");
+          out.write("\t\t<div id=\"button\"><input type=\"button\" class=\"buttonStyle\" name=\"Save\" value=\"Next\" onclick=\"submitForm()\" size=\"50\"/></div>\r\n");
+          out.write("\t\t<input type=\"hidden\" name=\"action\" id=\"action\" value=\"\" />\r\n");
+          out.write("\t\t<input type=\"hidden\" name=\"mode\" id=\"mode\" value=\"\" />\r\n");
+          out.write("\t\t<input type=\"hidden\" name=\"savedSession\" id=\"savedSession\" value=\"1\" />\r\n");
+          out.write("\t\t");
+          int evalDoAfterBody = _jspx_th_html_005fform_005f0.doAfterBody();
+          if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)
+            break;
+        } while (true);
+      }
+      if (_jspx_th_html_005fform_005f0.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+        _005fjspx_005ftagPool_005fhtml_005fform_0026_005fstyleId_005fmethod_005faction.reuse(_jspx_th_html_005fform_005f0);
+        return;
+      }
+      _005fjspx_005ftagPool_005fhtml_005fform_0026_005fstyleId_005fmethod_005faction.reuse(_jspx_th_html_005fform_005f0);
+      out.write("\r\n");
+      out.write("</body>\r\n");
+      out.write("</html>");
+    } catch (Throwable t) {
+      if (!(t instanceof SkipPageException)){
+        out = _jspx_out;
+        if (out != null && out.getBufferSize() != 0)
+          try { out.clearBuffer(); } catch (java.io.IOException e) {}
+        if (_jspx_page_context != null) _jspx_page_context.handlePageException(t);
+      }
+    } finally {
+      _jspxFactory.releasePageContext(_jspx_page_context);
+    }
+  }
+
+  private boolean _jspx_meth_html_005ftext_005f0(javax.servlet.jsp.tagext.JspTag _jspx_th_html_005fform_005f0, PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  html:text
+    org.apache.struts.taglib.html.TextTag _jspx_th_html_005ftext_005f0 = (org.apache.struts.taglib.html.TextTag) _005fjspx_005ftagPool_005fhtml_005ftext_0026_005fstyleId_005fsize_005fproperty_005fmaxlength_005fdisabled_005fnobody.get(org.apache.struts.taglib.html.TextTag.class);
+    _jspx_th_html_005ftext_005f0.setPageContext(_jspx_page_context);
+    _jspx_th_html_005ftext_005f0.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_html_005fform_005f0);
+    // /NewPPEAssessmentCreation.jsp(116,6) name = property type = null reqTime = true required = true fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005ftext_005f0.setProperty("ppeAssessmentNo");
+    // /NewPPEAssessmentCreation.jsp(116,6) name = styleId type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005ftext_005f0.setStyleId("ppeAssessmentNo");
+    // /NewPPEAssessmentCreation.jsp(116,6) name = size type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005ftext_005f0.setSize("20");
+    // /NewPPEAssessmentCreation.jsp(116,6) name = maxlength type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005ftext_005f0.setMaxlength("5");
+    // /NewPPEAssessmentCreation.jsp(116,6) name = disabled type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005ftext_005f0.setDisabled(true);
+    int _jspx_eval_html_005ftext_005f0 = _jspx_th_html_005ftext_005f0.doStartTag();
+    if (_jspx_th_html_005ftext_005f0.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _005fjspx_005ftagPool_005fhtml_005ftext_0026_005fstyleId_005fsize_005fproperty_005fmaxlength_005fdisabled_005fnobody.reuse(_jspx_th_html_005ftext_005f0);
+      return true;
+    }
+    _005fjspx_005ftagPool_005fhtml_005ftext_0026_005fstyleId_005fsize_005fproperty_005fmaxlength_005fdisabled_005fnobody.reuse(_jspx_th_html_005ftext_005f0);
+    return false;
+  }
+
+  private boolean _jspx_meth_html_005fhidden_005f0(javax.servlet.jsp.tagext.JspTag _jspx_th_html_005fform_005f0, PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  html:hidden
+    org.apache.struts.taglib.html.HiddenTag _jspx_th_html_005fhidden_005f0 = (org.apache.struts.taglib.html.HiddenTag) _005fjspx_005ftagPool_005fhtml_005fhidden_0026_005fvalue_005fstyleId_005fproperty_005fnobody.get(org.apache.struts.taglib.html.HiddenTag.class);
+    _jspx_th_html_005fhidden_005f0.setPageContext(_jspx_page_context);
+    _jspx_th_html_005fhidden_005f0.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_html_005fform_005f0);
+    // /NewPPEAssessmentCreation.jsp(117,6) name = property type = null reqTime = true required = true fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005fhidden_005f0.setProperty("hiddenAssessmentNo");
+    // /NewPPEAssessmentCreation.jsp(117,6) name = styleId type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005fhidden_005f0.setStyleId("hiddenAssessmentNo");
+    // /NewPPEAssessmentCreation.jsp(117,6) name = value type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005fhidden_005f0.setValue("");
+    int _jspx_eval_html_005fhidden_005f0 = _jspx_th_html_005fhidden_005f0.doStartTag();
+    if (_jspx_th_html_005fhidden_005f0.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _005fjspx_005ftagPool_005fhtml_005fhidden_0026_005fvalue_005fstyleId_005fproperty_005fnobody.reuse(_jspx_th_html_005fhidden_005f0);
+      return true;
+    }
+    _005fjspx_005ftagPool_005fhtml_005fhidden_0026_005fvalue_005fstyleId_005fproperty_005fnobody.reuse(_jspx_th_html_005fhidden_005f0);
+    return false;
+  }
+
+  private boolean _jspx_meth_html_005ftext_005f1(javax.servlet.jsp.tagext.JspTag _jspx_th_html_005fform_005f0, PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  html:text
+    org.apache.struts.taglib.html.TextTag _jspx_th_html_005ftext_005f1 = (org.apache.struts.taglib.html.TextTag) _005fjspx_005ftagPool_005fhtml_005ftext_0026_005fstyleId_005fsize_005fproperty_005fmaxlength_005fdisabled_005fnobody.get(org.apache.struts.taglib.html.TextTag.class);
+    _jspx_th_html_005ftext_005f1.setPageContext(_jspx_page_context);
+    _jspx_th_html_005ftext_005f1.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_html_005fform_005f0);
+    // /NewPPEAssessmentCreation.jsp(123,6) name = property type = null reqTime = true required = true fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005ftext_005f1.setProperty("date");
+    // /NewPPEAssessmentCreation.jsp(123,6) name = styleId type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005ftext_005f1.setStyleId("date");
+    // /NewPPEAssessmentCreation.jsp(123,6) name = size type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005ftext_005f1.setSize("20");
+    // /NewPPEAssessmentCreation.jsp(123,6) name = maxlength type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005ftext_005f1.setMaxlength("5");
+    // /NewPPEAssessmentCreation.jsp(123,6) name = disabled type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005ftext_005f1.setDisabled(true);
+    int _jspx_eval_html_005ftext_005f1 = _jspx_th_html_005ftext_005f1.doStartTag();
+    if (_jspx_th_html_005ftext_005f1.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _005fjspx_005ftagPool_005fhtml_005ftext_0026_005fstyleId_005fsize_005fproperty_005fmaxlength_005fdisabled_005fnobody.reuse(_jspx_th_html_005ftext_005f1);
+      return true;
+    }
+    _005fjspx_005ftagPool_005fhtml_005ftext_0026_005fstyleId_005fsize_005fproperty_005fmaxlength_005fdisabled_005fnobody.reuse(_jspx_th_html_005ftext_005f1);
+    return false;
+  }
+
+  private boolean _jspx_meth_html_005fhidden_005f1(javax.servlet.jsp.tagext.JspTag _jspx_th_html_005fform_005f0, PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  html:hidden
+    org.apache.struts.taglib.html.HiddenTag _jspx_th_html_005fhidden_005f1 = (org.apache.struts.taglib.html.HiddenTag) _005fjspx_005ftagPool_005fhtml_005fhidden_0026_005fvalue_005fstyleId_005fproperty_005fnobody.get(org.apache.struts.taglib.html.HiddenTag.class);
+    _jspx_th_html_005fhidden_005f1.setPageContext(_jspx_page_context);
+    _jspx_th_html_005fhidden_005f1.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_html_005fform_005f0);
+    // /NewPPEAssessmentCreation.jsp(124,6) name = property type = null reqTime = true required = true fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005fhidden_005f1.setProperty("currentDate");
+    // /NewPPEAssessmentCreation.jsp(124,6) name = styleId type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005fhidden_005f1.setStyleId("currentDate");
+    // /NewPPEAssessmentCreation.jsp(124,6) name = value type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005fhidden_005f1.setValue("");
+    int _jspx_eval_html_005fhidden_005f1 = _jspx_th_html_005fhidden_005f1.doStartTag();
+    if (_jspx_th_html_005fhidden_005f1.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _005fjspx_005ftagPool_005fhtml_005fhidden_0026_005fvalue_005fstyleId_005fproperty_005fnobody.reuse(_jspx_th_html_005fhidden_005f1);
+      return true;
+    }
+    _005fjspx_005ftagPool_005fhtml_005fhidden_0026_005fvalue_005fstyleId_005fproperty_005fnobody.reuse(_jspx_th_html_005fhidden_005f1);
+    return false;
+  }
+
+  private boolean _jspx_meth_html_005fhidden_005f2(javax.servlet.jsp.tagext.JspTag _jspx_th_html_005fform_005f0, PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  html:hidden
+    org.apache.struts.taglib.html.HiddenTag _jspx_th_html_005fhidden_005f2 = (org.apache.struts.taglib.html.HiddenTag) _005fjspx_005ftagPool_005fhtml_005fhidden_0026_005fstyleId_005fproperty_005fnobody.get(org.apache.struts.taglib.html.HiddenTag.class);
+    _jspx_th_html_005fhidden_005f2.setPageContext(_jspx_page_context);
+    _jspx_th_html_005fhidden_005f2.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_html_005fform_005f0);
+    // /NewPPEAssessmentCreation.jsp(125,6) name = property type = null reqTime = true required = true fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005fhidden_005f2.setProperty("facilityName");
+    // /NewPPEAssessmentCreation.jsp(125,6) name = styleId type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005fhidden_005f2.setStyleId("facilityName");
+    int _jspx_eval_html_005fhidden_005f2 = _jspx_th_html_005fhidden_005f2.doStartTag();
+    if (_jspx_th_html_005fhidden_005f2.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _005fjspx_005ftagPool_005fhtml_005fhidden_0026_005fstyleId_005fproperty_005fnobody.reuse(_jspx_th_html_005fhidden_005f2);
+      return true;
+    }
+    _005fjspx_005ftagPool_005fhtml_005fhidden_0026_005fstyleId_005fproperty_005fnobody.reuse(_jspx_th_html_005fhidden_005f2);
+    return false;
+  }
+
+  private boolean _jspx_meth_html_005fselect_005f0(javax.servlet.jsp.tagext.JspTag _jspx_th_html_005fform_005f0, PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  html:select
+    org.apache.struts.taglib.html.SelectTag _jspx_th_html_005fselect_005f0 = (org.apache.struts.taglib.html.SelectTag) _005fjspx_005ftagPool_005fhtml_005fselect_0026_005fstyleId_005fproperty_005fonchange.get(org.apache.struts.taglib.html.SelectTag.class);
+    _jspx_th_html_005fselect_005f0.setPageContext(_jspx_page_context);
+    _jspx_th_html_005fselect_005f0.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_html_005fform_005f0);
+    // /NewPPEAssessmentCreation.jsp(133,6) name = property type = null reqTime = true required = true fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005fselect_005f0.setProperty("facility");
+    // /NewPPEAssessmentCreation.jsp(133,6) name = styleId type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005fselect_005f0.setStyleId("facility");
+    // /NewPPEAssessmentCreation.jsp(133,6) name = onchange type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005fselect_005f0.setOnchange("getChildDetails('facility','department')");
+    int _jspx_eval_html_005fselect_005f0 = _jspx_th_html_005fselect_005f0.doStartTag();
+    if (_jspx_eval_html_005fselect_005f0 != javax.servlet.jsp.tagext.Tag.SKIP_BODY) {
+      if (_jspx_eval_html_005fselect_005f0 != javax.servlet.jsp.tagext.Tag.EVAL_BODY_INCLUDE) {
+        out = _jspx_page_context.pushBody();
+        _jspx_th_html_005fselect_005f0.setBodyContent((javax.servlet.jsp.tagext.BodyContent) out);
+        _jspx_th_html_005fselect_005f0.doInitBody();
+      }
+      do {
+        out.write("\r\n");
+        out.write("\t\t\t\t\t\t\t");
+        if (_jspx_meth_html_005foption_005f0(_jspx_th_html_005fselect_005f0, _jspx_page_context))
+          return true;
+        out.write("\r\n");
+        out.write("\t\t\t\t\t\t\t\t");
+        if (_jspx_meth_html_005foptionsCollection_005f0(_jspx_th_html_005fselect_005f0, _jspx_page_context))
+          return true;
+        out.write("\r\n");
+        out.write("\t\t\t\t\t\t");
+        int evalDoAfterBody = _jspx_th_html_005fselect_005f0.doAfterBody();
+        if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)
+          break;
+      } while (true);
+      if (_jspx_eval_html_005fselect_005f0 != javax.servlet.jsp.tagext.Tag.EVAL_BODY_INCLUDE) {
+        out = _jspx_page_context.popBody();
+      }
+    }
+    if (_jspx_th_html_005fselect_005f0.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _005fjspx_005ftagPool_005fhtml_005fselect_0026_005fstyleId_005fproperty_005fonchange.reuse(_jspx_th_html_005fselect_005f0);
+      return true;
+    }
+    _005fjspx_005ftagPool_005fhtml_005fselect_0026_005fstyleId_005fproperty_005fonchange.reuse(_jspx_th_html_005fselect_005f0);
+    return false;
+  }
+
+  private boolean _jspx_meth_html_005foption_005f0(javax.servlet.jsp.tagext.JspTag _jspx_th_html_005fselect_005f0, PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  html:option
+    org.apache.struts.taglib.html.OptionTag _jspx_th_html_005foption_005f0 = (org.apache.struts.taglib.html.OptionTag) _005fjspx_005ftagPool_005fhtml_005foption_0026_005fvalue.get(org.apache.struts.taglib.html.OptionTag.class);
+    _jspx_th_html_005foption_005f0.setPageContext(_jspx_page_context);
+    _jspx_th_html_005foption_005f0.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_html_005fselect_005f0);
+    // /NewPPEAssessmentCreation.jsp(134,7) name = value type = null reqTime = true required = true fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005foption_005f0.setValue("0");
+    int _jspx_eval_html_005foption_005f0 = _jspx_th_html_005foption_005f0.doStartTag();
+    if (_jspx_eval_html_005foption_005f0 != javax.servlet.jsp.tagext.Tag.SKIP_BODY) {
+      if (_jspx_eval_html_005foption_005f0 != javax.servlet.jsp.tagext.Tag.EVAL_BODY_INCLUDE) {
+        out = _jspx_page_context.pushBody();
+        _jspx_th_html_005foption_005f0.setBodyContent((javax.servlet.jsp.tagext.BodyContent) out);
+        _jspx_th_html_005foption_005f0.doInitBody();
+      }
+      do {
+        out.write("Select a Facility");
+        int evalDoAfterBody = _jspx_th_html_005foption_005f0.doAfterBody();
+        if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)
+          break;
+      } while (true);
+      if (_jspx_eval_html_005foption_005f0 != javax.servlet.jsp.tagext.Tag.EVAL_BODY_INCLUDE) {
+        out = _jspx_page_context.popBody();
+      }
+    }
+    if (_jspx_th_html_005foption_005f0.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _005fjspx_005ftagPool_005fhtml_005foption_0026_005fvalue.reuse(_jspx_th_html_005foption_005f0);
+      return true;
+    }
+    _005fjspx_005ftagPool_005fhtml_005foption_0026_005fvalue.reuse(_jspx_th_html_005foption_005f0);
+    return false;
+  }
+
+  private boolean _jspx_meth_html_005foptionsCollection_005f0(javax.servlet.jsp.tagext.JspTag _jspx_th_html_005fselect_005f0, PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  html:optionsCollection
+    org.apache.struts.taglib.html.OptionsCollectionTag _jspx_th_html_005foptionsCollection_005f0 = (org.apache.struts.taglib.html.OptionsCollectionTag) _005fjspx_005ftagPool_005fhtml_005foptionsCollection_0026_005fvalue_005fproperty_005flabel_005fnobody.get(org.apache.struts.taglib.html.OptionsCollectionTag.class);
+    _jspx_th_html_005foptionsCollection_005f0.setPageContext(_jspx_page_context);
+    _jspx_th_html_005foptionsCollection_005f0.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_html_005fselect_005f0);
+    // /NewPPEAssessmentCreation.jsp(135,8) name = property type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005foptionsCollection_005f0.setProperty("facilityList");
+    // /NewPPEAssessmentCreation.jsp(135,8) name = value type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005foptionsCollection_005f0.setValue("facilityId");
+    // /NewPPEAssessmentCreation.jsp(135,8) name = label type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005foptionsCollection_005f0.setLabel("facility");
+    int _jspx_eval_html_005foptionsCollection_005f0 = _jspx_th_html_005foptionsCollection_005f0.doStartTag();
+    if (_jspx_th_html_005foptionsCollection_005f0.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _005fjspx_005ftagPool_005fhtml_005foptionsCollection_0026_005fvalue_005fproperty_005flabel_005fnobody.reuse(_jspx_th_html_005foptionsCollection_005f0);
+      return true;
+    }
+    _005fjspx_005ftagPool_005fhtml_005foptionsCollection_0026_005fvalue_005fproperty_005flabel_005fnobody.reuse(_jspx_th_html_005foptionsCollection_005f0);
+    return false;
+  }
+
+  private boolean _jspx_meth_html_005fhidden_005f3(javax.servlet.jsp.tagext.JspTag _jspx_th_html_005fform_005f0, PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  html:hidden
+    org.apache.struts.taglib.html.HiddenTag _jspx_th_html_005fhidden_005f3 = (org.apache.struts.taglib.html.HiddenTag) _005fjspx_005ftagPool_005fhtml_005fhidden_0026_005fstyleId_005fproperty_005fnobody.get(org.apache.struts.taglib.html.HiddenTag.class);
+    _jspx_th_html_005fhidden_005f3.setPageContext(_jspx_page_context);
+    _jspx_th_html_005fhidden_005f3.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_html_005fform_005f0);
+    // /NewPPEAssessmentCreation.jsp(137,6) name = property type = null reqTime = true required = true fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005fhidden_005f3.setProperty("facilityName");
+    // /NewPPEAssessmentCreation.jsp(137,6) name = styleId type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005fhidden_005f3.setStyleId("facilityName");
+    int _jspx_eval_html_005fhidden_005f3 = _jspx_th_html_005fhidden_005f3.doStartTag();
+    if (_jspx_th_html_005fhidden_005f3.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _005fjspx_005ftagPool_005fhtml_005fhidden_0026_005fstyleId_005fproperty_005fnobody.reuse(_jspx_th_html_005fhidden_005f3);
+      return true;
+    }
+    _005fjspx_005ftagPool_005fhtml_005fhidden_0026_005fstyleId_005fproperty_005fnobody.reuse(_jspx_th_html_005fhidden_005f3);
+    return false;
+  }
+
+  private boolean _jspx_meth_html_005fselect_005f1(javax.servlet.jsp.tagext.JspTag _jspx_th_html_005fform_005f0, PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  html:select
+    org.apache.struts.taglib.html.SelectTag _jspx_th_html_005fselect_005f1 = (org.apache.struts.taglib.html.SelectTag) _005fjspx_005ftagPool_005fhtml_005fselect_0026_005fstyleId_005fproperty_005fonchange.get(org.apache.struts.taglib.html.SelectTag.class);
+    _jspx_th_html_005fselect_005f1.setPageContext(_jspx_page_context);
+    _jspx_th_html_005fselect_005f1.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_html_005fform_005f0);
+    // /NewPPEAssessmentCreation.jsp(143,6) name = property type = null reqTime = true required = true fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005fselect_005f1.setProperty("jobEquipment");
+    // /NewPPEAssessmentCreation.jsp(143,6) name = styleId type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005fselect_005f1.setStyleId("jobEquipment");
+    // /NewPPEAssessmentCreation.jsp(143,6) name = onchange type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005fselect_005f1.setOnchange("setValue('jobEquipment','newJobEquipment')");
+    int _jspx_eval_html_005fselect_005f1 = _jspx_th_html_005fselect_005f1.doStartTag();
+    if (_jspx_eval_html_005fselect_005f1 != javax.servlet.jsp.tagext.Tag.SKIP_BODY) {
+      if (_jspx_eval_html_005fselect_005f1 != javax.servlet.jsp.tagext.Tag.EVAL_BODY_INCLUDE) {
+        out = _jspx_page_context.pushBody();
+        _jspx_th_html_005fselect_005f1.setBodyContent((javax.servlet.jsp.tagext.BodyContent) out);
+        _jspx_th_html_005fselect_005f1.doInitBody();
+      }
+      do {
+        out.write("\r\n");
+        out.write("\t\t\t\t\t\t\t");
+        if (_jspx_meth_html_005foption_005f1(_jspx_th_html_005fselect_005f1, _jspx_page_context))
+          return true;
+        out.write("\r\n");
+        out.write("\t\t\t\t\t\t\t");
+        if (_jspx_meth_html_005foptionsCollection_005f1(_jspx_th_html_005fselect_005f1, _jspx_page_context))
+          return true;
+        out.write("\r\n");
+        out.write("\t\t\t\t\t\t");
+        int evalDoAfterBody = _jspx_th_html_005fselect_005f1.doAfterBody();
+        if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)
+          break;
+      } while (true);
+      if (_jspx_eval_html_005fselect_005f1 != javax.servlet.jsp.tagext.Tag.EVAL_BODY_INCLUDE) {
+        out = _jspx_page_context.popBody();
+      }
+    }
+    if (_jspx_th_html_005fselect_005f1.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _005fjspx_005ftagPool_005fhtml_005fselect_0026_005fstyleId_005fproperty_005fonchange.reuse(_jspx_th_html_005fselect_005f1);
+      return true;
+    }
+    _005fjspx_005ftagPool_005fhtml_005fselect_0026_005fstyleId_005fproperty_005fonchange.reuse(_jspx_th_html_005fselect_005f1);
+    return false;
+  }
+
+  private boolean _jspx_meth_html_005foption_005f1(javax.servlet.jsp.tagext.JspTag _jspx_th_html_005fselect_005f1, PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  html:option
+    org.apache.struts.taglib.html.OptionTag _jspx_th_html_005foption_005f1 = (org.apache.struts.taglib.html.OptionTag) _005fjspx_005ftagPool_005fhtml_005foption_0026_005fvalue.get(org.apache.struts.taglib.html.OptionTag.class);
+    _jspx_th_html_005foption_005f1.setPageContext(_jspx_page_context);
+    _jspx_th_html_005foption_005f1.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_html_005fselect_005f1);
+    // /NewPPEAssessmentCreation.jsp(144,7) name = value type = null reqTime = true required = true fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005foption_005f1.setValue("0");
+    int _jspx_eval_html_005foption_005f1 = _jspx_th_html_005foption_005f1.doStartTag();
+    if (_jspx_eval_html_005foption_005f1 != javax.servlet.jsp.tagext.Tag.SKIP_BODY) {
+      if (_jspx_eval_html_005foption_005f1 != javax.servlet.jsp.tagext.Tag.EVAL_BODY_INCLUDE) {
+        out = _jspx_page_context.pushBody();
+        _jspx_th_html_005foption_005f1.setBodyContent((javax.servlet.jsp.tagext.BodyContent) out);
+        _jspx_th_html_005foption_005f1.doInitBody();
+      }
+      do {
+        out.write("Add New Job Equipment");
+        int evalDoAfterBody = _jspx_th_html_005foption_005f1.doAfterBody();
+        if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)
+          break;
+      } while (true);
+      if (_jspx_eval_html_005foption_005f1 != javax.servlet.jsp.tagext.Tag.EVAL_BODY_INCLUDE) {
+        out = _jspx_page_context.popBody();
+      }
+    }
+    if (_jspx_th_html_005foption_005f1.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _005fjspx_005ftagPool_005fhtml_005foption_0026_005fvalue.reuse(_jspx_th_html_005foption_005f1);
+      return true;
+    }
+    _005fjspx_005ftagPool_005fhtml_005foption_0026_005fvalue.reuse(_jspx_th_html_005foption_005f1);
+    return false;
+  }
+
+  private boolean _jspx_meth_html_005foptionsCollection_005f1(javax.servlet.jsp.tagext.JspTag _jspx_th_html_005fselect_005f1, PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  html:optionsCollection
+    org.apache.struts.taglib.html.OptionsCollectionTag _jspx_th_html_005foptionsCollection_005f1 = (org.apache.struts.taglib.html.OptionsCollectionTag) _005fjspx_005ftagPool_005fhtml_005foptionsCollection_0026_005fvalue_005fproperty_005flabel_005fnobody.get(org.apache.struts.taglib.html.OptionsCollectionTag.class);
+    _jspx_th_html_005foptionsCollection_005f1.setPageContext(_jspx_page_context);
+    _jspx_th_html_005foptionsCollection_005f1.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_html_005fselect_005f1);
+    // /NewPPEAssessmentCreation.jsp(145,7) name = property type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005foptionsCollection_005f1.setProperty("jobEquipmentList");
+    // /NewPPEAssessmentCreation.jsp(145,7) name = value type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005foptionsCollection_005f1.setValue("jobEquipmentId");
+    // /NewPPEAssessmentCreation.jsp(145,7) name = label type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005foptionsCollection_005f1.setLabel("jobEquipment");
+    int _jspx_eval_html_005foptionsCollection_005f1 = _jspx_th_html_005foptionsCollection_005f1.doStartTag();
+    if (_jspx_th_html_005foptionsCollection_005f1.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _005fjspx_005ftagPool_005fhtml_005foptionsCollection_0026_005fvalue_005fproperty_005flabel_005fnobody.reuse(_jspx_th_html_005foptionsCollection_005f1);
+      return true;
+    }
+    _005fjspx_005ftagPool_005fhtml_005foptionsCollection_0026_005fvalue_005fproperty_005flabel_005fnobody.reuse(_jspx_th_html_005foptionsCollection_005f1);
+    return false;
+  }
+
+  private boolean _jspx_meth_html_005ftext_005f2(javax.servlet.jsp.tagext.JspTag _jspx_th_html_005fform_005f0, PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  html:text
+    org.apache.struts.taglib.html.TextTag _jspx_th_html_005ftext_005f2 = (org.apache.struts.taglib.html.TextTag) _005fjspx_005ftagPool_005fhtml_005ftext_0026_005fstyleId_005fsize_005fproperty_005fnobody.get(org.apache.struts.taglib.html.TextTag.class);
+    _jspx_th_html_005ftext_005f2.setPageContext(_jspx_page_context);
+    _jspx_th_html_005ftext_005f2.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_html_005fform_005f0);
+    // /NewPPEAssessmentCreation.jsp(149,6) name = property type = null reqTime = true required = true fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005ftext_005f2.setProperty("newJobEquipment");
+    // /NewPPEAssessmentCreation.jsp(149,6) name = styleId type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005ftext_005f2.setStyleId("newJobEquipment");
+    // /NewPPEAssessmentCreation.jsp(149,6) name = size type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005ftext_005f2.setSize("30");
+    int _jspx_eval_html_005ftext_005f2 = _jspx_th_html_005ftext_005f2.doStartTag();
+    if (_jspx_th_html_005ftext_005f2.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _005fjspx_005ftagPool_005fhtml_005ftext_0026_005fstyleId_005fsize_005fproperty_005fnobody.reuse(_jspx_th_html_005ftext_005f2);
+      return true;
+    }
+    _005fjspx_005ftagPool_005fhtml_005ftext_0026_005fstyleId_005fsize_005fproperty_005fnobody.reuse(_jspx_th_html_005ftext_005f2);
+    return false;
+  }
+
+  private boolean _jspx_meth_html_005fselect_005f2(javax.servlet.jsp.tagext.JspTag _jspx_th_html_005fform_005f0, PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  html:select
+    org.apache.struts.taglib.html.SelectTag _jspx_th_html_005fselect_005f2 = (org.apache.struts.taglib.html.SelectTag) _005fjspx_005ftagPool_005fhtml_005fselect_0026_005fstyleId_005fproperty.get(org.apache.struts.taglib.html.SelectTag.class);
+    _jspx_th_html_005fselect_005f2.setPageContext(_jspx_page_context);
+    _jspx_th_html_005fselect_005f2.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_html_005fform_005f0);
+    // /NewPPEAssessmentCreation.jsp(155,6) name = property type = null reqTime = true required = true fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005fselect_005f2.setProperty("department");
+    // /NewPPEAssessmentCreation.jsp(155,6) name = styleId type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005fselect_005f2.setStyleId("department");
+    int _jspx_eval_html_005fselect_005f2 = _jspx_th_html_005fselect_005f2.doStartTag();
+    if (_jspx_eval_html_005fselect_005f2 != javax.servlet.jsp.tagext.Tag.SKIP_BODY) {
+      if (_jspx_eval_html_005fselect_005f2 != javax.servlet.jsp.tagext.Tag.EVAL_BODY_INCLUDE) {
+        out = _jspx_page_context.pushBody();
+        _jspx_th_html_005fselect_005f2.setBodyContent((javax.servlet.jsp.tagext.BodyContent) out);
+        _jspx_th_html_005fselect_005f2.doInitBody();
+      }
+      do {
+        out.write("\r\n");
+        out.write("\t\t\t\t\t\t\t\t");
+        if (_jspx_meth_html_005foption_005f2(_jspx_th_html_005fselect_005f2, _jspx_page_context))
+          return true;
+        out.write("\r\n");
+        out.write("\t\t\t\t\t\t\t\t");
+        if (_jspx_meth_html_005foptionsCollection_005f2(_jspx_th_html_005fselect_005f2, _jspx_page_context))
+          return true;
+        out.write("\r\n");
+        out.write("\t\t\t\t\t\t");
+        int evalDoAfterBody = _jspx_th_html_005fselect_005f2.doAfterBody();
+        if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)
+          break;
+      } while (true);
+      if (_jspx_eval_html_005fselect_005f2 != javax.servlet.jsp.tagext.Tag.EVAL_BODY_INCLUDE) {
+        out = _jspx_page_context.popBody();
+      }
+    }
+    if (_jspx_th_html_005fselect_005f2.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _005fjspx_005ftagPool_005fhtml_005fselect_0026_005fstyleId_005fproperty.reuse(_jspx_th_html_005fselect_005f2);
+      return true;
+    }
+    _005fjspx_005ftagPool_005fhtml_005fselect_0026_005fstyleId_005fproperty.reuse(_jspx_th_html_005fselect_005f2);
+    return false;
+  }
+
+  private boolean _jspx_meth_html_005foption_005f2(javax.servlet.jsp.tagext.JspTag _jspx_th_html_005fselect_005f2, PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  html:option
+    org.apache.struts.taglib.html.OptionTag _jspx_th_html_005foption_005f2 = (org.apache.struts.taglib.html.OptionTag) _005fjspx_005ftagPool_005fhtml_005foption_0026_005fvalue.get(org.apache.struts.taglib.html.OptionTag.class);
+    _jspx_th_html_005foption_005f2.setPageContext(_jspx_page_context);
+    _jspx_th_html_005foption_005f2.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_html_005fselect_005f2);
+    // /NewPPEAssessmentCreation.jsp(156,8) name = value type = null reqTime = true required = true fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005foption_005f2.setValue("0");
+    int _jspx_eval_html_005foption_005f2 = _jspx_th_html_005foption_005f2.doStartTag();
+    if (_jspx_eval_html_005foption_005f2 != javax.servlet.jsp.tagext.Tag.SKIP_BODY) {
+      if (_jspx_eval_html_005foption_005f2 != javax.servlet.jsp.tagext.Tag.EVAL_BODY_INCLUDE) {
+        out = _jspx_page_context.pushBody();
+        _jspx_th_html_005foption_005f2.setBodyContent((javax.servlet.jsp.tagext.BodyContent) out);
+        _jspx_th_html_005foption_005f2.doInitBody();
+      }
+      do {
+        out.write("Select a Department");
+        int evalDoAfterBody = _jspx_th_html_005foption_005f2.doAfterBody();
+        if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)
+          break;
+      } while (true);
+      if (_jspx_eval_html_005foption_005f2 != javax.servlet.jsp.tagext.Tag.EVAL_BODY_INCLUDE) {
+        out = _jspx_page_context.popBody();
+      }
+    }
+    if (_jspx_th_html_005foption_005f2.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _005fjspx_005ftagPool_005fhtml_005foption_0026_005fvalue.reuse(_jspx_th_html_005foption_005f2);
+      return true;
+    }
+    _005fjspx_005ftagPool_005fhtml_005foption_0026_005fvalue.reuse(_jspx_th_html_005foption_005f2);
+    return false;
+  }
+
+  private boolean _jspx_meth_html_005foptionsCollection_005f2(javax.servlet.jsp.tagext.JspTag _jspx_th_html_005fselect_005f2, PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  html:optionsCollection
+    org.apache.struts.taglib.html.OptionsCollectionTag _jspx_th_html_005foptionsCollection_005f2 = (org.apache.struts.taglib.html.OptionsCollectionTag) _005fjspx_005ftagPool_005fhtml_005foptionsCollection_0026_005fvalue_005fproperty_005flabel_005fnobody.get(org.apache.struts.taglib.html.OptionsCollectionTag.class);
+    _jspx_th_html_005foptionsCollection_005f2.setPageContext(_jspx_page_context);
+    _jspx_th_html_005foptionsCollection_005f2.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_html_005fselect_005f2);
+    // /NewPPEAssessmentCreation.jsp(157,8) name = property type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005foptionsCollection_005f2.setProperty("departmentList");
+    // /NewPPEAssessmentCreation.jsp(157,8) name = value type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005foptionsCollection_005f2.setValue("departmentId");
+    // /NewPPEAssessmentCreation.jsp(157,8) name = label type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005foptionsCollection_005f2.setLabel("department");
+    int _jspx_eval_html_005foptionsCollection_005f2 = _jspx_th_html_005foptionsCollection_005f2.doStartTag();
+    if (_jspx_th_html_005foptionsCollection_005f2.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _005fjspx_005ftagPool_005fhtml_005foptionsCollection_0026_005fvalue_005fproperty_005flabel_005fnobody.reuse(_jspx_th_html_005foptionsCollection_005f2);
+      return true;
+    }
+    _005fjspx_005ftagPool_005fhtml_005foptionsCollection_0026_005fvalue_005fproperty_005flabel_005fnobody.reuse(_jspx_th_html_005foptionsCollection_005f2);
+    return false;
+  }
+
+  private boolean _jspx_meth_html_005fhidden_005f4(javax.servlet.jsp.tagext.JspTag _jspx_th_html_005fform_005f0, PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  html:hidden
+    org.apache.struts.taglib.html.HiddenTag _jspx_th_html_005fhidden_005f4 = (org.apache.struts.taglib.html.HiddenTag) _005fjspx_005ftagPool_005fhtml_005fhidden_0026_005fstyleId_005fproperty_005fnobody.get(org.apache.struts.taglib.html.HiddenTag.class);
+    _jspx_th_html_005fhidden_005f4.setPageContext(_jspx_page_context);
+    _jspx_th_html_005fhidden_005f4.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_html_005fform_005f0);
+    // /NewPPEAssessmentCreation.jsp(159,6) name = property type = null reqTime = true required = true fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005fhidden_005f4.setProperty("departmentName");
+    // /NewPPEAssessmentCreation.jsp(159,6) name = styleId type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005fhidden_005f4.setStyleId("departmentName");
+    int _jspx_eval_html_005fhidden_005f4 = _jspx_th_html_005fhidden_005f4.doStartTag();
+    if (_jspx_th_html_005fhidden_005f4.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _005fjspx_005ftagPool_005fhtml_005fhidden_0026_005fstyleId_005fproperty_005fnobody.reuse(_jspx_th_html_005fhidden_005f4);
+      return true;
+    }
+    _005fjspx_005ftagPool_005fhtml_005fhidden_0026_005fstyleId_005fproperty_005fnobody.reuse(_jspx_th_html_005fhidden_005f4);
+    return false;
+  }
+
+  private boolean _jspx_meth_html_005ftext_005f3(javax.servlet.jsp.tagext.JspTag _jspx_th_html_005fform_005f0, PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  html:text
+    org.apache.struts.taglib.html.TextTag _jspx_th_html_005ftext_005f3 = (org.apache.struts.taglib.html.TextTag) _005fjspx_005ftagPool_005fhtml_005ftext_0026_005fstyleId_005fsize_005fproperty_005fmaxlength_005fnobody.get(org.apache.struts.taglib.html.TextTag.class);
+    _jspx_th_html_005ftext_005f3.setPageContext(_jspx_page_context);
+    _jspx_th_html_005ftext_005f3.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_html_005fform_005f0);
+    // /NewPPEAssessmentCreation.jsp(165,6) name = property type = null reqTime = true required = true fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005ftext_005f3.setProperty("equipmentNo");
+    // /NewPPEAssessmentCreation.jsp(165,6) name = styleId type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005ftext_005f3.setStyleId("equipmentNo");
+    // /NewPPEAssessmentCreation.jsp(165,6) name = size type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005ftext_005f3.setSize("20");
+    // /NewPPEAssessmentCreation.jsp(165,6) name = maxlength type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005ftext_005f3.setMaxlength("5");
+    int _jspx_eval_html_005ftext_005f3 = _jspx_th_html_005ftext_005f3.doStartTag();
+    if (_jspx_th_html_005ftext_005f3.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _005fjspx_005ftagPool_005fhtml_005ftext_0026_005fstyleId_005fsize_005fproperty_005fmaxlength_005fnobody.reuse(_jspx_th_html_005ftext_005f3);
+      return true;
+    }
+    _005fjspx_005ftagPool_005fhtml_005ftext_0026_005fstyleId_005fsize_005fproperty_005fmaxlength_005fnobody.reuse(_jspx_th_html_005ftext_005f3);
+    return false;
+  }
+
+  private boolean _jspx_meth_html_005fselect_005f3(javax.servlet.jsp.tagext.JspTag _jspx_th_html_005fform_005f0, PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  html:select
+    org.apache.struts.taglib.html.SelectTag _jspx_th_html_005fselect_005f3 = (org.apache.struts.taglib.html.SelectTag) _005fjspx_005ftagPool_005fhtml_005fselect_0026_005fstyleId_005fproperty_005fmultiple.get(org.apache.struts.taglib.html.SelectTag.class);
+    _jspx_th_html_005fselect_005f3.setPageContext(_jspx_page_context);
+    _jspx_th_html_005fselect_005f3.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_html_005fform_005f0);
+    // /NewPPEAssessmentCreation.jsp(171,6) name = property type = null reqTime = true required = true fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005fselect_005f3.setProperty("developedBy");
+    // /NewPPEAssessmentCreation.jsp(171,6) name = styleId type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005fselect_005f3.setStyleId("developedBy");
+    // /NewPPEAssessmentCreation.jsp(171,6) name = multiple type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005fselect_005f3.setMultiple("true");
+    int _jspx_eval_html_005fselect_005f3 = _jspx_th_html_005fselect_005f3.doStartTag();
+    if (_jspx_eval_html_005fselect_005f3 != javax.servlet.jsp.tagext.Tag.SKIP_BODY) {
+      if (_jspx_eval_html_005fselect_005f3 != javax.servlet.jsp.tagext.Tag.EVAL_BODY_INCLUDE) {
+        out = _jspx_page_context.pushBody();
+        _jspx_th_html_005fselect_005f3.setBodyContent((javax.servlet.jsp.tagext.BodyContent) out);
+        _jspx_th_html_005fselect_005f3.doInitBody();
+      }
+      do {
+        out.write("\r\n");
+        out.write("\t\t\t\t\t\t\t");
+        if (_jspx_meth_html_005foptionsCollection_005f3(_jspx_th_html_005fselect_005f3, _jspx_page_context))
+          return true;
+        out.write("\r\n");
+        out.write("\t\t\t\t\t\t");
+        int evalDoAfterBody = _jspx_th_html_005fselect_005f3.doAfterBody();
+        if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)
+          break;
+      } while (true);
+      if (_jspx_eval_html_005fselect_005f3 != javax.servlet.jsp.tagext.Tag.EVAL_BODY_INCLUDE) {
+        out = _jspx_page_context.popBody();
+      }
+    }
+    if (_jspx_th_html_005fselect_005f3.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _005fjspx_005ftagPool_005fhtml_005fselect_0026_005fstyleId_005fproperty_005fmultiple.reuse(_jspx_th_html_005fselect_005f3);
+      return true;
+    }
+    _005fjspx_005ftagPool_005fhtml_005fselect_0026_005fstyleId_005fproperty_005fmultiple.reuse(_jspx_th_html_005fselect_005f3);
+    return false;
+  }
+
+  private boolean _jspx_meth_html_005foptionsCollection_005f3(javax.servlet.jsp.tagext.JspTag _jspx_th_html_005fselect_005f3, PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  html:optionsCollection
+    org.apache.struts.taglib.html.OptionsCollectionTag _jspx_th_html_005foptionsCollection_005f3 = (org.apache.struts.taglib.html.OptionsCollectionTag) _005fjspx_005ftagPool_005fhtml_005foptionsCollection_0026_005fvalue_005fproperty_005flabel_005fnobody.get(org.apache.struts.taglib.html.OptionsCollectionTag.class);
+    _jspx_th_html_005foptionsCollection_005f3.setPageContext(_jspx_page_context);
+    _jspx_th_html_005foptionsCollection_005f3.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_html_005fselect_005f3);
+    // /NewPPEAssessmentCreation.jsp(172,7) name = property type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005foptionsCollection_005f3.setProperty("developedByList");
+    // /NewPPEAssessmentCreation.jsp(172,7) name = value type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005foptionsCollection_005f3.setValue("developedById");
+    // /NewPPEAssessmentCreation.jsp(172,7) name = label type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005foptionsCollection_005f3.setLabel("developedBy");
+    int _jspx_eval_html_005foptionsCollection_005f3 = _jspx_th_html_005foptionsCollection_005f3.doStartTag();
+    if (_jspx_th_html_005foptionsCollection_005f3.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _005fjspx_005ftagPool_005fhtml_005foptionsCollection_0026_005fvalue_005fproperty_005flabel_005fnobody.reuse(_jspx_th_html_005foptionsCollection_005f3);
+      return true;
+    }
+    _005fjspx_005ftagPool_005fhtml_005foptionsCollection_0026_005fvalue_005fproperty_005flabel_005fnobody.reuse(_jspx_th_html_005foptionsCollection_005f3);
+    return false;
+  }
+
+  private boolean _jspx_meth_html_005fselect_005f4(javax.servlet.jsp.tagext.JspTag _jspx_th_html_005fform_005f0, PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  html:select
+    org.apache.struts.taglib.html.SelectTag _jspx_th_html_005fselect_005f4 = (org.apache.struts.taglib.html.SelectTag) _005fjspx_005ftagPool_005fhtml_005fselect_0026_005fstyleId_005fproperty_005fonchange.get(org.apache.struts.taglib.html.SelectTag.class);
+    _jspx_th_html_005fselect_005f4.setPageContext(_jspx_page_context);
+    _jspx_th_html_005fselect_005f4.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_html_005fform_005f0);
+    // /NewPPEAssessmentCreation.jsp(180,6) name = property type = null reqTime = true required = true fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005fselect_005f4.setProperty("reviewedBy");
+    // /NewPPEAssessmentCreation.jsp(180,6) name = styleId type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005fselect_005f4.setStyleId("reviewedBy");
+    // /NewPPEAssessmentCreation.jsp(180,6) name = onchange type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005fselect_005f4.setOnchange("setValue('reviewedBy','newReviewedBy')");
+    int _jspx_eval_html_005fselect_005f4 = _jspx_th_html_005fselect_005f4.doStartTag();
+    if (_jspx_eval_html_005fselect_005f4 != javax.servlet.jsp.tagext.Tag.SKIP_BODY) {
+      if (_jspx_eval_html_005fselect_005f4 != javax.servlet.jsp.tagext.Tag.EVAL_BODY_INCLUDE) {
+        out = _jspx_page_context.pushBody();
+        _jspx_th_html_005fselect_005f4.setBodyContent((javax.servlet.jsp.tagext.BodyContent) out);
+        _jspx_th_html_005fselect_005f4.doInitBody();
+      }
+      do {
+        out.write("\r\n");
+        out.write("\t\t\t\t\t\t\t");
+        if (_jspx_meth_html_005foption_005f3(_jspx_th_html_005fselect_005f4, _jspx_page_context))
+          return true;
+        out.write("\r\n");
+        out.write("\t\t\t\t\t\t\t");
+        if (_jspx_meth_html_005foptionsCollection_005f4(_jspx_th_html_005fselect_005f4, _jspx_page_context))
+          return true;
+        out.write("\r\n");
+        out.write("\t\t\t\t\t\t");
+        int evalDoAfterBody = _jspx_th_html_005fselect_005f4.doAfterBody();
+        if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)
+          break;
+      } while (true);
+      if (_jspx_eval_html_005fselect_005f4 != javax.servlet.jsp.tagext.Tag.EVAL_BODY_INCLUDE) {
+        out = _jspx_page_context.popBody();
+      }
+    }
+    if (_jspx_th_html_005fselect_005f4.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _005fjspx_005ftagPool_005fhtml_005fselect_0026_005fstyleId_005fproperty_005fonchange.reuse(_jspx_th_html_005fselect_005f4);
+      return true;
+    }
+    _005fjspx_005ftagPool_005fhtml_005fselect_0026_005fstyleId_005fproperty_005fonchange.reuse(_jspx_th_html_005fselect_005f4);
+    return false;
+  }
+
+  private boolean _jspx_meth_html_005foption_005f3(javax.servlet.jsp.tagext.JspTag _jspx_th_html_005fselect_005f4, PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  html:option
+    org.apache.struts.taglib.html.OptionTag _jspx_th_html_005foption_005f3 = (org.apache.struts.taglib.html.OptionTag) _005fjspx_005ftagPool_005fhtml_005foption_0026_005fvalue.get(org.apache.struts.taglib.html.OptionTag.class);
+    _jspx_th_html_005foption_005f3.setPageContext(_jspx_page_context);
+    _jspx_th_html_005foption_005f3.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_html_005fselect_005f4);
+    // /NewPPEAssessmentCreation.jsp(181,7) name = value type = null reqTime = true required = true fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005foption_005f3.setValue("0");
+    int _jspx_eval_html_005foption_005f3 = _jspx_th_html_005foption_005f3.doStartTag();
+    if (_jspx_eval_html_005foption_005f3 != javax.servlet.jsp.tagext.Tag.SKIP_BODY) {
+      if (_jspx_eval_html_005foption_005f3 != javax.servlet.jsp.tagext.Tag.EVAL_BODY_INCLUDE) {
+        out = _jspx_page_context.pushBody();
+        _jspx_th_html_005foption_005f3.setBodyContent((javax.servlet.jsp.tagext.BodyContent) out);
+        _jspx_th_html_005foption_005f3.doInitBody();
+      }
+      do {
+        out.write("Add New Analysis reviewed by");
+        int evalDoAfterBody = _jspx_th_html_005foption_005f3.doAfterBody();
+        if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)
+          break;
+      } while (true);
+      if (_jspx_eval_html_005foption_005f3 != javax.servlet.jsp.tagext.Tag.EVAL_BODY_INCLUDE) {
+        out = _jspx_page_context.popBody();
+      }
+    }
+    if (_jspx_th_html_005foption_005f3.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _005fjspx_005ftagPool_005fhtml_005foption_0026_005fvalue.reuse(_jspx_th_html_005foption_005f3);
+      return true;
+    }
+    _005fjspx_005ftagPool_005fhtml_005foption_0026_005fvalue.reuse(_jspx_th_html_005foption_005f3);
+    return false;
+  }
+
+  private boolean _jspx_meth_html_005foptionsCollection_005f4(javax.servlet.jsp.tagext.JspTag _jspx_th_html_005fselect_005f4, PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  html:optionsCollection
+    org.apache.struts.taglib.html.OptionsCollectionTag _jspx_th_html_005foptionsCollection_005f4 = (org.apache.struts.taglib.html.OptionsCollectionTag) _005fjspx_005ftagPool_005fhtml_005foptionsCollection_0026_005fvalue_005fproperty_005flabel_005fnobody.get(org.apache.struts.taglib.html.OptionsCollectionTag.class);
+    _jspx_th_html_005foptionsCollection_005f4.setPageContext(_jspx_page_context);
+    _jspx_th_html_005foptionsCollection_005f4.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_html_005fselect_005f4);
+    // /NewPPEAssessmentCreation.jsp(182,7) name = property type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005foptionsCollection_005f4.setProperty("reviewedByList");
+    // /NewPPEAssessmentCreation.jsp(182,7) name = value type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005foptionsCollection_005f4.setValue("reviewedById");
+    // /NewPPEAssessmentCreation.jsp(182,7) name = label type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005foptionsCollection_005f4.setLabel("reviewedBy");
+    int _jspx_eval_html_005foptionsCollection_005f4 = _jspx_th_html_005foptionsCollection_005f4.doStartTag();
+    if (_jspx_th_html_005foptionsCollection_005f4.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _005fjspx_005ftagPool_005fhtml_005foptionsCollection_0026_005fvalue_005fproperty_005flabel_005fnobody.reuse(_jspx_th_html_005foptionsCollection_005f4);
+      return true;
+    }
+    _005fjspx_005ftagPool_005fhtml_005foptionsCollection_0026_005fvalue_005fproperty_005flabel_005fnobody.reuse(_jspx_th_html_005foptionsCollection_005f4);
+    return false;
+  }
+
+  private boolean _jspx_meth_html_005ftext_005f4(javax.servlet.jsp.tagext.JspTag _jspx_th_html_005fform_005f0, PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  html:text
+    org.apache.struts.taglib.html.TextTag _jspx_th_html_005ftext_005f4 = (org.apache.struts.taglib.html.TextTag) _005fjspx_005ftagPool_005fhtml_005ftext_0026_005fstyleId_005fsize_005fproperty_005fnobody.get(org.apache.struts.taglib.html.TextTag.class);
+    _jspx_th_html_005ftext_005f4.setPageContext(_jspx_page_context);
+    _jspx_th_html_005ftext_005f4.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_html_005fform_005f0);
+    // /NewPPEAssessmentCreation.jsp(186,6) name = property type = null reqTime = true required = true fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005ftext_005f4.setProperty("newReviewedBy");
+    // /NewPPEAssessmentCreation.jsp(186,6) name = styleId type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005ftext_005f4.setStyleId("newReviewedBy");
+    // /NewPPEAssessmentCreation.jsp(186,6) name = size type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_html_005ftext_005f4.setSize("30");
+    int _jspx_eval_html_005ftext_005f4 = _jspx_th_html_005ftext_005f4.doStartTag();
+    if (_jspx_th_html_005ftext_005f4.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _005fjspx_005ftagPool_005fhtml_005ftext_0026_005fstyleId_005fsize_005fproperty_005fnobody.reuse(_jspx_th_html_005ftext_005f4);
+      return true;
+    }
+    _005fjspx_005ftagPool_005fhtml_005ftext_0026_005fstyleId_005fsize_005fproperty_005fnobody.reuse(_jspx_th_html_005ftext_005f4);
+    return false;
+  }
+}

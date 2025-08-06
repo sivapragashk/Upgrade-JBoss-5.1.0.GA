@@ -1,0 +1,1394 @@
+2011-05-23 12:43:10,673 INFO  [org.jboss.web.WebService] (main) Using RMI server codebase: http://127.0.0.1:8083/
+2011-05-23 12:43:48,312 INFO  [org.jboss.wsf.common.management.AbstractServerConfig] (main) JBoss Web Services - Native Server
+2011-05-23 12:43:48,312 INFO  [org.jboss.wsf.common.management.AbstractServerConfig] (main) 3.2.2.GA
+2011-05-23 12:43:51,971 INFO  [org.jboss.dependency.plugins.AttributeCallbackItem] (main) Owner callback not implemented.
+2011-05-23 12:43:57,094 INFO  [org.jboss.logbridge.LogNotificationListener] (main) Adding notification listener for logging mbean "jboss.system:service=Logging,type=Log4jService" to server org.jboss.mx.server.MBeanServerImpl@1db0da1[ defaultDomain='jboss' ]
+2011-05-23 12:45:50,120 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@14657264{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/ldapejb.jar/}
+2011-05-23 12:45:50,120 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@14657264{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/ldapejb.jar/}
+2011-05-23 12:45:50,120 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@14657264{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/ldapejb.jar/}
+2011-05-23 12:45:50,120 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@29880656{vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/profileservice-secured.jar/}
+2011-05-23 12:45:50,120 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@29880656{vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/profileservice-secured.jar/}
+2011-05-23 12:45:50,120 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@29880656{vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/profileservice-secured.jar/}
+2011-05-23 12:45:50,120 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@29880656{vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/profileservice-secured.jar/}
+2011-05-23 12:45:58,435 INFO  [org.jboss.mx.remoting.service.JMXConnectorServerService] (main) JMX Connector server: service:jmx:rmi://127.0.0.1/jndi/rmi://127.0.0.1:1090/jmxconnector
+2011-05-23 12:45:59,728 INFO  [org.jboss.mail.MailService] (main) Mail Service bound to java:/Mail
+2011-05-23 12:46:07,047 WARN  [org.jboss.jms.server.jbosssx.JBossASSecurityMetadataStore] (main) WARNING! POTENTIAL SECURITY RISK. It has been detected that the MessageSucker component which sucks messages from one node to another has not had its password changed from the installation default. Please see the JBoss Messaging user guide for instructions on how to do this.
+2011-05-23 12:46:07,172 WARN  [org.jboss.annotation.factory.AnnotationCreator] (main) No ClassLoader provided, using TCCL: org.jboss.managed.api.annotation.ManagementComponent
+2011-05-23 12:46:07,436 WARN  [org.jboss.annotation.factory.AnnotationCreator] (main) No ClassLoader provided, using TCCL: org.jboss.managed.api.annotation.ManagementComponent
+2011-05-23 12:46:07,623 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) JBossTS Transaction Service (JTA version - tag:JBOSSTS_4_6_1_GA) - JBoss Inc.
+2011-05-23 12:46:07,623 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Setting up property manager MBean and JMX layer
+2011-05-23 12:46:09,071 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Initializing recovery manager
+2011-05-23 12:46:11,999 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Recovery manager configured
+2011-05-23 12:46:11,999 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Binding TransactionManager JNDI Reference
+2011-05-23 12:46:12,061 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Starting transaction recovery manager
+2011-05-23 12:46:13,183 INFO  [org.apache.catalina.core.AprLifecycleListener] (main) The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.6.0_16\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\program files\imagemagick-6.3.5-q16;C:\Program Files\Java\jdk1.6.0_16\bin;D:\oracle\ora92\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\ZipGenius 6\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727;C:\Program Files\Microsoft Visual Studio 8\SDK\v2.0\Bin;D:\maven-2.0.7\bin;C:\Program Files\TortoiseSVN\bin;C:\apache-ant-1.8.0\bin;D:\jboss-5.1.0.GA\bin;C:\WINDOWS\system32\WindowsPowerShell\v1.0;C:\Program Files\Microsoft Dynamics AX\50\Client\Bin\
+2011-05-23 12:46:13,338 INFO  [org.apache.coyote.http11.Http11Protocol] (main) Initializing Coyote HTTP/1.1 on http-127.0.0.1-9090
+2011-05-23 12:46:13,338 INFO  [org.apache.coyote.ajp.AjpProtocol] (main) Initializing Coyote AJP/1.3 on ajp-127.0.0.1-9019
+2011-05-23 12:46:13,401 INFO  [org.apache.catalina.core.StandardService] (main) Starting service jboss.web
+2011-05-23 12:46:13,416 INFO  [org.apache.catalina.core.StandardEngine] (main) Starting Servlet Engine: JBoss Web/2.1.3.GA
+2011-05-23 12:46:13,525 INFO  [org.apache.catalina.startup.Catalina] (main) Server startup in 175 ms
+2011-05-23 12:46:13,650 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/web-console
+2011-05-23 12:46:16,172 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/invoker
+2011-05-23 12:46:16,889 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/juddi
+2011-05-23 12:46:17,185 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Loading jUDDI configuration.
+2011-05-23 12:46:17,200 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Resources loaded from: /WEB-INF/juddi.properties
+2011-05-23 12:46:17,200 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Initializing jUDDI components.
+2011-05-23 12:46:17,839 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/jboss-local-jdbc.rar/META-INF/ra.xml
+2011-05-23 12:46:17,901 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/jboss-xa-jdbc.rar/META-INF/ra.xml
+2011-05-23 12:46:18,944 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/jms-ra.rar/META-INF/ra.xml
+2011-05-23 12:46:19,038 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/mail-ra.rar/META-INF/ra.xml
+2011-05-23 12:46:19,131 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/quartz-ra.rar/META-INF/ra.xml
+2011-05-23 12:46:19,474 INFO  [org.quartz.simpl.SimpleThreadPool] (main) Job execution threads will use class loader of thread: main
+2011-05-23 12:46:19,567 INFO  [org.quartz.core.SchedulerSignalerImpl] (main) Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2011-05-23 12:46:19,567 INFO  [org.quartz.core.QuartzScheduler] (main) Quartz Scheduler v.1.7.2 created.
+2011-05-23 12:46:19,567 INFO  [org.quartz.simpl.RAMJobStore] (main) RAMJobStore initialized.
+2011-05-23 12:46:19,567 INFO  [org.quartz.impl.StdSchedulerFactory] (main) Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2011-05-23 12:46:19,567 INFO  [org.quartz.impl.StdSchedulerFactory] (main) Quartz scheduler version: 1.7.2
+2011-05-23 12:46:19,567 INFO  [org.quartz.core.QuartzScheduler] (main) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2011-05-23 12:46:19,941 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=HdFabDS' to JNDI name 'java:HdFabDS'
+2011-05-23 12:46:20,128 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=IntranetDS' to JNDI name 'java:IntranetDS'
+2011-05-23 12:46:20,424 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=JDBCIntranetDS' to JNDI name 'java:JDBCIntranetDS'
+2011-05-23 12:46:20,502 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=OnlineSurveyDS' to JNDI name 'java:OnlineSurveyDS'
+2011-05-23 12:46:20,595 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=OrderStatusDS' to JNDI name 'java:OrderStatusDS'
+2011-05-23 12:46:20,766 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=PIPDS' to JNDI name 'java:PIPDS'
+2011-05-23 12:46:21,124 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=PLSDS' to JNDI name 'java:PLSDS'
+2011-05-23 12:46:22,588 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' to JNDI name 'java:DefaultDS'
+2011-05-23 12:46:22,697 INFO  [org.quartz.utils.UpdateChecker] (Timer-1) New update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+2011-05-23 12:46:24,208 INFO  [org.jboss.jms.server.ServerPeer] (main) JBoss Messaging 1.4.3.GA server [0] started
+2011-05-23 12:46:24,395 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactoryJNDIMapper] (main) supportsFailover attribute is true on connection factory: jboss.messaging.connectionfactory:service=ClusteredConnectionFactory but post office is non clustered. So connection factory will *not* support failover
+2011-05-23 12:46:24,395 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactoryJNDIMapper] (main) supportsLoadBalancing attribute is true on connection factory: jboss.messaging.connectionfactory:service=ClusteredConnectionFactory but post office is non clustered. So connection factory will *not* support load balancing
+2011-05-23 12:46:24,504 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2011-05-23 12:46:24,504 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@1520844 started
+2011-05-23 12:46:24,535 INFO  [org.jboss.jms.server.destination.QueueService] (main) Queue[/queue/ExpiryQueue] started, fullSize=200000, pageSize=2000, downCacheSize=2000
+2011-05-23 12:46:24,535 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2011-05-23 12:46:24,535 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@147fcb5 started
+2011-05-23 12:46:24,535 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2011-05-23 12:46:24,535 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@17f0ced started
+2011-05-23 12:46:24,535 INFO  [org.jboss.jms.server.destination.QueueService] (main) Queue[/queue/DLQ] started, fullSize=200000, pageSize=2000, downCacheSize=2000
+2011-05-23 12:46:24,940 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' to JNDI name 'java:JmsXA'
+2011-05-23 12:46:25,142 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main) installing bean: ejb/#LDAPAuthenticationEJB,uid17260815
+2011-05-23 12:46:25,142 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main)   with dependencies:
+2011-05-23 12:46:25,142 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main)   and supplies:
+2011-05-23 12:46:25,142 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main) 	jndi:ejb/jndi/LDAPAuthentication
+2011-05-23 12:46:25,609 INFO  [org.jboss.ejb.EjbModule] (main) Deploying LDAPAuthenticationEJB
+2011-05-23 12:46:25,921 WARN  [org.jboss.ejb.EjbModule] (main) EJB configured to bypass security. Please verify if this is intended. Bean=LDAPAuthenticationEJB Deployment=vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/ldapejb.jar/
+2011-05-23 12:46:26,435 INFO  [org.jboss.proxy.ejb.ProxyFactory] (main) Bound EJB Home 'LDAPAuthenticationEJB' to jndi 'ejb/jndi/LDAPAuthentication'
+2011-05-23 12:46:27,462 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Created KernelDeployment for: profileservice-secured.jar
+2011-05-23 12:46:27,478 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2011-05-23 12:46:27,478 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2011-05-23 12:46:27,478 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2011-05-23 12:46:27,478 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView
+2011-05-23 12:46:27,478 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2011-05-23 12:46:27,478 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2011-05-23 12:46:27,478 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.profileservice.spi.ProfileService
+2011-05-23 12:46:27,478 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureProfileService/remote
+2011-05-23 12:46:27,478 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureProfileService/remote-org.jboss.profileservice.spi.ProfileService
+2011-05-23 12:46:27,478 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2011-05-23 12:46:27,478 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2011-05-23 12:46:27,478 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2011-05-23 12:46:27,478 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2011-05-23 12:46:27,478 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2011-05-23 12:46:27,478 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2011-05-23 12:46:27,478 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureDeploymentManager/remote-org.jboss.deployers.spi.management.deploy.DeploymentManager
+2011-05-23 12:46:27,478 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.deployers.spi.management.deploy.DeploymentManager
+2011-05-23 12:46:27,478 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureDeploymentManager/remote
+2011-05-23 12:46:27,478 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2011-05-23 12:46:27,478 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2011-05-23 12:46:27,478 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2011-05-23 12:46:27,478 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2011-05-23 12:46:27,478 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2011-05-23 12:46:27,478 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2011-05-23 12:46:27,478 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView
+2011-05-23 12:46:27,478 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.deployers.spi.management.ManagementView
+2011-05-23 12:46:27,478 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote
+2011-05-23 12:46:27,478 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2011-05-23 12:46:27,509 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@11f8843{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2011-05-23 12:46:27,509 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@13bc5ad{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2011-05-23 12:46:27,509 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@19146a5{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2011-05-23 12:46:27,914 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2011-05-23 12:46:27,930 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureDeploymentManager ejbName: SecureDeploymentManager
+2011-05-23 12:46:28,054 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureDeploymentManager/remote - EJB3.x Default Remote Business Interface
+	SecureDeploymentManager/remote-org.jboss.deployers.spi.management.deploy.DeploymentManager - EJB3.x Remote Business Interface
+
+2011-05-23 12:46:28,194 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2011-05-23 12:46:28,194 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureManagementView ejbName: SecureManagementView
+2011-05-23 12:46:28,272 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureManagementView/remote - EJB3.x Default Remote Business Interface
+	SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView - EJB3.x Remote Business Interface
+
+2011-05-23 12:46:28,506 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2011-05-23 12:46:28,521 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureProfileServiceBean ejbName: SecureProfileService
+2011-05-23 12:46:28,521 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureProfileService/remote - EJB3.x Default Remote Business Interface
+	SecureProfileService/remote-org.jboss.profileservice.spi.ProfileService - EJB3.x Remote Business Interface
+
+2011-05-23 12:46:29,440 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/admin-console
+2011-05-23 12:46:30,499 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (main) Initializing Mojarra (1.2_12-b01-FCS) for context '/admin-console'
+2011-05-23 12:46:44,701 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/
+2011-05-23 12:46:45,059 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/content
+2011-05-23 12:46:45,277 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/jbossws
+2011-05-23 12:46:45,838 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/jmx-console
+2011-05-23 12:46:49,809 INFO  [org.hibernate.jmx.HibernateServiceMBean] (main) starting service at JNDI name: java:/DirectWebHibernateFactory
+2011-05-23 12:46:49,809 INFO  [org.hibernate.jmx.HibernateServiceMBean] (main) service properties: {hibernate.session_factory_name=java:/DirectWebHibernateFactory, hibernate.transaction.factory_class=org.hibernate.transaction.JTATransactionFactory, hibernate.connection.datasource=java:/JDBCIntranetDS, jta.UserTransaction=UserTransaction}
+2011-05-23 12:46:49,902 INFO  [org.hibernate.cfg.Environment] (main) Hibernate 3.0.3
+2011-05-23 12:46:49,918 INFO  [org.hibernate.cfg.Environment] (main) hibernate.properties not found
+2011-05-23 12:46:49,934 INFO  [org.hibernate.cfg.Environment] (main) using CGLIB reflection optimizer
+2011-05-23 12:46:49,934 INFO  [org.hibernate.cfg.Environment] (main) using JDK 1.4 java.sql.Timestamp handling
+2011-05-23 12:46:50,074 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: AdminPages.hbm.xml
+2011-05-23 12:46:50,370 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.AdminPagesMaster -> DW_ADMIN_PAGES
+2011-05-23 12:46:50,401 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: DynamicFieldsMapping.hbm.xml
+2011-05-23 12:46:50,463 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.DynamicFieldsMapping -> DW_DYNAMIC_FIELD_MAPPING
+2011-05-23 12:46:50,463 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: FooterDesignAdmin.hbm.xml
+2011-05-23 12:46:50,494 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.FooterDesignAdmin -> DW_FOOTER_ADMIN
+2011-05-23 12:46:50,494 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: HeaderDesignAdmin.hbm.xml
+2011-05-23 12:46:50,525 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.HeaderDesignAdmin -> DW_HEADER_ADMIN
+2011-05-23 12:46:50,541 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: MenuDesignAdmin.hbm.xml
+2011-05-23 12:46:50,603 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.MenuDesignAdmin -> DW_MENU_ADMIN
+2011-05-23 12:46:50,603 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: TemplateDetails.hbm.xml
+2011-05-23 12:46:50,634 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.TemplateDetails -> DW_TEMPLATE_DETAILS
+2011-05-23 12:46:50,634 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: TemplateItems.hbm.xml
+2011-05-23 12:46:50,666 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.TemplateItems -> DW_TEMPLATE_DETAIL_ITEMS
+2011-05-23 12:46:50,681 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: Group.hbm.xml
+2011-05-23 12:46:50,821 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.Group -> UMM_GROUPS
+2011-05-23 12:46:50,837 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping collection: com.hd.directweb.db.Group.groupAccessLevels -> UMM_GROUP_USER_TYPES
+2011-05-23 12:46:50,837 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: GroupAccessLevels.hbm.xml
+2011-05-23 12:46:51,070 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.GroupAccessLevels -> UMM_GROUP_USER_TYPES
+2011-05-23 12:46:51,086 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: GroupCollectionMapping.hbm.xml
+2011-05-23 12:46:51,179 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.GroupCollectionMapping -> DW_GROUP_COLLECTION_MAPPING
+2011-05-23 12:46:51,179 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: Menu.hbm.xml
+2011-05-23 12:46:51,226 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.Menu -> DW_MENU
+2011-05-23 12:46:51,226 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: SharedMenu.hbm.xml
+2011-05-23 12:46:51,257 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.SharedMenu -> DW_SHARED_MENU
+2011-05-23 12:46:51,429 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: SubMenu.hbm.xml
+2011-05-23 12:46:51,460 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.SubMenu -> DW_SUB_MENU
+2011-05-23 12:46:51,460 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: SharedSubMenu.hbm.xml
+2011-05-23 12:46:51,506 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.SharedSubMenu -> DW_SHARED_SUB_MENU
+2011-05-23 12:46:51,506 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: Templates.hbm.xml
+2011-05-23 12:46:51,802 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.Templates -> DW_TEMPLATES
+2011-05-23 12:46:51,802 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping collection: com.hd.directweb.db.Templates.sections -> DW_TEMPLATE_DETAILS
+2011-05-23 12:46:51,802 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: GroupDesignDetails.hbm.xml
+2011-05-23 12:46:51,865 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.GroupDesignDetails -> DW_GROUP_DESIGN_DETAILS
+2011-05-23 12:46:51,865 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: Content.hbm.xml
+2011-05-23 12:46:51,927 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.Content -> DW_CONTENT
+2011-05-23 12:46:51,927 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping collection: com.hd.directweb.db.Content.contentItemValues -> DW_CONTENT_REFERENCE
+2011-05-23 12:46:51,927 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: SharedContent.hbm.xml
+2011-05-23 12:46:52,051 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.SharedContent -> DW_SHARED_CONTENT
+2011-05-23 12:46:52,051 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: ContentReference.hbm.xml
+2011-05-23 12:46:52,114 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.ContentReference -> DW_CONTENT_REFERENCE
+2011-05-23 12:46:52,145 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: GroupMapping.hbm.xml
+2011-05-23 12:46:52,192 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.GroupMapping -> UMM_GROUP_MAPPING
+2011-05-23 12:46:52,192 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: User.hbm.xml
+2011-05-23 12:46:52,239 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.User -> UMM_USERS
+2011-05-23 12:46:52,239 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: ApplicationMapping.hbm.xml
+2011-05-23 12:46:52,285 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.ApplicationMapping -> UMM_APPLICATION_MAPPING
+2011-05-23 12:46:52,285 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: Application.hbm.xml
+2011-05-23 12:46:52,317 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.Application -> UMM_APPLICATION
+2011-05-23 12:46:52,332 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: Repository.hbm.xml
+2011-05-23 12:46:52,379 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.Repository -> DR_REPOSITORY
+2011-05-23 12:46:52,379 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: ApplicationDetails.hbm.xml
+2011-05-23 12:46:52,769 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.ApplicationDetails -> DW_APPLICATION_DETAILS
+2011-05-23 12:46:52,785 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: Shortcuts.hbm.xml
+2011-05-23 12:46:52,816 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.Shortcuts -> DW_SHORTCUTS
+2011-05-23 12:46:52,832 INFO  [org.hibernate.cfg.Configuration] (main) processing extends queue
+2011-05-23 12:46:52,832 INFO  [org.hibernate.cfg.Configuration] (main) processing collection mappings
+2011-05-23 12:46:52,832 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping collection: com.hd.directweb.db.AdminPagesMaster.pageSpecificFields -> DW_DYNAMIC_FIELD_MAPPING
+2011-05-23 12:46:52,832 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping collection: com.hd.directweb.db.Group.groupSpecificMenus -> DW_MENU
+2011-05-23 12:46:52,832 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping collection: com.hd.directweb.db.Group.getGroupCollection -> DW_GROUP_COLLECTION_MAPPING
+2011-05-23 12:46:52,832 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping collection: com.hd.directweb.db.Group.groupSpecificTemplates -> DW_TEMPLATES
+2011-05-23 12:46:52,832 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping collection: com.hd.directweb.db.GroupCollectionMapping.getSharingGroupCollection -> UMM_GROUPS
+2011-05-23 12:46:52,832 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping collection: com.hd.directweb.db.Menu.subMenus -> DW_SUB_MENU
+2011-05-23 12:46:52,832 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping collection: com.hd.directweb.db.Menu.sharedMenu -> DW_SHARED_MENU
+2011-05-23 12:46:52,832 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping collection: com.hd.directweb.db.SubMenu.sharedSubMenu -> DW_SHARED_SUB_MENU
+2011-05-23 12:46:52,832 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping collection: com.hd.directweb.db.Content.sharedContent -> DW_SHARED_CONTENT
+2011-05-23 12:46:52,832 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping collection: com.hd.directweb.db.Content.contentReference -> DW_CONTENT_REFERENCE
+2011-05-23 12:46:52,832 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping collection: com.hd.directweb.db.Content.contentSharedToAGroup -> DW_SHARED_CONTENT
+2011-05-23 12:46:52,832 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping collection: com.hd.directweb.db.ApplicationMapping.groupMapping -> UMM_GROUP_MAPPING
+2011-05-23 12:46:52,832 INFO  [org.hibernate.cfg.Configuration] (main) processing association property references
+2011-05-23 12:46:52,832 INFO  [org.hibernate.cfg.Configuration] (main) processing foreign key constraints
+2011-05-23 12:46:53,175 INFO  [org.hibernate.util.NamingHelper] (main) JNDI InitialContext properties:{}
+2011-05-23 12:46:53,846 INFO  [org.hibernate.connection.DatasourceConnectionProvider] (main) Using datasource: java:/JDBCIntranetDS
+2011-05-23 12:46:57,233 WARN  [org.jboss.resource.connectionmanager.JBossManagedConnectionPool] (main) Throwable while attempting to get a new connection: null
+org.jboss.resource.JBossResourceException: Could not create connection; - nested throwable: (java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection)
+	at org.jboss.resource.adapter.jdbc.local.LocalManagedConnectionFactory.getLocalManagedConnection(LocalManagedConnectionFactory.java:225)
+	at org.jboss.resource.adapter.jdbc.local.LocalManagedConnectionFactory.createManagedConnection(LocalManagedConnectionFactory.java:195)
+	at org.jboss.resource.connectionmanager.InternalManagedConnectionPool.createConnectionEventListener(InternalManagedConnectionPool.java:633)
+	at org.jboss.resource.connectionmanager.InternalManagedConnectionPool.getConnection(InternalManagedConnectionPool.java:267)
+	at org.jboss.resource.connectionmanager.JBossManagedConnectionPool$BasePool.getConnection(JBossManagedConnectionPool.java:622)
+	at org.jboss.resource.connectionmanager.BaseConnectionManager2.getManagedConnection(BaseConnectionManager2.java:404)
+	at org.jboss.resource.connectionmanager.TxConnectionManager.getManagedConnection(TxConnectionManager.java:381)
+	at org.jboss.resource.connectionmanager.BaseConnectionManager2.allocateConnection(BaseConnectionManager2.java:496)
+	at org.jboss.resource.connectionmanager.BaseConnectionManager2$ConnectionManagerProxy.allocateConnection(BaseConnectionManager2.java:941)
+	at org.jboss.resource.adapter.jdbc.WrapperDataSource.getConnection(WrapperDataSource.java:89)
+	at org.hibernate.connection.DatasourceConnectionProvider.getConnection(DatasourceConnectionProvider.java:59)
+	at org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:68)
+	at org.hibernate.cfg.Configuration.buildSettings(Configuration.java:1509)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1054)
+	at org.hibernate.jmx.HibernateService.buildSessionFactory(HibernateService.java:64)
+	at org.hibernate.jmx.HibernateService.start(HibernateService.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:157)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:96)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:88)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:668)
+	at org.jboss.system.microcontainer.ServiceProxy.invoke(ServiceProxy.java:206)
+	at $Proxy38.start(Unknown Source)
+	at org.jboss.system.microcontainer.StartStopLifecycleAction.installAction(StartStopLifecycleAction.java:42)
+	at org.jboss.system.microcontainer.StartStopLifecycleAction.installAction(StartStopLifecycleAction.java:37)
+	at org.jboss.dependency.plugins.action.SimpleControllerContextAction.simpleInstallAction(SimpleControllerContextAction.java:62)
+	at org.jboss.dependency.plugins.action.AccessControllerContextAction.install(AccessControllerContextAction.java:71)
+	at org.jboss.dependency.plugins.AbstractControllerContextActions.install(AbstractControllerContextActions.java:51)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.system.microcontainer.ServiceControllerContext.install(ServiceControllerContext.java:286)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.system.ServiceController.doChange(ServiceController.java:688)
+	at org.jboss.system.ServiceController.start(ServiceController.java:460)
+	at org.jboss.system.deployers.ServiceDeployer.start(ServiceDeployer.java:163)
+	at org.jboss.system.deployers.ServiceDeployer.deploy(ServiceDeployer.java:99)
+	at org.jboss.system.deployers.ServiceDeployer.deploy(ServiceDeployer.java:46)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractSimpleRealDeployer.internalDeploy(AbstractSimpleRealDeployer.java:62)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractRealDeployer.deploy(AbstractRealDeployer.java:50)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:171)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doDeploy(DeployersImpl.java:1439)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1157)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1178)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1210)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.install(DeployersImpl.java:1098)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.process(DeployersImpl.java:781)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.process(MainDeployerImpl.java:702)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.process(MainDeployerAdapter.java:117)
+	at org.jboss.system.server.profileservice.repository.ProfileDeployAction.install(ProfileDeployAction.java:70)
+	at org.jboss.system.server.profileservice.repository.AbstractProfileAction.install(AbstractProfileAction.java:53)
+	at org.jboss.system.server.profileservice.repository.AbstractProfileService.install(AbstractProfileService.java:361)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.system.server.profileservice.repository.AbstractProfileService.activateProfile(AbstractProfileService.java:306)
+	at org.jboss.system.server.profileservice.ProfileServiceBootstrap.start(ProfileServiceBootstrap.java:271)
+	at org.jboss.bootstrap.AbstractServerImpl.start(AbstractServerImpl.java:461)
+	at org.jboss.Main.boot(Main.java:221)
+	at org.jboss.Main$1.run(Main.java:556)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:419)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:536)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:228)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:521)
+	at org.jboss.resource.adapter.jdbc.local.LocalManagedConnectionFactory.getLocalManagedConnection(LocalManagedConnectionFactory.java:207)
+	... 78 more
+Caused by: oracle.net.ns.NetException: The Network Adapter could not establish the connection
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:375)
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:422)
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:678)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:238)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1054)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:308)
+	... 83 more
+Caused by: java.net.UnknownHostException: ibodb02
+	at java.net.Inet4AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$1.lookupAllHostAddr(InetAddress.java:849)
+	at java.net.InetAddress.getAddressFromNameService(InetAddress.java:1200)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1153)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1083)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1019)
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:171)
+	at oracle.net.nt.ConnOption.connect(ConnOption.java:123)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:353)
+	... 88 more
+2011-05-23 12:46:57,248 WARN  [org.hibernate.cfg.SettingsFactory] (main) Could not obtain connection metadata
+org.jboss.util.NestedSQLException: Unable to get managed connection for JDBCIntranetDS; - nested throwable: (javax.resource.ResourceException: Unable to get managed connection for JDBCIntranetDS)
+	at org.jboss.resource.adapter.jdbc.WrapperDataSource.getConnection(WrapperDataSource.java:95)
+	at org.hibernate.connection.DatasourceConnectionProvider.getConnection(DatasourceConnectionProvider.java:59)
+	at org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:68)
+	at org.hibernate.cfg.Configuration.buildSettings(Configuration.java:1509)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1054)
+	at org.hibernate.jmx.HibernateService.buildSessionFactory(HibernateService.java:64)
+	at org.hibernate.jmx.HibernateService.start(HibernateService.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:157)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:96)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:88)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:668)
+	at org.jboss.system.microcontainer.ServiceProxy.invoke(ServiceProxy.java:206)
+	at $Proxy38.start(Unknown Source)
+	at org.jboss.system.microcontainer.StartStopLifecycleAction.installAction(StartStopLifecycleAction.java:42)
+	at org.jboss.system.microcontainer.StartStopLifecycleAction.installAction(StartStopLifecycleAction.java:37)
+	at org.jboss.dependency.plugins.action.SimpleControllerContextAction.simpleInstallAction(SimpleControllerContextAction.java:62)
+	at org.jboss.dependency.plugins.action.AccessControllerContextAction.install(AccessControllerContextAction.java:71)
+	at org.jboss.dependency.plugins.AbstractControllerContextActions.install(AbstractControllerContextActions.java:51)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.system.microcontainer.ServiceControllerContext.install(ServiceControllerContext.java:286)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.system.ServiceController.doChange(ServiceController.java:688)
+	at org.jboss.system.ServiceController.start(ServiceController.java:460)
+	at org.jboss.system.deployers.ServiceDeployer.start(ServiceDeployer.java:163)
+	at org.jboss.system.deployers.ServiceDeployer.deploy(ServiceDeployer.java:99)
+	at org.jboss.system.deployers.ServiceDeployer.deploy(ServiceDeployer.java:46)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractSimpleRealDeployer.internalDeploy(AbstractSimpleRealDeployer.java:62)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractRealDeployer.deploy(AbstractRealDeployer.java:50)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:171)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doDeploy(DeployersImpl.java:1439)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1157)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1178)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1210)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.install(DeployersImpl.java:1098)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.process(DeployersImpl.java:781)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.process(MainDeployerImpl.java:702)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.process(MainDeployerAdapter.java:117)
+	at org.jboss.system.server.profileservice.repository.ProfileDeployAction.install(ProfileDeployAction.java:70)
+	at org.jboss.system.server.profileservice.repository.AbstractProfileAction.install(AbstractProfileAction.java:53)
+	at org.jboss.system.server.profileservice.repository.AbstractProfileService.install(AbstractProfileService.java:361)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.system.server.profileservice.repository.AbstractProfileService.activateProfile(AbstractProfileService.java:306)
+	at org.jboss.system.server.profileservice.ProfileServiceBootstrap.start(ProfileServiceBootstrap.java:271)
+	at org.jboss.bootstrap.AbstractServerImpl.start(AbstractServerImpl.java:461)
+	at org.jboss.Main.boot(Main.java:221)
+	at org.jboss.Main$1.run(Main.java:556)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: javax.resource.ResourceException: Unable to get managed connection for JDBCIntranetDS
+	at org.jboss.resource.connectionmanager.BaseConnectionManager2.getManagedConnection(BaseConnectionManager2.java:441)
+	at org.jboss.resource.connectionmanager.TxConnectionManager.getManagedConnection(TxConnectionManager.java:381)
+	at org.jboss.resource.connectionmanager.BaseConnectionManager2.allocateConnection(BaseConnectionManager2.java:496)
+	at org.jboss.resource.connectionmanager.BaseConnectionManager2$ConnectionManagerProxy.allocateConnection(BaseConnectionManager2.java:941)
+	at org.jboss.resource.adapter.jdbc.WrapperDataSource.getConnection(WrapperDataSource.java:89)
+	... 69 more
+Caused by: org.jboss.resource.JBossResourceException: Could not create connection; - nested throwable: (java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection)
+	at org.jboss.resource.adapter.jdbc.local.LocalManagedConnectionFactory.getLocalManagedConnection(LocalManagedConnectionFactory.java:225)
+	at org.jboss.resource.adapter.jdbc.local.LocalManagedConnectionFactory.createManagedConnection(LocalManagedConnectionFactory.java:195)
+	at org.jboss.resource.connectionmanager.InternalManagedConnectionPool.createConnectionEventListener(InternalManagedConnectionPool.java:633)
+	at org.jboss.resource.connectionmanager.InternalManagedConnectionPool.getConnection(InternalManagedConnectionPool.java:267)
+	at org.jboss.resource.connectionmanager.JBossManagedConnectionPool$BasePool.getConnection(JBossManagedConnectionPool.java:622)
+	at org.jboss.resource.connectionmanager.BaseConnectionManager2.getManagedConnection(BaseConnectionManager2.java:404)
+	... 73 more
+Caused by: java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:419)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:536)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:228)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:521)
+	at org.jboss.resource.adapter.jdbc.local.LocalManagedConnectionFactory.getLocalManagedConnection(LocalManagedConnectionFactory.java:207)
+	... 78 more
+Caused by: oracle.net.ns.NetException: The Network Adapter could not establish the connection
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:375)
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:422)
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:678)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:238)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1054)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:308)
+	... 83 more
+Caused by: java.net.UnknownHostException: ibodb02
+	at java.net.Inet4AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$1.lookupAllHostAddr(InetAddress.java:849)
+	at java.net.InetAddress.getAddressFromNameService(InetAddress.java:1200)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1153)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1083)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1019)
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:171)
+	at oracle.net.nt.ConnOption.connect(ConnOption.java:123)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:353)
+	... 88 more
+2011-05-23 12:46:57,311 INFO  [org.hibernate.dialect.Dialect] (main) Using dialect: org.hibernate.dialect.OracleDialect
+2011-05-23 12:46:57,326 INFO  [org.hibernate.transaction.TransactionFactoryFactory] (main) Transaction strategy: org.hibernate.transaction.JTATransactionFactory
+2011-05-23 12:46:57,326 INFO  [org.hibernate.util.NamingHelper] (main) JNDI InitialContext properties:{}
+2011-05-23 12:46:57,342 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] (main) No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2011-05-23 12:46:57,342 INFO  [org.hibernate.cfg.SettingsFactory] (main) Automatic flush during beforeCompletion(): disabled
+2011-05-23 12:46:57,342 INFO  [org.hibernate.cfg.SettingsFactory] (main) Automatic session close at end of transaction: disabled
+2011-05-23 12:46:57,342 INFO  [org.hibernate.cfg.SettingsFactory] (main) Scrollable result sets: disabled
+2011-05-23 12:46:57,342 INFO  [org.hibernate.cfg.SettingsFactory] (main) JDBC3 getGeneratedKeys(): disabled
+2011-05-23 12:46:57,342 INFO  [org.hibernate.cfg.SettingsFactory] (main) Connection release mode: null
+2011-05-23 12:46:57,342 INFO  [org.hibernate.cfg.SettingsFactory] (main) Default batch fetch size: 1
+2011-05-23 12:46:57,342 INFO  [org.hibernate.cfg.SettingsFactory] (main) Generate SQL with comments: disabled
+2011-05-23 12:46:57,342 INFO  [org.hibernate.cfg.SettingsFactory] (main) Order SQL updates by primary key: disabled
+2011-05-23 12:46:57,342 INFO  [org.hibernate.cfg.SettingsFactory] (main) Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2011-05-23 12:46:57,342 INFO  [org.hibernate.hql.ast.ASTQueryTranslatorFactory] (main) Using ASTQueryTranslatorFactory
+2011-05-23 12:46:57,342 INFO  [org.hibernate.cfg.SettingsFactory] (main) Query language substitutions: {false=0, true=1}
+2011-05-23 12:46:57,342 INFO  [org.hibernate.cfg.SettingsFactory] (main) Second-level cache: enabled
+2011-05-23 12:46:57,342 INFO  [org.hibernate.cfg.SettingsFactory] (main) Query cache: disabled
+2011-05-23 12:46:57,342 INFO  [org.hibernate.cfg.SettingsFactory] (main) Cache provider: org.hibernate.cache.EhCacheProvider
+2011-05-23 12:46:57,357 INFO  [org.hibernate.cfg.SettingsFactory] (main) Optimize cache for minimal puts: disabled
+2011-05-23 12:46:57,357 INFO  [org.hibernate.cfg.SettingsFactory] (main) Structured second-level cache entries: enabled
+2011-05-23 12:46:57,373 INFO  [org.hibernate.cfg.SettingsFactory] (main) Statistics: disabled
+2011-05-23 12:46:57,373 INFO  [org.hibernate.cfg.SettingsFactory] (main) Deleted entity synthetic identifier rollback: disabled
+2011-05-23 12:46:57,373 INFO  [org.hibernate.cfg.SettingsFactory] (main) Default entity-mode: pojo
+2011-05-23 12:46:57,467 INFO  [org.hibernate.impl.SessionFactoryImpl] (main) building session factory
+2011-05-23 12:46:57,607 WARN  [net.sf.ehcache.config.Configurator] (main) No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/lib/ehcache-1.1.jar/ehcache-failsafe.xml
+2011-05-23 12:46:59,714 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (main) Factory name: java:/DirectWebHibernateFactory
+2011-05-23 12:46:59,714 INFO  [org.hibernate.util.NamingHelper] (main) JNDI InitialContext properties:{}
+2011-05-23 12:46:59,714 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (main) Bound factory to JNDI name: java:/DirectWebHibernateFactory
+2011-05-23 12:46:59,714 WARN  [org.hibernate.impl.SessionFactoryObjectFactory] (main) InitialContext did not implement EventContext
+2011-05-23 12:46:59,714 INFO  [org.hibernate.impl.SessionFactoryImpl] (main) Checking 0 named queries
+2011-05-23 12:46:59,730 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/DirectWeb
+2011-05-23 12:47:01,087 INFO  [STDOUT] (main) Servlet filter init, now processing URL request.
+2011-05-23 12:47:01,103 INFO  [STDOUT] (main) Servlet filter init, now opening/closing a Session for each request.
+2011-05-23 12:47:01,680 INFO  [org.apache.struts.validator.ValidatorPlugIn] (main) Loading validation rules file from '/WEB-INF/struts/validator-rules.xml'
+2011-05-23 12:47:01,712 INFO  [org.apache.struts.validator.ValidatorPlugIn] (main) Loading validation rules file from '/WEB-INF/struts/validation.xml'
+2011-05-23 12:47:02,242 ERROR [STDERR] (main) SLF4J: Class path contains multiple SLF4J bindings.
+2011-05-23 12:47:02,242 ERROR [STDERR] (main) SLF4J: Found binding in [vfszip:/D:/jboss-5.1.0.GA/common/lib/slf4j-jboss-logging.jar/org/slf4j/impl/StaticLoggerBinder.class]
+2011-05-23 12:47:02,242 ERROR [STDERR] (main) SLF4J: Found binding in [vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/lib/slf4j-simple-1.5.8.jar/org/slf4j/impl/StaticLoggerBinder.class]
+2011-05-23 12:47:02,242 ERROR [STDERR] (main) SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+2011-05-23 12:47:02,320 ERROR [STDERR] (main) 62 [main] INFO net.fckeditor.connector.Dispatcher - Connector initialized to net.fckeditor.connector.impl.LocalConnector
+2011-05-23 12:47:02,554 INFO  [org.apache.coyote.http11.Http11Protocol] (main) Starting Coyote HTTP/1.1 on http-127.0.0.1-9090
+2011-05-23 12:47:02,586 INFO  [org.apache.coyote.ajp.AjpProtocol] (main) Starting Coyote AJP/1.3 on ajp-127.0.0.1-9019
+2011-05-23 12:47:02,601 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (main) JBoss (Microcontainer) [5.1.0.GA (build: SVNTag=JBoss_5_1_0_GA date=200905221634)] Started in 4m:26s:188ms
+2011-05-23 16:58:42,164 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/DirectWeb
+2011-05-23 16:58:42,243 INFO  [org.hibernate.jmx.HibernateServiceMBean] (HDScanner) stopping service
+2011-05-23 16:58:42,243 INFO  [org.hibernate.util.NamingHelper] (HDScanner) JNDI InitialContext properties:{}
+2011-05-23 16:58:42,243 INFO  [org.hibernate.impl.SessionFactoryImpl] (HDScanner) closing
+2011-05-23 16:58:42,243 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) Unbinding factory from JNDI name: java:/DirectWebHibernateFactory
+2011-05-23 16:58:42,243 INFO  [org.hibernate.util.NamingHelper] (HDScanner) JNDI InitialContext properties:{}
+2011-05-23 16:58:42,243 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) Unbound factory from JNDI name: java:/DirectWebHibernateFactory
+2011-05-23 16:59:17,493 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/DirectWeb
+2011-05-23 16:59:18,336 WARNING [javax.enterprise.resource.webcontainer.jsf.config] (HDScanner) Unable to process deployment descriptor for context '/DirectWeb'
+2011-05-23 16:59:18,336 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (HDScanner) Initializing Mojarra (1.2_12-b01-FCS) for context '/DirectWeb'
+2011-05-23 16:59:52,696 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/DirectWeb
+2011-05-23 16:59:59,883 INFO  [org.hibernate.jmx.HibernateServiceMBean] (HDScanner) starting service at JNDI name: java:/DirectWebHibernateFactory
+2011-05-23 16:59:59,883 INFO  [org.hibernate.jmx.HibernateServiceMBean] (HDScanner) service properties: {hibernate.session_factory_name=java:/DirectWebHibernateFactory, hibernate.transaction.factory_class=org.hibernate.transaction.JTATransactionFactory, hibernate.connection.datasource=java:/JDBCIntranetDS, jta.UserTransaction=UserTransaction}
+2011-05-23 16:59:59,946 INFO  [org.hibernate.cfg.Environment] (HDScanner) Hibernate 3.0.3
+2011-05-23 16:59:59,946 INFO  [org.hibernate.cfg.Environment] (HDScanner) hibernate.properties not found
+2011-05-23 16:59:59,946 INFO  [org.hibernate.cfg.Environment] (HDScanner) using CGLIB reflection optimizer
+2011-05-23 16:59:59,946 INFO  [org.hibernate.cfg.Environment] (HDScanner) using JDK 1.4 java.sql.Timestamp handling
+2011-05-23 17:00:00,071 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: AdminPages.hbm.xml
+2011-05-23 17:00:00,383 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.AdminPagesMaster -> DW_ADMIN_PAGES
+2011-05-23 17:00:00,414 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: DynamicFieldsMapping.hbm.xml
+2011-05-23 17:00:00,446 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.DynamicFieldsMapping -> DW_DYNAMIC_FIELD_MAPPING
+2011-05-23 17:00:00,446 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: FooterDesignAdmin.hbm.xml
+2011-05-23 17:00:00,461 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.FooterDesignAdmin -> DW_FOOTER_ADMIN
+2011-05-23 17:00:00,461 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: HeaderDesignAdmin.hbm.xml
+2011-05-23 17:00:00,493 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.HeaderDesignAdmin -> DW_HEADER_ADMIN
+2011-05-23 17:00:00,493 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: MenuDesignAdmin.hbm.xml
+2011-05-23 17:00:00,508 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.MenuDesignAdmin -> DW_MENU_ADMIN
+2011-05-23 17:00:00,524 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: TemplateDetails.hbm.xml
+2011-05-23 17:00:00,539 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.TemplateDetails -> DW_TEMPLATE_DETAILS
+2011-05-23 17:00:00,539 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: TemplateItems.hbm.xml
+2011-05-23 17:00:00,555 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.TemplateItems -> DW_TEMPLATE_DETAIL_ITEMS
+2011-05-23 17:00:00,571 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Group.hbm.xml
+2011-05-23 17:00:00,602 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Group -> UMM_GROUPS
+2011-05-23 17:00:00,618 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Group.groupAccessLevels -> UMM_GROUP_USER_TYPES
+2011-05-23 17:00:00,618 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: GroupAccessLevels.hbm.xml
+2011-05-23 17:00:00,680 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.GroupAccessLevels -> UMM_GROUP_USER_TYPES
+2011-05-23 17:00:00,680 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: GroupCollectionMapping.hbm.xml
+2011-05-23 17:00:00,711 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.GroupCollectionMapping -> DW_GROUP_COLLECTION_MAPPING
+2011-05-23 17:00:00,711 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Menu.hbm.xml
+2011-05-23 17:00:00,743 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Menu -> DW_MENU
+2011-05-23 17:00:00,743 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: SharedMenu.hbm.xml
+2011-05-23 17:00:00,774 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.SharedMenu -> DW_SHARED_MENU
+2011-05-23 17:00:00,914 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: SubMenu.hbm.xml
+2011-05-23 17:00:00,961 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.SubMenu -> DW_SUB_MENU
+2011-05-23 17:00:00,961 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: SharedSubMenu.hbm.xml
+2011-05-23 17:00:00,977 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.SharedSubMenu -> DW_SHARED_SUB_MENU
+2011-05-23 17:00:00,993 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Templates.hbm.xml
+2011-05-23 17:00:01,008 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Templates -> DW_TEMPLATES
+2011-05-23 17:00:01,008 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Templates.sections -> DW_TEMPLATE_DETAILS
+2011-05-23 17:00:01,008 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: GroupDesignDetails.hbm.xml
+2011-05-23 17:00:01,039 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.GroupDesignDetails -> DW_GROUP_DESIGN_DETAILS
+2011-05-23 17:00:01,039 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Content.hbm.xml
+2011-05-23 17:00:01,071 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Content -> DW_CONTENT
+2011-05-23 17:00:01,071 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Content.contentItemValues -> DW_CONTENT_REFERENCE
+2011-05-23 17:00:01,071 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: SharedContent.hbm.xml
+2011-05-23 17:00:01,102 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.SharedContent -> DW_SHARED_CONTENT
+2011-05-23 17:00:01,118 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: ContentReference.hbm.xml
+2011-05-23 17:00:01,133 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.ContentReference -> DW_CONTENT_REFERENCE
+2011-05-23 17:00:01,149 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: GroupMapping.hbm.xml
+2011-05-23 17:00:01,164 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.GroupMapping -> UMM_GROUP_MAPPING
+2011-05-23 17:00:01,164 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: User.hbm.xml
+2011-05-23 17:00:01,196 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.User -> UMM_USERS
+2011-05-23 17:00:01,196 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: ApplicationMapping.hbm.xml
+2011-05-23 17:00:01,227 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.ApplicationMapping -> UMM_APPLICATION_MAPPING
+2011-05-23 17:00:01,227 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Application.hbm.xml
+2011-05-23 17:00:01,243 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Application -> UMM_APPLICATION
+2011-05-23 17:00:01,243 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Repository.hbm.xml
+2011-05-23 17:00:01,258 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Repository -> DR_REPOSITORY
+2011-05-23 17:00:01,274 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: ApplicationDetails.hbm.xml
+2011-05-23 17:00:01,289 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.ApplicationDetails -> DW_APPLICATION_DETAILS
+2011-05-23 17:00:01,289 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Shortcuts.hbm.xml
+2011-05-23 17:00:01,305 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Shortcuts -> DW_SHORTCUTS
+2011-05-23 17:00:01,305 INFO  [org.hibernate.cfg.Configuration] (HDScanner) processing extends queue
+2011-05-23 17:00:01,305 INFO  [org.hibernate.cfg.Configuration] (HDScanner) processing collection mappings
+2011-05-23 17:00:01,305 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.AdminPagesMaster.pageSpecificFields -> DW_DYNAMIC_FIELD_MAPPING
+2011-05-23 17:00:01,305 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Group.groupSpecificMenus -> DW_MENU
+2011-05-23 17:00:01,305 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Group.getGroupCollection -> DW_GROUP_COLLECTION_MAPPING
+2011-05-23 17:00:01,305 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Group.groupSpecificTemplates -> DW_TEMPLATES
+2011-05-23 17:00:01,321 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.GroupCollectionMapping.getSharingGroupCollection -> UMM_GROUPS
+2011-05-23 17:00:01,321 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Menu.subMenus -> DW_SUB_MENU
+2011-05-23 17:00:01,321 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Menu.sharedMenu -> DW_SHARED_MENU
+2011-05-23 17:00:01,321 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.SubMenu.sharedSubMenu -> DW_SHARED_SUB_MENU
+2011-05-23 17:00:01,321 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Content.sharedContent -> DW_SHARED_CONTENT
+2011-05-23 17:00:01,321 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Content.contentReference -> DW_CONTENT_REFERENCE
+2011-05-23 17:00:01,321 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Content.contentSharedToAGroup -> DW_SHARED_CONTENT
+2011-05-23 17:00:01,321 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.ApplicationMapping.groupMapping -> UMM_GROUP_MAPPING
+2011-05-23 17:00:01,321 INFO  [org.hibernate.cfg.Configuration] (HDScanner) processing association property references
+2011-05-23 17:00:01,321 INFO  [org.hibernate.cfg.Configuration] (HDScanner) processing foreign key constraints
+2011-05-23 17:00:01,664 INFO  [org.hibernate.util.NamingHelper] (HDScanner) JNDI InitialContext properties:{}
+2011-05-23 17:00:01,993 INFO  [org.hibernate.connection.DatasourceConnectionProvider] (HDScanner) Using datasource: java:/JDBCIntranetDS
+2011-05-23 17:00:08,914 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) RDBMS: Oracle, version: Oracle Database 11g Release 11.2.0.2.0 - 64bit Production
+2011-05-23 17:00:08,914 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) JDBC driver: Oracle JDBC driver, version: 11.2.0.2.0
+2011-05-23 17:00:08,993 INFO  [org.hibernate.dialect.Dialect] (HDScanner) Using dialect: org.hibernate.dialect.OracleDialect
+2011-05-23 17:00:09,008 INFO  [org.hibernate.transaction.TransactionFactoryFactory] (HDScanner) Transaction strategy: org.hibernate.transaction.JTATransactionFactory
+2011-05-23 17:00:09,024 INFO  [org.hibernate.util.NamingHelper] (HDScanner) JNDI InitialContext properties:{}
+2011-05-23 17:00:09,024 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] (HDScanner) No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2011-05-23 17:00:09,024 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Automatic flush during beforeCompletion(): disabled
+2011-05-23 17:00:09,024 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Automatic session close at end of transaction: disabled
+2011-05-23 17:00:09,024 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) JDBC batch size: 15
+2011-05-23 17:00:09,024 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) JDBC batch updates for versioned data: disabled
+2011-05-23 17:00:09,024 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Scrollable result sets: enabled
+2011-05-23 17:00:09,024 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) JDBC3 getGeneratedKeys(): enabled
+2011-05-23 17:00:09,024 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Connection release mode: null
+2011-05-23 17:00:09,024 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Default batch fetch size: 1
+2011-05-23 17:00:09,024 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Generate SQL with comments: disabled
+2011-05-23 17:00:09,024 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Order SQL updates by primary key: disabled
+2011-05-23 17:00:09,024 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2011-05-23 17:00:09,039 INFO  [org.hibernate.hql.ast.ASTQueryTranslatorFactory] (HDScanner) Using ASTQueryTranslatorFactory
+2011-05-23 17:00:09,039 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Query language substitutions: {false=0, true=1}
+2011-05-23 17:00:09,039 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Second-level cache: enabled
+2011-05-23 17:00:09,039 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Query cache: disabled
+2011-05-23 17:00:09,039 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Cache provider: org.hibernate.cache.EhCacheProvider
+2011-05-23 17:00:09,055 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Optimize cache for minimal puts: disabled
+2011-05-23 17:00:09,055 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Structured second-level cache entries: enabled
+2011-05-23 17:00:09,055 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Statistics: disabled
+2011-05-23 17:00:09,071 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Deleted entity synthetic identifier rollback: disabled
+2011-05-23 17:00:09,071 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Default entity-mode: pojo
+2011-05-23 17:00:09,149 INFO  [org.hibernate.impl.SessionFactoryImpl] (HDScanner) building session factory
+2011-05-23 17:00:09,164 WARN  [net.sf.ehcache.config.Configurator] (HDScanner) No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/lib/ehcache-1.1.jar/ehcache-failsafe.xml
+2011-05-23 17:00:11,586 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) Factory name: java:/DirectWebHibernateFactory
+2011-05-23 17:00:11,586 INFO  [org.hibernate.util.NamingHelper] (HDScanner) JNDI InitialContext properties:{}
+2011-05-23 17:00:11,586 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) Bound factory to JNDI name: java:/DirectWebHibernateFactory
+2011-05-23 17:00:11,586 WARN  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) InitialContext did not implement EventContext
+2011-05-23 17:00:11,586 INFO  [org.hibernate.impl.SessionFactoryImpl] (HDScanner) Checking 0 named queries
+2011-05-23 17:00:11,633 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/DirectWeb
+2011-05-23 17:00:12,477 INFO  [STDOUT] (HDScanner) Servlet filter init, now processing URL request.
+2011-05-23 17:00:12,493 INFO  [STDOUT] (HDScanner) Servlet filter init, now opening/closing a Session for each request.
+2011-05-23 17:00:13,024 INFO  [org.apache.struts.validator.ValidatorPlugIn] (HDScanner) Loading validation rules file from '/WEB-INF/struts/validator-rules.xml'
+2011-05-23 17:00:13,024 INFO  [org.apache.struts.validator.ValidatorPlugIn] (HDScanner) Loading validation rules file from '/WEB-INF/struts/validation.xml'
+2011-05-23 17:00:13,633 ERROR [STDERR] (HDScanner) SLF4J: Class path contains multiple SLF4J bindings.
+2011-05-23 17:00:13,633 ERROR [STDERR] (HDScanner) SLF4J: Found binding in [vfszip:/D:/jboss-5.1.0.GA/common/lib/slf4j-jboss-logging.jar/org/slf4j/impl/StaticLoggerBinder.class]
+2011-05-23 17:00:13,633 ERROR [STDERR] (HDScanner) SLF4J: Found binding in [vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/lib/slf4j-simple-1.5.8.jar/org/slf4j/impl/StaticLoggerBinder.class]
+2011-05-23 17:00:13,633 ERROR [STDERR] (HDScanner) SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+2011-05-23 17:00:13,711 ERROR [STDERR] (HDScanner) 62 [HDScanner] INFO net.fckeditor.connector.Dispatcher - Connector initialized to net.fckeditor.connector.impl.LocalConnector
+2011-05-23 19:17:06,558 WARN  [org.jboss.system.server.profileservice.hotdeploy.HDScanner] (HDScanner) Scan failed
+java.lang.RuntimeException: java.util.zip.ZipException: error in opening zip file
+	at org.jboss.virtual.plugins.context.AbstractExceptionHandler.handleZipEntriesInitException(AbstractExceptionHandler.java:39)
+	at org.jboss.virtual.plugins.context.helpers.NamesExceptionHandler.handleZipEntriesInitException(NamesExceptionHandler.java:63)
+	at org.jboss.virtual.plugins.context.zip.ZipEntryContext.ensureEntries(ZipEntryContext.java:626)
+	at org.jboss.virtual.plugins.context.zip.ZipEntryContext.checkIfModified(ZipEntryContext.java:773)
+	at org.jboss.virtual.plugins.context.zip.ZipEntryContext.getChild(ZipEntryContext.java:817)
+	at org.jboss.virtual.plugins.context.zip.ZipEntryHandler.createChildHandler(ZipEntryHandler.java:191)
+	at org.jboss.virtual.plugins.context.AbstractVirtualFileHandler.structuredFindChild(AbstractVirtualFileHandler.java:684)
+	at org.jboss.virtual.plugins.context.zip.ZipEntryHandler.getChild(ZipEntryHandler.java:165)
+	at org.jboss.virtual.plugins.context.DelegatingHandler.getChild(DelegatingHandler.java:107)
+	at org.jboss.virtual.VirtualFile.getChild(VirtualFile.java:481)
+	at org.jboss.deployers.vfs.spi.structure.modified.MetaDataStructureModificationChecker.hasStructureBeenModifed(MetaDataStructureModificationChecker.java:141)
+	at org.jboss.deployers.vfs.spi.structure.modified.MetaDataStructureModificationChecker.hasStructureBeenModified(MetaDataStructureModificationChecker.java:115)
+	at org.jboss.deployers.vfs.spi.structure.modified.MetaDataStructureModificationChecker.hasStructureBeenModifed(MetaDataStructureModificationChecker.java:84)
+	at org.jboss.deployers.vfs.spi.structure.modified.SynchWrapperModificationChecker.hasStructureBeenModifed(SynchWrapperModificationChecker.java:83)
+	at org.jboss.deployers.vfs.spi.structure.modified.AbstractStructureModificationChecker.hasStructureBeenModified(AbstractStructureModificationChecker.java:195)
+	at org.jboss.deployers.vfs.spi.structure.modified.AbstractStructureModificationChecker.hasStructureBeenModified(AbstractStructureModificationChecker.java:138)
+	at org.jboss.system.server.profileservice.repository.HotDeploymentRepository.getModifiedDeployments(HotDeploymentRepository.java:120)
+	at org.jboss.system.server.profile.repository.AbstractProfile.getModifiedDeployments(AbstractProfile.java:128)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:336)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:114)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:131)
+	at org.jboss.virtual.plugins.context.zip.ZipFileWrapper.ensureZipFile(ZipFileWrapper.java:175)
+	at org.jboss.virtual.plugins.context.zip.ZipFileWrapper.acquire(ZipFileWrapper.java:245)
+	at org.jboss.virtual.plugins.context.zip.ZipEntryContext.initEntries(ZipEntryContext.java:484)
+	at org.jboss.virtual.plugins.context.zip.ZipEntryContext.ensureEntries(ZipEntryContext.java:619)
+	... 26 more
+2011-05-23 19:17:20,276 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/DirectWeb
+2011-05-23 19:17:20,292 INFO  [org.hibernate.jmx.HibernateServiceMBean] (HDScanner) stopping service
+2011-05-23 19:17:20,292 INFO  [org.hibernate.util.NamingHelper] (HDScanner) JNDI InitialContext properties:{}
+2011-05-23 19:17:20,292 INFO  [org.hibernate.impl.SessionFactoryImpl] (HDScanner) closing
+2011-05-23 19:17:20,308 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) Unbinding factory from JNDI name: java:/DirectWebHibernateFactory
+2011-05-23 19:17:20,308 INFO  [org.hibernate.util.NamingHelper] (HDScanner) JNDI InitialContext properties:{}
+2011-05-23 19:17:20,308 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) Unbound factory from JNDI name: java:/DirectWebHibernateFactory
+2011-05-23 19:17:26,995 INFO  [org.hibernate.jmx.HibernateServiceMBean] (HDScanner) starting service at JNDI name: java:/DirectWebHibernateFactory
+2011-05-23 19:17:26,995 INFO  [org.hibernate.jmx.HibernateServiceMBean] (HDScanner) service properties: {hibernate.session_factory_name=java:/DirectWebHibernateFactory, hibernate.transaction.factory_class=org.hibernate.transaction.JTATransactionFactory, hibernate.connection.datasource=java:/JDBCIntranetDS, jta.UserTransaction=UserTransaction}
+2011-05-23 19:17:27,042 INFO  [org.hibernate.cfg.Environment] (HDScanner) Hibernate 3.0.3
+2011-05-23 19:17:27,058 INFO  [org.hibernate.cfg.Environment] (HDScanner) hibernate.properties not found
+2011-05-23 19:17:27,073 INFO  [org.hibernate.cfg.Environment] (HDScanner) using CGLIB reflection optimizer
+2011-05-23 19:17:27,073 INFO  [org.hibernate.cfg.Environment] (HDScanner) using JDK 1.4 java.sql.Timestamp handling
+2011-05-23 19:17:27,198 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: AdminPages.hbm.xml
+2011-05-23 19:17:27,464 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.AdminPagesMaster -> DW_ADMIN_PAGES
+2011-05-23 19:17:27,526 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: DynamicFieldsMapping.hbm.xml
+2011-05-23 19:17:27,558 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.DynamicFieldsMapping -> DW_DYNAMIC_FIELD_MAPPING
+2011-05-23 19:17:27,558 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: FooterDesignAdmin.hbm.xml
+2011-05-23 19:17:27,573 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.FooterDesignAdmin -> DW_FOOTER_ADMIN
+2011-05-23 19:17:27,573 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: HeaderDesignAdmin.hbm.xml
+2011-05-23 19:17:27,605 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.HeaderDesignAdmin -> DW_HEADER_ADMIN
+2011-05-23 19:17:27,605 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: MenuDesignAdmin.hbm.xml
+2011-05-23 19:17:27,620 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.MenuDesignAdmin -> DW_MENU_ADMIN
+2011-05-23 19:17:27,620 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: TemplateDetails.hbm.xml
+2011-05-23 19:17:27,651 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.TemplateDetails -> DW_TEMPLATE_DETAILS
+2011-05-23 19:17:27,651 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: TemplateItems.hbm.xml
+2011-05-23 19:17:27,667 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.TemplateItems -> DW_TEMPLATE_DETAIL_ITEMS
+2011-05-23 19:17:27,667 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Group.hbm.xml
+2011-05-23 19:17:27,698 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Group -> UMM_GROUPS
+2011-05-23 19:17:27,714 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Group.groupAccessLevels -> UMM_GROUP_USER_TYPES
+2011-05-23 19:17:27,714 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: GroupAccessLevels.hbm.xml
+2011-05-23 19:17:27,730 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.GroupAccessLevels -> UMM_GROUP_USER_TYPES
+2011-05-23 19:17:27,730 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: GroupCollectionMapping.hbm.xml
+2011-05-23 19:17:27,761 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.GroupCollectionMapping -> DW_GROUP_COLLECTION_MAPPING
+2011-05-23 19:17:27,761 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Menu.hbm.xml
+2011-05-23 19:17:27,792 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Menu -> DW_MENU
+2011-05-23 19:17:27,792 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: SharedMenu.hbm.xml
+2011-05-23 19:17:27,808 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.SharedMenu -> DW_SHARED_MENU
+2011-05-23 19:17:28,011 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: SubMenu.hbm.xml
+2011-05-23 19:17:28,026 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.SubMenu -> DW_SUB_MENU
+2011-05-23 19:17:28,042 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: SharedSubMenu.hbm.xml
+2011-05-23 19:17:28,058 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.SharedSubMenu -> DW_SHARED_SUB_MENU
+2011-05-23 19:17:28,073 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Templates.hbm.xml
+2011-05-23 19:17:28,089 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Templates -> DW_TEMPLATES
+2011-05-23 19:17:28,089 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Templates.sections -> DW_TEMPLATE_DETAILS
+2011-05-23 19:17:28,089 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: GroupDesignDetails.hbm.xml
+2011-05-23 19:17:28,120 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.GroupDesignDetails -> DW_GROUP_DESIGN_DETAILS
+2011-05-23 19:17:28,120 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Content.hbm.xml
+2011-05-23 19:17:28,151 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Content -> DW_CONTENT
+2011-05-23 19:17:28,151 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Content.contentItemValues -> DW_CONTENT_REFERENCE
+2011-05-23 19:17:28,151 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: SharedContent.hbm.xml
+2011-05-23 19:17:28,167 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.SharedContent -> DW_SHARED_CONTENT
+2011-05-23 19:17:28,183 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: ContentReference.hbm.xml
+2011-05-23 19:17:28,198 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.ContentReference -> DW_CONTENT_REFERENCE
+2011-05-23 19:17:28,214 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: GroupMapping.hbm.xml
+2011-05-23 19:17:28,245 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.GroupMapping -> UMM_GROUP_MAPPING
+2011-05-23 19:17:28,245 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: User.hbm.xml
+2011-05-23 19:17:28,261 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.User -> UMM_USERS
+2011-05-23 19:17:28,261 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: ApplicationMapping.hbm.xml
+2011-05-23 19:17:28,292 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.ApplicationMapping -> UMM_APPLICATION_MAPPING
+2011-05-23 19:17:28,292 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Application.hbm.xml
+2011-05-23 19:17:28,308 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Application -> UMM_APPLICATION
+2011-05-23 19:17:28,308 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Repository.hbm.xml
+2011-05-23 19:17:28,339 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Repository -> DR_REPOSITORY
+2011-05-23 19:17:28,339 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: ApplicationDetails.hbm.xml
+2011-05-23 19:17:28,355 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.ApplicationDetails -> DW_APPLICATION_DETAILS
+2011-05-23 19:17:28,355 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Shortcuts.hbm.xml
+2011-05-23 19:17:28,386 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Shortcuts -> DW_SHORTCUTS
+2011-05-23 19:17:28,386 INFO  [org.hibernate.cfg.Configuration] (HDScanner) processing extends queue
+2011-05-23 19:17:28,386 INFO  [org.hibernate.cfg.Configuration] (HDScanner) processing collection mappings
+2011-05-23 19:17:28,386 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.AdminPagesMaster.pageSpecificFields -> DW_DYNAMIC_FIELD_MAPPING
+2011-05-23 19:17:28,386 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Group.groupSpecificMenus -> DW_MENU
+2011-05-23 19:17:28,386 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Group.getGroupCollection -> DW_GROUP_COLLECTION_MAPPING
+2011-05-23 19:17:28,386 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Group.groupSpecificTemplates -> DW_TEMPLATES
+2011-05-23 19:17:28,386 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.GroupCollectionMapping.getSharingGroupCollection -> UMM_GROUPS
+2011-05-23 19:17:28,386 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Menu.subMenus -> DW_SUB_MENU
+2011-05-23 19:17:28,386 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Menu.sharedMenu -> DW_SHARED_MENU
+2011-05-23 19:17:28,386 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.SubMenu.sharedSubMenu -> DW_SHARED_SUB_MENU
+2011-05-23 19:17:28,386 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Content.sharedContent -> DW_SHARED_CONTENT
+2011-05-23 19:17:28,386 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Content.contentReference -> DW_CONTENT_REFERENCE
+2011-05-23 19:17:28,386 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Content.contentSharedToAGroup -> DW_SHARED_CONTENT
+2011-05-23 19:17:28,386 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.ApplicationMapping.groupMapping -> UMM_GROUP_MAPPING
+2011-05-23 19:17:28,386 INFO  [org.hibernate.cfg.Configuration] (HDScanner) processing association property references
+2011-05-23 19:17:28,386 INFO  [org.hibernate.cfg.Configuration] (HDScanner) processing foreign key constraints
+2011-05-23 19:17:28,714 INFO  [org.hibernate.util.NamingHelper] (HDScanner) JNDI InitialContext properties:{}
+2011-05-23 19:17:29,058 INFO  [org.hibernate.connection.DatasourceConnectionProvider] (HDScanner) Using datasource: java:/JDBCIntranetDS
+2011-05-23 19:17:32,230 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) RDBMS: Oracle, version: Oracle Database 11g Release 11.2.0.2.0 - 64bit Production
+2011-05-23 19:17:32,230 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) JDBC driver: Oracle JDBC driver, version: 11.2.0.2.0
+2011-05-23 19:17:32,308 INFO  [org.hibernate.dialect.Dialect] (HDScanner) Using dialect: org.hibernate.dialect.OracleDialect
+2011-05-23 19:17:32,323 INFO  [org.hibernate.transaction.TransactionFactoryFactory] (HDScanner) Transaction strategy: org.hibernate.transaction.JTATransactionFactory
+2011-05-23 19:17:32,323 INFO  [org.hibernate.util.NamingHelper] (HDScanner) JNDI InitialContext properties:{}
+2011-05-23 19:17:32,339 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] (HDScanner) No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2011-05-23 19:17:32,339 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Automatic flush during beforeCompletion(): disabled
+2011-05-23 19:17:32,339 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Automatic session close at end of transaction: disabled
+2011-05-23 19:17:32,355 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) JDBC batch size: 15
+2011-05-23 19:17:32,355 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) JDBC batch updates for versioned data: disabled
+2011-05-23 19:17:32,355 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Scrollable result sets: enabled
+2011-05-23 19:17:32,355 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) JDBC3 getGeneratedKeys(): enabled
+2011-05-23 19:17:32,370 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Connection release mode: null
+2011-05-23 19:17:32,370 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Default batch fetch size: 1
+2011-05-23 19:17:32,370 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Generate SQL with comments: disabled
+2011-05-23 19:17:32,370 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Order SQL updates by primary key: disabled
+2011-05-23 19:17:32,370 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2011-05-23 19:17:32,386 INFO  [org.hibernate.hql.ast.ASTQueryTranslatorFactory] (HDScanner) Using ASTQueryTranslatorFactory
+2011-05-23 19:17:32,386 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Query language substitutions: {false=0, true=1}
+2011-05-23 19:17:32,401 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Second-level cache: enabled
+2011-05-23 19:17:32,401 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Query cache: disabled
+2011-05-23 19:17:32,401 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Cache provider: org.hibernate.cache.EhCacheProvider
+2011-05-23 19:17:32,417 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Optimize cache for minimal puts: disabled
+2011-05-23 19:17:32,417 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Structured second-level cache entries: enabled
+2011-05-23 19:17:32,433 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Statistics: disabled
+2011-05-23 19:17:32,448 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Deleted entity synthetic identifier rollback: disabled
+2011-05-23 19:17:32,448 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Default entity-mode: pojo
+2011-05-23 19:17:32,542 INFO  [org.hibernate.impl.SessionFactoryImpl] (HDScanner) building session factory
+2011-05-23 19:17:32,558 WARN  [net.sf.ehcache.config.Configurator] (HDScanner) No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/lib/ehcache-1.1.jar/ehcache-failsafe.xml
+2011-05-23 19:17:34,636 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) Factory name: java:/DirectWebHibernateFactory
+2011-05-23 19:17:34,651 INFO  [org.hibernate.util.NamingHelper] (HDScanner) JNDI InitialContext properties:{}
+2011-05-23 19:17:34,651 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) Bound factory to JNDI name: java:/DirectWebHibernateFactory
+2011-05-23 19:17:34,651 WARN  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) InitialContext did not implement EventContext
+2011-05-23 19:17:34,667 INFO  [org.hibernate.impl.SessionFactoryImpl] (HDScanner) Checking 0 named queries
+2011-05-23 19:17:34,698 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/DirectWeb
+2011-05-23 19:17:35,448 INFO  [STDOUT] (HDScanner) Servlet filter init, now processing URL request.
+2011-05-23 19:17:35,480 INFO  [STDOUT] (HDScanner) Servlet filter init, now opening/closing a Session for each request.
+2011-05-23 19:17:35,980 INFO  [org.apache.struts.validator.ValidatorPlugIn] (HDScanner) Loading validation rules file from '/WEB-INF/struts/validator-rules.xml'
+2011-05-23 19:17:35,995 INFO  [org.apache.struts.validator.ValidatorPlugIn] (HDScanner) Loading validation rules file from '/WEB-INF/struts/validation.xml'
+2011-05-23 19:17:36,589 ERROR [STDERR] (HDScanner) SLF4J: Class path contains multiple SLF4J bindings.
+2011-05-23 19:17:36,589 ERROR [STDERR] (HDScanner) SLF4J: Found binding in [vfszip:/D:/jboss-5.1.0.GA/common/lib/slf4j-jboss-logging.jar/org/slf4j/impl/StaticLoggerBinder.class]
+2011-05-23 19:17:36,589 ERROR [STDERR] (HDScanner) SLF4J: Found binding in [vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/lib/slf4j-simple-1.5.8.jar/org/slf4j/impl/StaticLoggerBinder.class]
+2011-05-23 19:17:36,589 ERROR [STDERR] (HDScanner) SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+2011-05-23 19:17:36,683 ERROR [STDERR] (HDScanner) 63 [HDScanner] INFO net.fckeditor.connector.Dispatcher - Connector initialized to net.fckeditor.connector.impl.LocalConnector
+2011-05-23 19:18:02,995 INFO  [STDOUT] (http-127.0.0.1-9090-1) Closing Session of this thread.
+2011-05-23 19:18:11,511 INFO  [STDOUT] (http-127.0.0.1-9090-1) Authenticate Called
+2011-05-23 19:18:15,120 INFO  [STDOUT] (http-127.0.0.1-9090-1) LDAPWS Authenticate: java.lang.NullPointerException
+2011-05-23 19:18:15,808 INFO  [STDOUT] (http-127.0.0.1-9090-1) --------------------->com.hd.ldap.User@5f9828
+2011-05-23 19:18:50,636 INFO  [STDOUT] (http-127.0.0.1-9090-1) Map---->>>>---templateid7--submenuid--->0--menuid---->28
+2011-05-23 19:18:50,964 INFO  [STDOUT] (http-127.0.0.1-9090-1) Base--->fabcs---->7---> 7 -> templatecss -> stylesheets/templates/fabcs/template1.css -> templatejs -> javascript/fabcs/default.js
+2011-05-23 19:18:50,964 INFO  [STDOUT] (http-127.0.0.1-9090-1) TemplateName---->/templates/fabcs/template1.jsp
+2011-05-23 19:18:56,151 INFO  [STDOUT] (http-127.0.0.1-9090-1) Closing Session of this thread.
+2011-05-23 19:19:21,651 INFO  [STDOUT] (http-127.0.0.1-9090-1) Map---->>>>---templateid6--submenuid--->0--menuid---->11
+2011-05-23 19:19:22,761 INFO  [STDOUT] (http-127.0.0.1-9090-1) Base--->fabcs---->6---> 6 -> templatecss -> stylesheets/templates/fabcs/home.css -> templatejs -> javascript/fabcs/default.js
+2011-05-23 19:19:22,776 INFO  [STDOUT] (http-127.0.0.1-9090-1) TemplateName---->/templates/fabcs/home.jsp
+2011-05-23 19:19:25,230 INFO  [STDOUT] (http-127.0.0.1-9090-1) Closing Session of this thread.
+2011-05-23 19:19:53,948 INFO  [STDOUT] (http-127.0.0.1-9090-1) Map---->>>>---templateid6--submenuid--->0--menuid---->11
+2011-05-23 19:19:54,558 INFO  [STDOUT] (http-127.0.0.1-9090-1) Base--->fabcs---->6---> 6 -> templatecss -> stylesheets/templates/fabcs/home.css -> templatejs -> javascript/fabcs/default.js
+2011-05-23 19:19:54,558 INFO  [STDOUT] (http-127.0.0.1-9090-1) TemplateName---->/templates/fabcs/home.jsp
+2011-05-23 19:19:56,636 INFO  [STDOUT] (http-127.0.0.1-9090-1) Closing Session of this thread.
+2011-05-23 19:20:27,683 INFO  [STDOUT] (http-127.0.0.1-9090-2) Closing Session of this thread.
+2011-05-23 19:21:12,901 INFO  [STDOUT] (http-127.0.0.1-9090-1) Closing Session of this thread.
+2011-05-23 19:21:23,964 INFO  [STDOUT] (http-127.0.0.1-9090-1) Closing Session of this thread.
+2011-05-23 19:21:40,745 INFO  [STDOUT] (http-127.0.0.1-9090-1) Closing Session of this thread.
+2011-05-23 19:22:27,042 INFO  [STDOUT] (http-127.0.0.1-9090-1) Closing Session of this thread.
+2011-05-23 19:22:37,620 INFO  [STDOUT] (http-127.0.0.1-9090-1) Closing Session of this thread.
+2011-05-23 19:23:20,151 INFO  [STDOUT] (http-127.0.0.1-9090-1) Map---->>>>---templateid6--submenuid--->0--menuid---->11
+2011-05-23 19:23:20,808 INFO  [STDOUT] (http-127.0.0.1-9090-1) Base--->fabcs---->6---> 6 -> templatecss -> stylesheets/templates/fabcs/home.css -> templatejs -> javascript/fabcs/default.js
+2011-05-23 19:23:20,808 INFO  [STDOUT] (http-127.0.0.1-9090-1) TemplateName---->/templates/fabcs/home.jsp
+2011-05-23 19:23:23,995 INFO  [STDOUT] (http-127.0.0.1-9090-1) Closing Session of this thread.
+2011-05-23 19:24:20,151 INFO  [STDOUT] (http-127.0.0.1-9090-1) Map---->>>>---templateid0--submenuid--->0--menuid---->0
+2011-05-23 19:24:20,745 INFO  [STDOUT] (http-127.0.0.1-9090-1) Base--->fabcs---->0---> 0 -> templatecss ->  -> templatejs -> 
+2011-05-23 19:24:20,745 INFO  [STDOUT] (http-127.0.0.1-9090-1) TemplateName---->/templates/directWebSearchResults.jsp
+2011-05-23 19:24:20,980 ERROR [org.apache.struts.actions.DispatchAction] (http-127.0.0.1-9090-2) Request[/search] does not contain handler parameter named 'mode'.  This may be caused by whitespace in the label text.
+2011-05-23 19:24:20,995 WARN  [org.apache.struts.action.RequestProcessor] (http-127.0.0.1-9090-2) Unhandled Exception thrown: class javax.servlet.ServletException
+2011-05-23 19:24:20,995 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[localhost].[/DirectWeb].[action]] (http-127.0.0.1-9090-2) Servlet.service() for servlet action threw exception
+javax.servlet.ServletException: Request[/search] does not contain handler parameter named 'mode'.  This may be caused by whitespace in the label text.
+	at org.apache.struts.actions.DispatchAction.unspecified(DispatchAction.java:222)
+	at org.apache.struts.actions.DispatchAction.dispatchMethod(DispatchAction.java:256)
+	at org.apache.struts.actions.DispatchAction.execute(DispatchAction.java:194)
+	at org.apache.struts.action.RequestProcessor.processActionPerform(RequestProcessor.java:419)
+	at org.apache.struts.action.RequestProcessor.process(RequestProcessor.java:224)
+	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1194)
+	at org.apache.struts.action.ActionServlet.doGet(ActionServlet.java:414)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at com.hd.directweb.filter.HibernateFilter.doFilter(HibernateFilter.java:38)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at com.hd.directweb.filter.URLInterceptor.doFilter(URLInterceptor.java:70)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.jboss.web.tomcat.filters.ReplyHeaderFilter.doFilter(ReplyHeaderFilter.java:96)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:235)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.jboss.web.tomcat.security.SecurityAssociationValve.invoke(SecurityAssociationValve.java:190)
+	at org.jboss.web.tomcat.security.JaccContextValve.invoke(JaccContextValve.java:92)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.process(SecurityContextEstablishmentValve.java:126)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.invoke(SecurityContextEstablishmentValve.java:70)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:330)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:829)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:598)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:619)
+2011-05-23 19:24:22,464 INFO  [STDOUT] (http-127.0.0.1-9090-1) Closing Session of this thread.
+2011-05-23 19:40:26,542 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Runtime shutdown hook called, forceHalt: true
+2011-05-23 19:40:26,558 INFO  [org.apache.coyote.http11.Http11Protocol] (JBoss Shutdown Hook) Pausing Coyote HTTP/1.1 on http-127.0.0.1-9090
+2011-05-23 19:40:26,558 INFO  [org.apache.coyote.http11.Http11Protocol] (JBoss Shutdown Hook) Stopping Coyote HTTP/1.1 on http-127.0.0.1-9090
+2011-05-23 19:40:26,573 INFO  [org.apache.coyote.ajp.AjpProtocol] (JBoss Shutdown Hook) Pausing Coyote AJP/1.3 on ajp-127.0.0.1-9019
+2011-05-23 19:40:26,573 INFO  [org.apache.coyote.ajp.AjpProtocol] (JBoss Shutdown Hook) Stopping Coyote AJP/1.3 on ajp-127.0.0.1-9019
+2011-05-23 19:40:26,620 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@147fcb5 undeployed
+2011-05-23 19:40:26,636 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@1520844 undeployed
+2011-05-23 19:40:26,667 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@17f0ced undeployed
+2011-05-23 19:40:26,683 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/web-console
+2011-05-23 19:40:26,730 INFO  [org.jboss.jms.server.destination.QueueService] (JBoss Shutdown Hook) Queue[/queue/ExpiryQueue] stopped
+2011-05-23 19:40:26,730 INFO  [org.jboss.jms.server.destination.QueueService] (JBoss Shutdown Hook) Queue[/queue/DLQ] stopped
+2011-05-23 19:40:26,745 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2011-05-23 19:40:26,776 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureProfileServiceBean ejbName: SecureProfileService
+2011-05-23 19:40:26,823 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2011-05-23 19:40:27,151 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureDeploymentManager ejbName: SecureDeploymentManager
+2011-05-23 19:40:27,214 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2011-05-23 19:40:27,214 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureManagementView ejbName: SecureManagementView
+2011-05-23 19:40:27,308 INFO  [org.jboss.proxy.ejb.ProxyFactory] (JBoss Shutdown Hook) Unbind EJB Home 'LDAPAuthenticationEJB' from jndi 'ejb/jndi/LDAPAuthentication'
+2011-05-23 19:40:27,323 INFO  [org.jboss.ejb.EjbModule] (JBoss Shutdown Hook) Undeployed LDAPAuthenticationEJB
+2011-05-23 19:40:27,339 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' from JNDI name 'java:JmsXA'
+2011-05-23 19:40:27,386 INFO  [org.jboss.jms.server.ServerPeer] (JBoss Shutdown Hook) JMS ServerPeer[0] stopped
+2011-05-23 19:40:27,401 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/invoker
+2011-05-23 19:40:27,901 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/juddi
+2011-05-23 19:40:27,917 INFO  [org.apache.juddi.registry.RegistryServlet] (JBoss Shutdown Hook) jUDDI Stopping: Cleaning up existing resources.
+2011-05-23 19:40:27,917 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/admin-console
+2011-05-23 19:40:27,933 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/
+2011-05-23 19:40:27,933 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/content
+2011-05-23 19:40:27,948 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/jbossws
+2011-05-23 19:40:27,948 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/jmx-console
+2011-05-23 19:40:27,980 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/DirectWeb
+2011-05-23 19:40:28,386 INFO  [org.apache.catalina.core.StandardService] (JBoss Shutdown Hook) Stopping service jboss.web
+2011-05-23 19:40:28,495 INFO  [org.jboss.mail.MailService] (JBoss Shutdown Hook) Mail service 'java:/Mail' removed from JNDI
+2011-05-23 19:40:28,620 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=HdFabDS' from JNDI name 'java:HdFabDS'
+2011-05-23 19:40:28,620 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=IntranetDS' from JNDI name 'java:IntranetDS'
+2011-05-23 19:40:28,636 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=JDBCIntranetDS' from JNDI name 'java:JDBCIntranetDS'
+2011-05-23 19:40:28,636 INFO  [org.hibernate.jmx.HibernateServiceMBean] (JBoss Shutdown Hook) stopping service
+2011-05-23 19:40:28,651 INFO  [org.hibernate.util.NamingHelper] (JBoss Shutdown Hook) JNDI InitialContext properties:{}
+2011-05-23 19:40:28,651 INFO  [org.hibernate.impl.SessionFactoryImpl] (JBoss Shutdown Hook) closing
+2011-05-23 19:40:28,651 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (JBoss Shutdown Hook) Unbinding factory from JNDI name: java:/DirectWebHibernateFactory
+2011-05-23 19:40:28,651 INFO  [org.hibernate.util.NamingHelper] (JBoss Shutdown Hook) JNDI InitialContext properties:{}
+2011-05-23 19:40:28,667 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (JBoss Shutdown Hook) Unbound factory from JNDI name: java:/DirectWebHibernateFactory
+2011-05-23 19:40:28,667 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=OnlineSurveyDS' from JNDI name 'java:OnlineSurveyDS'
+2011-05-23 19:40:28,683 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=OrderStatusDS' from JNDI name 'java:OrderStatusDS'
+2011-05-23 19:40:28,683 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=PIPDS' from JNDI name 'java:PIPDS'
+2011-05-23 19:40:28,683 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=PLSDS' from JNDI name 'java:PLSDS'
+2011-05-23 19:40:28,698 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' from JNDI name 'java:DefaultDS'
+2011-05-23 19:40:29,964 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2011-05-23 19:40:29,964 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2011-05-23 19:40:29,964 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2011-05-23 19:40:30,355 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (JBoss Shutdown Hook) Stopping transaction recovery manager
+2011-05-23 19:40:30,355 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (JBoss Shutdown Hook) Destroying TransactionManagerService
+2011-05-23 19:40:31,120 INFO  [org.jboss.jdbc.HypersonicDatabase] (JBoss Shutdown Hook) Database standalone closed clean
+2011-05-23 19:40:39,573 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Shutdown complete
+2011-05-23 19:41:19,839 INFO  [org.jboss.web.WebService] (main) Using RMI server codebase: http://127.0.0.1:8083/
+2011-05-23 19:41:34,245 INFO  [org.jboss.wsf.common.management.AbstractServerConfig] (main) JBoss Web Services - Native Server
+2011-05-23 19:41:34,245 INFO  [org.jboss.wsf.common.management.AbstractServerConfig] (main) 3.2.2.GA
+2011-05-23 19:41:36,886 INFO  [org.jboss.dependency.plugins.AttributeCallbackItem] (main) Owner callback not implemented.
+2011-05-23 19:41:41,526 INFO  [org.jboss.logbridge.LogNotificationListener] (main) Adding notification listener for logging mbean "jboss.system:service=Logging,type=Log4jService" to server org.jboss.mx.server.MBeanServerImpl@45aa2c[ defaultDomain='jboss' ]
+2011-05-23 19:42:40,355 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@23889522{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/ldapejb.jar/}
+2011-05-23 19:42:40,355 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@23889522{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/ldapejb.jar/}
+2011-05-23 19:42:40,370 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@23889522{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/ldapejb.jar/}
+2011-05-23 19:42:40,370 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@23630320{vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/profileservice-secured.jar/}
+2011-05-23 19:42:40,386 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@23630320{vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/profileservice-secured.jar/}
+2011-05-23 19:42:40,386 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@23630320{vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/profileservice-secured.jar/}
+2011-05-23 19:42:40,401 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@23630320{vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/profileservice-secured.jar/}
+2011-05-23 19:42:46,386 INFO  [org.jboss.mx.remoting.service.JMXConnectorServerService] (main) JMX Connector server: service:jmx:rmi://127.0.0.1/jndi/rmi://127.0.0.1:1090/jmxconnector
+2011-05-23 19:42:47,433 INFO  [org.jboss.mail.MailService] (main) Mail Service bound to java:/Mail
+2011-05-23 19:43:23,026 WARN  [org.jboss.jms.server.jbosssx.JBossASSecurityMetadataStore] (main) WARNING! POTENTIAL SECURITY RISK. It has been detected that the MessageSucker component which sucks messages from one node to another has not had its password changed from the installation default. Please see the JBoss Messaging user guide for instructions on how to do this.
+2011-05-23 19:43:23,073 WARN  [org.jboss.annotation.factory.AnnotationCreator] (main) No ClassLoader provided, using TCCL: org.jboss.managed.api.annotation.ManagementComponent
+2011-05-23 19:43:23,355 WARN  [org.jboss.annotation.factory.AnnotationCreator] (main) No ClassLoader provided, using TCCL: org.jboss.managed.api.annotation.ManagementComponent
+2011-05-23 19:43:23,464 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) JBossTS Transaction Service (JTA version - tag:JBOSSTS_4_6_1_GA) - JBoss Inc.
+2011-05-23 19:43:23,464 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Setting up property manager MBean and JMX layer
+2011-05-23 19:43:24,042 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Initializing recovery manager
+2011-05-23 19:43:25,370 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Recovery manager configured
+2011-05-23 19:43:25,370 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Binding TransactionManager JNDI Reference
+2011-05-23 19:43:25,448 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Starting transaction recovery manager
+2011-05-23 19:43:26,542 INFO  [org.apache.catalina.core.AprLifecycleListener] (main) The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.6.0_16\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\program files\imagemagick-6.3.5-q16;C:\Program Files\Java\jdk1.6.0_16\bin;D:\oracle\ora92\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\ZipGenius 6\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727;C:\Program Files\Microsoft Visual Studio 8\SDK\v2.0\Bin;D:\maven-2.0.7\bin;C:\Program Files\TortoiseSVN\bin;C:\apache-ant-1.8.0\bin;D:\jboss-5.1.0.GA\bin;C:\WINDOWS\system32\WindowsPowerShell\v1.0;C:\Program Files\Microsoft Dynamics AX\50\Client\Bin\
+2011-05-23 19:43:26,698 INFO  [org.apache.coyote.http11.Http11Protocol] (main) Initializing Coyote HTTP/1.1 on http-127.0.0.1-9090
+2011-05-23 19:43:26,714 INFO  [org.apache.coyote.ajp.AjpProtocol] (main) Initializing Coyote AJP/1.3 on ajp-127.0.0.1-9019
+2011-05-23 19:43:26,761 INFO  [org.apache.catalina.core.StandardService] (main) Starting service jboss.web
+2011-05-23 19:43:26,776 INFO  [org.apache.catalina.core.StandardEngine] (main) Starting Servlet Engine: JBoss Web/2.1.3.GA
+2011-05-23 19:43:26,917 INFO  [org.apache.catalina.startup.Catalina] (main) Server startup in 192 ms
+2011-05-23 19:43:27,042 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/invoker
+2011-05-23 19:43:28,886 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/web-console
+2011-05-23 19:43:29,808 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/juddi
+2011-05-23 19:43:30,136 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Loading jUDDI configuration.
+2011-05-23 19:43:30,151 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Resources loaded from: /WEB-INF/juddi.properties
+2011-05-23 19:43:30,151 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Initializing jUDDI components.
+2011-05-23 19:43:30,589 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/jboss-local-jdbc.rar/META-INF/ra.xml
+2011-05-23 19:43:30,714 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/jboss-xa-jdbc.rar/META-INF/ra.xml
+2011-05-23 19:43:30,776 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/jms-ra.rar/META-INF/ra.xml
+2011-05-23 19:43:30,839 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/mail-ra.rar/META-INF/ra.xml
+2011-05-23 19:43:30,901 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/quartz-ra.rar/META-INF/ra.xml
+2011-05-23 19:43:31,245 INFO  [org.quartz.simpl.SimpleThreadPool] (main) Job execution threads will use class loader of thread: main
+2011-05-23 19:43:31,323 INFO  [org.quartz.core.SchedulerSignalerImpl] (main) Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2011-05-23 19:43:31,339 INFO  [org.quartz.core.QuartzScheduler] (main) Quartz Scheduler v.1.7.2 created.
+2011-05-23 19:43:31,339 INFO  [org.quartz.simpl.RAMJobStore] (main) RAMJobStore initialized.
+2011-05-23 19:43:31,355 INFO  [org.quartz.impl.StdSchedulerFactory] (main) Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2011-05-23 19:43:31,370 INFO  [org.quartz.impl.StdSchedulerFactory] (main) Quartz scheduler version: 1.7.2
+2011-05-23 19:43:31,370 INFO  [org.quartz.core.QuartzScheduler] (main) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2011-05-23 19:43:31,823 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=HdFabDS' to JNDI name 'java:HdFabDS'
+2011-05-23 19:43:32,011 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=IntranetDS' to JNDI name 'java:IntranetDS'
+2011-05-23 19:43:33,448 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=JDBCIntranetDS' to JNDI name 'java:JDBCIntranetDS'
+2011-05-23 19:43:33,542 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=OnlineSurveyDS' to JNDI name 'java:OnlineSurveyDS'
+2011-05-23 19:43:33,620 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=OrderStatusDS' to JNDI name 'java:OrderStatusDS'
+2011-05-23 19:43:33,776 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=PIPDS' to JNDI name 'java:PIPDS'
+2011-05-23 19:43:33,870 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=PLSDS' to JNDI name 'java:PLSDS'
+2011-05-23 19:43:35,073 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' to JNDI name 'java:DefaultDS'
+2011-05-23 19:43:36,370 INFO  [org.jboss.jms.server.ServerPeer] (main) JBoss Messaging 1.4.3.GA server [0] started
+2011-05-23 19:43:36,526 INFO  [org.jboss.jms.server.destination.QueueService] (main) Queue[/queue/ExpiryQueue] started, fullSize=200000, pageSize=2000, downCacheSize=2000
+2011-05-23 19:43:36,542 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactoryJNDIMapper] (main) supportsFailover attribute is true on connection factory: jboss.messaging.connectionfactory:service=ClusteredConnectionFactory but post office is non clustered. So connection factory will *not* support failover
+2011-05-23 19:43:36,558 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactoryJNDIMapper] (main) supportsLoadBalancing attribute is true on connection factory: jboss.messaging.connectionfactory:service=ClusteredConnectionFactory but post office is non clustered. So connection factory will *not* support load balancing
+2011-05-23 19:43:36,651 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2011-05-23 19:43:36,651 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@2bba21 started
+2011-05-23 19:43:36,651 INFO  [org.jboss.jms.server.destination.QueueService] (main) Queue[/queue/DLQ] started, fullSize=200000, pageSize=2000, downCacheSize=2000
+2011-05-23 19:43:36,667 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2011-05-23 19:43:36,667 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@9a2f1a started
+2011-05-23 19:43:36,667 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2011-05-23 19:43:36,683 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@1f20c84 started
+2011-05-23 19:43:37,026 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' to JNDI name 'java:JmsXA'
+2011-05-23 19:43:37,136 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main) installing bean: ejb/#LDAPAuthenticationEJB,uid33338323
+2011-05-23 19:43:37,151 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main)   with dependencies:
+2011-05-23 19:43:37,151 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main)   and supplies:
+2011-05-23 19:43:37,151 INFO  [org.jboss.ejb.deployers.EjbDeployer] (main) 	jndi:ejb/jndi/LDAPAuthentication
+2011-05-23 19:43:37,636 INFO  [org.jboss.ejb.EjbModule] (main) Deploying LDAPAuthenticationEJB
+2011-05-23 19:43:37,964 WARN  [org.jboss.ejb.EjbModule] (main) EJB configured to bypass security. Please verify if this is intended. Bean=LDAPAuthenticationEJB Deployment=vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/ldapejb.jar/
+2011-05-23 19:43:38,245 INFO  [org.jboss.proxy.ejb.ProxyFactory] (main) Bound EJB Home 'LDAPAuthenticationEJB' to jndi 'ejb/jndi/LDAPAuthentication'
+2011-05-23 19:43:55,933 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Created KernelDeployment for: profileservice-secured.jar
+2011-05-23 19:43:55,948 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2011-05-23 19:43:55,964 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2011-05-23 19:43:55,964 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2011-05-23 19:43:55,964 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView
+2011-05-23 19:43:55,964 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2011-05-23 19:43:55,964 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2011-05-23 19:43:55,980 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.profileservice.spi.ProfileService
+2011-05-23 19:43:55,980 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureProfileService/remote
+2011-05-23 19:43:55,980 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureProfileService/remote-org.jboss.profileservice.spi.ProfileService
+2011-05-23 19:43:55,980 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2011-05-23 19:43:55,995 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2011-05-23 19:43:55,995 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2011-05-23 19:43:55,995 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2011-05-23 19:43:55,995 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2011-05-23 19:43:56,011 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2011-05-23 19:43:56,011 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureDeploymentManager/remote-org.jboss.deployers.spi.management.deploy.DeploymentManager
+2011-05-23 19:43:56,011 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.deployers.spi.management.deploy.DeploymentManager
+2011-05-23 19:43:56,011 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureDeploymentManager/remote
+2011-05-23 19:43:56,011 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2011-05-23 19:43:56,026 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2011-05-23 19:43:56,026 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2011-05-23 19:43:56,026 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2011-05-23 19:43:56,042 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2011-05-23 19:43:56,042 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2011-05-23 19:43:56,042 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView
+2011-05-23 19:43:56,042 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.deployers.spi.management.ManagementView
+2011-05-23 19:43:56,042 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote
+2011-05-23 19:43:56,058 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2011-05-23 19:43:56,089 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@b6c3b9{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2011-05-23 19:43:56,089 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@1dfa916{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2011-05-23 19:43:56,089 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@a80631{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2011-05-23 19:43:56,511 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2011-05-23 19:43:56,620 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureDeploymentManager ejbName: SecureDeploymentManager
+2011-05-23 19:43:56,745 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureDeploymentManager/remote - EJB3.x Default Remote Business Interface
+	SecureDeploymentManager/remote-org.jboss.deployers.spi.management.deploy.DeploymentManager - EJB3.x Remote Business Interface
+
+2011-05-23 19:43:56,886 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2011-05-23 19:43:56,886 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureManagementView ejbName: SecureManagementView
+2011-05-23 19:43:56,917 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureManagementView/remote - EJB3.x Default Remote Business Interface
+	SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView - EJB3.x Remote Business Interface
+
+2011-05-23 19:43:57,026 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2011-05-23 19:43:57,026 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureProfileServiceBean ejbName: SecureProfileService
+2011-05-23 19:43:57,042 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureProfileService/remote - EJB3.x Default Remote Business Interface
+	SecureProfileService/remote-org.jboss.profileservice.spi.ProfileService - EJB3.x Remote Business Interface
+
+2011-05-23 19:43:58,058 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/admin-console
+2011-05-23 19:43:59,230 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (main) Initializing Mojarra (1.2_12-b01-FCS) for context '/admin-console'
+2011-05-23 19:44:12,995 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/
+2011-05-23 19:44:13,276 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/content
+2011-05-23 19:44:13,480 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/jbossws
+2011-05-23 19:44:14,105 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/jmx-console
+2011-05-23 19:44:17,073 INFO  [org.hibernate.jmx.HibernateServiceMBean] (main) starting service at JNDI name: java:/DirectWebHibernateFactory
+2011-05-23 19:44:17,073 INFO  [org.hibernate.jmx.HibernateServiceMBean] (main) service properties: {hibernate.session_factory_name=java:/DirectWebHibernateFactory, hibernate.transaction.factory_class=org.hibernate.transaction.JTATransactionFactory, hibernate.connection.datasource=java:/JDBCIntranetDS, jta.UserTransaction=UserTransaction}
+2011-05-23 19:44:17,151 INFO  [org.hibernate.cfg.Environment] (main) Hibernate 3.0.3
+2011-05-23 19:44:17,151 INFO  [org.hibernate.cfg.Environment] (main) hibernate.properties not found
+2011-05-23 19:44:17,167 INFO  [org.hibernate.cfg.Environment] (main) using CGLIB reflection optimizer
+2011-05-23 19:44:17,167 INFO  [org.hibernate.cfg.Environment] (main) using JDK 1.4 java.sql.Timestamp handling
+2011-05-23 19:44:17,292 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: AdminPages.hbm.xml
+2011-05-23 19:44:17,542 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.AdminPagesMaster -> DW_ADMIN_PAGES
+2011-05-23 19:44:17,589 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: DynamicFieldsMapping.hbm.xml
+2011-05-23 19:44:17,683 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.DynamicFieldsMapping -> DW_DYNAMIC_FIELD_MAPPING
+2011-05-23 19:44:17,683 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: FooterDesignAdmin.hbm.xml
+2011-05-23 19:44:17,730 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.FooterDesignAdmin -> DW_FOOTER_ADMIN
+2011-05-23 19:44:17,730 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: HeaderDesignAdmin.hbm.xml
+2011-05-23 19:44:17,792 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.HeaderDesignAdmin -> DW_HEADER_ADMIN
+2011-05-23 19:44:17,792 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: MenuDesignAdmin.hbm.xml
+2011-05-23 19:44:17,839 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.MenuDesignAdmin -> DW_MENU_ADMIN
+2011-05-23 19:44:17,839 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: TemplateDetails.hbm.xml
+2011-05-23 19:44:17,886 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.TemplateDetails -> DW_TEMPLATE_DETAILS
+2011-05-23 19:44:17,886 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: TemplateItems.hbm.xml
+2011-05-23 19:44:17,917 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.TemplateItems -> DW_TEMPLATE_DETAIL_ITEMS
+2011-05-23 19:44:17,933 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: Group.hbm.xml
+2011-05-23 19:44:18,042 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.Group -> UMM_GROUPS
+2011-05-23 19:44:18,058 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping collection: com.hd.directweb.db.Group.groupAccessLevels -> UMM_GROUP_USER_TYPES
+2011-05-23 19:44:18,073 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: GroupAccessLevels.hbm.xml
+2011-05-23 19:44:18,198 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.GroupAccessLevels -> UMM_GROUP_USER_TYPES
+2011-05-23 19:44:18,198 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: GroupCollectionMapping.hbm.xml
+2011-05-23 19:44:18,245 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.GroupCollectionMapping -> DW_GROUP_COLLECTION_MAPPING
+2011-05-23 19:44:18,245 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: Menu.hbm.xml
+2011-05-23 19:44:18,292 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.Menu -> DW_MENU
+2011-05-23 19:44:18,292 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: SharedMenu.hbm.xml
+2011-05-23 19:44:18,323 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.SharedMenu -> DW_SHARED_MENU
+2011-05-23 19:44:18,464 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: SubMenu.hbm.xml
+2011-05-23 19:44:18,495 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.SubMenu -> DW_SUB_MENU
+2011-05-23 19:44:18,495 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: SharedSubMenu.hbm.xml
+2011-05-23 19:44:18,526 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.SharedSubMenu -> DW_SHARED_SUB_MENU
+2011-05-23 19:44:18,542 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: Templates.hbm.xml
+2011-05-23 19:44:18,808 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.Templates -> DW_TEMPLATES
+2011-05-23 19:44:18,823 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping collection: com.hd.directweb.db.Templates.sections -> DW_TEMPLATE_DETAILS
+2011-05-23 19:44:18,823 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: GroupDesignDetails.hbm.xml
+2011-05-23 19:44:18,917 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.GroupDesignDetails -> DW_GROUP_DESIGN_DETAILS
+2011-05-23 19:44:18,933 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: Content.hbm.xml
+2011-05-23 19:44:18,980 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.Content -> DW_CONTENT
+2011-05-23 19:44:18,980 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping collection: com.hd.directweb.db.Content.contentItemValues -> DW_CONTENT_REFERENCE
+2011-05-23 19:44:18,995 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: SharedContent.hbm.xml
+2011-05-23 19:44:19,026 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.SharedContent -> DW_SHARED_CONTENT
+2011-05-23 19:44:19,042 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: ContentReference.hbm.xml
+2011-05-23 19:44:19,089 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.ContentReference -> DW_CONTENT_REFERENCE
+2011-05-23 19:44:19,120 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: GroupMapping.hbm.xml
+2011-05-23 19:44:19,464 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.GroupMapping -> UMM_GROUP_MAPPING
+2011-05-23 19:44:19,480 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: User.hbm.xml
+2011-05-23 19:44:19,542 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.User -> UMM_USERS
+2011-05-23 19:44:19,542 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: ApplicationMapping.hbm.xml
+2011-05-23 19:44:19,573 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.ApplicationMapping -> UMM_APPLICATION_MAPPING
+2011-05-23 19:44:19,573 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: Application.hbm.xml
+2011-05-23 19:44:19,605 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.Application -> UMM_APPLICATION
+2011-05-23 19:44:19,605 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: Repository.hbm.xml
+2011-05-23 19:44:19,636 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.Repository -> DR_REPOSITORY
+2011-05-23 19:44:19,636 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: ApplicationDetails.hbm.xml
+2011-05-23 19:44:19,651 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.ApplicationDetails -> DW_APPLICATION_DETAILS
+2011-05-23 19:44:19,667 INFO  [org.hibernate.cfg.Configuration] (main) Mapping resource: Shortcuts.hbm.xml
+2011-05-23 19:44:19,683 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping class: com.hd.directweb.db.Shortcuts -> DW_SHORTCUTS
+2011-05-23 19:44:19,698 INFO  [org.hibernate.cfg.Configuration] (main) processing extends queue
+2011-05-23 19:44:19,698 INFO  [org.hibernate.cfg.Configuration] (main) processing collection mappings
+2011-05-23 19:44:19,698 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping collection: com.hd.directweb.db.AdminPagesMaster.pageSpecificFields -> DW_DYNAMIC_FIELD_MAPPING
+2011-05-23 19:44:19,698 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping collection: com.hd.directweb.db.Group.groupSpecificMenus -> DW_MENU
+2011-05-23 19:44:19,698 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping collection: com.hd.directweb.db.Group.getGroupCollection -> DW_GROUP_COLLECTION_MAPPING
+2011-05-23 19:44:19,714 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping collection: com.hd.directweb.db.Group.groupSpecificTemplates -> DW_TEMPLATES
+2011-05-23 19:44:19,714 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping collection: com.hd.directweb.db.GroupCollectionMapping.getSharingGroupCollection -> UMM_GROUPS
+2011-05-23 19:44:19,714 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping collection: com.hd.directweb.db.Menu.subMenus -> DW_SUB_MENU
+2011-05-23 19:44:19,714 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping collection: com.hd.directweb.db.Menu.sharedMenu -> DW_SHARED_MENU
+2011-05-23 19:44:19,730 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping collection: com.hd.directweb.db.SubMenu.sharedSubMenu -> DW_SHARED_SUB_MENU
+2011-05-23 19:44:19,730 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping collection: com.hd.directweb.db.Content.sharedContent -> DW_SHARED_CONTENT
+2011-05-23 19:44:19,730 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping collection: com.hd.directweb.db.Content.contentReference -> DW_CONTENT_REFERENCE
+2011-05-23 19:44:19,730 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping collection: com.hd.directweb.db.Content.contentSharedToAGroup -> DW_SHARED_CONTENT
+2011-05-23 19:44:19,745 INFO  [org.hibernate.cfg.HbmBinder] (main) Mapping collection: com.hd.directweb.db.ApplicationMapping.groupMapping -> UMM_GROUP_MAPPING
+2011-05-23 19:44:19,745 INFO  [org.hibernate.cfg.Configuration] (main) processing association property references
+2011-05-23 19:44:19,745 INFO  [org.hibernate.cfg.Configuration] (main) processing foreign key constraints
+2011-05-23 19:44:20,089 INFO  [org.hibernate.util.NamingHelper] (main) JNDI InitialContext properties:{}
+2011-05-23 19:44:20,401 INFO  [org.hibernate.connection.DatasourceConnectionProvider] (main) Using datasource: java:/JDBCIntranetDS
+2011-05-23 19:44:26,698 INFO  [org.hibernate.cfg.SettingsFactory] (main) RDBMS: Oracle, version: Oracle Database 11g Release 11.2.0.2.0 - 64bit Production
+2011-05-23 19:44:26,698 INFO  [org.hibernate.cfg.SettingsFactory] (main) JDBC driver: Oracle JDBC driver, version: 11.2.0.2.0
+2011-05-23 19:44:26,792 INFO  [org.hibernate.dialect.Dialect] (main) Using dialect: org.hibernate.dialect.OracleDialect
+2011-05-23 19:44:26,808 INFO  [org.hibernate.transaction.TransactionFactoryFactory] (main) Transaction strategy: org.hibernate.transaction.JTATransactionFactory
+2011-05-23 19:44:26,808 INFO  [org.hibernate.util.NamingHelper] (main) JNDI InitialContext properties:{}
+2011-05-23 19:44:26,823 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] (main) No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2011-05-23 19:44:26,823 INFO  [org.hibernate.cfg.SettingsFactory] (main) Automatic flush during beforeCompletion(): disabled
+2011-05-23 19:44:26,823 INFO  [org.hibernate.cfg.SettingsFactory] (main) Automatic session close at end of transaction: disabled
+2011-05-23 19:44:26,823 INFO  [org.hibernate.cfg.SettingsFactory] (main) JDBC batch size: 15
+2011-05-23 19:44:26,839 INFO  [org.hibernate.cfg.SettingsFactory] (main) JDBC batch updates for versioned data: disabled
+2011-05-23 19:44:26,839 INFO  [org.hibernate.cfg.SettingsFactory] (main) Scrollable result sets: enabled
+2011-05-23 19:44:26,839 INFO  [org.hibernate.cfg.SettingsFactory] (main) JDBC3 getGeneratedKeys(): enabled
+2011-05-23 19:44:26,839 INFO  [org.hibernate.cfg.SettingsFactory] (main) Connection release mode: null
+2011-05-23 19:44:26,855 INFO  [org.hibernate.cfg.SettingsFactory] (main) Default batch fetch size: 1
+2011-05-23 19:44:26,855 INFO  [org.hibernate.cfg.SettingsFactory] (main) Generate SQL with comments: disabled
+2011-05-23 19:44:26,855 INFO  [org.hibernate.cfg.SettingsFactory] (main) Order SQL updates by primary key: disabled
+2011-05-23 19:44:26,855 INFO  [org.hibernate.cfg.SettingsFactory] (main) Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2011-05-23 19:44:26,870 INFO  [org.hibernate.hql.ast.ASTQueryTranslatorFactory] (main) Using ASTQueryTranslatorFactory
+2011-05-23 19:44:26,870 INFO  [org.hibernate.cfg.SettingsFactory] (main) Query language substitutions: {false=0, true=1}
+2011-05-23 19:44:26,870 INFO  [org.hibernate.cfg.SettingsFactory] (main) Second-level cache: enabled
+2011-05-23 19:44:26,886 INFO  [org.hibernate.cfg.SettingsFactory] (main) Query cache: disabled
+2011-05-23 19:44:26,886 INFO  [org.hibernate.cfg.SettingsFactory] (main) Cache provider: org.hibernate.cache.EhCacheProvider
+2011-05-23 19:44:26,901 INFO  [org.hibernate.cfg.SettingsFactory] (main) Optimize cache for minimal puts: disabled
+2011-05-23 19:44:26,901 INFO  [org.hibernate.cfg.SettingsFactory] (main) Structured second-level cache entries: enabled
+2011-05-23 19:44:26,917 INFO  [org.hibernate.cfg.SettingsFactory] (main) Statistics: disabled
+2011-05-23 19:44:26,917 INFO  [org.hibernate.cfg.SettingsFactory] (main) Deleted entity synthetic identifier rollback: disabled
+2011-05-23 19:44:26,933 INFO  [org.hibernate.cfg.SettingsFactory] (main) Default entity-mode: pojo
+2011-05-23 19:44:27,042 INFO  [org.hibernate.impl.SessionFactoryImpl] (main) building session factory
+2011-05-23 19:44:27,167 WARN  [net.sf.ehcache.config.Configurator] (main) No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/lib/ehcache-1.1.jar/ehcache-failsafe.xml
+2011-05-23 19:44:29,276 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (main) Factory name: java:/DirectWebHibernateFactory
+2011-05-23 19:44:29,292 INFO  [org.hibernate.util.NamingHelper] (main) JNDI InitialContext properties:{}
+2011-05-23 19:44:29,292 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (main) Bound factory to JNDI name: java:/DirectWebHibernateFactory
+2011-05-23 19:44:29,292 WARN  [org.hibernate.impl.SessionFactoryObjectFactory] (main) InitialContext did not implement EventContext
+2011-05-23 19:44:29,292 INFO  [org.hibernate.impl.SessionFactoryImpl] (main) Checking 0 named queries
+2011-05-23 19:44:29,308 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/DirectWeb
+2011-05-23 19:44:30,105 INFO  [STDOUT] (main) Servlet filter init, now processing URL request.
+2011-05-23 19:44:30,120 INFO  [STDOUT] (main) Servlet filter init, now opening/closing a Session for each request.
+2011-05-23 19:44:30,589 INFO  [org.apache.struts.validator.ValidatorPlugIn] (main) Loading validation rules file from '/WEB-INF/struts/validator-rules.xml'
+2011-05-23 19:44:30,589 INFO  [org.apache.struts.validator.ValidatorPlugIn] (main) Loading validation rules file from '/WEB-INF/struts/validation.xml'
+2011-05-23 19:44:31,183 ERROR [STDERR] (main) SLF4J: Class path contains multiple SLF4J bindings.
+2011-05-23 19:44:31,183 ERROR [STDERR] (main) SLF4J: Found binding in [vfszip:/D:/jboss-5.1.0.GA/common/lib/slf4j-jboss-logging.jar/org/slf4j/impl/StaticLoggerBinder.class]
+2011-05-23 19:44:31,183 ERROR [STDERR] (main) SLF4J: Found binding in [vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/lib/slf4j-simple-1.5.8.jar/org/slf4j/impl/StaticLoggerBinder.class]
+2011-05-23 19:44:31,198 ERROR [STDERR] (main) SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+2011-05-23 19:44:31,261 ERROR [STDERR] (main) 63 [main] INFO net.fckeditor.connector.Dispatcher - Connector initialized to net.fckeditor.connector.impl.LocalConnector
+2011-05-23 19:44:31,464 INFO  [org.apache.coyote.http11.Http11Protocol] (main) Starting Coyote HTTP/1.1 on http-127.0.0.1-9090
+2011-05-23 19:44:31,511 INFO  [org.apache.coyote.ajp.AjpProtocol] (main) Starting Coyote AJP/1.3 on ajp-127.0.0.1-9019
+2011-05-23 19:44:31,526 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (main) JBoss (Microcontainer) [5.1.0.GA (build: SVNTag=JBoss_5_1_0_GA date=200905221634)] Started in 3m:24s:937ms
+2011-05-23 19:53:49,214 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/DirectWeb
+2011-05-23 19:53:49,276 INFO  [org.hibernate.jmx.HibernateServiceMBean] (HDScanner) stopping service
+2011-05-23 19:53:49,276 INFO  [org.hibernate.util.NamingHelper] (HDScanner) JNDI InitialContext properties:{}
+2011-05-23 19:53:49,276 INFO  [org.hibernate.impl.SessionFactoryImpl] (HDScanner) closing
+2011-05-23 19:53:49,276 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) Unbinding factory from JNDI name: java:/DirectWebHibernateFactory
+2011-05-23 19:53:49,276 INFO  [org.hibernate.util.NamingHelper] (HDScanner) JNDI InitialContext properties:{}
+2011-05-23 19:53:49,276 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) Unbound factory from JNDI name: java:/DirectWebHibernateFactory
+2011-05-23 19:53:55,464 INFO  [org.hibernate.jmx.HibernateServiceMBean] (HDScanner) starting service at JNDI name: java:/DirectWebHibernateFactory
+2011-05-23 19:53:55,464 INFO  [org.hibernate.jmx.HibernateServiceMBean] (HDScanner) service properties: {hibernate.session_factory_name=java:/DirectWebHibernateFactory, hibernate.transaction.factory_class=org.hibernate.transaction.JTATransactionFactory, hibernate.connection.datasource=java:/JDBCIntranetDS, jta.UserTransaction=UserTransaction}
+2011-05-23 19:53:55,511 INFO  [org.hibernate.cfg.Environment] (HDScanner) Hibernate 3.0.3
+2011-05-23 19:53:55,526 INFO  [org.hibernate.cfg.Environment] (HDScanner) hibernate.properties not found
+2011-05-23 19:53:55,526 INFO  [org.hibernate.cfg.Environment] (HDScanner) using CGLIB reflection optimizer
+2011-05-23 19:53:55,526 INFO  [org.hibernate.cfg.Environment] (HDScanner) using JDK 1.4 java.sql.Timestamp handling
+2011-05-23 19:53:55,651 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: AdminPages.hbm.xml
+2011-05-23 19:53:55,901 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.AdminPagesMaster -> DW_ADMIN_PAGES
+2011-05-23 19:53:55,948 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: DynamicFieldsMapping.hbm.xml
+2011-05-23 19:53:55,980 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.DynamicFieldsMapping -> DW_DYNAMIC_FIELD_MAPPING
+2011-05-23 19:53:55,980 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: FooterDesignAdmin.hbm.xml
+2011-05-23 19:53:56,026 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.FooterDesignAdmin -> DW_FOOTER_ADMIN
+2011-05-23 19:53:56,026 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: HeaderDesignAdmin.hbm.xml
+2011-05-23 19:53:56,042 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.HeaderDesignAdmin -> DW_HEADER_ADMIN
+2011-05-23 19:53:56,042 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: MenuDesignAdmin.hbm.xml
+2011-05-23 19:53:56,073 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.MenuDesignAdmin -> DW_MENU_ADMIN
+2011-05-23 19:53:56,073 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: TemplateDetails.hbm.xml
+2011-05-23 19:53:56,089 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.TemplateDetails -> DW_TEMPLATE_DETAILS
+2011-05-23 19:53:56,089 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: TemplateItems.hbm.xml
+2011-05-23 19:53:56,120 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.TemplateItems -> DW_TEMPLATE_DETAIL_ITEMS
+2011-05-23 19:53:56,120 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Group.hbm.xml
+2011-05-23 19:53:56,151 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Group -> UMM_GROUPS
+2011-05-23 19:53:56,167 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Group.groupAccessLevels -> UMM_GROUP_USER_TYPES
+2011-05-23 19:53:56,167 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: GroupAccessLevels.hbm.xml
+2011-05-23 19:53:56,183 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.GroupAccessLevels -> UMM_GROUP_USER_TYPES
+2011-05-23 19:53:56,183 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: GroupCollectionMapping.hbm.xml
+2011-05-23 19:53:56,214 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.GroupCollectionMapping -> DW_GROUP_COLLECTION_MAPPING
+2011-05-23 19:53:56,230 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Menu.hbm.xml
+2011-05-23 19:53:56,261 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Menu -> DW_MENU
+2011-05-23 19:53:56,261 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: SharedMenu.hbm.xml
+2011-05-23 19:53:56,276 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.SharedMenu -> DW_SHARED_MENU
+2011-05-23 19:53:56,401 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: SubMenu.hbm.xml
+2011-05-23 19:53:56,433 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.SubMenu -> DW_SUB_MENU
+2011-05-23 19:53:56,433 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: SharedSubMenu.hbm.xml
+2011-05-23 19:53:56,448 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.SharedSubMenu -> DW_SHARED_SUB_MENU
+2011-05-23 19:53:56,464 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Templates.hbm.xml
+2011-05-23 19:53:56,480 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Templates -> DW_TEMPLATES
+2011-05-23 19:53:56,480 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Templates.sections -> DW_TEMPLATE_DETAILS
+2011-05-23 19:53:56,480 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: GroupDesignDetails.hbm.xml
+2011-05-23 19:53:56,511 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.GroupDesignDetails -> DW_GROUP_DESIGN_DETAILS
+2011-05-23 19:53:56,511 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Content.hbm.xml
+2011-05-23 19:53:56,542 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Content -> DW_CONTENT
+2011-05-23 19:53:56,542 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Content.contentItemValues -> DW_CONTENT_REFERENCE
+2011-05-23 19:53:56,542 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: SharedContent.hbm.xml
+2011-05-23 19:53:56,573 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.SharedContent -> DW_SHARED_CONTENT
+2011-05-23 19:53:56,573 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: ContentReference.hbm.xml
+2011-05-23 19:53:56,605 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.ContentReference -> DW_CONTENT_REFERENCE
+2011-05-23 19:53:56,605 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: GroupMapping.hbm.xml
+2011-05-23 19:53:56,620 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.GroupMapping -> UMM_GROUP_MAPPING
+2011-05-23 19:53:56,620 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: User.hbm.xml
+2011-05-23 19:53:56,651 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.User -> UMM_USERS
+2011-05-23 19:53:56,651 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: ApplicationMapping.hbm.xml
+2011-05-23 19:53:56,683 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.ApplicationMapping -> UMM_APPLICATION_MAPPING
+2011-05-23 19:53:56,683 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Application.hbm.xml
+2011-05-23 19:53:56,714 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Application -> UMM_APPLICATION
+2011-05-23 19:53:56,714 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Repository.hbm.xml
+2011-05-23 19:53:56,730 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Repository -> DR_REPOSITORY
+2011-05-23 19:53:56,730 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: ApplicationDetails.hbm.xml
+2011-05-23 19:53:56,776 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.ApplicationDetails -> DW_APPLICATION_DETAILS
+2011-05-23 19:53:56,776 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Shortcuts.hbm.xml
+2011-05-23 19:53:56,792 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Shortcuts -> DW_SHORTCUTS
+2011-05-23 19:53:56,792 INFO  [org.hibernate.cfg.Configuration] (HDScanner) processing extends queue
+2011-05-23 19:53:56,792 INFO  [org.hibernate.cfg.Configuration] (HDScanner) processing collection mappings
+2011-05-23 19:53:56,792 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.AdminPagesMaster.pageSpecificFields -> DW_DYNAMIC_FIELD_MAPPING
+2011-05-23 19:53:56,792 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Group.groupSpecificMenus -> DW_MENU
+2011-05-23 19:53:56,792 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Group.getGroupCollection -> DW_GROUP_COLLECTION_MAPPING
+2011-05-23 19:53:56,808 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Group.groupSpecificTemplates -> DW_TEMPLATES
+2011-05-23 19:53:56,808 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.GroupCollectionMapping.getSharingGroupCollection -> UMM_GROUPS
+2011-05-23 19:53:56,808 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Menu.subMenus -> DW_SUB_MENU
+2011-05-23 19:53:56,808 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Menu.sharedMenu -> DW_SHARED_MENU
+2011-05-23 19:53:56,808 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.SubMenu.sharedSubMenu -> DW_SHARED_SUB_MENU
+2011-05-23 19:53:56,808 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Content.sharedContent -> DW_SHARED_CONTENT
+2011-05-23 19:53:56,808 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Content.contentReference -> DW_CONTENT_REFERENCE
+2011-05-23 19:53:56,808 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Content.contentSharedToAGroup -> DW_SHARED_CONTENT
+2011-05-23 19:53:56,808 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.ApplicationMapping.groupMapping -> UMM_GROUP_MAPPING
+2011-05-23 19:53:56,808 INFO  [org.hibernate.cfg.Configuration] (HDScanner) processing association property references
+2011-05-23 19:53:56,808 INFO  [org.hibernate.cfg.Configuration] (HDScanner) processing foreign key constraints
+2011-05-23 19:53:57,136 INFO  [org.hibernate.util.NamingHelper] (HDScanner) JNDI InitialContext properties:{}
+2011-05-23 19:53:57,433 INFO  [org.hibernate.connection.DatasourceConnectionProvider] (HDScanner) Using datasource: java:/JDBCIntranetDS
+2011-05-23 19:53:57,980 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) RDBMS: Oracle, version: Oracle Database 11g Release 11.2.0.2.0 - 64bit Production
+2011-05-23 19:53:57,980 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) JDBC driver: Oracle JDBC driver, version: 11.2.0.2.0
+2011-05-23 19:53:58,058 INFO  [org.hibernate.dialect.Dialect] (HDScanner) Using dialect: org.hibernate.dialect.OracleDialect
+2011-05-23 19:53:58,073 INFO  [org.hibernate.transaction.TransactionFactoryFactory] (HDScanner) Transaction strategy: org.hibernate.transaction.JTATransactionFactory
+2011-05-23 19:53:58,073 INFO  [org.hibernate.util.NamingHelper] (HDScanner) JNDI InitialContext properties:{}
+2011-05-23 19:53:58,073 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] (HDScanner) No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2011-05-23 19:53:58,073 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Automatic flush during beforeCompletion(): disabled
+2011-05-23 19:53:58,073 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Automatic session close at end of transaction: disabled
+2011-05-23 19:53:58,073 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) JDBC batch size: 15
+2011-05-23 19:53:58,073 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) JDBC batch updates for versioned data: disabled
+2011-05-23 19:53:58,073 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Scrollable result sets: enabled
+2011-05-23 19:53:58,073 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) JDBC3 getGeneratedKeys(): enabled
+2011-05-23 19:53:58,073 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Connection release mode: null
+2011-05-23 19:53:58,073 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Default batch fetch size: 1
+2011-05-23 19:53:58,073 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Generate SQL with comments: disabled
+2011-05-23 19:53:58,073 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Order SQL updates by primary key: disabled
+2011-05-23 19:53:58,073 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2011-05-23 19:53:58,089 INFO  [org.hibernate.hql.ast.ASTQueryTranslatorFactory] (HDScanner) Using ASTQueryTranslatorFactory
+2011-05-23 19:53:58,089 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Query language substitutions: {false=0, true=1}
+2011-05-23 19:53:58,089 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Second-level cache: enabled
+2011-05-23 19:53:58,089 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Query cache: disabled
+2011-05-23 19:53:58,089 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Cache provider: org.hibernate.cache.EhCacheProvider
+2011-05-23 19:53:58,089 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Optimize cache for minimal puts: disabled
+2011-05-23 19:53:58,089 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Structured second-level cache entries: enabled
+2011-05-23 19:53:58,105 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Statistics: disabled
+2011-05-23 19:53:58,105 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Deleted entity synthetic identifier rollback: disabled
+2011-05-23 19:53:58,105 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Default entity-mode: pojo
+2011-05-23 19:53:58,198 INFO  [org.hibernate.impl.SessionFactoryImpl] (HDScanner) building session factory
+2011-05-23 19:53:58,214 WARN  [net.sf.ehcache.config.Configurator] (HDScanner) No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/lib/ehcache-1.1.jar/ehcache-failsafe.xml
+2011-05-23 19:54:00,714 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) Factory name: java:/DirectWebHibernateFactory
+2011-05-23 19:54:00,714 INFO  [org.hibernate.util.NamingHelper] (HDScanner) JNDI InitialContext properties:{}
+2011-05-23 19:54:00,730 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) Bound factory to JNDI name: java:/DirectWebHibernateFactory
+2011-05-23 19:54:00,730 WARN  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) InitialContext did not implement EventContext
+2011-05-23 19:54:00,730 INFO  [org.hibernate.impl.SessionFactoryImpl] (HDScanner) Checking 0 named queries
+2011-05-23 19:54:00,745 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/DirectWeb
+2011-05-23 19:54:01,667 INFO  [STDOUT] (HDScanner) Servlet filter init, now processing URL request.
+2011-05-23 19:54:01,683 INFO  [STDOUT] (HDScanner) Servlet filter init, now opening/closing a Session for each request.
+2011-05-23 19:54:02,183 INFO  [org.apache.struts.validator.ValidatorPlugIn] (HDScanner) Loading validation rules file from '/WEB-INF/struts/validator-rules.xml'
+2011-05-23 19:54:02,183 INFO  [org.apache.struts.validator.ValidatorPlugIn] (HDScanner) Loading validation rules file from '/WEB-INF/struts/validation.xml'
+2011-05-23 19:54:02,776 ERROR [STDERR] (HDScanner) SLF4J: Class path contains multiple SLF4J bindings.
+2011-05-23 19:54:02,776 ERROR [STDERR] (HDScanner) SLF4J: Found binding in [vfszip:/D:/jboss-5.1.0.GA/common/lib/slf4j-jboss-logging.jar/org/slf4j/impl/StaticLoggerBinder.class]
+2011-05-23 19:54:02,776 ERROR [STDERR] (HDScanner) SLF4J: Found binding in [vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/lib/slf4j-simple-1.5.8.jar/org/slf4j/impl/StaticLoggerBinder.class]
+2011-05-23 19:54:02,776 ERROR [STDERR] (HDScanner) SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+2011-05-23 19:54:02,839 ERROR [STDERR] (HDScanner) 63 [HDScanner] INFO net.fckeditor.connector.Dispatcher - Connector initialized to net.fckeditor.connector.impl.LocalConnector
+2011-05-23 19:54:31,714 INFO  [STDOUT] (http-127.0.0.1-9090-1) Closing Session of this thread.
+2011-05-23 19:54:36,230 INFO  [STDOUT] (http-127.0.0.1-9090-1) Authenticate Called
+2011-05-23 19:54:40,026 INFO  [STDOUT] (http-127.0.0.1-9090-1) LDAPWS Authenticate: java.lang.NullPointerException
+2011-05-23 19:54:40,636 INFO  [STDOUT] (http-127.0.0.1-9090-1) --------------------->com.hd.ldap.User@dd3245
+2011-05-23 19:55:12,526 INFO  [STDOUT] (http-127.0.0.1-9090-1) Map---->>>>---templateid7--submenuid--->0--menuid---->28
+2011-05-23 19:55:12,886 INFO  [STDOUT] (http-127.0.0.1-9090-1) Base--->fabcs---->7---> 7 -> templatecss -> stylesheets/templates/fabcs/template1.css -> templatejs -> javascript/fabcs/default.js
+2011-05-23 19:55:12,886 INFO  [STDOUT] (http-127.0.0.1-9090-1) TemplateName---->/templates/fabcs/template1.jsp
+2011-05-23 19:55:13,323 INFO  [STDOUT] (http-127.0.0.1-9090-1) Closing Session of this thread.
+2011-05-23 19:55:46,542 INFO  [STDOUT] (http-127.0.0.1-9090-2) Map---->>>>---templateid6--submenuid--->0--menuid---->11
+2011-05-23 19:55:51,386 INFO  [STDOUT] (http-127.0.0.1-9090-2) Base--->fabcs---->6---> 6 -> templatecss -> stylesheets/templates/fabcs/home.css -> templatejs -> javascript/fabcs/default.js
+2011-05-23 19:55:51,386 INFO  [STDOUT] (http-127.0.0.1-9090-2) TemplateName---->/templates/fabcs/home.jsp
+2011-05-23 19:55:54,730 INFO  [STDOUT] (http-127.0.0.1-9090-2) Closing Session of this thread.
+2011-05-23 19:56:24,214 INFO  [STDOUT] (http-127.0.0.1-9090-1) The exception is->java.io.FileNotFoundException: \opt\files\properties\directweb2.properties (The system cannot find the path specified)
+2011-05-23 19:56:24,245 INFO  [STDOUT] (http-127.0.0.1-9090-1) Start.Searching........
+2011-05-23 19:56:24,245 INFO  [STDOUT] (http-127.0.0.1-9090-1) 1--------------http://search:10000/api/search?index=DirectWeb&results=15000&output=atomxml&start=0&query=fox jumps
+2011-05-23 19:56:26,620 INFO  [STDOUT] (http-127.0.0.1-9090-1) LINK: http://webprd01/content/docrepository/977/3294/Copy%20of%20October%20installer%20report.xls
+2011-05-23 19:56:27,292 INFO  [STDOUT] (http-127.0.0.1-9090-1) End.Searching........
+2011-05-23 19:56:33,042 INFO  [STDOUT] (http-127.0.0.1-9090-1) Map---->>>>---templateid0--submenuid--->0--menuid---->0
+2011-05-23 19:56:45,792 INFO  [STDOUT] (http-127.0.0.1-9090-1) Base--->fabcs---->0---> 0 -> templatecss ->  -> templatejs -> 
+2011-05-23 19:56:45,792 INFO  [STDOUT] (http-127.0.0.1-9090-1) TemplateName---->/templates/documentSearchResults.jsp
+2011-05-23 19:56:46,167 ERROR [org.apache.struts.actions.DispatchAction] (http-127.0.0.1-9090-2) Request[/search] does not contain handler parameter named 'mode'.  This may be caused by whitespace in the label text.
+2011-05-23 19:56:46,198 WARN  [org.apache.struts.action.RequestProcessor] (http-127.0.0.1-9090-2) Unhandled Exception thrown: class javax.servlet.ServletException
+2011-05-23 19:56:46,198 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[localhost].[/DirectWeb].[action]] (http-127.0.0.1-9090-2) Servlet.service() for servlet action threw exception
+javax.servlet.ServletException: Request[/search] does not contain handler parameter named 'mode'.  This may be caused by whitespace in the label text.
+	at org.apache.struts.actions.DispatchAction.unspecified(DispatchAction.java:222)
+	at org.apache.struts.actions.DispatchAction.dispatchMethod(DispatchAction.java:256)
+	at org.apache.struts.actions.DispatchAction.execute(DispatchAction.java:194)
+	at org.apache.struts.action.RequestProcessor.processActionPerform(RequestProcessor.java:419)
+	at org.apache.struts.action.RequestProcessor.process(RequestProcessor.java:224)
+	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1194)
+	at org.apache.struts.action.ActionServlet.doGet(ActionServlet.java:414)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at com.hd.directweb.filter.HibernateFilter.doFilter(HibernateFilter.java:38)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at com.hd.directweb.filter.URLInterceptor.doFilter(URLInterceptor.java:70)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.jboss.web.tomcat.filters.ReplyHeaderFilter.doFilter(ReplyHeaderFilter.java:96)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:235)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.jboss.web.tomcat.security.SecurityAssociationValve.invoke(SecurityAssociationValve.java:190)
+	at org.jboss.web.tomcat.security.JaccContextValve.invoke(JaccContextValve.java:92)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.process(SecurityContextEstablishmentValve.java:126)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.invoke(SecurityContextEstablishmentValve.java:70)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:330)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:829)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:598)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:619)
+2011-05-23 19:56:49,933 INFO  [STDOUT] (http-127.0.0.1-9090-1) The exception is->java.io.FileNotFoundException: \opt\files\properties\directweb2.properties (The system cannot find the path specified)
+2011-05-23 19:56:49,980 INFO  [STDOUT] (http-127.0.0.1-9090-1) Closing Session of this thread.
+2011-05-23 19:57:34,448 INFO  [STDOUT] (http-127.0.0.1-9090-1) Map---->>>>---templateid0--submenuid--->0--menuid---->0
+2011-05-23 19:57:35,042 INFO  [STDOUT] (http-127.0.0.1-9090-1) Base--->fabcs---->0---> 0 -> templatecss ->  -> templatejs -> 
+2011-05-23 19:57:35,042 INFO  [STDOUT] (http-127.0.0.1-9090-1) TemplateName---->/templates/directWebSearchResults.jsp
+2011-05-23 19:57:35,105 ERROR [org.apache.struts.actions.DispatchAction] (http-127.0.0.1-9090-2) Request[/search] does not contain handler parameter named 'mode'.  This may be caused by whitespace in the label text.
+2011-05-23 19:57:35,105 WARN  [org.apache.struts.action.RequestProcessor] (http-127.0.0.1-9090-2) Unhandled Exception thrown: class javax.servlet.ServletException
+2011-05-23 19:57:35,105 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[localhost].[/DirectWeb].[action]] (http-127.0.0.1-9090-2) Servlet.service() for servlet action threw exception
+javax.servlet.ServletException: Request[/search] does not contain handler parameter named 'mode'.  This may be caused by whitespace in the label text.
+	at org.apache.struts.actions.DispatchAction.unspecified(DispatchAction.java:222)
+	at org.apache.struts.actions.DispatchAction.dispatchMethod(DispatchAction.java:256)
+	at org.apache.struts.actions.DispatchAction.execute(DispatchAction.java:194)
+	at org.apache.struts.action.RequestProcessor.processActionPerform(RequestProcessor.java:419)
+	at org.apache.struts.action.RequestProcessor.process(RequestProcessor.java:224)
+	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1194)
+	at org.apache.struts.action.ActionServlet.doGet(ActionServlet.java:414)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at com.hd.directweb.filter.HibernateFilter.doFilter(HibernateFilter.java:38)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at com.hd.directweb.filter.URLInterceptor.doFilter(URLInterceptor.java:70)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.jboss.web.tomcat.filters.ReplyHeaderFilter.doFilter(ReplyHeaderFilter.java:96)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:235)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.jboss.web.tomcat.security.SecurityAssociationValve.invoke(SecurityAssociationValve.java:190)
+	at org.jboss.web.tomcat.security.JaccContextValve.invoke(JaccContextValve.java:92)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.process(SecurityContextEstablishmentValve.java:126)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.invoke(SecurityContextEstablishmentValve.java:70)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:330)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:829)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:598)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:619)
+2011-05-23 19:57:36,136 INFO  [STDOUT] (http-127.0.0.1-9090-1) Closing Session of this thread.

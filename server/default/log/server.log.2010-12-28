@@ -1,0 +1,142 @@
+2010-12-28 15:51:51,882 INFO  [STDOUT] (http-127.0.0.1-8080-1) Opening new Session for this thread.
+2010-12-28 15:51:51,960 INFO  [org.hibernate.cfg.Configuration] (http-127.0.0.1-8080-1) configuring from resource: OnlineSurveyDS.cfg.xml
+2010-12-28 15:51:51,960 INFO  [org.hibernate.cfg.Configuration] (http-127.0.0.1-8080-1) Configuration resource: OnlineSurveyDS.cfg.xml
+2010-12-28 15:51:52,101 INFO  [org.hibernate.cfg.Configuration] (http-127.0.0.1-8080-1) Mapping resource: com/hd/ehs/form/CategoryMaster.hbm.xml
+2010-12-28 15:51:52,163 INFO  [org.hibernate.cfg.HbmBinder] (http-127.0.0.1-8080-1) Mapping class: com.hd.ehs.form.CategoryMaster -> EHS_CATEGORY_MASTER
+2010-12-28 15:51:52,163 INFO  [org.hibernate.cfg.Configuration] (http-127.0.0.1-8080-1) Mapping resource: com/hd/ehs/form/EHSMaster.hbm.xml
+2010-12-28 15:51:52,226 INFO  [org.hibernate.cfg.HbmBinder] (http-127.0.0.1-8080-1) Mapping class: com.hd.ehs.form.EHSMaster -> EHS_MASTER
+2010-12-28 15:51:52,242 INFO  [org.hibernate.cfg.Configuration] (http-127.0.0.1-8080-1) Mapping resource: com/hd/ehs/form/EHSDetails.hbm.xml
+2010-12-28 15:51:52,304 INFO  [org.hibernate.cfg.HbmBinder] (http-127.0.0.1-8080-1) Mapping class: com.hd.ehs.form.EHSDetailsDO -> EHS_DETAILS
+2010-12-28 15:51:52,304 INFO  [org.hibernate.cfg.Configuration] (http-127.0.0.1-8080-1) Mapping resource: com/hd/ehs/form/PPEAssessmentPartsMaster.hbm.xml
+2010-12-28 15:51:52,351 INFO  [org.hibernate.cfg.HbmBinder] (http-127.0.0.1-8080-1) Mapping class: com.hd.ehs.form.PPEAssessmentForm -> PPE_ASSESSMENT_PARTS_MASTER
+2010-12-28 15:51:52,351 INFO  [org.hibernate.cfg.Configuration] (http-127.0.0.1-8080-1) Mapping resource: com/hd/ehs/form/PPEAssessmentMaster.hbm.xml
+2010-12-28 15:51:52,413 INFO  [org.hibernate.cfg.HbmBinder] (http-127.0.0.1-8080-1) Mapping class: com.hd.ehs.form.PPEAssessmentMaster -> PPE_ASSESSMENT_MASTER
+2010-12-28 15:51:52,413 INFO  [org.hibernate.cfg.Configuration] (http-127.0.0.1-8080-1) Mapping resource: com/hd/ehs/form/PPEAssessmentDetails.hbm.xml
+2010-12-28 15:51:52,460 INFO  [org.hibernate.cfg.HbmBinder] (http-127.0.0.1-8080-1) Mapping class: com.hd.ehs.form.PPEAssessmentDetails -> PPE_ASSESSMENT_DETAILS
+2010-12-28 15:51:52,460 INFO  [org.hibernate.cfg.Configuration] (http-127.0.0.1-8080-1) Mapping resource: com/hd/ehs/form/EHSGeneralInformation.hbm.xml
+2010-12-28 15:51:52,507 INFO  [org.hibernate.cfg.HbmBinder] (http-127.0.0.1-8080-1) Mapping class: com.hd.ehs.form.EHSGeneralInformation -> EHS_GENERAL_INFORMATION
+2010-12-28 15:51:52,507 INFO  [org.hibernate.cfg.Configuration] (http-127.0.0.1-8080-1) Mapping resource: com/hd/ehs/form/JHAAnalysisCategoryMaster.hbm.xml
+2010-12-28 15:51:52,554 INFO  [org.hibernate.cfg.HbmBinder] (http-127.0.0.1-8080-1) Mapping class: com.hd.ehs.form.JHAAnalysisCategoryMaster -> JHA_ANALYSIS_CATEGORY_MASTER
+2010-12-28 15:51:52,554 INFO  [org.hibernate.cfg.Configuration] (http-127.0.0.1-8080-1) Mapping resource: com/hd/ehs/form/JHAAnalysisCreationMaster.hbm.xml
+2010-12-28 15:51:52,617 INFO  [org.hibernate.cfg.HbmBinder] (http-127.0.0.1-8080-1) Mapping class: com.hd.ehs.form.JHAAnalysisCreationMaster -> JHA_ANALYSIS_CREATION_MASTER
+2010-12-28 15:51:52,617 INFO  [org.hibernate.cfg.Configuration] (http-127.0.0.1-8080-1) Mapping resource: com/hd/ehs/form/JHAAnalysisCreationDetails.hbm.xml
+2010-12-28 15:51:52,663 INFO  [org.hibernate.cfg.HbmBinder] (http-127.0.0.1-8080-1) Mapping class: com.hd.ehs.form.JHAAnalysisCreationDetails -> JHA_ANALYSIS_CREATION_DETAILS
+2010-12-28 15:51:52,663 INFO  [org.hibernate.cfg.Configuration] (http-127.0.0.1-8080-1) Configured SessionFactory: null
+2010-12-28 15:51:52,663 INFO  [org.hibernate.cfg.Configuration] (http-127.0.0.1-8080-1) processing extends queue
+2010-12-28 15:51:52,663 INFO  [org.hibernate.cfg.Configuration] (http-127.0.0.1-8080-1) processing collection mappings
+2010-12-28 15:51:52,663 INFO  [org.hibernate.cfg.HbmBinder] (http-127.0.0.1-8080-1) Mapping collection: com.hd.ehs.form.EHSMaster.EHSMasterDetails -> EHS_DETAILS
+2010-12-28 15:51:52,663 INFO  [org.hibernate.cfg.HbmBinder] (http-127.0.0.1-8080-1) Mapping collection: com.hd.ehs.form.JHAAnalysisCategoryMaster.analysisCreationMasterDetails -> JHA_ANALYSIS_CREATION_MASTER
+2010-12-28 15:51:52,663 INFO  [org.hibernate.cfg.Configuration] (http-127.0.0.1-8080-1) processing association property references
+2010-12-28 15:51:52,663 INFO  [org.hibernate.cfg.Configuration] (http-127.0.0.1-8080-1) processing foreign key constraints
+2010-12-28 15:51:52,663 INFO  [org.hibernate.util.NamingHelper] (http-127.0.0.1-8080-1) JNDI InitialContext properties:{}
+2010-12-28 15:51:52,663 INFO  [org.hibernate.connection.DatasourceConnectionProvider] (http-127.0.0.1-8080-1) Using datasource: java:OnlineSurveyDS
+2010-12-28 15:51:59,710 INFO  [org.hibernate.cfg.SettingsFactory] (http-127.0.0.1-8080-1) RDBMS: Oracle, version: Oracle Database 10g Enterprise Edition Release 10.2.0.4.0 - 64bit Production
+With the Partitioning, Data Mining and Real Application Testing options
+2010-12-28 15:51:59,726 INFO  [org.hibernate.cfg.SettingsFactory] (http-127.0.0.1-8080-1) JDBC driver: Oracle JDBC driver, version: 10.2.0.4.0
+2010-12-28 15:51:59,726 INFO  [org.hibernate.dialect.Dialect] (http-127.0.0.1-8080-1) Using dialect: org.hibernate.dialect.OracleDialect
+2010-12-28 15:51:59,726 INFO  [org.hibernate.transaction.TransactionFactoryFactory] (http-127.0.0.1-8080-1) Using default transaction strategy (direct JDBC transactions)
+2010-12-28 15:51:59,726 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] (http-127.0.0.1-8080-1) No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2010-12-28 15:51:59,726 INFO  [org.hibernate.cfg.SettingsFactory] (http-127.0.0.1-8080-1) Automatic flush during beforeCompletion(): disabled
+2010-12-28 15:51:59,726 INFO  [org.hibernate.cfg.SettingsFactory] (http-127.0.0.1-8080-1) Automatic session close at end of transaction: disabled
+2010-12-28 15:51:59,726 INFO  [org.hibernate.cfg.SettingsFactory] (http-127.0.0.1-8080-1) JDBC batch size: 15
+2010-12-28 15:51:59,726 INFO  [org.hibernate.cfg.SettingsFactory] (http-127.0.0.1-8080-1) JDBC batch updates for versioned data: disabled
+2010-12-28 15:51:59,726 INFO  [org.hibernate.cfg.SettingsFactory] (http-127.0.0.1-8080-1) Scrollable result sets: enabled
+2010-12-28 15:51:59,726 INFO  [org.hibernate.cfg.SettingsFactory] (http-127.0.0.1-8080-1) JDBC3 getGeneratedKeys(): enabled
+2010-12-28 15:51:59,726 INFO  [org.hibernate.cfg.SettingsFactory] (http-127.0.0.1-8080-1) Connection release mode: null
+2010-12-28 15:51:59,726 INFO  [org.hibernate.cfg.SettingsFactory] (http-127.0.0.1-8080-1) Default batch fetch size: 1
+2010-12-28 15:51:59,726 INFO  [org.hibernate.cfg.SettingsFactory] (http-127.0.0.1-8080-1) Generate SQL with comments: disabled
+2010-12-28 15:51:59,726 INFO  [org.hibernate.cfg.SettingsFactory] (http-127.0.0.1-8080-1) Order SQL updates by primary key: disabled
+2010-12-28 15:51:59,726 INFO  [org.hibernate.cfg.SettingsFactory] (http-127.0.0.1-8080-1) Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2010-12-28 15:51:59,726 INFO  [org.hibernate.hql.ast.ASTQueryTranslatorFactory] (http-127.0.0.1-8080-1) Using ASTQueryTranslatorFactory
+2010-12-28 15:51:59,726 INFO  [org.hibernate.cfg.SettingsFactory] (http-127.0.0.1-8080-1) Query language substitutions: {}
+2010-12-28 15:51:59,726 INFO  [org.hibernate.cfg.SettingsFactory] (http-127.0.0.1-8080-1) Second-level cache: enabled
+2010-12-28 15:51:59,726 INFO  [org.hibernate.cfg.SettingsFactory] (http-127.0.0.1-8080-1) Query cache: enabled
+2010-12-28 15:51:59,726 INFO  [org.hibernate.cfg.SettingsFactory] (http-127.0.0.1-8080-1) Cache provider: org.hibernate.cache.EhCacheProvider
+2010-12-28 15:51:59,726 INFO  [org.hibernate.cfg.SettingsFactory] (http-127.0.0.1-8080-1) Optimize cache for minimal puts: disabled
+2010-12-28 15:51:59,726 INFO  [org.hibernate.cfg.SettingsFactory] (http-127.0.0.1-8080-1) Structured second-level cache entries: enabled
+2010-12-28 15:51:59,726 INFO  [org.hibernate.cfg.SettingsFactory] (http-127.0.0.1-8080-1) Query cache factory: org.hibernate.cache.StandardQueryCacheFactory
+2010-12-28 15:51:59,726 INFO  [org.hibernate.cfg.SettingsFactory] (http-127.0.0.1-8080-1) Statistics: disabled
+2010-12-28 15:51:59,726 INFO  [org.hibernate.cfg.SettingsFactory] (http-127.0.0.1-8080-1) Deleted entity synthetic identifier rollback: disabled
+2010-12-28 15:51:59,726 INFO  [org.hibernate.cfg.SettingsFactory] (http-127.0.0.1-8080-1) Default entity-mode: pojo
+2010-12-28 15:51:59,742 INFO  [org.hibernate.impl.SessionFactoryImpl] (http-127.0.0.1-8080-1) building session factory
+2010-12-28 15:51:59,757 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (http-127.0.0.1-8080-1) Not binding factory to JNDI, no JNDI name configured
+2010-12-28 15:51:59,757 INFO  [org.hibernate.dialect.Dialect] (http-127.0.0.1-8080-1) Using dialect: org.hibernate.dialect.OracleDialect
+2010-12-28 15:51:59,757 INFO  [org.hibernate.util.NamingHelper] (http-127.0.0.1-8080-1) JNDI InitialContext properties:{}
+2010-12-28 15:51:59,757 INFO  [org.hibernate.connection.DatasourceConnectionProvider] (http-127.0.0.1-8080-1) Using datasource: java:OnlineSurveyDS
+2010-12-28 15:51:59,757 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (http-127.0.0.1-8080-1) Running hbm2ddl schema update
+2010-12-28 15:51:59,757 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (http-127.0.0.1-8080-1) fetching database metadata
+2010-12-28 15:52:10,507 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (http-127.0.0.1-8080-1) updating schema
+2010-12-28 15:52:10,507 INFO  [org.hibernate.cfg.Configuration] (http-127.0.0.1-8080-1) processing extends queue
+2010-12-28 15:52:10,507 INFO  [org.hibernate.cfg.Configuration] (http-127.0.0.1-8080-1) processing collection mappings
+2010-12-28 15:52:10,507 INFO  [org.hibernate.cfg.Configuration] (http-127.0.0.1-8080-1) processing association property references
+2010-12-28 15:52:10,507 INFO  [org.hibernate.cfg.Configuration] (http-127.0.0.1-8080-1) processing foreign key constraints
+2010-12-28 15:52:15,288 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-127.0.0.1-8080-1) table found: ONLINE_SURVEY.EHS_CATEGORY_MASTER
+2010-12-28 15:52:15,288 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-127.0.0.1-8080-1) columns: [id, category_name, category_description]
+2010-12-28 15:52:15,288 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-127.0.0.1-8080-1) foreign keys: []
+2010-12-28 15:52:15,288 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-127.0.0.1-8080-1) indexes: []
+2010-12-28 15:52:20,038 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-127.0.0.1-8080-1) table found: ONLINE_SURVEY.EHS_DETAILS
+2010-12-28 15:52:20,038 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-127.0.0.1-8080-1) columns: [id, sort, ehs_master_id, ehs_category_id, short_desc, parent_id]
+2010-12-28 15:52:20,038 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-127.0.0.1-8080-1) foreign keys: []
+2010-12-28 15:52:20,038 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-127.0.0.1-8080-1) indexes: []
+2010-12-28 15:52:24,538 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-127.0.0.1-8080-1) table found: ONLINE_SURVEY.EHS_GENERAL_INFORMATION
+2010-12-28 15:52:24,538 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-127.0.0.1-8080-1) columns: [id, assessment_no, information_key, information_value, ehs_category_id]
+2010-12-28 15:52:24,538 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-127.0.0.1-8080-1) foreign keys: []
+2010-12-28 15:52:24,538 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-127.0.0.1-8080-1) indexes: []
+2010-12-28 15:52:28,976 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-127.0.0.1-8080-1) table found: ONLINE_SURVEY.EHS_MASTER
+2010-12-28 15:52:28,976 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-127.0.0.1-8080-1) columns: [id, ehs_master_name, description, ehs_category_id, type]
+2010-12-28 15:52:28,976 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-127.0.0.1-8080-1) foreign keys: []
+2010-12-28 15:52:28,976 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-127.0.0.1-8080-1) indexes: []
+2010-12-28 15:52:33,179 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-127.0.0.1-8080-1) table found: ONLINE_SURVEY.JHA_ANALYSIS_CATEGORY_MASTER
+2010-12-28 15:52:33,179 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-127.0.0.1-8080-1) columns: [id, category_name, add_multiple_values, add_multiple_button_label]
+2010-12-28 15:52:33,179 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-127.0.0.1-8080-1) foreign keys: []
+2010-12-28 15:52:33,179 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-127.0.0.1-8080-1) indexes: []
+2010-12-28 15:53:00,867 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-127.0.0.1-8080-1) table found: ONLINE_SURVEY.JHA_ANALYSIS_CREATION_DETAILS
+2010-12-28 15:53:00,867 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-127.0.0.1-8080-1) columns: [id, assessment_no, jha_creation_key, jha_analysis_category_id, jha_creation_value, jha_analysis_creation_id, group_multiple_categories]
+2010-12-28 15:53:00,867 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-127.0.0.1-8080-1) foreign keys: []
+2010-12-28 15:53:00,867 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-127.0.0.1-8080-1) indexes: [sys_c0097949]
+2010-12-28 15:53:07,117 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-127.0.0.1-8080-1) table found: ONLINE_SURVEY.JHA_ANALYSIS_CREATION_MASTER
+2010-12-28 15:53:07,132 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-127.0.0.1-8080-1) columns: [id, analysis_creation_type, analysis_creation_value, analysis_creation_key, sort_order, analysis_category_id]
+2010-12-28 15:53:07,132 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-127.0.0.1-8080-1) foreign keys: []
+2010-12-28 15:53:07,132 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-127.0.0.1-8080-1) indexes: []
+2010-12-28 15:53:11,570 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-127.0.0.1-8080-1) table found: ONLINE_SURVEY.PPE_ASSESSMENT_DETAILS
+2010-12-28 15:53:11,570 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-127.0.0.1-8080-1) columns: [id, assessment_no, ppe_assessment_master_id, recommended, required]
+2010-12-28 15:53:11,570 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-127.0.0.1-8080-1) foreign keys: []
+2010-12-28 15:53:11,570 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-127.0.0.1-8080-1) indexes: []
+2010-12-28 15:53:17,445 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-127.0.0.1-8080-1) table found: ONLINE_SURVEY.PPE_ASSESSMENT_MASTER
+2010-12-28 15:53:17,445 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-127.0.0.1-8080-1) columns: [id, hazard, ppe_assessment_part_id, sort_order, ppe]
+2010-12-28 15:53:17,445 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-127.0.0.1-8080-1) foreign keys: []
+2010-12-28 15:53:17,445 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-127.0.0.1-8080-1) indexes: [sys_c0095503]
+2010-12-28 15:53:21,960 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-127.0.0.1-8080-1) table found: ONLINE_SURVEY.PPE_ASSESSMENT_PARTS_MASTER
+2010-12-28 15:53:21,960 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-127.0.0.1-8080-1) columns: [id, image_name, part_of_body, image_desc, sort_order]
+2010-12-28 15:53:21,976 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-127.0.0.1-8080-1) foreign keys: []
+2010-12-28 15:53:21,976 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-127.0.0.1-8080-1) indexes: []
+2010-12-28 15:53:22,538 ERROR [org.hibernate.tool.hbm2ddl.SchemaUpdate] (http-127.0.0.1-8080-1) Unsuccessful: alter table EHS_DETAILS add constraint FKFCB020F34FAA63B4 foreign key (EHS_MASTER_ID) references EHS_MASTER
+2010-12-28 15:53:22,538 ERROR [org.hibernate.tool.hbm2ddl.SchemaUpdate] (http-127.0.0.1-8080-1) ORA-02268: referenced table does not have a primary key
+
+2010-12-28 15:53:23,101 ERROR [org.hibernate.tool.hbm2ddl.SchemaUpdate] (http-127.0.0.1-8080-1) Unsuccessful: alter table JHA_ANALYSIS_CREATION_MASTER add constraint FKCAADA5B355C6511 foreign key (ANALYSIS_CATEGORY_ID) references JHA_ANALYSIS_CATEGORY_MASTER
+2010-12-28 15:53:23,101 ERROR [org.hibernate.tool.hbm2ddl.SchemaUpdate] (http-127.0.0.1-8080-1) ORA-02268: referenced table does not have a primary key
+
+2010-12-28 15:53:23,101 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (http-127.0.0.1-8080-1) schema update complete
+2010-12-28 15:53:23,101 INFO  [org.hibernate.cache.UpdateTimestampsCache] (http-127.0.0.1-8080-1) starting update timestamps cache at region: org.hibernate.cache.UpdateTimestampsCache
+2010-12-28 15:53:23,101 INFO  [org.hibernate.cache.StandardQueryCache] (http-127.0.0.1-8080-1) starting query cache at region: org.hibernate.cache.StandardQueryCache
+2010-12-28 15:53:23,101 INFO  [org.hibernate.impl.SessionFactoryImpl] (http-127.0.0.1-8080-1) Checking 0 named queries
+2010-12-28 15:53:46,585 INFO  [STDOUT] (http-127.0.0.1-8080-1) 11
+2010-12-28 15:53:46,585 INFO  [STDOUT] (http-127.0.0.1-8080-1) 2
+2010-12-28 15:53:46,585 INFO  [STDOUT] (http-127.0.0.1-8080-1) 4
+2010-12-28 15:53:46,601 INFO  [STDOUT] (http-127.0.0.1-8080-1) JSP-->1
+2010-12-28 15:54:07,492 INFO  [STDOUT] (http-127.0.0.1-8080-1) 12
+2010-12-28 15:54:07,492 INFO  [STDOUT] (http-127.0.0.1-8080-1) 2
+2010-12-28 15:54:07,492 INFO  [STDOUT] (http-127.0.0.1-8080-1) 3
+2010-12-28 15:54:07,538 INFO  [STDOUT] (http-127.0.0.1-8080-1) JSP-->2
+2010-12-28 15:54:20,898 INFO  [STDOUT] (http-127.0.0.1-8080-1) 13
+2010-12-28 15:54:20,898 INFO  [STDOUT] (http-127.0.0.1-8080-1) 2
+2010-12-28 15:54:20,898 INFO  [STDOUT] (http-127.0.0.1-8080-1) 3
+2010-12-28 15:54:20,913 INFO  [STDOUT] (http-127.0.0.1-8080-1) JSP-->3
+2010-12-28 15:54:40,554 INFO  [STDOUT] (http-127.0.0.1-8080-1) 14
+2010-12-28 15:54:40,632 INFO  [STDOUT] (http-127.0.0.1-8080-1) JSP-->2
+2010-12-28 15:54:42,945 INFO  [STDOUT] (http-127.0.0.1-8080-1) 13
+2010-12-28 15:54:42,945 INFO  [STDOUT] (http-127.0.0.1-8080-1) 2
+2010-12-28 15:54:42,960 INFO  [STDOUT] (http-127.0.0.1-8080-1) 3
+2010-12-28 15:54:42,960 INFO  [STDOUT] (http-127.0.0.1-8080-1) JSP-->2
+2010-12-28 15:54:50,538 INFO  [STDOUT] (http-127.0.0.1-8080-1) 13
+2010-12-28 15:54:50,570 INFO  [STDOUT] (http-127.0.0.1-8080-1) JSP-->3

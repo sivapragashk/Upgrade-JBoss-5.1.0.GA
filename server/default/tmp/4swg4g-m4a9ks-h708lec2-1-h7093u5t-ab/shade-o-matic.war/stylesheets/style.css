@@ -1,0 +1,124 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption
+{
+	background: transparent;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-position: center top;
+	height: 100%;
+	background-color: #709595;
+}
+
+#container{
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    position: relative;
+    width: 1000px;
+    overflow: auto;
+}
+#maincontent{
+	float:left;
+	text-align: center;
+	width:1000px;
+	min-height:400px;
+}
+
+
+#templateheader{
+	width:982px;
+	background-color:#FFD205;
+	height: 33px;
+	line-height: 33px;
+	border-bottom:2px solid #FFFFFF;
+	color:#193F56;
+	float:left;
+	font-family:Georgia;
+	font-size:16px;
+	font-weight:normal;
+	margin:0;
+	padding-left:18px;
+	text-align:left;
+	
+}
+#admin_templateheader{
+	width:982px;
+	background-color:#FFD205;
+	height: 33px;
+	line-height: 33px;
+	border-bottom:2px solid #FFFFFF;
+	color:#193F56;
+	float:left;
+	font-family:Georgia;
+	font-size:16px;
+	font-weight:normal;
+	margin:0;
+	padding-left:18px;
+	text-align:center;
+	
+}
+
+#admin_template_insert_link{
+	text-align: center;
+	font-family:Georgia;
+	font-size:12px;
+	color: #193f56;
+	text-decoration: underline;
+}
+
+#admintemplate_editdelete_links{
+	font: bold 10px Georgia;
+	color: #193f56;
+	font-style: italic;
+	text-transform: capitalize;
+}
+a{
+	text-decoration: none;
+}
+#header{
+	background: url no-repeat scroll 0 0 transparent;
+	width: 1000px;
+	margin: -10px auto;
+	background-color:#FFFFFF;
+	height: 115px;
+}
+ 
+#logo{
+	width: 330px;
+	text-align: center;
+	margin-left: 70px;
+	margin-top: 20px;
+	float: left;
+}
+#logo30year {
+	width:219px;
+	height:100px;
+	float: left;
+	margin-top: 10px;
+}
+
+#epicLogin{
+	width: 158px;
+	height: 65px;
+	margin-top: 22px;
+	float: left;
+	margin-left: 200px;
+}
+
+
+
+

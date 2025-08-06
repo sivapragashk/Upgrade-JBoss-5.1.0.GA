@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<attachments-metadata xmlns="urn:org:jboss:profileservice:attachments:1.0">
+    <attachment>
+        <attachment-class-name>org.jboss.resource.metadata.mcf.ManagedConnectionFactoryDeploymentGroup</attachment-class-name>
+        <last-modified>1265027052134</last-modified>
+        <attachment-name>org.jboss.resource.metadata.mcf.ManagedConnectionFactoryDeploymentGroup</attachment-name>
+    </attachment>
+    <deployment-name>jdbc_IntranetDS-ds.xml</deployment-name>
+    <last-modified>1265027052134</last-modified>
+</attachments-metadata>

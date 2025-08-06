@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:attachments-metadata xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns2="urn:org:jboss:profileservice:attachments:1.0">
+    <ns2:attachment>
+        <ns2:attachment-class-name>org.jboss.resource.metadata.mcf.ManagedConnectionFactoryDeploymentGroup</ns2:attachment-class-name>
+        <ns2:last-modified>1280398659737</ns2:last-modified>
+        <ns2:attachment-name>org.jboss.resource.metadata.mcf.ManagedConnectionFactoryDeploymentGroup</ns2:attachment-name>
+    </ns2:attachment>
+    <ns2:deployment-name>HdFabDS-ds.xml</ns2:deployment-name>
+    <ns2:last-modified>1280398659737</ns2:last-modified>
+</ns2:attachments-metadata>

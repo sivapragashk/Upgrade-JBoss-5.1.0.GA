@@ -1,0 +1,131 @@
+2011-06-10 13:44:15,752 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/DirectWeb
+2011-06-10 13:44:17,268 WARNING [javax.enterprise.resource.webcontainer.jsf.config] (HDScanner) Unable to process deployment descriptor for context '/DirectWeb'
+2011-06-10 13:44:17,268 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (HDScanner) Initializing Mojarra (1.2_12-b01-FCS) for context '/DirectWeb'
+2011-06-10 20:23:18,885 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/DirectWeb
+2011-06-10 20:24:23,227 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/DirectWeb
+2011-06-10 20:24:24,634 WARNING [javax.enterprise.resource.webcontainer.jsf.config] (HDScanner) Unable to process deployment descriptor for context '/DirectWeb'
+2011-06-10 20:24:24,634 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (HDScanner) Initializing Mojarra (1.2_12-b01-FCS) for context '/DirectWeb'
+2011-06-10 20:25:01,175 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/DirectWeb
+2011-06-10 20:25:27,786 INFO  [org.hibernate.jmx.HibernateServiceMBean] (HDScanner) starting service at JNDI name: java:/DirectWebHibernateFactory
+2011-06-10 20:25:27,786 INFO  [org.hibernate.jmx.HibernateServiceMBean] (HDScanner) service properties: {hibernate.session_factory_name=java:/DirectWebHibernateFactory, hibernate.transaction.factory_class=org.hibernate.transaction.JTATransactionFactory, hibernate.connection.datasource=java:/JDBCIntranetDS, jta.UserTransaction=UserTransaction}
+2011-06-10 20:25:28,287 INFO  [org.hibernate.cfg.Environment] (HDScanner) Hibernate 3.0.3
+2011-06-10 20:25:28,302 INFO  [org.hibernate.cfg.Environment] (HDScanner) hibernate.properties not found
+2011-06-10 20:25:28,302 INFO  [org.hibernate.cfg.Environment] (HDScanner) using CGLIB reflection optimizer
+2011-06-10 20:25:28,318 INFO  [org.hibernate.cfg.Environment] (HDScanner) using JDK 1.4 java.sql.Timestamp handling
+2011-06-10 20:25:28,990 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: AdminPages.hbm.xml
+2011-06-10 20:25:29,474 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.AdminPagesMaster -> DW_ADMIN_PAGES
+2011-06-10 20:25:29,506 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: DynamicFieldsMapping.hbm.xml
+2011-06-10 20:25:29,537 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.DynamicFieldsMapping -> DW_DYNAMIC_FIELD_MAPPING
+2011-06-10 20:25:29,537 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: FooterDesignAdmin.hbm.xml
+2011-06-10 20:25:29,553 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.FooterDesignAdmin -> DW_FOOTER_ADMIN
+2011-06-10 20:25:29,568 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: HeaderDesignAdmin.hbm.xml
+2011-06-10 20:25:29,631 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.HeaderDesignAdmin -> DW_HEADER_ADMIN
+2011-06-10 20:25:29,631 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: MenuDesignAdmin.hbm.xml
+2011-06-10 20:25:29,662 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.MenuDesignAdmin -> DW_MENU_ADMIN
+2011-06-10 20:25:29,662 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: TemplateDetails.hbm.xml
+2011-06-10 20:25:29,678 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.TemplateDetails -> DW_TEMPLATE_DETAILS
+2011-06-10 20:25:29,678 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: TemplateItems.hbm.xml
+2011-06-10 20:25:29,693 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.TemplateItems -> DW_TEMPLATE_DETAIL_ITEMS
+2011-06-10 20:25:29,693 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Group.hbm.xml
+2011-06-10 20:25:29,724 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Group -> UMM_GROUPS
+2011-06-10 20:25:29,740 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Group.groupAccessLevels -> UMM_GROUP_USER_TYPES
+2011-06-10 20:25:29,740 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: GroupAccessLevels.hbm.xml
+2011-06-10 20:25:29,756 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.GroupAccessLevels -> UMM_GROUP_USER_TYPES
+2011-06-10 20:25:29,771 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: GroupCollectionMapping.hbm.xml
+2011-06-10 20:25:29,787 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.GroupCollectionMapping -> DW_GROUP_COLLECTION_MAPPING
+2011-06-10 20:25:29,787 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Menu.hbm.xml
+2011-06-10 20:25:29,818 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Menu -> DW_MENU
+2011-06-10 20:25:29,818 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: SharedMenu.hbm.xml
+2011-06-10 20:25:29,849 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.SharedMenu -> DW_SHARED_MENU
+2011-06-10 20:25:30,037 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: SubMenu.hbm.xml
+2011-06-10 20:25:30,100 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.SubMenu -> DW_SUB_MENU
+2011-06-10 20:25:30,100 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: SharedSubMenu.hbm.xml
+2011-06-10 20:25:30,115 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.SharedSubMenu -> DW_SHARED_SUB_MENU
+2011-06-10 20:25:30,131 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Templates.hbm.xml
+2011-06-10 20:25:30,162 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Templates -> DW_TEMPLATES
+2011-06-10 20:25:30,162 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Templates.sections -> DW_TEMPLATE_DETAILS
+2011-06-10 20:25:30,178 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: GroupDesignDetails.hbm.xml
+2011-06-10 20:25:30,193 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.GroupDesignDetails -> DW_GROUP_DESIGN_DETAILS
+2011-06-10 20:25:30,193 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Content.hbm.xml
+2011-06-10 20:25:30,225 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Content -> DW_CONTENT
+2011-06-10 20:25:30,240 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Content.contentItemValues -> DW_CONTENT_REFERENCE
+2011-06-10 20:25:30,240 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: SharedContent.hbm.xml
+2011-06-10 20:25:30,256 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.SharedContent -> DW_SHARED_CONTENT
+2011-06-10 20:25:30,256 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: ContentReference.hbm.xml
+2011-06-10 20:25:30,287 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.ContentReference -> DW_CONTENT_REFERENCE
+2011-06-10 20:25:30,287 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: GroupMapping.hbm.xml
+2011-06-10 20:25:30,303 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.GroupMapping -> UMM_GROUP_MAPPING
+2011-06-10 20:25:30,303 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: User.hbm.xml
+2011-06-10 20:25:30,334 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.User -> UMM_USERS
+2011-06-10 20:25:30,334 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: ApplicationMapping.hbm.xml
+2011-06-10 20:25:30,350 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.ApplicationMapping -> UMM_APPLICATION_MAPPING
+2011-06-10 20:25:30,350 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Application.hbm.xml
+2011-06-10 20:25:30,381 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Application -> UMM_APPLICATION
+2011-06-10 20:25:30,381 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Repository.hbm.xml
+2011-06-10 20:25:30,396 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Repository -> DR_REPOSITORY
+2011-06-10 20:25:30,396 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: ApplicationDetails.hbm.xml
+2011-06-10 20:25:30,428 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.ApplicationDetails -> DW_APPLICATION_DETAILS
+2011-06-10 20:25:30,428 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Shortcuts.hbm.xml
+2011-06-10 20:25:30,443 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Shortcuts -> DW_SHORTCUTS
+2011-06-10 20:25:30,443 INFO  [org.hibernate.cfg.Configuration] (HDScanner) processing extends queue
+2011-06-10 20:25:30,443 INFO  [org.hibernate.cfg.Configuration] (HDScanner) processing collection mappings
+2011-06-10 20:25:30,443 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.AdminPagesMaster.pageSpecificFields -> DW_DYNAMIC_FIELD_MAPPING
+2011-06-10 20:25:30,521 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Group.groupSpecificMenus -> DW_MENU
+2011-06-10 20:25:30,521 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Group.getGroupCollection -> DW_GROUP_COLLECTION_MAPPING
+2011-06-10 20:25:30,521 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Group.groupSpecificTemplates -> DW_TEMPLATES
+2011-06-10 20:25:30,521 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.GroupCollectionMapping.getSharingGroupCollection -> UMM_GROUPS
+2011-06-10 20:25:30,521 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Menu.subMenus -> DW_SUB_MENU
+2011-06-10 20:25:30,521 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Menu.sharedMenu -> DW_SHARED_MENU
+2011-06-10 20:25:30,521 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.SubMenu.sharedSubMenu -> DW_SHARED_SUB_MENU
+2011-06-10 20:25:30,521 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Content.sharedContent -> DW_SHARED_CONTENT
+2011-06-10 20:25:30,521 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Content.contentReference -> DW_CONTENT_REFERENCE
+2011-06-10 20:25:30,521 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Content.contentSharedToAGroup -> DW_SHARED_CONTENT
+2011-06-10 20:25:30,521 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.ApplicationMapping.groupMapping -> UMM_GROUP_MAPPING
+2011-06-10 20:25:30,521 INFO  [org.hibernate.cfg.Configuration] (HDScanner) processing association property references
+2011-06-10 20:25:30,521 INFO  [org.hibernate.cfg.Configuration] (HDScanner) processing foreign key constraints
+2011-06-10 20:25:32,428 INFO  [org.hibernate.util.NamingHelper] (HDScanner) JNDI InitialContext properties:{}
+2011-06-10 20:25:32,788 INFO  [org.hibernate.connection.DatasourceConnectionProvider] (HDScanner) Using datasource: java:/JDBCIntranetDS
+2011-06-10 20:25:36,054 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) RDBMS: Oracle, version: Oracle Database 11g Release 11.1.0.0.0 - Production
+2011-06-10 20:25:36,054 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) JDBC driver: Oracle JDBC driver, version: 10.2.0.4.0
+2011-06-10 20:25:36,148 INFO  [org.hibernate.dialect.Dialect] (HDScanner) Using dialect: org.hibernate.dialect.OracleDialect
+2011-06-10 20:25:36,163 INFO  [org.hibernate.transaction.TransactionFactoryFactory] (HDScanner) Transaction strategy: org.hibernate.transaction.JTATransactionFactory
+2011-06-10 20:25:36,163 INFO  [org.hibernate.util.NamingHelper] (HDScanner) JNDI InitialContext properties:{}
+2011-06-10 20:25:36,163 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] (HDScanner) No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2011-06-10 20:25:36,163 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Automatic flush during beforeCompletion(): disabled
+2011-06-10 20:25:36,163 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Automatic session close at end of transaction: disabled
+2011-06-10 20:25:36,163 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) JDBC batch size: 15
+2011-06-10 20:25:36,163 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) JDBC batch updates for versioned data: disabled
+2011-06-10 20:25:36,195 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Scrollable result sets: enabled
+2011-06-10 20:25:36,195 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) JDBC3 getGeneratedKeys(): enabled
+2011-06-10 20:25:36,195 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Connection release mode: null
+2011-06-10 20:25:36,195 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Default batch fetch size: 1
+2011-06-10 20:25:36,195 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Generate SQL with comments: disabled
+2011-06-10 20:25:36,195 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Order SQL updates by primary key: disabled
+2011-06-10 20:25:36,195 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2011-06-10 20:25:36,195 INFO  [org.hibernate.hql.ast.ASTQueryTranslatorFactory] (HDScanner) Using ASTQueryTranslatorFactory
+2011-06-10 20:25:36,195 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Query language substitutions: {false=0, true=1}
+2011-06-10 20:25:36,195 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Second-level cache: enabled
+2011-06-10 20:25:36,195 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Query cache: disabled
+2011-06-10 20:25:36,195 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Cache provider: org.hibernate.cache.EhCacheProvider
+2011-06-10 20:25:36,210 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Optimize cache for minimal puts: disabled
+2011-06-10 20:25:36,210 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Structured second-level cache entries: enabled
+2011-06-10 20:25:36,226 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Statistics: disabled
+2011-06-10 20:25:36,226 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Deleted entity synthetic identifier rollback: disabled
+2011-06-10 20:25:36,226 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Default entity-mode: pojo
+2011-06-10 20:25:36,351 INFO  [org.hibernate.impl.SessionFactoryImpl] (HDScanner) building session factory
+2011-06-10 20:25:36,367 WARN  [net.sf.ehcache.config.Configurator] (HDScanner) No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/lib/ehcache-1.1.jar/ehcache-failsafe.xml
+2011-06-10 20:25:46,228 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) Factory name: java:/DirectWebHibernateFactory
+2011-06-10 20:25:46,228 INFO  [org.hibernate.util.NamingHelper] (HDScanner) JNDI InitialContext properties:{}
+2011-06-10 20:25:46,228 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) Bound factory to JNDI name: java:/DirectWebHibernateFactory
+2011-06-10 20:25:46,244 WARN  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) InitialContext did not implement EventContext
+2011-06-10 20:25:46,244 INFO  [org.hibernate.impl.SessionFactoryImpl] (HDScanner) Checking 0 named queries
+2011-06-10 20:25:46,322 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/DirectWeb
+2011-06-10 20:25:48,322 INFO  [STDOUT] (HDScanner) Servlet filter init, now processing URL request.
+2011-06-10 20:25:48,338 INFO  [STDOUT] (HDScanner) Servlet filter init, now opening/closing a Session for each request.
+2011-06-10 20:25:49,041 INFO  [org.apache.struts.validator.ValidatorPlugIn] (HDScanner) Loading validation rules file from '/WEB-INF/struts/validator-rules.xml'
+2011-06-10 20:25:49,057 INFO  [org.apache.struts.validator.ValidatorPlugIn] (HDScanner) Loading validation rules file from '/WEB-INF/struts/validation.xml'
+2011-06-10 20:25:49,870 ERROR [STDERR] (HDScanner) SLF4J: Class path contains multiple SLF4J bindings.
+2011-06-10 20:25:49,870 ERROR [STDERR] (HDScanner) SLF4J: Found binding in [vfszip:/D:/jboss-5.1.0.GA/common/lib/slf4j-jboss-logging.jar/org/slf4j/impl/StaticLoggerBinder.class]
+2011-06-10 20:25:49,870 ERROR [STDERR] (HDScanner) SLF4J: Found binding in [vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/lib/slf4j-simple-1.5.8.jar/org/slf4j/impl/StaticLoggerBinder.class]
+2011-06-10 20:25:49,870 ERROR [STDERR] (HDScanner) SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+2011-06-10 20:25:49,948 ERROR [STDERR] (HDScanner) 63 [HDScanner] INFO net.fckeditor.connector.Dispatcher - Connector initialized to net.fckeditor.connector.impl.LocalConnector

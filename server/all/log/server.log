@@ -1,0 +1,357 @@
+2010-03-09 17:47:16,402 INFO  [org.jboss.web.WebService] (main) Using RMI server codebase: http://127.0.0.1:8083/
+2010-03-09 17:47:27,876 ERROR [org.jboss.kernel.plugins.dependency.AbstractKernelController] (main) Error installing to Real: name=vfsfile:/D:/jboss-5.1.0.GA/server/all/deployers/jbossws.deployer/ state=PreReal mode=Manual requiredState=Real
+org.jboss.deployers.spi.DeploymentException: Error deploying: vfsfile:/D:/jboss-5.1.0.GA/server/all/deployers/jbossws.deployer/
+	at org.jboss.deployers.spi.DeploymentException.rethrowAsDeploymentException(DeploymentException.java:49)
+	at org.jboss.deployers.vfs.deployer.kernel.BeanMetaDataFactoryVisitor.deploy(BeanMetaDataFactoryVisitor.java:136)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractRealDeployerWithInput.deploy(AbstractRealDeployerWithInput.java:125)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractRealDeployerWithInput.internalDeploy(AbstractRealDeployerWithInput.java:102)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractComponentDeployer.internalDeploy(AbstractComponentDeployer.java:78)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractRealDeployer.deploy(AbstractRealDeployer.java:50)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:171)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doDeploy(DeployersImpl.java:1439)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1157)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.install(DeployersImpl.java:1098)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.process(DeployersImpl.java:781)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.process(MainDeployerImpl.java:702)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.process(MainDeployerAdapter.java:117)
+	at org.jboss.system.server.profileservice.repository.ProfileDeployAction.install(ProfileDeployAction.java:70)
+	at org.jboss.system.server.profileservice.repository.AbstractProfileAction.install(AbstractProfileAction.java:53)
+	at org.jboss.system.server.profileservice.repository.AbstractProfileService.install(AbstractProfileService.java:361)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.system.server.profileservice.repository.AbstractProfileService.activateProfile(AbstractProfileService.java:306)
+	at org.jboss.system.server.profileservice.ProfileServiceBootstrap.start(ProfileServiceBootstrap.java:271)
+	at org.jboss.bootstrap.AbstractServerImpl.start(AbstractServerImpl.java:461)
+	at org.jboss.Main.boot(Main.java:221)
+	at org.jboss.Main$1.run(Main.java:556)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: java.lang.IllegalArgumentException: Exception loading class for ScopeKey addition.
+	at org.jboss.deployers.vfs.deployer.kernel.BeanMetaDataFactoryVisitor.addBeanComponent(BeanMetaDataFactoryVisitor.java:67)
+	at org.jboss.deployers.vfs.deployer.kernel.BeanMetaDataFactoryVisitor.deploy(BeanMetaDataFactoryVisitor.java:126)
+	... 34 more
+Caused by: java.lang.ClassNotFoundException: org.jboss.wsf.spi.util.KernelLocator from BaseClassLoader@a40575{VFSClassLoaderPolicy@62812d{name=vfsfile:/D:/jboss-5.1.0.GA/server/all/deployers/jbossws.deployer/ domain=ClassLoaderDomain@1f1cbf6{name=DefaultDomain parentPolicy=BEFORE parent=org.jboss.bootstrap.NoAnnotationURLClassLoader@3ee284} roots=[MemoryContextHandler@17741486[path= context=vfsmemory://a0245-co4x5c-g6ko1hh7-1-g6ko1tzc-e real=vfsmemory://a0245-co4x5c-g6ko1hh7-1-g6ko1tzc-e], FileHandler@16482042[path=jbossws.deployer context=file:/D:/jboss-5.1.0.GA/server/all/deployers/ real=file:/D:/jboss-5.1.0.GA/server/all/deployers/jbossws.deployer/], DelegatingHandler@21856993[path=jbossws.deployer/FastInfoset.jar context=file:/D:/jboss-5.1.0.GA/server/all/deployers/ real=file:/D:/jboss-5.1.0.GA/server/all/deployers/jbossws.deployer/FastInfoset.jar], DelegatingHandler@30122033[path=jbossws.deployer/jboss-jaxb-intros.jar context=file:/D:/jboss-5.1.0.GA/server/all/deployers/ real=file:/D:/jboss-5.1.0.GA/server/all/deployers/jbossws.deployer/jboss-jaxb-intros.jar], DelegatingHandler@25305362[path=jbossws.deployer/jbossws-common.jar context=file:/D:/jboss-5.1.0.GA/server/all/deployers/ real=file:/D:/jboss-5.1.0.GA/server/all/deployers/jbossws.deployer/jbossws-common.jar], DelegatingHandler@4806599[path=jbossws.deployer/jbossws-framework.jar context=file:/D:/jboss-5.1.0.GA/server/all/deployers/ real=file:/D:/jboss-5.1.0.GA/server/all/deployers/jbossws.deployer/jbossws-framework.jar], DelegatingHandler@19006837[path=jbossws.deployer/jbossws-jboss50.jar context=file:/D:/jboss-5.1.0.GA/server/all/deployers/ real=file:/D:/jboss-5.1.0.GA/server/all/deployers/jbossws.deployer/jbossws-jboss50.jar], DelegatingHandler@9732986[path=jbossws.deployer/jbossws-native-core.jar context=file:/D:/jboss-5.1.0.GA/server/all/deployers/ real=file:/D:/jboss-5.1.0.GA/server/all/deployers/jbossws.deployer/jbossws-native-core.jar], DelegatingHandler@4455272[path=jbossws.deployer/jettison.jar context=file:/D:/jboss-5.1.0.GA/server/all/deployers/ real=file:/D:/jboss-5.1.0.GA/server/all/deployers/jbossws.deployer/jettison.jar], DelegatingHandler@19820847[path=jbossws.deployer/policy.jar context=file:/D:/jboss-5.1.0.GA/server/all/deployers/ real=file:/D:/jboss-5.1.0.GA/server/all/deployers/jbossws.deployer/policy.jar], DelegatingHandler@587130[path=jbossws.deployer/wsdl4j.jar context=file:/D:/jboss-5.1.0.GA/server/all/deployers/ real=file:/D:/jboss-5.1.0.GA/server/all/deployers/jbossws.deployer/wsdl4j.jar], DelegatingHandler@2903774[path=jbossws.deployer/xmlsec.jar context=file:/D:/jboss-5.1.0.GA/server/all/deployers/ real=file:/D:/jboss-5.1.0.GA/server/all/deployers/jbossws.deployer/xmlsec.jar]]  delegates=null exported=[, org.jboss.ws.tools.schema, com.ibm.wsdl.xml, org.codehaus.jettison.json, org.jboss.wsf.common.injection.finders, org.jboss.ws.extensions.wsrm.protocol.spec200502, org.apache.xml.security.resource.schema, org.jboss.ws.extensions.wsrm.protocol, javax.wsdl.extensions.mime, schema, org.apache.xml.security.utils, com.ibm.wsdl.util, org.apache.xml.security.exceptions, org.jboss.ws.extensions.wsrm.protocol.spec200702, org.jboss.wsf.stack.jbws, org.jboss.ws.metadata.builder.jaxrpc, META-INF.maven.org.codehaus.jettison.jettison, org.jboss.ws.extensions.policy.deployer, org.jboss.ws.extensions.wsrm.transport, javax.wsdl, org.jboss.ws.jaxrpc, org.jboss.ws.tools.wsdl, org.jboss.wsf.test, org.jvnet.fastinfoset, org.jboss.ws.extensions.eventing.jaxws, org.jboss.ws.extensions.eventing.deployment, com.ibm.wsdl.extensions.schema, org.jboss.wsf.common.management, org.jboss.ws.extensions.validation, javax.wsdl.extensions, com.sun.xml.fastinfoset.dom, javax.wsdl.factory, org.jboss.ws.metadata.wsdl.xsd, com.sun.xml.fastinfoset.org.apache.xerces.util, org.jboss.ws.core.jaxws.spi, org.jboss.wsf.common.concurrent, com.sun.xml.fastinfoset.tools, org.apache.xml.security.keys.storage, org.jboss.wsf.container.jboss50.deployment.metadata, com.sun.xml.fastinfoset.stax.events, META-INF.services, org.apache.xml.security.resource, org.jboss.ws.extensions.addressing.metadata, org.jboss.ws.core.jaxrpc.handler, org.jboss.ws.extensions.eventing.mgmt, META-INF.maven.org.jboss.ws.native.jbossws-native-core, com.sun.xml.fastinfoset.resources, org.jboss.ws.extensions.security.element, org.jboss.jaxb.intros.configmodel, org.jboss.ws.extensions.wsrm, META-INF.maven.org.jboss.ws.jbossws-framework, javax.xml.crypto.dsig.keyinfo, org.jboss.ws.core.soap, javax.wsdl.extensions.schema, org.apache.xml.security.keys, org.jboss.ws.extensions.policy.deployer.domainAssertion, org.jvnet.fastinfoset.stax, org.jboss.ws.tools.metadata, org.jboss.ws.core.jaxws.handler, dtd, org.jboss.ws.extensions.wsrm.server, org.jboss.ws.metadata.umdm, org.codehaus.jettison.mapped, javax.xml.crypto.dsig.dom, com.sun.xml.fastinfoset.stax.util, org.jboss.wsf.framework.invocation, org.jboss.ws.extensions.wsrm.common, org.jboss.wsf.common.handler, org.jboss.ws.extensions.addressing.soap, com.sun.xml.fastinfoset.vocab, org.jboss.ws.metadata.accessor, org.jboss.ws.core, org.jboss.ws.core.jaxws.client, com.sun.xml.fastinfoset.alphabet, org.jboss.wsf.common.utils, javax.xml.crypto.dsig.spec, org.jboss.ws.extensions.wsrm.transport.backchannel, org.jboss.ws.metadata.config.binding, com.ibm.wsdl, org.apache.xml.security.c14n.implementations, org.jboss.ws.extensions.wsrm.api, org.jboss.ws.tools.client, org.jboss.ws.tools.interfaces, org.jboss.wsf.framework.serviceref, org.jboss.ws.extensions.eventing.metadata, org.jboss.ws.extensions.eventing.common, org.apache.ws.policy, org.jboss.ws.core.binding, org.jboss.ws.metadata.builder, org.jboss.ws.extensions.wsrm.protocol.spi, org.jboss.ws.extensions.xop, com.ibm.wsdl.extensions.soap12, org.apache.xml.security.keys.storage.implementations, org.jboss.ws.extensions.wsrm.jaxws, org.jboss.ws.extensions.policy.deployer.exceptions, org.jboss.ws.core.transport.jms, com.sun.xml.fastinfoset.stax, javax.wsdl.extensions.soap, org.jvnet.fastinfoset.sax, META-INF, org.jboss.ws.extensions.security.jaxrpc, org.jboss.ws.metadata.jaxrpcmapping, org.jboss.ws.feature, org.jboss.ws.extensions.wsrm.common.serialization, org.jboss.ws.core.soap.attachment, org.apache.xml.security.transforms.params, org.jboss.ws.tools.jaxws.impl, javax.wsdl.extensions.soap12, org.jboss.ws.tools.helpers, org.jcp.xml.dsig.internal, org.jboss.ws.tools.factories, org.jboss.ws.core.jaxws.wsaddressing, javax.wsdl.extensions.http, org.codehaus.jettison, javax.wsdl.xml, org.jboss.ws.tools.io, org.apache.xml.security.transforms, org.jboss.wsf.common.reflection, org.jboss.wsf.common.injection.resolvers, org.jboss.wsf.container.jboss50.deployer, org.jboss.wsf.container.jboss50.deployment, org.jboss.ws.extensions.policy.metadata, org.jboss.wsf.framework.management.recording, org.apache.xml.security.utils.resolver, org.apache.xml.security.encryption, org.jboss.ws.extensions.policy, org.jvnet.fastinfoset.sax.helpers, org.jboss.ws.core.client, com.sun.xml.fastinfoset.stax.factory, org.jboss.ws.extensions.addressing.jaxrpc, org.apache.xml.security.algorithms.implementations, org.jboss.wsf.framework.deployment, javax.xml.crypto, org.jboss.ws.extensions.wsrm.policy, org.jboss.ws.extensions.security.operation, com.ibm.wsdl.extensions.mime, org.apache.xml.security.keys.keyresolver.implementations, org.jboss.ws.extensions.policy.deployer.util, org.jboss.ws.extensions.security.exception, org.jboss.ws.core.jaxrpc, org.apache.xml.security.algorithms, org.jboss.ws.util.xml, org.jboss.ws.extensions.addressing.jaxws, org.jboss.jaxb.intros.handlers, org.jboss.wsf.container.jboss50.deployment.tomcat, org.jboss.ws.metadata.config.jaxrpc, org.codehaus.jettison.badgerfish, org.apache.xml.security.keys.content.keyvalues, org.apache.xml.security, org.apache.xml.security.keys.content, org.apache.ws.policy.util, org.jboss.ws.extensions.xop.jaxws, org.jboss.wsf.common.servlet, org.jboss.ws.core.server, com.sun.xml.fastinfoset.algorithm, META-INF.maven.org.jboss.ws.jbossws-common, org.apache.xml.security.utils.resolver.implementations, com.ibm.wsdl.util.xml, org.jboss.ws.metadata.wsdl, org.codehaus.jettison.util, org.jboss.ws.extensions.addressing, com.ibm.wsdl.factory, org.apache.xml.security.signature, org.jboss.ws.annotation, org.jboss.ws.extensions.xop.jaxrpc, org.jboss.ws.extensions.eventing, org.jboss.ws.extensions.json, org.jboss.ws.metadata.builder.jaxws, org.jboss.ws.metadata.config.jaxws, org.jboss.ws.tools.mapping, org.jboss.ws.extensions.security, org.jboss.ws.core.utils, org.apache.xml.security.keys.keyresolver, org.jboss.ws.extensions.wsrm.persistence, org.jboss.ws.tools.ant, org.jboss.ws.tools.config, org.jboss.ws.tools.exceptions, org.jboss.ws.metadata.wsse, org.jboss.ws.extensions.security.jaxws, org.jcp.xml.dsig.internal.dom, org.apache.xml.security.transforms.implementations, org.jboss.jaxb.intros, org.jboss.ws.metadata.wsdl.xmlschema, org.jboss.ws.tools, org.jboss.wsf.container.jboss50.transport, org.jboss.ws.core.jaxrpc.binding.jbossxb, org.jboss.ws.core.jaxws.binding, com.ibm.wsdl.extensions, org.jboss.ws.metadata.config, org.jboss.ws.extensions.wsrm.config, org.jboss.ws.extensions.policy.annotation, com.sun.xml.fastinfoset.util, com.sun.xml.fastinfoset, org.jboss.ws.extensions.security.nonce, org.apache.xml.security.c14n.helper, org.jboss.wsf.framework.http, org.jboss.wsf.framework.management, org.jboss.wsf.common.logging, org.jboss.ws.core.jaxrpc.binding, org.apache.xml.security.c14n, org.jboss.ws.core.jaxrpc.client, com.ibm.wsdl.extensions.soap, org.jboss.ws.core.jaxws, org.apache.xml.security.keys.content.x509, org.jboss.wsf.common, org.jboss.ws, org.jboss.wsf.common.injection, com.ibm.wsdl.extensions.http, org.jboss.wsf.container.jboss50.invocation, org.jboss.ws.extensions.security.auth.callback, com.sun.xml.fastinfoset.sax, javax.xml.crypto.dsig, org.jboss.wsf.framework, javax.xml.crypto.dom] <IMPORT-ALL>NON_EMPTY}}
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClass(BaseClassLoader.java:448)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at org.jboss.deployers.vfs.deployer.kernel.BeanMetaDataFactoryVisitor.addBeanComponent(BeanMetaDataFactoryVisitor.java:63)
+	... 35 more
+2010-03-09 17:47:30,140 INFO  [org.jboss.dependency.plugins.AttributeCallbackItem] (main) Owner callback not implemented.
+2010-03-09 17:47:31,935 INFO  [org.jboss.logbridge.LogNotificationListener] (main) Adding notification listener for logging mbean "jboss.system:service=Logging,type=Log4jService" to server org.jboss.mx.server.MBeanServerImpl@1d7fc31[ defaultDomain='jboss' ]
+2010-03-09 17:47:57,040 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@295845{vfsfile:/D:/jboss-5.1.0.GA/server/all/deploy/profileservice-secured.jar/}
+2010-03-09 17:47:57,055 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@295845{vfsfile:/D:/jboss-5.1.0.GA/server/all/deploy/profileservice-secured.jar/}
+2010-03-09 17:47:57,055 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@295845{vfsfile:/D:/jboss-5.1.0.GA/server/all/deploy/profileservice-secured.jar/}
+2010-03-09 17:47:57,055 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@295845{vfsfile:/D:/jboss-5.1.0.GA/server/all/deploy/profileservice-secured.jar/}
+2010-03-09 17:48:01,224 INFO  [org.jboss.iiop.CorbaNamingService] (main) CORBA Naming Started
+2010-03-09 17:48:06,906 INFO  [org.jboss.mx.remoting.service.JMXConnectorServerService] (main) JMX Connector server: service:jmx:rmi://127.0.0.1/jndi/rmi://127.0.0.1:1090/jmxconnector
+2010-03-09 17:48:07,406 INFO  [org.jboss.mail.MailService] (main) Mail Service bound to java:/Mail
+2010-03-09 17:48:09,373 INFO  [org.jboss.jmx.adaptor.snmp.agent.SnmpAgentService] (main) SNMP agent going active
+2010-03-09 17:48:14,197 INFO  [org.jboss.ha.framework.interfaces.HAPartition.DefaultPartition] (main) Initializing partition DefaultPartition
+2010-03-09 17:48:15,274 INFO  [STDOUT] (JBoss System Threads(1)-3) 
+---------------------------------------------------------
+GMS: address is 127.0.0.1:1807 (cluster=DefaultPartition)
+---------------------------------------------------------
+2010-03-09 17:48:15,352 INFO  [org.jboss.cache.jmx.PlatformMBeanServerRegistration] (main) JBossCache MBeans were successfully registered to the platform mbean server.
+2010-03-09 17:48:15,633 INFO  [STDOUT] (main) 
+---------------------------------------------------------
+GMS: address is 127.0.0.1:1807 (cluster=DefaultPartition-HAPartitionCache)
+---------------------------------------------------------
+2010-03-09 17:48:17,413 INFO  [org.jboss.ha.framework.interfaces.HAPartition.DefaultPartition] (JBoss System Threads(1)-3) Number of cluster members: 1
+2010-03-09 17:48:17,413 INFO  [org.jboss.ha.framework.interfaces.HAPartition.DefaultPartition] (JBoss System Threads(1)-3) Other members: 0
+2010-03-09 17:48:17,663 INFO  [org.jboss.cache.RPCManagerImpl] (main) Received new cluster view: [127.0.0.1:1807|0] [127.0.0.1:1807]
+2010-03-09 17:48:17,694 INFO  [org.jboss.cache.RPCManagerImpl] (main) Cache local address is 127.0.0.1:1807
+2010-03-09 17:48:17,741 INFO  [org.jboss.cache.RPCManagerImpl] (main) state was retrieved successfully (in 2.08 seconds)
+2010-03-09 17:48:17,772 INFO  [org.jboss.cache.factories.ComponentRegistry] (main) JBoss Cache version: JBossCache 'Cascabel' 3.1.0.GA
+2010-03-09 17:48:17,772 INFO  [org.jboss.ha.framework.interfaces.HAPartition.DefaultPartition] (main) Fetching serviceState (will wait for 30000 milliseconds):
+2010-03-09 17:48:17,788 INFO  [org.jboss.ha.framework.interfaces.HAPartition.DefaultPartition] (main) State could not be retrieved (we are the first member in group)
+2010-03-09 17:48:18,069 INFO  [org.jboss.ha.jndi.HANamingService] (main) Started HAJNDI bootstrap; jnpPort=1100, backlog=50, bindAddress=/127.0.0.1
+2010-03-09 17:48:18,085 INFO  [org.jboss.ha.jndi.DetachedHANamingService$AutomaticDiscovery] (main) Listening on /127.0.0.1:1102, group=230.0.0.4, HA-JNDI address=127.0.0.1:1100
+2010-03-09 17:48:19,380 INFO  [org.jboss.invocation.unified.server.UnifiedInvokerHA] (main) Service name is jboss:service=invoker,type=unifiedha
+2010-03-09 17:48:20,895 WARN  [org.jboss.jms.server.jbosssx.JBossASSecurityMetadataStore] (main) WARNING! POTENTIAL SECURITY RISK. It has been detected that the MessageSucker component which sucks messages from one node to another has not had its password changed from the installation default. Please see the JBoss Messaging user guide for instructions on how to do this.
+2010-03-09 17:48:20,973 WARN  [org.jboss.annotation.factory.AnnotationCreator] (main) No ClassLoader provided, using TCCL: org.jboss.managed.api.annotation.ManagementComponent
+2010-03-09 17:48:21,207 WARN  [org.jboss.annotation.factory.AnnotationCreator] (main) No ClassLoader provided, using TCCL: org.jboss.managed.api.annotation.ManagementComponent
+2010-03-09 17:48:21,332 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) JBossTS Transaction Service (JTA version - tag:JBOSSTS_4_6_1_GA) - JBoss Inc.
+2010-03-09 17:48:21,332 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Setting up property manager MBean and JMX layer
+2010-03-09 17:48:21,816 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Initializing recovery manager
+2010-03-09 17:48:22,112 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Recovery manager configured
+2010-03-09 17:48:22,112 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Binding TransactionManager JNDI Reference
+2010-03-09 17:48:22,191 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Starting transaction recovery manager
+2010-03-09 17:48:23,096 INFO  [org.apache.catalina.core.AprLifecycleListener] (main) The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.6.0_16\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\program files\imagemagick-6.3.5-q16;C:\Program Files\Java\jdk1.6.0_16\bin;D:\oracle\ora92\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\ZipGenius 6\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727;C:\Program Files\Microsoft Visual Studio 8\SDK\v2.0\Bin;D:\maven-2.0.7\bin;C:\Program Files\TortoiseSVN\bin;C:\apache-ant-1.8.0\bin;D:\jboss-5.1.0.GA\bin
+2010-03-09 17:48:24,126 INFO  [org.apache.coyote.http11.Http11Protocol] (main) Initializing Coyote HTTP/1.1 on http-127.0.0.1-8080
+2010-03-09 17:48:24,142 INFO  [org.apache.coyote.ajp.AjpProtocol] (main) Initializing Coyote AJP/1.3 on ajp-127.0.0.1-8009
+2010-03-09 17:48:24,189 INFO  [org.apache.catalina.core.StandardService] (main) Starting service jboss.web
+2010-03-09 17:48:24,204 INFO  [org.apache.catalina.core.StandardEngine] (main) Starting Servlet Engine: JBoss Web/2.1.3.GA
+2010-03-09 17:48:24,314 INFO  [org.apache.catalina.startup.Catalina] (main) Server startup in 166 ms
+2010-03-09 17:48:24,361 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/jbossws
+2010-03-09 17:48:25,453 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/web-console
+2010-03-09 17:48:26,203 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/invoker
+2010-03-09 17:48:26,312 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/juddi
+2010-03-09 17:48:26,390 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Loading jUDDI configuration.
+2010-03-09 17:48:26,421 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Resources loaded from: /WEB-INF/juddi.properties
+2010-03-09 17:48:26,421 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Initializing jUDDI components.
+2010-03-09 17:48:26,796 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/D:/jboss-5.1.0.GA/server/all/deploy/jboss-local-jdbc.rar/META-INF/ra.xml
+2010-03-09 17:48:26,827 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/D:/jboss-5.1.0.GA/server/all/deploy/jboss-xa-jdbc.rar/META-INF/ra.xml
+2010-03-09 17:48:26,921 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/D:/jboss-5.1.0.GA/server/all/deploy/jms-ra.rar/META-INF/ra.xml
+2010-03-09 17:48:26,968 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/D:/jboss-5.1.0.GA/server/all/deploy/mail-ra.rar/META-INF/ra.xml
+2010-03-09 17:48:27,015 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/D:/jboss-5.1.0.GA/server/all/deploy/quartz-ra.rar/META-INF/ra.xml
+2010-03-09 17:48:27,249 INFO  [org.quartz.simpl.SimpleThreadPool] (main) Job execution threads will use class loader of thread: main
+2010-03-09 17:48:27,389 INFO  [org.quartz.core.SchedulerSignalerImpl] (main) Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2010-03-09 17:48:27,405 INFO  [org.quartz.core.QuartzScheduler] (main) Quartz Scheduler v.1.7.2 created.
+2010-03-09 17:48:27,405 INFO  [org.quartz.simpl.RAMJobStore] (main) RAMJobStore initialized.
+2010-03-09 17:48:27,421 INFO  [org.quartz.impl.StdSchedulerFactory] (main) Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2010-03-09 17:48:27,436 INFO  [org.quartz.impl.StdSchedulerFactory] (main) Quartz scheduler version: 1.7.2
+2010-03-09 17:48:27,436 INFO  [org.quartz.core.QuartzScheduler] (main) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2010-03-09 17:48:29,653 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' to JNDI name 'java:DefaultDS'
+2010-03-09 17:48:30,793 INFO  [org.jboss.jms.server.ServerPeer] (main) JBoss Messaging 1.4.3.GA server [0] started
+2010-03-09 17:48:31,089 INFO  [STDOUT] (main) 
+---------------------------------------------------------
+GMS: address is 127.0.0.1:1807 (cluster=MessagingPostOffice-CTRL)
+---------------------------------------------------------
+2010-03-09 17:48:33,119 INFO  [org.jboss.messaging.core.impl.postoffice.GroupMember] (main) org.jboss.messaging.core.impl.postoffice.GroupMember$ControlMembershipListener@1dfbf22 got new view [127.0.0.1:1807|0] [127.0.0.1:1807], old view is null
+2010-03-09 17:48:33,119 INFO  [org.jboss.messaging.core.impl.postoffice.GroupMember] (main) I am (127.0.0.1:1807)
+2010-03-09 17:48:33,135 INFO  [org.jboss.messaging.core.impl.postoffice.GroupMember] (main) New Members : 1 ([127.0.0.1:1807])
+2010-03-09 17:48:33,135 INFO  [org.jboss.messaging.core.impl.postoffice.GroupMember] (main) All Members : 1 ([127.0.0.1:1807])
+2010-03-09 17:48:33,181 INFO  [STDOUT] (main) 
+---------------------------------------------------------
+GMS: address is 127.0.0.1:7900 (cluster=MessagingPostOffice-DATA)
+---------------------------------------------------------
+2010-03-09 17:48:38,380 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2010-03-09 17:48:38,380 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@1dcf9f4 started
+2010-03-09 17:48:38,474 INFO  [org.jboss.jms.server.destination.QueueService] (main) Queue[/queue/ExpiryQueue] started, fullSize=200000, pageSize=2000, downCacheSize=2000
+2010-03-09 17:48:38,583 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2010-03-09 17:48:38,583 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@f8f156 started
+2010-03-09 17:48:38,599 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2010-03-09 17:48:38,599 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@1522d7c started
+2010-03-09 17:48:38,614 INFO  [org.jboss.jms.server.destination.QueueService] (main) Queue[/queue/DLQ] started, fullSize=200000, pageSize=2000, downCacheSize=2000
+2010-03-09 17:48:38,958 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' to JNDI name 'java:JmsXA'
+2010-03-09 17:48:39,910 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Created KernelDeployment for: profileservice-secured.jar
+2010-03-09 17:48:39,926 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2010-03-09 17:48:39,926 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2010-03-09 17:48:39,926 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2010-03-09 17:48:39,926 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView
+2010-03-09 17:48:39,941 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2010-03-09 17:48:39,941 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2010-03-09 17:48:39,941 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.profileservice.spi.ProfileService
+2010-03-09 17:48:39,941 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureProfileService/remote
+2010-03-09 17:48:39,957 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureProfileService/remote-org.jboss.profileservice.spi.ProfileService
+2010-03-09 17:48:39,957 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2010-03-09 17:48:39,973 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2010-03-09 17:48:39,973 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2010-03-09 17:48:39,973 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2010-03-09 17:48:39,973 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2010-03-09 17:48:39,988 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2010-03-09 17:48:39,988 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureDeploymentManager/remote-org.jboss.deployers.spi.management.deploy.DeploymentManager
+2010-03-09 17:48:39,988 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.deployers.spi.management.deploy.DeploymentManager
+2010-03-09 17:48:39,988 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureDeploymentManager/remote
+2010-03-09 17:48:40,004 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2010-03-09 17:48:40,004 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2010-03-09 17:48:40,004 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2010-03-09 17:48:40,019 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2010-03-09 17:48:40,019 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2010-03-09 17:48:40,019 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2010-03-09 17:48:40,019 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView
+2010-03-09 17:48:40,035 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.deployers.spi.management.ManagementView
+2010-03-09 17:48:40,035 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote
+2010-03-09 17:48:40,035 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2010-03-09 17:48:40,051 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@ad8d5f{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2010-03-09 17:48:40,066 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@12cfc7e{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2010-03-09 17:48:40,066 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@15a9289{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2010-03-09 17:48:40,644 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2010-03-09 17:48:40,675 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureDeploymentManager ejbName: SecureDeploymentManager
+2010-03-09 17:48:40,800 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureDeploymentManager/remote - EJB3.x Default Remote Business Interface
+	SecureDeploymentManager/remote-org.jboss.deployers.spi.management.deploy.DeploymentManager - EJB3.x Remote Business Interface
+
+2010-03-09 17:48:41,940 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2010-03-09 17:48:41,955 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureManagementView ejbName: SecureManagementView
+2010-03-09 17:48:41,971 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureManagementView/remote - EJB3.x Default Remote Business Interface
+	SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView - EJB3.x Remote Business Interface
+
+2010-03-09 17:48:42,065 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2010-03-09 17:48:42,065 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureProfileServiceBean ejbName: SecureProfileService
+2010-03-09 17:48:42,096 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureProfileService/remote - EJB3.x Default Remote Business Interface
+	SecureProfileService/remote-org.jboss.profileservice.spi.ProfileService - EJB3.x Remote Business Interface
+
+2010-03-09 17:48:42,361 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/admin-console
+2010-03-09 17:48:42,517 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (main) Initializing Mojarra (1.2_12-b01-FCS) for context '/admin-console'
+2010-03-09 17:48:47,966 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/
+2010-03-09 17:48:48,060 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/jmx-console
+2010-03-09 17:48:49,043 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/pipreports
+2010-03-09 17:48:49,824 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (main) Initializing Mojarra (1.2_12-b01-FCS) for context '/pipreports'
+2010-03-09 17:48:50,823 ERROR [org.jboss.system.server.profileservice.ProfileServiceBootstrap] (main) Failed to load profile: Summary of incomplete deployments (SEE PREVIOUS ERRORS FOR DETAILS):
+
+DEPLOYMENTS IN ERROR:
+  Deployment "vfsfile:/D:/jboss-5.1.0.GA/server/all/deployers/jbossws.deployer/" is in error due to the following reason(s): java.lang.ClassNotFoundException: org.jboss.wsf.spi.util.KernelLocator from BaseClassLoader@a40575{VFSClassLoaderPolicy@62812d{name=vfsfile:/D:/jboss-5.1.0.GA/server/all/deployers/jbossws.deployer/ domain=ClassLoaderDomain@1f1cbf6{name=DefaultDomain parentPolicy=BEFORE parent=org.jboss.bootstrap.NoAnnotationURLClassLoader@3ee284} roots=[MemoryContextHandler@17741486[path= context=vfsmemory://a0245-co4x5c-g6ko1hh7-1-g6ko1tzc-e real=vfsmemory://a0245-co4x5c-g6ko1hh7-1-g6ko1tzc-e], FileHandler@16482042[path=jbossws.deployer context=file:/D:/jboss-5.1.0.GA/server/all/deployers/ real=file:/D:/jboss-5.1.0.GA/server/all/deployers/jbossws.deployer/], DelegatingHandler@21856993[path=jbossws.deployer/FastInfoset.jar context=file:/D:/jboss-5.1.0.GA/server/all/deployers/ real=file:/D:/jboss-5.1.0.GA/server/all/deployers/jbossws.deployer/FastInfoset.jar], DelegatingHandler@30122033[path=jbossws.deployer/jboss-jaxb-intros.jar context=file:/D:/jboss-5.1.0.GA/server/all/deployers/ real=file:/D:/jboss-5.1.0.GA/server/all/deployers/jbossws.deployer/jboss-jaxb-intros.jar], DelegatingHandler@25305362[path=jbossws.deployer/jbossws-common.jar context=file:/D:/jboss-5.1.0.GA/server/all/deployers/ real=file:/D:/jboss-5.1.0.GA/server/all/deployers/jbossws.deployer/jbossws-common.jar], DelegatingHandler@4806599[path=jbossws.deployer/jbossws-framework.jar context=file:/D:/jboss-5.1.0.GA/server/all/deployers/ real=file:/D:/jboss-5.1.0.GA/server/all/deployers/jbossws.deployer/jbossws-framework.jar], DelegatingHandler@19006837[path=jbossws.deployer/jbossws-jboss50.jar context=file:/D:/jboss-5.1.0.GA/server/all/deployers/ real=file:/D:/jboss-5.1.0.GA/server/all/deployers/jbossws.deployer/jbossws-jboss50.jar], DelegatingHandler@9732986[path=jbossws.deployer/jbossws-native-core.jar context=file:/D:/jboss-5.1.0.GA/server/all/deployers/ real=file:/D:/jboss-5.1.0.GA/server/all/deployers/jbossws.deployer/jbossws-native-core.jar], DelegatingHandler@4455272[path=jbossws.deployer/jettison.jar context=file:/D:/jboss-5.1.0.GA/server/all/deployers/ real=file:/D:/jboss-5.1.0.GA/server/all/deployers/jbossws.deployer/jettison.jar], DelegatingHandler@19820847[path=jbossws.deployer/policy.jar context=file:/D:/jboss-5.1.0.GA/server/all/deployers/ real=file:/D:/jboss-5.1.0.GA/server/all/deployers/jbossws.deployer/policy.jar], DelegatingHandler@587130[path=jbossws.deployer/wsdl4j.jar context=file:/D:/jboss-5.1.0.GA/server/all/deployers/ real=file:/D:/jboss-5.1.0.GA/server/all/deployers/jbossws.deployer/wsdl4j.jar], DelegatingHandler@2903774[path=jbossws.deployer/xmlsec.jar context=file:/D:/jboss-5.1.0.GA/server/all/deployers/ real=file:/D:/jboss-5.1.0.GA/server/all/deployers/jbossws.deployer/xmlsec.jar]]  delegates=null exported=[, org.jboss.ws.tools.schema, com.ibm.wsdl.xml, org.codehaus.jettison.json, org.jboss.wsf.common.injection.finders, org.jboss.ws.extensions.wsrm.protocol.spec200502, org.apache.xml.security.resource.schema, org.jboss.ws.extensions.wsrm.protocol, javax.wsdl.extensions.mime, schema, org.apache.xml.security.utils, com.ibm.wsdl.util, org.apache.xml.security.exceptions, org.jboss.ws.extensions.wsrm.protocol.spec200702, org.jboss.wsf.stack.jbws, org.jboss.ws.metadata.builder.jaxrpc, META-INF.maven.org.codehaus.jettison.jettison, org.jboss.ws.extensions.policy.deployer, org.jboss.ws.extensions.wsrm.transport, javax.wsdl, org.jboss.ws.jaxrpc, org.jboss.ws.tools.wsdl, org.jboss.wsf.test, org.jvnet.fastinfoset, org.jboss.ws.extensions.eventing.jaxws, org.jboss.ws.extensions.eventing.deployment, com.ibm.wsdl.extensions.schema, org.jboss.wsf.common.management, org.jboss.ws.extensions.validation, javax.wsdl.extensions, com.sun.xml.fastinfoset.dom, javax.wsdl.factory, org.jboss.ws.metadata.wsdl.xsd, com.sun.xml.fastinfoset.org.apache.xerces.util, org.jboss.ws.core.jaxws.spi, org.jboss.wsf.common.concurrent, com.sun.xml.fastinfoset.tools, org.apache.xml.security.keys.storage, org.jboss.wsf.container.jboss50.deployment.metadata, com.sun.xml.fastinfoset.stax.events, META-INF.services, org.apache.xml.security.resource, org.jboss.ws.extensions.addressing.metadata, org.jboss.ws.core.jaxrpc.handler, org.jboss.ws.extensions.eventing.mgmt, META-INF.maven.org.jboss.ws.native.jbossws-native-core, com.sun.xml.fastinfoset.resources, org.jboss.ws.extensions.security.element, org.jboss.jaxb.intros.configmodel, org.jboss.ws.extensions.wsrm, META-INF.maven.org.jboss.ws.jbossws-framework, javax.xml.crypto.dsig.keyinfo, org.jboss.ws.core.soap, javax.wsdl.extensions.schema, org.apache.xml.security.keys, org.jboss.ws.extensions.policy.deployer.domainAssertion, org.jvnet.fastinfoset.stax, org.jboss.ws.tools.metadata, org.jboss.ws.core.jaxws.handler, dtd, org.jboss.ws.extensions.wsrm.server, org.jboss.ws.metadata.umdm, org.codehaus.jettison.mapped, javax.xml.crypto.dsig.dom, com.sun.xml.fastinfoset.stax.util, org.jboss.wsf.framework.invocation, org.jboss.ws.extensions.wsrm.common, org.jboss.wsf.common.handler, org.jboss.ws.extensions.addressing.soap, com.sun.xml.fastinfoset.vocab, org.jboss.ws.metadata.accessor, org.jboss.ws.core, org.jboss.ws.core.jaxws.client, com.sun.xml.fastinfoset.alphabet, org.jboss.wsf.common.utils, javax.xml.crypto.dsig.spec, org.jboss.ws.extensions.wsrm.transport.backchannel, org.jboss.ws.metadata.config.binding, com.ibm.wsdl, org.apache.xml.security.c14n.implementations, org.jboss.ws.extensions.wsrm.api, org.jboss.ws.tools.client, org.jboss.ws.tools.interfaces, org.jboss.wsf.framework.serviceref, org.jboss.ws.extensions.eventing.metadata, org.jboss.ws.extensions.eventing.common, org.apache.ws.policy, org.jboss.ws.core.binding, org.jboss.ws.metadata.builder, org.jboss.ws.extensions.wsrm.protocol.spi, org.jboss.ws.extensions.xop, com.ibm.wsdl.extensions.soap12, org.apache.xml.security.keys.storage.implementations, org.jboss.ws.extensions.wsrm.jaxws, org.jboss.ws.extensions.policy.deployer.exceptions, org.jboss.ws.core.transport.jms, com.sun.xml.fastinfoset.stax, javax.wsdl.extensions.soap, org.jvnet.fastinfoset.sax, META-INF, org.jboss.ws.extensions.security.jaxrpc, org.jboss.ws.metadata.jaxrpcmapping, org.jboss.ws.feature, org.jboss.ws.extensions.wsrm.common.serialization, org.jboss.ws.core.soap.attachment, org.apache.xml.security.transforms.params, org.jboss.ws.tools.jaxws.impl, javax.wsdl.extensions.soap12, org.jboss.ws.tools.helpers, org.jcp.xml.dsig.internal, org.jboss.ws.tools.factories, org.jboss.ws.core.jaxws.wsaddressing, javax.wsdl.extensions.http, org.codehaus.jettison, javax.wsdl.xml, org.jboss.ws.tools.io, org.apache.xml.security.transforms, org.jboss.wsf.common.reflection, org.jboss.wsf.common.injection.resolvers, org.jboss.wsf.container.jboss50.deployer, org.jboss.wsf.container.jboss50.deployment, org.jboss.ws.extensions.policy.metadata, org.jboss.wsf.framework.management.recording, org.apache.xml.security.utils.resolver, org.apache.xml.security.encryption, org.jboss.ws.extensions.policy, org.jvnet.fastinfoset.sax.helpers, org.jboss.ws.core.client, com.sun.xml.fastinfoset.stax.factory, org.jboss.ws.extensions.addressing.jaxrpc, org.apache.xml.security.algorithms.implementations, org.jboss.wsf.framework.deployment, javax.xml.crypto, org.jboss.ws.extensions.wsrm.policy, org.jboss.ws.extensions.security.operation, com.ibm.wsdl.extensions.mime, org.apache.xml.security.keys.keyresolver.implementations, org.jboss.ws.extensions.policy.deployer.util, org.jboss.ws.extensions.security.exception, org.jboss.ws.core.jaxrpc, org.apache.xml.security.algorithms, org.jboss.ws.util.xml, org.jboss.ws.extensions.addressing.jaxws, org.jboss.jaxb.intros.handlers, org.jboss.wsf.container.jboss50.deployment.tomcat, org.jboss.ws.metadata.config.jaxrpc, org.codehaus.jettison.badgerfish, org.apache.xml.security.keys.content.keyvalues, org.apache.xml.security, org.apache.xml.security.keys.content, org.apache.ws.policy.util, org.jboss.ws.extensions.xop.jaxws, org.jboss.wsf.common.servlet, org.jboss.ws.core.server, com.sun.xml.fastinfoset.algorithm, META-INF.maven.org.jboss.ws.jbossws-common, org.apache.xml.security.utils.resolver.implementations, com.ibm.wsdl.util.xml, org.jboss.ws.metadata.wsdl, org.codehaus.jettison.util, org.jboss.ws.extensions.addressing, com.ibm.wsdl.factory, org.apache.xml.security.signature, org.jboss.ws.annotation, org.jboss.ws.extensions.xop.jaxrpc, org.jboss.ws.extensions.eventing, org.jboss.ws.extensions.json, org.jboss.ws.metadata.builder.jaxws, org.jboss.ws.metadata.config.jaxws, org.jboss.ws.tools.mapping, org.jboss.ws.extensions.security, org.jboss.ws.core.utils, org.apache.xml.security.keys.keyresolver, org.jboss.ws.extensions.wsrm.persistence, org.jboss.ws.tools.ant, org.jboss.ws.tools.config, org.jboss.ws.tools.exceptions, org.jboss.ws.metadata.wsse, org.jboss.ws.extensions.security.jaxws, org.jcp.xml.dsig.internal.dom, org.apache.xml.security.transforms.implementations, org.jboss.jaxb.intros, org.jboss.ws.metadata.wsdl.xmlschema, org.jboss.ws.tools, org.jboss.wsf.container.jboss50.transport, org.jboss.ws.core.jaxrpc.binding.jbossxb, org.jboss.ws.core.jaxws.binding, com.ibm.wsdl.extensions, org.jboss.ws.metadata.config, org.jboss.ws.extensions.wsrm.config, org.jboss.ws.extensions.policy.annotation, com.sun.xml.fastinfoset.util, com.sun.xml.fastinfoset, org.jboss.ws.extensions.security.nonce, org.apache.xml.security.c14n.helper, org.jboss.wsf.framework.http, org.jboss.wsf.framework.management, org.jboss.wsf.common.logging, org.jboss.ws.core.jaxrpc.binding, org.apache.xml.security.c14n, org.jboss.ws.core.jaxrpc.client, com.ibm.wsdl.extensions.soap, org.jboss.ws.core.jaxws, org.apache.xml.security.keys.content.x509, org.jboss.wsf.common, org.jboss.ws, org.jboss.wsf.common.injection, com.ibm.wsdl.extensions.http, org.jboss.wsf.container.jboss50.invocation, org.jboss.ws.extensions.security.auth.callback, com.sun.xml.fastinfoset.sax, javax.xml.crypto.dsig, org.jboss.wsf.framework, javax.xml.crypto.dom] <IMPORT-ALL>NON_EMPTY}}
+
+2010-03-09 17:48:51,088 INFO  [org.apache.coyote.http11.Http11Protocol] (main) Starting Coyote HTTP/1.1 on http-127.0.0.1-8080
+2010-03-09 17:48:51,135 INFO  [org.apache.coyote.ajp.AjpProtocol] (main) Starting Coyote AJP/1.3 on ajp-127.0.0.1-8009
+2010-03-09 17:48:51,151 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (main) JBoss (Microcontainer) [5.1.0.GA (build: SVNTag=JBoss_5_1_0_GA date=200905221634)] Started in 1m:48s:753ms
+2010-03-09 17:49:46,375 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[localhost].[/pipreports].[jsp]] (http-127.0.0.1-8080-1) Servlet.service() for servlet jsp threw exception
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 49 in the generated java file
+The method getJspApplicationContext(ServletContext) is undefined for the type JspFactory
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:92)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:330)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:439)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:313)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:300)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:585)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:312)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:322)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:249)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:638)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:444)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:382)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:310)
+	at com.sun.faces.context.ExternalContextImpl.dispatch(ExternalContextImpl.java:410)
+	at com.sun.faces.application.ViewHandlerImpl.executePageToBuildView(ViewHandlerImpl.java:468)
+	at com.sun.faces.application.ViewHandlerImpl.renderView(ViewHandlerImpl.java:140)
+	at com.hd.cedg.pip.reports.CustomViewHandler.renderView(CustomViewHandler.java:35)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:110)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:100)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:139)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:266)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.myfaces.webapp.filter.ExtensionsFilter.doFilter(ExtensionsFilter.java:104)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.jboss.web.tomcat.filters.ReplyHeaderFilter.doFilter(ReplyHeaderFilter.java:96)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:235)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.jboss.web.tomcat.security.SecurityAssociationValve.invoke(SecurityAssociationValve.java:190)
+	at org.jboss.web.tomcat.security.JaccContextValve.invoke(JaccContextValve.java:92)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.process(SecurityContextEstablishmentValve.java:126)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.invoke(SecurityContextEstablishmentValve.java:70)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.jboss.web.tomcat.service.jca.CachedConnectionValve.invoke(CachedConnectionValve.java:158)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:330)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:829)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:598)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:619)
+2010-03-09 17:49:46,375 SEVERE [javax.enterprise.resource.webcontainer.jsf.lifecycle] (http-127.0.0.1-8080-1) JSF1054: (Phase ID: RENDER_RESPONSE 6, View ID: /login.jsp) Exception thrown during phase execution: javax.faces.event.PhaseEvent[source=com.sun.faces.lifecycle.LifecycleImpl@a6789f]
+2010-03-09 17:49:46,406 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[localhost].[/pipreports].[Faces Servlet]] (http-127.0.0.1-8080-1) Servlet.service() for servlet Faces Servlet threw exception
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 49 in the generated java file
+The method getJspApplicationContext(ServletContext) is undefined for the type JspFactory
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:92)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:330)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:439)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:313)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:300)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:585)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:312)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:322)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:249)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:638)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:444)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:382)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:310)
+	at com.sun.faces.context.ExternalContextImpl.dispatch(ExternalContextImpl.java:410)
+	at com.sun.faces.application.ViewHandlerImpl.executePageToBuildView(ViewHandlerImpl.java:468)
+	at com.sun.faces.application.ViewHandlerImpl.renderView(ViewHandlerImpl.java:140)
+	at com.hd.cedg.pip.reports.CustomViewHandler.renderView(CustomViewHandler.java:35)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:110)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:100)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:139)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:266)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.myfaces.webapp.filter.ExtensionsFilter.doFilter(ExtensionsFilter.java:104)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.jboss.web.tomcat.filters.ReplyHeaderFilter.doFilter(ReplyHeaderFilter.java:96)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:235)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.jboss.web.tomcat.security.SecurityAssociationValve.invoke(SecurityAssociationValve.java:190)
+	at org.jboss.web.tomcat.security.JaccContextValve.invoke(JaccContextValve.java:92)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.process(SecurityContextEstablishmentValve.java:126)
+	at org.jboss.web.tomcat.security.SecurityContextEstablishmentValve.invoke(SecurityContextEstablishmentValve.java:70)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.jboss.web.tomcat.service.jca.CachedConnectionValve.invoke(CachedConnectionValve.java:158)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:330)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:829)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:598)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:619)
+2010-03-09 17:50:07,384 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Runtime shutdown hook called, forceHalt: true
+2010-03-09 17:50:07,400 INFO  [org.apache.coyote.http11.Http11Protocol] (JBoss Shutdown Hook) Pausing Coyote HTTP/1.1 on http-127.0.0.1-8080
+2010-03-09 17:50:07,400 INFO  [org.apache.coyote.http11.Http11Protocol] (JBoss Shutdown Hook) Stopping Coyote HTTP/1.1 on http-127.0.0.1-8080
+2010-03-09 17:50:07,415 INFO  [org.apache.coyote.ajp.AjpProtocol] (JBoss Shutdown Hook) Pausing Coyote AJP/1.3 on ajp-127.0.0.1-8009
+2010-03-09 17:50:07,431 INFO  [org.apache.coyote.ajp.AjpProtocol] (JBoss Shutdown Hook) Stopping Coyote AJP/1.3 on ajp-127.0.0.1-8009
+2010-03-09 17:50:07,493 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@1dcf9f4 undeployed
+2010-03-09 17:50:07,493 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@f8f156 undeployed
+2010-03-09 17:50:07,509 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@1522d7c undeployed
+2010-03-09 17:50:07,525 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/web-console
+2010-03-09 17:50:07,571 INFO  [org.jboss.jms.server.destination.QueueService] (JBoss Shutdown Hook) Queue[/queue/ExpiryQueue] stopped
+2010-03-09 17:50:07,571 INFO  [org.jboss.jms.server.destination.QueueService] (JBoss Shutdown Hook) Queue[/queue/DLQ] stopped
+2010-03-09 17:50:07,587 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2010-03-09 17:50:07,603 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureProfileServiceBean ejbName: SecureProfileService
+2010-03-09 17:50:07,681 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2010-03-09 17:50:07,712 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureDeploymentManager ejbName: SecureDeploymentManager
+2010-03-09 17:50:07,759 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2010-03-09 17:50:07,759 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureManagementView ejbName: SecureManagementView
+2010-03-09 17:50:08,993 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' from JNDI name 'java:JmsXA'
+2010-03-09 17:50:09,071 INFO  [org.jboss.jms.server.ServerPeer] (JBoss Shutdown Hook) JMS ServerPeer[0] stopped
+2010-03-09 17:50:09,102 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/invoker
+2010-03-09 17:50:09,274 INFO  [org.jboss.ha.framework.interfaces.HAPartition.DefaultPartition] (JBoss Shutdown Hook) Stopping partition DefaultPartition
+2010-03-09 17:50:09,274 INFO  [org.jboss.cache.RPCManagerImpl] (JBoss Shutdown Hook) Disconnecting and closing the Channel
+2010-03-09 17:50:09,290 INFO  [org.jboss.cache.RPCManagerImpl] (JBoss Shutdown Hook) Stopping the RpcDispatcher
+2010-03-09 17:50:09,336 INFO  [org.jboss.ha.framework.interfaces.HAPartition.DefaultPartition] (JBoss Shutdown Hook) Partition DefaultPartition stopped.
+2010-03-09 17:50:09,352 INFO  [org.jboss.ha.framework.interfaces.HAPartition.DefaultPartition] (JBoss Shutdown Hook) Partition DefaultPartition destroyed.
+2010-03-09 17:50:10,649 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/jbossws
+2010-03-09 17:50:10,649 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/juddi
+2010-03-09 17:50:10,649 INFO  [org.apache.juddi.registry.RegistryServlet] (JBoss Shutdown Hook) jUDDI Stopping: Cleaning up existing resources.
+2010-03-09 17:50:10,649 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/admin-console
+2010-03-09 17:50:10,664 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/
+2010-03-09 17:50:10,664 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/jmx-console
+2010-03-09 17:50:10,664 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/pipreports
+2010-03-09 17:50:10,680 INFO  [org.apache.catalina.core.StandardService] (JBoss Shutdown Hook) Stopping service jboss.web
+2010-03-09 17:50:10,820 INFO  [org.jboss.mail.MailService] (JBoss Shutdown Hook) Mail service 'java:/Mail' removed from JNDI
+2010-03-09 17:50:10,852 INFO  [org.jboss.jmx.adaptor.snmp.agent.SnmpAgentService] (JBoss Shutdown Hook) SNMP agent stopped
+2010-03-09 17:50:11,539 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' from JNDI name 'java:DefaultDS'
+2010-03-09 17:50:11,601 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2010-03-09 17:50:11,601 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2010-03-09 17:50:11,601 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2010-03-09 17:50:12,148 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (JBoss Shutdown Hook) Stopping transaction recovery manager
+2010-03-09 17:50:12,148 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (JBoss Shutdown Hook) Destroying TransactionManagerService
+2010-03-09 17:50:12,710 INFO  [org.jboss.jdbc.HypersonicDatabase] (JBoss Shutdown Hook) Database standalone closed clean
+2010-03-09 17:50:16,928 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Shutdown complete

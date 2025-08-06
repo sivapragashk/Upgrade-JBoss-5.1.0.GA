@@ -1,0 +1,1791 @@
+2011-07-25 16:05:05,834 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/DirectWeb
+2011-07-25 16:05:06,412 INFO  [org.hibernate.jmx.HibernateServiceMBean] (HDScanner) stopping service
+2011-07-25 16:05:06,412 INFO  [org.hibernate.util.NamingHelper] (HDScanner) JNDI InitialContext properties:{}
+2011-07-25 16:05:06,412 INFO  [org.hibernate.impl.SessionFactoryImpl] (HDScanner) closing
+2011-07-25 16:05:06,412 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) Unbinding factory from JNDI name: java:/DirectWebHibernateFactory
+2011-07-25 16:05:06,428 INFO  [org.hibernate.util.NamingHelper] (HDScanner) JNDI InitialContext properties:{}
+2011-07-25 16:05:06,428 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) Unbound factory from JNDI name: java:/DirectWebHibernateFactory
+2011-07-25 16:05:46,380 WARN  [org.jboss.webservices.integration.util.ASHelper] (HDScanner) Cannot load servlet class: org.apache.struts.action.ActionServlet
+java.lang.ClassNotFoundException: org.apache.struts.action.ActionServlet from BaseClassLoader@1bcf573{VFSClassLoaderPolicy@96687a{name=vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/ domain=ClassLoaderDomain@327959{name=vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/ parentPolicy=AFTER_BUT_JAVA_BEFORE parent=BaseClassLoader@1d1e5eb{vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/}} roots=[FileHandler@10832619[path=DirectWeb.ear/DirectWeb.war/WEB-INF/classes context=file:/D:/jboss-5.1.0.GA/server/default/deploy/ real=file:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/WEB-INF/classes/]]  delegates=null exported=[com.hd.directweb.servlet.photogallery, com.hd.directweb.action] <IMPORT-ALL>NON_EMPTY}}
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClass(BaseClassLoader.java:448)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at org.jboss.webservices.integration.util.ASHelper.getEndpointClass(ASHelper.java:295)
+	at org.jboss.webservices.integration.util.ASHelper.getWebServiceServlets(ASHelper.java:398)
+	at org.jboss.webservices.integration.util.ASHelper.getJaxwsServlets(ASHelper.java:194)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.isJaxwsJseDeployment(WSTypeDeployer.java:153)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.internalDeploy(WSTypeDeployer.java:68)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractRealDeployer.deploy(AbstractRealDeployer.java:50)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:171)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doDeploy(DeployersImpl.java:1439)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1157)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1210)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.install(DeployersImpl.java:1098)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.process(DeployersImpl.java:781)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.process(MainDeployerImpl.java:702)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.process(MainDeployerAdapter.java:117)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:362)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2011-07-25 16:05:46,412 WARN  [org.jboss.webservices.integration.util.ASHelper] (HDScanner) Cannot load servlet class: com.hd.directweb.servlet.SessionValidator
+java.lang.ClassNotFoundException: com.hd.directweb.servlet.SessionValidator from BaseClassLoader@1bcf573{VFSClassLoaderPolicy@96687a{name=vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/ domain=ClassLoaderDomain@327959{name=vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/ parentPolicy=AFTER_BUT_JAVA_BEFORE parent=BaseClassLoader@1d1e5eb{vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/}} roots=[FileHandler@10832619[path=DirectWeb.ear/DirectWeb.war/WEB-INF/classes context=file:/D:/jboss-5.1.0.GA/server/default/deploy/ real=file:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/WEB-INF/classes/]]  delegates=null exported=[com.hd.directweb.servlet.photogallery, com.hd.directweb.action] <IMPORT-ALL>NON_EMPTY}}
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClass(BaseClassLoader.java:448)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at org.jboss.webservices.integration.util.ASHelper.getEndpointClass(ASHelper.java:295)
+	at org.jboss.webservices.integration.util.ASHelper.getWebServiceServlets(ASHelper.java:398)
+	at org.jboss.webservices.integration.util.ASHelper.getJaxwsServlets(ASHelper.java:194)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.isJaxwsJseDeployment(WSTypeDeployer.java:153)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.internalDeploy(WSTypeDeployer.java:68)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractRealDeployer.deploy(AbstractRealDeployer.java:50)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:171)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doDeploy(DeployersImpl.java:1439)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1157)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1210)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.install(DeployersImpl.java:1098)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.process(DeployersImpl.java:781)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.process(MainDeployerImpl.java:702)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.process(MainDeployerAdapter.java:117)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:362)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2011-07-25 16:05:46,459 ERROR [org.jboss.kernel.plugins.dependency.AbstractKernelController] (HDScanner) Error installing to Real: name=vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/ state=PreReal mode=Manual requiredState=Real
+org.jboss.deployers.spi.DeploymentException: Error during deploy: vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/
+	at org.jboss.deployers.spi.DeploymentException.rethrowAsDeploymentException(DeploymentException.java:49)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:177)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doDeploy(DeployersImpl.java:1439)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1157)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1210)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.install(DeployersImpl.java:1098)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.process(DeployersImpl.java:781)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.process(MainDeployerImpl.java:702)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.process(MainDeployerAdapter.java:117)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:362)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: java.lang.NoClassDefFoundError: com/hd/directweb/service/constants/Constants
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:621)
+	at org.jboss.classloader.spi.base.BaseClassLoader.access$200(BaseClassLoader.java:63)
+	at org.jboss.classloader.spi.base.BaseClassLoader$2.run(BaseClassLoader.java:572)
+	at org.jboss.classloader.spi.base.BaseClassLoader$2.run(BaseClassLoader.java:532)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClassLocally(BaseClassLoader.java:530)
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClassLocally(BaseClassLoader.java:507)
+	at org.jboss.classloader.spi.base.BaseDelegateLoader.loadClass(BaseDelegateLoader.java:134)
+	at org.jboss.classloader.spi.filter.FilteredDelegateLoader.loadClass(FilteredDelegateLoader.java:131)
+	at org.jboss.classloader.spi.base.ClassLoadingTask$ThreadTask.run(ClassLoadingTask.java:452)
+	at org.jboss.classloader.spi.base.ClassLoaderManager.nextTask(ClassLoaderManager.java:251)
+	at org.jboss.classloader.spi.base.ClassLoaderManager.process(ClassLoaderManager.java:150)
+	at org.jboss.classloader.spi.base.BaseClassLoaderDomain.loadClass(BaseClassLoaderDomain.java:265)
+	at org.jboss.classloader.spi.base.BaseClassLoaderDomain.loadClass(BaseClassLoaderDomain.java:1119)
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClassFromDomain(BaseClassLoader.java:798)
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClass(BaseClassLoader.java:441)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at org.jboss.webservices.integration.util.ASHelper.getEndpointClass(ASHelper.java:295)
+	at org.jboss.webservices.integration.util.ASHelper.getWebServiceServlets(ASHelper.java:398)
+	at org.jboss.webservices.integration.util.ASHelper.getJaxwsServlets(ASHelper.java:194)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.isJaxwsJseDeployment(WSTypeDeployer.java:153)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.internalDeploy(WSTypeDeployer.java:68)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractRealDeployer.deploy(AbstractRealDeployer.java:50)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:171)
+	... 25 more
+Caused by: java.lang.ClassNotFoundException: com.hd.directweb.service.constants.Constants
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:200)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:188)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:307)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:247)
+	at org.jboss.classloader.spi.base.BaseClassLoaderDomain.loadClass(BaseClassLoaderDomain.java:292)
+	at org.jboss.classloader.spi.base.BaseClassLoaderDomain.loadClass(BaseClassLoaderDomain.java:1119)
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClassFromDomain(BaseClassLoader.java:798)
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClass(BaseClassLoader.java:441)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	... 50 more
+2011-07-25 16:05:46,490 WARN  [org.jboss.system.server.profileservice.hotdeploy.HDScanner] (HDScanner) Failed to process changes
+org.jboss.deployers.client.spi.IncompleteDeploymentException: Summary of incomplete deployments (SEE PREVIOUS ERRORS FOR DETAILS):
+
+*** DEPLOYMENTS IN ERROR: Name -> Error
+
+vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/ -> org.jboss.deployers.spi.DeploymentException: Error during deploy: vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/
+
+
+DEPLOYMENTS IN ERROR:
+  Deployment "vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/" is in error due to the following reason(s): java.lang.ClassNotFoundException: com.hd.directweb.service.constants.Constants
+
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.checkComplete(DeployersImpl.java:993)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.checkComplete(DeployersImpl.java:939)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.checkComplete(MainDeployerImpl.java:873)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.checkComplete(MainDeployerAdapter.java:128)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:369)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2011-07-25 17:20:38,925 WARN  [org.jboss.webservices.integration.util.ASHelper] (HDScanner) Cannot load servlet class: org.apache.struts.action.ActionServlet
+java.lang.ClassNotFoundException: org.apache.struts.action.ActionServlet from BaseClassLoader@67107{VFSClassLoaderPolicy@e692fe{name=vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/ domain=ClassLoaderDomain@173fd7a{name=vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/ parentPolicy=AFTER_BUT_JAVA_BEFORE parent=BaseClassLoader@11e938{vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/}} roots=[FileHandler@29123900[path=DirectWeb.ear/DirectWeb.war/WEB-INF/classes context=file:/D:/jboss-5.1.0.GA/server/default/deploy/ real=file:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/WEB-INF/classes/]]  delegates=null exported=[com.hd.directweb.servlet.photogallery, com.hd.directweb.action] <IMPORT-ALL>NON_EMPTY}}
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClass(BaseClassLoader.java:448)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at org.jboss.webservices.integration.util.ASHelper.getEndpointClass(ASHelper.java:295)
+	at org.jboss.webservices.integration.util.ASHelper.getWebServiceServlets(ASHelper.java:398)
+	at org.jboss.webservices.integration.util.ASHelper.getJaxwsServlets(ASHelper.java:194)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.isJaxwsJseDeployment(WSTypeDeployer.java:153)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.internalDeploy(WSTypeDeployer.java:68)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractRealDeployer.deploy(AbstractRealDeployer.java:50)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:171)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doDeploy(DeployersImpl.java:1439)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1157)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1210)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.install(DeployersImpl.java:1098)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.process(DeployersImpl.java:781)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.process(MainDeployerImpl.java:702)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.process(MainDeployerAdapter.java:117)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:362)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2011-07-25 17:20:38,957 WARN  [org.jboss.webservices.integration.util.ASHelper] (HDScanner) Cannot load servlet class: com.hd.directweb.servlet.SessionValidator
+java.lang.ClassNotFoundException: com.hd.directweb.servlet.SessionValidator from BaseClassLoader@67107{VFSClassLoaderPolicy@e692fe{name=vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/ domain=ClassLoaderDomain@173fd7a{name=vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/ parentPolicy=AFTER_BUT_JAVA_BEFORE parent=BaseClassLoader@11e938{vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/}} roots=[FileHandler@29123900[path=DirectWeb.ear/DirectWeb.war/WEB-INF/classes context=file:/D:/jboss-5.1.0.GA/server/default/deploy/ real=file:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/WEB-INF/classes/]]  delegates=null exported=[com.hd.directweb.servlet.photogallery, com.hd.directweb.action] <IMPORT-ALL>NON_EMPTY}}
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClass(BaseClassLoader.java:448)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at org.jboss.webservices.integration.util.ASHelper.getEndpointClass(ASHelper.java:295)
+	at org.jboss.webservices.integration.util.ASHelper.getWebServiceServlets(ASHelper.java:398)
+	at org.jboss.webservices.integration.util.ASHelper.getJaxwsServlets(ASHelper.java:194)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.isJaxwsJseDeployment(WSTypeDeployer.java:153)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.internalDeploy(WSTypeDeployer.java:68)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractRealDeployer.deploy(AbstractRealDeployer.java:50)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:171)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doDeploy(DeployersImpl.java:1439)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1157)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1210)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.install(DeployersImpl.java:1098)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.process(DeployersImpl.java:781)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.process(MainDeployerImpl.java:702)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.process(MainDeployerAdapter.java:117)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:362)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2011-07-25 17:20:38,972 WARN  [org.jboss.webservices.integration.util.ASHelper] (HDScanner) Cannot load servlet class: com.hd.directweb.servlet.photogallery.PhotoController
+java.lang.ClassNotFoundException: com.hd.directweb.servlet.photogallery.PhotoController from BaseClassLoader@67107{VFSClassLoaderPolicy@e692fe{name=vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/ domain=ClassLoaderDomain@173fd7a{name=vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/ parentPolicy=AFTER_BUT_JAVA_BEFORE parent=BaseClassLoader@11e938{vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/}} roots=[FileHandler@29123900[path=DirectWeb.ear/DirectWeb.war/WEB-INF/classes context=file:/D:/jboss-5.1.0.GA/server/default/deploy/ real=file:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/WEB-INF/classes/]]  delegates=null exported=[com.hd.directweb.servlet.photogallery, com.hd.directweb.action] <IMPORT-ALL>NON_EMPTY}}
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClass(BaseClassLoader.java:448)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at org.jboss.webservices.integration.util.ASHelper.getEndpointClass(ASHelper.java:295)
+	at org.jboss.webservices.integration.util.ASHelper.getWebServiceServlets(ASHelper.java:398)
+	at org.jboss.webservices.integration.util.ASHelper.getJaxwsServlets(ASHelper.java:194)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.isJaxwsJseDeployment(WSTypeDeployer.java:153)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.internalDeploy(WSTypeDeployer.java:68)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractRealDeployer.deploy(AbstractRealDeployer.java:50)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:171)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doDeploy(DeployersImpl.java:1439)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1157)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1210)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.install(DeployersImpl.java:1098)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.process(DeployersImpl.java:781)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.process(MainDeployerImpl.java:702)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.process(MainDeployerAdapter.java:117)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:362)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2011-07-25 17:20:39,004 ERROR [org.jboss.kernel.plugins.dependency.AbstractKernelController] (HDScanner) Error installing to Real: name=vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/ state=PreReal mode=Manual requiredState=Real
+org.jboss.deployers.spi.DeploymentException: Error during deploy: vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/
+	at org.jboss.deployers.spi.DeploymentException.rethrowAsDeploymentException(DeploymentException.java:49)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:177)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doDeploy(DeployersImpl.java:1439)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1157)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1210)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.install(DeployersImpl.java:1098)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.process(DeployersImpl.java:781)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.process(MainDeployerImpl.java:702)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.process(MainDeployerAdapter.java:117)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:362)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: java.lang.NoClassDefFoundError: com/hd/directweb/service/constants/Constants
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:621)
+	at org.jboss.classloader.spi.base.BaseClassLoader.access$200(BaseClassLoader.java:63)
+	at org.jboss.classloader.spi.base.BaseClassLoader$2.run(BaseClassLoader.java:572)
+	at org.jboss.classloader.spi.base.BaseClassLoader$2.run(BaseClassLoader.java:532)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClassLocally(BaseClassLoader.java:530)
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClassLocally(BaseClassLoader.java:507)
+	at org.jboss.classloader.spi.base.BaseDelegateLoader.loadClass(BaseDelegateLoader.java:134)
+	at org.jboss.classloader.spi.filter.FilteredDelegateLoader.loadClass(FilteredDelegateLoader.java:131)
+	at org.jboss.classloader.spi.base.ClassLoadingTask$ThreadTask.run(ClassLoadingTask.java:452)
+	at org.jboss.classloader.spi.base.ClassLoaderManager.nextTask(ClassLoaderManager.java:251)
+	at org.jboss.classloader.spi.base.ClassLoaderManager.process(ClassLoaderManager.java:150)
+	at org.jboss.classloader.spi.base.BaseClassLoaderDomain.loadClass(BaseClassLoaderDomain.java:265)
+	at org.jboss.classloader.spi.base.BaseClassLoaderDomain.loadClass(BaseClassLoaderDomain.java:1119)
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClassFromDomain(BaseClassLoader.java:798)
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClass(BaseClassLoader.java:441)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at org.jboss.webservices.integration.util.ASHelper.getEndpointClass(ASHelper.java:295)
+	at org.jboss.webservices.integration.util.ASHelper.getWebServiceServlets(ASHelper.java:398)
+	at org.jboss.webservices.integration.util.ASHelper.getJaxwsServlets(ASHelper.java:194)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.isJaxwsJseDeployment(WSTypeDeployer.java:153)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.internalDeploy(WSTypeDeployer.java:68)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractRealDeployer.deploy(AbstractRealDeployer.java:50)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:171)
+	... 25 more
+Caused by: java.lang.ClassNotFoundException: com.hd.directweb.service.constants.Constants
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:200)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:188)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:307)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:247)
+	at org.jboss.classloader.spi.base.BaseClassLoaderDomain.loadClass(BaseClassLoaderDomain.java:292)
+	at org.jboss.classloader.spi.base.BaseClassLoaderDomain.loadClass(BaseClassLoaderDomain.java:1119)
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClassFromDomain(BaseClassLoader.java:798)
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClass(BaseClassLoader.java:441)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	... 50 more
+2011-07-25 17:20:39,300 WARN  [org.jboss.system.server.profileservice.hotdeploy.HDScanner] (HDScanner) Failed to process changes
+org.jboss.deployers.client.spi.IncompleteDeploymentException: Summary of incomplete deployments (SEE PREVIOUS ERRORS FOR DETAILS):
+
+*** DEPLOYMENTS IN ERROR: Name -> Error
+
+vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/ -> org.jboss.deployers.spi.DeploymentException: Error during deploy: vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/
+
+
+DEPLOYMENTS IN ERROR:
+  Deployment "vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/" is in error due to the following reason(s): java.lang.ClassNotFoundException: com.hd.directweb.service.constants.Constants
+
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.checkComplete(DeployersImpl.java:993)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.checkComplete(DeployersImpl.java:939)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.checkComplete(MainDeployerImpl.java:873)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.checkComplete(MainDeployerAdapter.java:128)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:369)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2011-07-25 17:20:58,254 INFO  [org.hibernate.jmx.HibernateServiceMBean] (HDScanner) starting service at JNDI name: java:/DirectWebHibernateFactory
+2011-07-25 17:20:58,254 INFO  [org.hibernate.jmx.HibernateServiceMBean] (HDScanner) service properties: {hibernate.session_factory_name=java:/DirectWebHibernateFactory, hibernate.transaction.factory_class=org.hibernate.transaction.JTATransactionFactory, hibernate.connection.datasource=java:/JDBCIntranetDS, jta.UserTransaction=UserTransaction}
+2011-07-25 17:20:58,316 INFO  [org.hibernate.cfg.Environment] (HDScanner) Hibernate 3.0.3
+2011-07-25 17:20:58,332 INFO  [org.hibernate.cfg.Environment] (HDScanner) hibernate.properties not found
+2011-07-25 17:20:58,332 INFO  [org.hibernate.cfg.Environment] (HDScanner) using CGLIB reflection optimizer
+2011-07-25 17:20:58,332 INFO  [org.hibernate.cfg.Environment] (HDScanner) using JDK 1.4 java.sql.Timestamp handling
+2011-07-25 17:20:58,519 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: AdminPages.hbm.xml
+2011-07-25 17:20:58,863 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.AdminPagesMaster -> DW_ADMIN_PAGES
+2011-07-25 17:20:58,894 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: DynamicFieldsMapping.hbm.xml
+2011-07-25 17:20:58,910 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.DynamicFieldsMapping -> DW_DYNAMIC_FIELD_MAPPING
+2011-07-25 17:20:58,910 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: FooterDesignAdmin.hbm.xml
+2011-07-25 17:20:58,925 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.FooterDesignAdmin -> DW_FOOTER_ADMIN
+2011-07-25 17:20:58,925 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: HeaderDesignAdmin.hbm.xml
+2011-07-25 17:20:58,941 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.HeaderDesignAdmin -> DW_HEADER_ADMIN
+2011-07-25 17:20:58,941 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: MenuDesignAdmin.hbm.xml
+2011-07-25 17:20:58,957 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.MenuDesignAdmin -> DW_MENU_ADMIN
+2011-07-25 17:20:58,957 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: TemplateDetails.hbm.xml
+2011-07-25 17:20:58,972 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.TemplateDetails -> DW_TEMPLATE_DETAILS
+2011-07-25 17:20:58,972 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: TemplateItems.hbm.xml
+2011-07-25 17:20:58,988 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.TemplateItems -> DW_TEMPLATE_DETAIL_ITEMS
+2011-07-25 17:20:58,988 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Group.hbm.xml
+2011-07-25 17:20:59,004 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Group -> UMM_GROUPS
+2011-07-25 17:20:59,035 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Group.groupAccessLevels -> UMM_GROUP_USER_TYPES
+2011-07-25 17:20:59,035 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: GroupAccessLevels.hbm.xml
+2011-07-25 17:20:59,082 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.GroupAccessLevels -> UMM_GROUP_USER_TYPES
+2011-07-25 17:20:59,082 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: GroupCollectionMapping.hbm.xml
+2011-07-25 17:20:59,097 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.GroupCollectionMapping -> DW_GROUP_COLLECTION_MAPPING
+2011-07-25 17:20:59,097 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Menu.hbm.xml
+2011-07-25 17:20:59,113 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Menu -> DW_MENU
+2011-07-25 17:20:59,113 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: SharedMenu.hbm.xml
+2011-07-25 17:20:59,129 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.SharedMenu -> DW_SHARED_MENU
+2011-07-25 17:20:59,316 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: SubMenu.hbm.xml
+2011-07-25 17:20:59,316 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.SubMenu -> DW_SUB_MENU
+2011-07-25 17:20:59,332 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: SharedSubMenu.hbm.xml
+2011-07-25 17:20:59,332 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.SharedSubMenu -> DW_SHARED_SUB_MENU
+2011-07-25 17:20:59,347 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Templates.hbm.xml
+2011-07-25 17:20:59,363 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Templates -> DW_TEMPLATES
+2011-07-25 17:20:59,363 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Templates.sections -> DW_TEMPLATE_DETAILS
+2011-07-25 17:20:59,363 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: GroupDesignDetails.hbm.xml
+2011-07-25 17:20:59,363 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.GroupDesignDetails -> DW_GROUP_DESIGN_DETAILS
+2011-07-25 17:20:59,363 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Content.hbm.xml
+2011-07-25 17:20:59,394 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Content -> DW_CONTENT
+2011-07-25 17:20:59,394 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Content.contentItemValues -> DW_CONTENT_REFERENCE
+2011-07-25 17:20:59,394 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: SharedContent.hbm.xml
+2011-07-25 17:20:59,410 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.SharedContent -> DW_SHARED_CONTENT
+2011-07-25 17:20:59,410 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: ContentReference.hbm.xml
+2011-07-25 17:20:59,425 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.ContentReference -> DW_CONTENT_REFERENCE
+2011-07-25 17:20:59,425 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: GroupMapping.hbm.xml
+2011-07-25 17:20:59,441 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.GroupMapping -> UMM_GROUP_MAPPING
+2011-07-25 17:20:59,441 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: User.hbm.xml
+2011-07-25 17:20:59,457 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.User -> UMM_USERS
+2011-07-25 17:20:59,457 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: ApplicationMapping.hbm.xml
+2011-07-25 17:20:59,472 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.ApplicationMapping -> UMM_APPLICATION_MAPPING
+2011-07-25 17:20:59,472 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Application.hbm.xml
+2011-07-25 17:20:59,488 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Application -> UMM_APPLICATION
+2011-07-25 17:20:59,488 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Repository.hbm.xml
+2011-07-25 17:20:59,488 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Repository -> DR_REPOSITORY
+2011-07-25 17:20:59,488 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: ApplicationDetails.hbm.xml
+2011-07-25 17:20:59,504 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.ApplicationDetails -> DW_APPLICATION_DETAILS
+2011-07-25 17:20:59,504 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Shortcuts.hbm.xml
+2011-07-25 17:20:59,519 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Shortcuts -> DW_SHORTCUTS
+2011-07-25 17:20:59,519 INFO  [org.hibernate.cfg.Configuration] (HDScanner) processing extends queue
+2011-07-25 17:20:59,519 INFO  [org.hibernate.cfg.Configuration] (HDScanner) processing collection mappings
+2011-07-25 17:20:59,519 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.AdminPagesMaster.pageSpecificFields -> DW_DYNAMIC_FIELD_MAPPING
+2011-07-25 17:20:59,519 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Group.groupSpecificMenus -> DW_MENU
+2011-07-25 17:20:59,519 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Group.getGroupCollection -> DW_GROUP_COLLECTION_MAPPING
+2011-07-25 17:20:59,519 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Group.groupSpecificTemplates -> DW_TEMPLATES
+2011-07-25 17:20:59,519 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.GroupCollectionMapping.getSharingGroupCollection -> UMM_GROUPS
+2011-07-25 17:20:59,519 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Menu.subMenus -> DW_SUB_MENU
+2011-07-25 17:20:59,519 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Menu.sharedMenu -> DW_SHARED_MENU
+2011-07-25 17:20:59,519 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Menu.menuBasedContent -> DW_CONTENT
+2011-07-25 17:20:59,519 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.SubMenu.sharedSubMenu -> DW_SHARED_SUB_MENU
+2011-07-25 17:20:59,519 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.SubMenu.subMenuBasedContent -> DW_CONTENT
+2011-07-25 17:20:59,519 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Content.sharedContent -> DW_SHARED_CONTENT
+2011-07-25 17:20:59,519 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Content.contentReference -> DW_CONTENT_REFERENCE
+2011-07-25 17:20:59,519 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Content.contentSharedToAGroup -> DW_SHARED_CONTENT
+2011-07-25 17:20:59,519 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.ApplicationMapping.groupMapping -> UMM_GROUP_MAPPING
+2011-07-25 17:20:59,519 INFO  [org.hibernate.cfg.Configuration] (HDScanner) processing association property references
+2011-07-25 17:20:59,519 INFO  [org.hibernate.cfg.Configuration] (HDScanner) processing foreign key constraints
+2011-07-25 17:20:59,910 INFO  [org.hibernate.util.NamingHelper] (HDScanner) JNDI InitialContext properties:{}
+2011-07-25 17:20:59,972 INFO  [org.hibernate.connection.DatasourceConnectionProvider] (HDScanner) Using datasource: java:/JDBCIntranetDS
+2011-07-25 17:21:03,207 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) RDBMS: Oracle, version: Oracle Database 11g Release 11.1.0.0.0 - Production
+2011-07-25 17:21:03,207 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) JDBC driver: Oracle JDBC driver, version: 10.2.0.4.0
+2011-07-25 17:21:03,238 INFO  [org.hibernate.dialect.Dialect] (HDScanner) Using dialect: org.hibernate.dialect.OracleDialect
+2011-07-25 17:21:03,254 INFO  [org.hibernate.transaction.TransactionFactoryFactory] (HDScanner) Transaction strategy: org.hibernate.transaction.JTATransactionFactory
+2011-07-25 17:21:03,269 INFO  [org.hibernate.util.NamingHelper] (HDScanner) JNDI InitialContext properties:{}
+2011-07-25 17:21:03,285 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] (HDScanner) No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2011-07-25 17:21:03,285 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Automatic flush during beforeCompletion(): disabled
+2011-07-25 17:21:03,285 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Automatic session close at end of transaction: disabled
+2011-07-25 17:21:03,285 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) JDBC batch size: 15
+2011-07-25 17:21:03,285 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) JDBC batch updates for versioned data: disabled
+2011-07-25 17:21:03,300 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Scrollable result sets: enabled
+2011-07-25 17:21:03,300 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) JDBC3 getGeneratedKeys(): enabled
+2011-07-25 17:21:03,300 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Connection release mode: null
+2011-07-25 17:21:03,300 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Default batch fetch size: 1
+2011-07-25 17:21:03,300 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Generate SQL with comments: disabled
+2011-07-25 17:21:03,300 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Order SQL updates by primary key: disabled
+2011-07-25 17:21:03,300 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2011-07-25 17:21:03,332 INFO  [org.hibernate.hql.ast.ASTQueryTranslatorFactory] (HDScanner) Using ASTQueryTranslatorFactory
+2011-07-25 17:21:03,347 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Query language substitutions: {false=0, true=1}
+2011-07-25 17:21:03,347 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Second-level cache: enabled
+2011-07-25 17:21:03,347 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Query cache: disabled
+2011-07-25 17:21:03,347 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Cache provider: org.hibernate.cache.EhCacheProvider
+2011-07-25 17:21:03,347 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Optimize cache for minimal puts: disabled
+2011-07-25 17:21:03,347 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Structured second-level cache entries: enabled
+2011-07-25 17:21:03,363 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Statistics: disabled
+2011-07-25 17:21:03,363 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Deleted entity synthetic identifier rollback: disabled
+2011-07-25 17:21:03,363 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Default entity-mode: pojo
+2011-07-25 17:21:03,425 INFO  [org.hibernate.impl.SessionFactoryImpl] (HDScanner) building session factory
+2011-07-25 17:21:03,441 WARN  [net.sf.ehcache.config.Configurator] (HDScanner) No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/lib/ehcache-1.1.jar/ehcache-failsafe.xml
+2011-07-25 17:21:05,675 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) Factory name: java:/DirectWebHibernateFactory
+2011-07-25 17:21:05,675 INFO  [org.hibernate.util.NamingHelper] (HDScanner) JNDI InitialContext properties:{}
+2011-07-25 17:21:05,675 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) Bound factory to JNDI name: java:/DirectWebHibernateFactory
+2011-07-25 17:21:05,691 WARN  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) InitialContext did not implement EventContext
+2011-07-25 17:21:05,691 INFO  [org.hibernate.impl.SessionFactoryImpl] (HDScanner) Checking 0 named queries
+2011-07-25 17:21:05,707 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/DirectWeb
+2011-07-25 17:21:06,332 INFO  [STDOUT] (HDScanner) URLInterceptor init, now processing URL request.
+2011-07-25 17:21:06,347 INFO  [STDOUT] (HDScanner) HibernateFilter init, now opening/closing a Session for each request.
+2011-07-25 17:21:06,816 INFO  [org.apache.struts.validator.ValidatorPlugIn] (HDScanner) Loading validation rules file from '/WEB-INF/struts/validator-rules.xml'
+2011-07-25 17:21:06,816 INFO  [org.apache.struts.validator.ValidatorPlugIn] (HDScanner) Loading validation rules file from '/WEB-INF/struts/validation.xml'
+2011-07-25 17:21:07,097 ERROR [STDERR] (HDScanner) SLF4J: Class path contains multiple SLF4J bindings.
+2011-07-25 17:21:07,097 ERROR [STDERR] (HDScanner) SLF4J: Found binding in [vfszip:/D:/jboss-5.1.0.GA/common/lib/slf4j-jboss-logging.jar/org/slf4j/impl/StaticLoggerBinder.class]
+2011-07-25 17:21:07,097 ERROR [STDERR] (HDScanner) SLF4J: Found binding in [vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/lib/slf4j-simple-1.5.8.jar/org/slf4j/impl/StaticLoggerBinder.class]
+2011-07-25 17:21:07,129 ERROR [STDERR] (HDScanner) SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+2011-07-25 17:21:07,207 ERROR [STDERR] (HDScanner) 63 [HDScanner] INFO net.fckeditor.connector.Dispatcher - Connector initialized to net.fckeditor.connector.impl.LocalConnector
+2011-07-25 17:33:28,785 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/DirectWeb
+2011-07-25 17:33:28,800 INFO  [org.hibernate.jmx.HibernateServiceMBean] (HDScanner) stopping service
+2011-07-25 17:33:28,800 INFO  [org.hibernate.util.NamingHelper] (HDScanner) JNDI InitialContext properties:{}
+2011-07-25 17:33:28,800 INFO  [org.hibernate.impl.SessionFactoryImpl] (HDScanner) closing
+2011-07-25 17:33:28,800 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) Unbinding factory from JNDI name: java:/DirectWebHibernateFactory
+2011-07-25 17:33:28,800 INFO  [org.hibernate.util.NamingHelper] (HDScanner) JNDI InitialContext properties:{}
+2011-07-25 17:33:28,800 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) Unbound factory from JNDI name: java:/DirectWebHibernateFactory
+2011-07-25 17:33:40,472 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/DirectWeb
+2011-07-25 17:33:52,316 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/DirectWeb
+2011-07-25 17:33:56,504 INFO  [org.hibernate.jmx.HibernateServiceMBean] (HDScanner) starting service at JNDI name: java:/DirectWebHibernateFactory
+2011-07-25 17:33:56,519 INFO  [org.hibernate.jmx.HibernateServiceMBean] (HDScanner) service properties: {hibernate.session_factory_name=java:/DirectWebHibernateFactory, hibernate.transaction.factory_class=org.hibernate.transaction.JTATransactionFactory, hibernate.connection.datasource=java:/JDBCIntranetDS, jta.UserTransaction=UserTransaction}
+2011-07-25 17:33:56,566 INFO  [org.hibernate.cfg.Environment] (HDScanner) Hibernate 3.0.3
+2011-07-25 17:33:56,566 INFO  [org.hibernate.cfg.Environment] (HDScanner) hibernate.properties not found
+2011-07-25 17:33:56,566 INFO  [org.hibernate.cfg.Environment] (HDScanner) using CGLIB reflection optimizer
+2011-07-25 17:33:56,566 INFO  [org.hibernate.cfg.Environment] (HDScanner) using JDK 1.4 java.sql.Timestamp handling
+2011-07-25 17:33:56,691 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: AdminPages.hbm.xml
+2011-07-25 17:33:56,910 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.AdminPagesMaster -> DW_ADMIN_PAGES
+2011-07-25 17:33:56,941 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: DynamicFieldsMapping.hbm.xml
+2011-07-25 17:33:56,957 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.DynamicFieldsMapping -> DW_DYNAMIC_FIELD_MAPPING
+2011-07-25 17:33:56,957 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: FooterDesignAdmin.hbm.xml
+2011-07-25 17:33:56,972 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.FooterDesignAdmin -> DW_FOOTER_ADMIN
+2011-07-25 17:33:56,972 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: HeaderDesignAdmin.hbm.xml
+2011-07-25 17:33:56,972 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.HeaderDesignAdmin -> DW_HEADER_ADMIN
+2011-07-25 17:33:56,972 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: MenuDesignAdmin.hbm.xml
+2011-07-25 17:33:56,988 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.MenuDesignAdmin -> DW_MENU_ADMIN
+2011-07-25 17:33:56,988 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: TemplateDetails.hbm.xml
+2011-07-25 17:33:57,004 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.TemplateDetails -> DW_TEMPLATE_DETAILS
+2011-07-25 17:33:57,004 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: TemplateItems.hbm.xml
+2011-07-25 17:33:57,019 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.TemplateItems -> DW_TEMPLATE_DETAIL_ITEMS
+2011-07-25 17:33:57,019 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Group.hbm.xml
+2011-07-25 17:33:57,035 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Group -> UMM_GROUPS
+2011-07-25 17:33:57,035 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Group.groupAccessLevels -> UMM_GROUP_USER_TYPES
+2011-07-25 17:33:57,035 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: GroupAccessLevels.hbm.xml
+2011-07-25 17:33:57,050 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.GroupAccessLevels -> UMM_GROUP_USER_TYPES
+2011-07-25 17:33:57,050 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: GroupCollectionMapping.hbm.xml
+2011-07-25 17:33:57,066 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.GroupCollectionMapping -> DW_GROUP_COLLECTION_MAPPING
+2011-07-25 17:33:57,066 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Menu.hbm.xml
+2011-07-25 17:33:57,082 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Menu -> DW_MENU
+2011-07-25 17:33:57,097 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: SharedMenu.hbm.xml
+2011-07-25 17:33:57,097 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.SharedMenu -> DW_SHARED_MENU
+2011-07-25 17:33:57,222 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: SubMenu.hbm.xml
+2011-07-25 17:33:57,238 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.SubMenu -> DW_SUB_MENU
+2011-07-25 17:33:57,238 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: SharedSubMenu.hbm.xml
+2011-07-25 17:33:57,254 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.SharedSubMenu -> DW_SHARED_SUB_MENU
+2011-07-25 17:33:57,269 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Templates.hbm.xml
+2011-07-25 17:33:58,504 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Templates -> DW_TEMPLATES
+2011-07-25 17:33:58,504 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Templates.sections -> DW_TEMPLATE_DETAILS
+2011-07-25 17:33:58,504 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: GroupDesignDetails.hbm.xml
+2011-07-25 17:33:58,550 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.GroupDesignDetails -> DW_GROUP_DESIGN_DETAILS
+2011-07-25 17:33:58,550 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Content.hbm.xml
+2011-07-25 17:33:58,566 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Content -> DW_CONTENT
+2011-07-25 17:33:58,582 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Content.contentItemValues -> DW_CONTENT_REFERENCE
+2011-07-25 17:33:58,582 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: SharedContent.hbm.xml
+2011-07-25 17:33:58,597 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.SharedContent -> DW_SHARED_CONTENT
+2011-07-25 17:33:58,597 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: ContentReference.hbm.xml
+2011-07-25 17:33:58,613 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.ContentReference -> DW_CONTENT_REFERENCE
+2011-07-25 17:33:58,629 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: GroupMapping.hbm.xml
+2011-07-25 17:33:58,644 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.GroupMapping -> UMM_GROUP_MAPPING
+2011-07-25 17:33:58,644 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: User.hbm.xml
+2011-07-25 17:33:58,644 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.User -> UMM_USERS
+2011-07-25 17:33:58,644 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: ApplicationMapping.hbm.xml
+2011-07-25 17:33:58,660 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.ApplicationMapping -> UMM_APPLICATION_MAPPING
+2011-07-25 17:33:58,660 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Application.hbm.xml
+2011-07-25 17:33:58,675 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Application -> UMM_APPLICATION
+2011-07-25 17:33:58,675 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Repository.hbm.xml
+2011-07-25 17:33:58,691 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Repository -> DR_REPOSITORY
+2011-07-25 17:33:58,691 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: ApplicationDetails.hbm.xml
+2011-07-25 17:33:58,691 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.ApplicationDetails -> DW_APPLICATION_DETAILS
+2011-07-25 17:33:58,691 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Shortcuts.hbm.xml
+2011-07-25 17:33:58,707 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Shortcuts -> DW_SHORTCUTS
+2011-07-25 17:33:58,707 INFO  [org.hibernate.cfg.Configuration] (HDScanner) processing extends queue
+2011-07-25 17:33:58,707 INFO  [org.hibernate.cfg.Configuration] (HDScanner) processing collection mappings
+2011-07-25 17:33:58,707 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.AdminPagesMaster.pageSpecificFields -> DW_DYNAMIC_FIELD_MAPPING
+2011-07-25 17:33:58,707 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Group.groupSpecificMenus -> DW_MENU
+2011-07-25 17:33:58,722 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Group.getGroupCollection -> DW_GROUP_COLLECTION_MAPPING
+2011-07-25 17:33:58,722 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Group.groupSpecificTemplates -> DW_TEMPLATES
+2011-07-25 17:33:58,722 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.GroupCollectionMapping.getSharingGroupCollection -> UMM_GROUPS
+2011-07-25 17:33:58,722 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Menu.subMenus -> DW_SUB_MENU
+2011-07-25 17:33:58,722 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Menu.sharedMenu -> DW_SHARED_MENU
+2011-07-25 17:33:58,722 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Menu.menuBasedContent -> DW_CONTENT
+2011-07-25 17:33:58,722 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.SubMenu.sharedSubMenu -> DW_SHARED_SUB_MENU
+2011-07-25 17:33:58,722 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.SubMenu.subMenuBasedContent -> DW_CONTENT
+2011-07-25 17:33:58,722 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Content.sharedContent -> DW_SHARED_CONTENT
+2011-07-25 17:33:58,722 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Content.contentReference -> DW_CONTENT_REFERENCE
+2011-07-25 17:33:58,722 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Content.contentSharedToAGroup -> DW_SHARED_CONTENT
+2011-07-25 17:33:58,722 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.ApplicationMapping.groupMapping -> UMM_GROUP_MAPPING
+2011-07-25 17:33:58,722 INFO  [org.hibernate.cfg.Configuration] (HDScanner) processing association property references
+2011-07-25 17:33:58,722 INFO  [org.hibernate.cfg.Configuration] (HDScanner) processing foreign key constraints
+2011-07-25 17:33:59,004 INFO  [org.hibernate.util.NamingHelper] (HDScanner) JNDI InitialContext properties:{}
+2011-07-25 17:33:59,050 INFO  [org.hibernate.connection.DatasourceConnectionProvider] (HDScanner) Using datasource: java:/JDBCIntranetDS
+2011-07-25 17:34:00,175 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) RDBMS: Oracle, version: Oracle Database 11g Release 11.1.0.0.0 - Production
+2011-07-25 17:34:00,191 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) JDBC driver: Oracle JDBC driver, version: 10.2.0.4.0
+2011-07-25 17:34:00,222 INFO  [org.hibernate.dialect.Dialect] (HDScanner) Using dialect: org.hibernate.dialect.OracleDialect
+2011-07-25 17:34:00,238 INFO  [org.hibernate.transaction.TransactionFactoryFactory] (HDScanner) Transaction strategy: org.hibernate.transaction.JTATransactionFactory
+2011-07-25 17:34:00,238 INFO  [org.hibernate.util.NamingHelper] (HDScanner) JNDI InitialContext properties:{}
+2011-07-25 17:34:00,238 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] (HDScanner) No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2011-07-25 17:34:00,238 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Automatic flush during beforeCompletion(): disabled
+2011-07-25 17:34:00,238 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Automatic session close at end of transaction: disabled
+2011-07-25 17:34:00,238 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) JDBC batch size: 15
+2011-07-25 17:34:00,254 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) JDBC batch updates for versioned data: disabled
+2011-07-25 17:34:00,269 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Scrollable result sets: enabled
+2011-07-25 17:34:00,269 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) JDBC3 getGeneratedKeys(): enabled
+2011-07-25 17:34:00,269 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Connection release mode: null
+2011-07-25 17:34:00,269 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Default batch fetch size: 1
+2011-07-25 17:34:00,269 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Generate SQL with comments: disabled
+2011-07-25 17:34:00,269 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Order SQL updates by primary key: disabled
+2011-07-25 17:34:00,269 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2011-07-25 17:34:00,269 INFO  [org.hibernate.hql.ast.ASTQueryTranslatorFactory] (HDScanner) Using ASTQueryTranslatorFactory
+2011-07-25 17:34:00,269 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Query language substitutions: {false=0, true=1}
+2011-07-25 17:34:00,269 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Second-level cache: enabled
+2011-07-25 17:34:00,269 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Query cache: disabled
+2011-07-25 17:34:00,269 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Cache provider: org.hibernate.cache.EhCacheProvider
+2011-07-25 17:34:00,285 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Optimize cache for minimal puts: disabled
+2011-07-25 17:34:00,285 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Structured second-level cache entries: enabled
+2011-07-25 17:34:00,300 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Statistics: disabled
+2011-07-25 17:34:00,300 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Deleted entity synthetic identifier rollback: disabled
+2011-07-25 17:34:00,300 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Default entity-mode: pojo
+2011-07-25 17:34:00,347 INFO  [org.hibernate.impl.SessionFactoryImpl] (HDScanner) building session factory
+2011-07-25 17:34:00,363 WARN  [net.sf.ehcache.config.Configurator] (HDScanner) No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/lib/ehcache-1.1.jar/ehcache-failsafe.xml
+2011-07-25 17:34:02,363 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) Factory name: java:/DirectWebHibernateFactory
+2011-07-25 17:34:02,363 INFO  [org.hibernate.util.NamingHelper] (HDScanner) JNDI InitialContext properties:{}
+2011-07-25 17:34:02,363 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) Bound factory to JNDI name: java:/DirectWebHibernateFactory
+2011-07-25 17:34:02,363 WARN  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) InitialContext did not implement EventContext
+2011-07-25 17:34:02,363 INFO  [org.hibernate.impl.SessionFactoryImpl] (HDScanner) Checking 0 named queries
+2011-07-25 17:34:02,394 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/DirectWeb
+2011-07-25 17:34:02,660 INFO  [STDOUT] (HDScanner) URLInterceptor init, now processing URL request.
+2011-07-25 17:34:02,675 INFO  [STDOUT] (HDScanner) HibernateFilter init, now opening/closing a Session for each request.
+2011-07-25 17:34:03,019 INFO  [org.apache.struts.validator.ValidatorPlugIn] (HDScanner) Loading validation rules file from '/WEB-INF/struts/validator-rules.xml'
+2011-07-25 17:34:03,019 INFO  [org.apache.struts.validator.ValidatorPlugIn] (HDScanner) Loading validation rules file from '/WEB-INF/struts/validation.xml'
+2011-07-25 17:34:03,238 ERROR [STDERR] (HDScanner) SLF4J: Class path contains multiple SLF4J bindings.
+2011-07-25 17:34:03,238 ERROR [STDERR] (HDScanner) SLF4J: Found binding in [vfszip:/D:/jboss-5.1.0.GA/common/lib/slf4j-jboss-logging.jar/org/slf4j/impl/StaticLoggerBinder.class]
+2011-07-25 17:34:03,238 ERROR [STDERR] (HDScanner) SLF4J: Found binding in [vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/lib/slf4j-simple-1.5.8.jar/org/slf4j/impl/StaticLoggerBinder.class]
+2011-07-25 17:34:03,238 ERROR [STDERR] (HDScanner) SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+2011-07-25 17:34:03,269 ERROR [STDERR] (HDScanner) 31 [HDScanner] INFO net.fckeditor.connector.Dispatcher - Connector initialized to net.fckeditor.connector.impl.LocalConnector
+2011-07-25 17:47:19,863 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/DirectWeb
+2011-07-25 17:47:19,879 INFO  [org.hibernate.jmx.HibernateServiceMBean] (HDScanner) stopping service
+2011-07-25 17:47:19,879 INFO  [org.hibernate.util.NamingHelper] (HDScanner) JNDI InitialContext properties:{}
+2011-07-25 17:47:19,894 INFO  [org.hibernate.impl.SessionFactoryImpl] (HDScanner) closing
+2011-07-25 17:47:19,894 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) Unbinding factory from JNDI name: java:/DirectWebHibernateFactory
+2011-07-25 17:47:19,894 INFO  [org.hibernate.util.NamingHelper] (HDScanner) JNDI InitialContext properties:{}
+2011-07-25 17:47:19,894 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) Unbound factory from JNDI name: java:/DirectWebHibernateFactory
+2011-07-25 17:47:32,504 WARN  [org.jboss.webservices.integration.util.ASHelper] (HDScanner) Cannot load servlet class: org.apache.struts.action.ActionServlet
+java.lang.ClassNotFoundException: org.apache.struts.action.ActionServlet from BaseClassLoader@11daac0{VFSClassLoaderPolicy@b5395d{name=vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/ domain=ClassLoaderDomain@1e4b8c1{name=vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/ parentPolicy=AFTER_BUT_JAVA_BEFORE parent=BaseClassLoader@25ed77{vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/}} roots=[FileHandler@29957516[path=DirectWeb.ear/DirectWeb.war/WEB-INF/classes context=file:/D:/jboss-5.1.0.GA/server/default/deploy/ real=file:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/WEB-INF/classes/]]  delegates=null exported=[com.hd.directweb.servlet.photogallery, com.hd.directweb.action] <IMPORT-ALL>NON_EMPTY}}
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClass(BaseClassLoader.java:448)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at org.jboss.webservices.integration.util.ASHelper.getEndpointClass(ASHelper.java:295)
+	at org.jboss.webservices.integration.util.ASHelper.getWebServiceServlets(ASHelper.java:398)
+	at org.jboss.webservices.integration.util.ASHelper.getJaxwsServlets(ASHelper.java:194)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.isJaxwsJseDeployment(WSTypeDeployer.java:153)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.internalDeploy(WSTypeDeployer.java:68)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractRealDeployer.deploy(AbstractRealDeployer.java:50)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:171)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doDeploy(DeployersImpl.java:1439)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1157)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1210)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.install(DeployersImpl.java:1098)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.process(DeployersImpl.java:781)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.process(MainDeployerImpl.java:702)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.process(MainDeployerAdapter.java:117)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:362)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2011-07-25 17:47:32,535 WARN  [org.jboss.webservices.integration.util.ASHelper] (HDScanner) Cannot load servlet class: com.hd.directweb.servlet.SessionValidator
+java.lang.ClassNotFoundException: com.hd.directweb.servlet.SessionValidator from BaseClassLoader@11daac0{VFSClassLoaderPolicy@b5395d{name=vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/ domain=ClassLoaderDomain@1e4b8c1{name=vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/ parentPolicy=AFTER_BUT_JAVA_BEFORE parent=BaseClassLoader@25ed77{vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/}} roots=[FileHandler@29957516[path=DirectWeb.ear/DirectWeb.war/WEB-INF/classes context=file:/D:/jboss-5.1.0.GA/server/default/deploy/ real=file:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/WEB-INF/classes/]]  delegates=null exported=[com.hd.directweb.servlet.photogallery, com.hd.directweb.action] <IMPORT-ALL>NON_EMPTY}}
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClass(BaseClassLoader.java:448)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at org.jboss.webservices.integration.util.ASHelper.getEndpointClass(ASHelper.java:295)
+	at org.jboss.webservices.integration.util.ASHelper.getWebServiceServlets(ASHelper.java:398)
+	at org.jboss.webservices.integration.util.ASHelper.getJaxwsServlets(ASHelper.java:194)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.isJaxwsJseDeployment(WSTypeDeployer.java:153)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.internalDeploy(WSTypeDeployer.java:68)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractRealDeployer.deploy(AbstractRealDeployer.java:50)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:171)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doDeploy(DeployersImpl.java:1439)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1157)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1210)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.install(DeployersImpl.java:1098)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.process(DeployersImpl.java:781)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.process(MainDeployerImpl.java:702)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.process(MainDeployerAdapter.java:117)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:362)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2011-07-25 17:47:32,535 WARN  [org.jboss.webservices.integration.util.ASHelper] (HDScanner) Cannot load servlet class: com.hd.directweb.servlet.photogallery.PhotoController
+java.lang.ClassNotFoundException: com.hd.directweb.servlet.photogallery.PhotoController from BaseClassLoader@11daac0{VFSClassLoaderPolicy@b5395d{name=vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/ domain=ClassLoaderDomain@1e4b8c1{name=vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/ parentPolicy=AFTER_BUT_JAVA_BEFORE parent=BaseClassLoader@25ed77{vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/}} roots=[FileHandler@29957516[path=DirectWeb.ear/DirectWeb.war/WEB-INF/classes context=file:/D:/jboss-5.1.0.GA/server/default/deploy/ real=file:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/WEB-INF/classes/]]  delegates=null exported=[com.hd.directweb.servlet.photogallery, com.hd.directweb.action] <IMPORT-ALL>NON_EMPTY}}
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClass(BaseClassLoader.java:448)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at org.jboss.webservices.integration.util.ASHelper.getEndpointClass(ASHelper.java:295)
+	at org.jboss.webservices.integration.util.ASHelper.getWebServiceServlets(ASHelper.java:398)
+	at org.jboss.webservices.integration.util.ASHelper.getJaxwsServlets(ASHelper.java:194)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.isJaxwsJseDeployment(WSTypeDeployer.java:153)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.internalDeploy(WSTypeDeployer.java:68)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractRealDeployer.deploy(AbstractRealDeployer.java:50)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:171)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doDeploy(DeployersImpl.java:1439)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1157)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1210)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.install(DeployersImpl.java:1098)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.process(DeployersImpl.java:781)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.process(MainDeployerImpl.java:702)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.process(MainDeployerAdapter.java:117)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:362)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2011-07-25 17:47:32,566 ERROR [org.jboss.kernel.plugins.dependency.AbstractKernelController] (HDScanner) Error installing to Real: name=vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/ state=PreReal mode=Manual requiredState=Real
+org.jboss.deployers.spi.DeploymentException: Error during deploy: vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/
+	at org.jboss.deployers.spi.DeploymentException.rethrowAsDeploymentException(DeploymentException.java:49)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:177)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doDeploy(DeployersImpl.java:1439)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1157)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1210)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.install(DeployersImpl.java:1098)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.process(DeployersImpl.java:781)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.process(MainDeployerImpl.java:702)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.process(MainDeployerAdapter.java:117)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:362)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: java.lang.NoClassDefFoundError: com/hd/directweb/service/constants/Constants
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:621)
+	at org.jboss.classloader.spi.base.BaseClassLoader.access$200(BaseClassLoader.java:63)
+	at org.jboss.classloader.spi.base.BaseClassLoader$2.run(BaseClassLoader.java:572)
+	at org.jboss.classloader.spi.base.BaseClassLoader$2.run(BaseClassLoader.java:532)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClassLocally(BaseClassLoader.java:530)
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClassLocally(BaseClassLoader.java:507)
+	at org.jboss.classloader.spi.base.BaseDelegateLoader.loadClass(BaseDelegateLoader.java:134)
+	at org.jboss.classloader.spi.filter.FilteredDelegateLoader.loadClass(FilteredDelegateLoader.java:131)
+	at org.jboss.classloader.spi.base.ClassLoadingTask$ThreadTask.run(ClassLoadingTask.java:452)
+	at org.jboss.classloader.spi.base.ClassLoaderManager.nextTask(ClassLoaderManager.java:251)
+	at org.jboss.classloader.spi.base.ClassLoaderManager.process(ClassLoaderManager.java:150)
+	at org.jboss.classloader.spi.base.BaseClassLoaderDomain.loadClass(BaseClassLoaderDomain.java:265)
+	at org.jboss.classloader.spi.base.BaseClassLoaderDomain.loadClass(BaseClassLoaderDomain.java:1119)
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClassFromDomain(BaseClassLoader.java:798)
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClass(BaseClassLoader.java:441)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at org.jboss.webservices.integration.util.ASHelper.getEndpointClass(ASHelper.java:295)
+	at org.jboss.webservices.integration.util.ASHelper.getWebServiceServlets(ASHelper.java:398)
+	at org.jboss.webservices.integration.util.ASHelper.getJaxwsServlets(ASHelper.java:194)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.isJaxwsJseDeployment(WSTypeDeployer.java:153)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.internalDeploy(WSTypeDeployer.java:68)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractRealDeployer.deploy(AbstractRealDeployer.java:50)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:171)
+	... 25 more
+Caused by: java.lang.ClassNotFoundException: com.hd.directweb.service.constants.Constants
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:200)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:188)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:307)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:247)
+	at org.jboss.classloader.spi.base.BaseClassLoaderDomain.loadClass(BaseClassLoaderDomain.java:292)
+	at org.jboss.classloader.spi.base.BaseClassLoaderDomain.loadClass(BaseClassLoaderDomain.java:1119)
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClassFromDomain(BaseClassLoader.java:798)
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClass(BaseClassLoader.java:441)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	... 50 more
+2011-07-25 17:47:32,566 WARN  [org.jboss.system.server.profileservice.hotdeploy.HDScanner] (HDScanner) Failed to process changes
+org.jboss.deployers.client.spi.IncompleteDeploymentException: Summary of incomplete deployments (SEE PREVIOUS ERRORS FOR DETAILS):
+
+*** DEPLOYMENTS IN ERROR: Name -> Error
+
+vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/ -> org.jboss.deployers.spi.DeploymentException: Error during deploy: vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/
+
+
+DEPLOYMENTS IN ERROR:
+  Deployment "vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/" is in error due to the following reason(s): java.lang.ClassNotFoundException: com.hd.directweb.service.constants.Constants
+
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.checkComplete(DeployersImpl.java:993)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.checkComplete(DeployersImpl.java:939)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.checkComplete(MainDeployerImpl.java:873)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.checkComplete(MainDeployerAdapter.java:128)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:369)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2011-07-25 17:54:59,363 WARN  [org.jboss.webservices.integration.util.ASHelper] (HDScanner) Cannot load servlet class: org.apache.struts.action.ActionServlet
+java.lang.ClassNotFoundException: org.apache.struts.action.ActionServlet from BaseClassLoader@1a73148{VFSClassLoaderPolicy@1948b8a{name=vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/ domain=ClassLoaderDomain@ba9569{name=vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/ parentPolicy=AFTER_BUT_JAVA_BEFORE parent=BaseClassLoader@1c96616{vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/}} roots=[FileHandler@22354179[path=DirectWeb.ear/DirectWeb.war/WEB-INF/classes context=file:/D:/jboss-5.1.0.GA/server/default/deploy/ real=file:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/WEB-INF/classes/]]  delegates=null exported=[com.hd.directweb.servlet.photogallery, com.hd.directweb.action] <IMPORT-ALL>NON_EMPTY}}
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClass(BaseClassLoader.java:448)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at org.jboss.webservices.integration.util.ASHelper.getEndpointClass(ASHelper.java:295)
+	at org.jboss.webservices.integration.util.ASHelper.getWebServiceServlets(ASHelper.java:398)
+	at org.jboss.webservices.integration.util.ASHelper.getJaxwsServlets(ASHelper.java:194)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.isJaxwsJseDeployment(WSTypeDeployer.java:153)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.internalDeploy(WSTypeDeployer.java:68)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractRealDeployer.deploy(AbstractRealDeployer.java:50)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:171)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doDeploy(DeployersImpl.java:1439)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1157)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1210)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.install(DeployersImpl.java:1098)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.process(DeployersImpl.java:781)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.process(MainDeployerImpl.java:702)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.process(MainDeployerAdapter.java:117)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:362)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2011-07-25 17:54:59,394 WARN  [org.jboss.webservices.integration.util.ASHelper] (HDScanner) Cannot load servlet class: com.hd.directweb.servlet.SessionValidator
+java.lang.ClassNotFoundException: com.hd.directweb.servlet.SessionValidator from BaseClassLoader@1a73148{VFSClassLoaderPolicy@1948b8a{name=vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/ domain=ClassLoaderDomain@ba9569{name=vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/ parentPolicy=AFTER_BUT_JAVA_BEFORE parent=BaseClassLoader@1c96616{vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/}} roots=[FileHandler@22354179[path=DirectWeb.ear/DirectWeb.war/WEB-INF/classes context=file:/D:/jboss-5.1.0.GA/server/default/deploy/ real=file:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/WEB-INF/classes/]]  delegates=null exported=[com.hd.directweb.servlet.photogallery, com.hd.directweb.action] <IMPORT-ALL>NON_EMPTY}}
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClass(BaseClassLoader.java:448)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at org.jboss.webservices.integration.util.ASHelper.getEndpointClass(ASHelper.java:295)
+	at org.jboss.webservices.integration.util.ASHelper.getWebServiceServlets(ASHelper.java:398)
+	at org.jboss.webservices.integration.util.ASHelper.getJaxwsServlets(ASHelper.java:194)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.isJaxwsJseDeployment(WSTypeDeployer.java:153)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.internalDeploy(WSTypeDeployer.java:68)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractRealDeployer.deploy(AbstractRealDeployer.java:50)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:171)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doDeploy(DeployersImpl.java:1439)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1157)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1210)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.install(DeployersImpl.java:1098)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.process(DeployersImpl.java:781)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.process(MainDeployerImpl.java:702)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.process(MainDeployerAdapter.java:117)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:362)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2011-07-25 17:54:59,394 WARN  [org.jboss.webservices.integration.util.ASHelper] (HDScanner) Cannot load servlet class: com.hd.directweb.servlet.photogallery.PhotoController
+java.lang.ClassNotFoundException: com.hd.directweb.servlet.photogallery.PhotoController from BaseClassLoader@1a73148{VFSClassLoaderPolicy@1948b8a{name=vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/ domain=ClassLoaderDomain@ba9569{name=vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/ parentPolicy=AFTER_BUT_JAVA_BEFORE parent=BaseClassLoader@1c96616{vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/}} roots=[FileHandler@22354179[path=DirectWeb.ear/DirectWeb.war/WEB-INF/classes context=file:/D:/jboss-5.1.0.GA/server/default/deploy/ real=file:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/WEB-INF/classes/]]  delegates=null exported=[com.hd.directweb.servlet.photogallery, com.hd.directweb.action] <IMPORT-ALL>NON_EMPTY}}
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClass(BaseClassLoader.java:448)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at org.jboss.webservices.integration.util.ASHelper.getEndpointClass(ASHelper.java:295)
+	at org.jboss.webservices.integration.util.ASHelper.getWebServiceServlets(ASHelper.java:398)
+	at org.jboss.webservices.integration.util.ASHelper.getJaxwsServlets(ASHelper.java:194)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.isJaxwsJseDeployment(WSTypeDeployer.java:153)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.internalDeploy(WSTypeDeployer.java:68)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractRealDeployer.deploy(AbstractRealDeployer.java:50)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:171)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doDeploy(DeployersImpl.java:1439)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1157)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1210)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.install(DeployersImpl.java:1098)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.process(DeployersImpl.java:781)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.process(MainDeployerImpl.java:702)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.process(MainDeployerAdapter.java:117)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:362)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2011-07-25 17:54:59,425 ERROR [org.jboss.kernel.plugins.dependency.AbstractKernelController] (HDScanner) Error installing to Real: name=vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/ state=PreReal mode=Manual requiredState=Real
+org.jboss.deployers.spi.DeploymentException: Error during deploy: vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/
+	at org.jboss.deployers.spi.DeploymentException.rethrowAsDeploymentException(DeploymentException.java:49)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:177)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doDeploy(DeployersImpl.java:1439)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1157)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1210)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.install(DeployersImpl.java:1098)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.process(DeployersImpl.java:781)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.process(MainDeployerImpl.java:702)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.process(MainDeployerAdapter.java:117)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:362)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: java.lang.NoClassDefFoundError: com/hd/directweb/service/constants/Constants
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:621)
+	at org.jboss.classloader.spi.base.BaseClassLoader.access$200(BaseClassLoader.java:63)
+	at org.jboss.classloader.spi.base.BaseClassLoader$2.run(BaseClassLoader.java:572)
+	at org.jboss.classloader.spi.base.BaseClassLoader$2.run(BaseClassLoader.java:532)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClassLocally(BaseClassLoader.java:530)
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClassLocally(BaseClassLoader.java:507)
+	at org.jboss.classloader.spi.base.BaseDelegateLoader.loadClass(BaseDelegateLoader.java:134)
+	at org.jboss.classloader.spi.filter.FilteredDelegateLoader.loadClass(FilteredDelegateLoader.java:131)
+	at org.jboss.classloader.spi.base.ClassLoadingTask$ThreadTask.run(ClassLoadingTask.java:452)
+	at org.jboss.classloader.spi.base.ClassLoaderManager.nextTask(ClassLoaderManager.java:251)
+	at org.jboss.classloader.spi.base.ClassLoaderManager.process(ClassLoaderManager.java:150)
+	at org.jboss.classloader.spi.base.BaseClassLoaderDomain.loadClass(BaseClassLoaderDomain.java:265)
+	at org.jboss.classloader.spi.base.BaseClassLoaderDomain.loadClass(BaseClassLoaderDomain.java:1119)
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClassFromDomain(BaseClassLoader.java:798)
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClass(BaseClassLoader.java:441)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at org.jboss.webservices.integration.util.ASHelper.getEndpointClass(ASHelper.java:295)
+	at org.jboss.webservices.integration.util.ASHelper.getWebServiceServlets(ASHelper.java:398)
+	at org.jboss.webservices.integration.util.ASHelper.getJaxwsServlets(ASHelper.java:194)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.isJaxwsJseDeployment(WSTypeDeployer.java:153)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.internalDeploy(WSTypeDeployer.java:68)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractRealDeployer.deploy(AbstractRealDeployer.java:50)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:171)
+	... 25 more
+Caused by: java.lang.ClassNotFoundException: com.hd.directweb.service.constants.Constants
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:200)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:188)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:307)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:247)
+	at org.jboss.classloader.spi.base.BaseClassLoaderDomain.loadClass(BaseClassLoaderDomain.java:292)
+	at org.jboss.classloader.spi.base.BaseClassLoaderDomain.loadClass(BaseClassLoaderDomain.java:1119)
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClassFromDomain(BaseClassLoader.java:798)
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClass(BaseClassLoader.java:441)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	... 50 more
+2011-07-25 17:54:59,441 WARN  [org.jboss.system.server.profileservice.hotdeploy.HDScanner] (HDScanner) Failed to process changes
+org.jboss.deployers.client.spi.IncompleteDeploymentException: Summary of incomplete deployments (SEE PREVIOUS ERRORS FOR DETAILS):
+
+*** DEPLOYMENTS IN ERROR: Name -> Error
+
+vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/ -> org.jboss.deployers.spi.DeploymentException: Error during deploy: vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/
+
+
+DEPLOYMENTS IN ERROR:
+  Deployment "vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/" is in error due to the following reason(s): java.lang.ClassNotFoundException: com.hd.directweb.service.constants.Constants
+
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.checkComplete(DeployersImpl.java:993)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.checkComplete(DeployersImpl.java:939)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.checkComplete(MainDeployerImpl.java:873)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.checkComplete(MainDeployerAdapter.java:128)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:369)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2011-07-25 18:06:47,191 WARN  [org.jboss.webservices.integration.util.ASHelper] (HDScanner) Cannot load servlet class: org.apache.struts.action.ActionServlet
+java.lang.ClassNotFoundException: org.apache.struts.action.ActionServlet from BaseClassLoader@9a25c5{VFSClassLoaderPolicy@25e972{name=vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/ domain=ClassLoaderDomain@ec391f{name=vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/ parentPolicy=AFTER_BUT_JAVA_BEFORE parent=BaseClassLoader@147d6ec{vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/}} roots=[FileHandler@16865585[path=DirectWeb.ear/DirectWeb.war/WEB-INF/classes context=file:/D:/jboss-5.1.0.GA/server/default/deploy/ real=file:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/WEB-INF/classes/]]  delegates=null exported=[com.hd.directweb.servlet.photogallery, com.hd.directweb.form, com.hd.directweb.action] <IMPORT-ALL>NON_EMPTY}}
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClass(BaseClassLoader.java:448)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at org.jboss.webservices.integration.util.ASHelper.getEndpointClass(ASHelper.java:295)
+	at org.jboss.webservices.integration.util.ASHelper.getWebServiceServlets(ASHelper.java:398)
+	at org.jboss.webservices.integration.util.ASHelper.getJaxwsServlets(ASHelper.java:194)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.isJaxwsJseDeployment(WSTypeDeployer.java:153)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.internalDeploy(WSTypeDeployer.java:68)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractRealDeployer.deploy(AbstractRealDeployer.java:50)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:171)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doDeploy(DeployersImpl.java:1439)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1157)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1210)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.install(DeployersImpl.java:1098)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.process(DeployersImpl.java:781)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.process(MainDeployerImpl.java:702)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.process(MainDeployerAdapter.java:117)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:362)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2011-07-25 18:06:47,222 WARN  [org.jboss.webservices.integration.util.ASHelper] (HDScanner) Cannot load servlet class: com.hd.directweb.servlet.SessionValidator
+java.lang.ClassNotFoundException: com.hd.directweb.servlet.SessionValidator from BaseClassLoader@9a25c5{VFSClassLoaderPolicy@25e972{name=vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/ domain=ClassLoaderDomain@ec391f{name=vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/ parentPolicy=AFTER_BUT_JAVA_BEFORE parent=BaseClassLoader@147d6ec{vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/}} roots=[FileHandler@16865585[path=DirectWeb.ear/DirectWeb.war/WEB-INF/classes context=file:/D:/jboss-5.1.0.GA/server/default/deploy/ real=file:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/WEB-INF/classes/]]  delegates=null exported=[com.hd.directweb.servlet.photogallery, com.hd.directweb.form, com.hd.directweb.action] <IMPORT-ALL>NON_EMPTY}}
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClass(BaseClassLoader.java:448)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at org.jboss.webservices.integration.util.ASHelper.getEndpointClass(ASHelper.java:295)
+	at org.jboss.webservices.integration.util.ASHelper.getWebServiceServlets(ASHelper.java:398)
+	at org.jboss.webservices.integration.util.ASHelper.getJaxwsServlets(ASHelper.java:194)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.isJaxwsJseDeployment(WSTypeDeployer.java:153)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.internalDeploy(WSTypeDeployer.java:68)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractRealDeployer.deploy(AbstractRealDeployer.java:50)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:171)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doDeploy(DeployersImpl.java:1439)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1157)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1210)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.install(DeployersImpl.java:1098)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.process(DeployersImpl.java:781)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.process(MainDeployerImpl.java:702)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.process(MainDeployerAdapter.java:117)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:362)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2011-07-25 18:06:47,254 ERROR [org.jboss.kernel.plugins.dependency.AbstractKernelController] (HDScanner) Error installing to Real: name=vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/ state=PreReal mode=Manual requiredState=Real
+org.jboss.deployers.spi.DeploymentException: Error during deploy: vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/
+	at org.jboss.deployers.spi.DeploymentException.rethrowAsDeploymentException(DeploymentException.java:49)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:177)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doDeploy(DeployersImpl.java:1439)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1157)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1210)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.install(DeployersImpl.java:1098)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.process(DeployersImpl.java:781)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.process(MainDeployerImpl.java:702)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.process(MainDeployerAdapter.java:117)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:362)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: java.lang.NoClassDefFoundError: com/hd/directweb/service/constants/Constants
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:621)
+	at org.jboss.classloader.spi.base.BaseClassLoader.access$200(BaseClassLoader.java:63)
+	at org.jboss.classloader.spi.base.BaseClassLoader$2.run(BaseClassLoader.java:572)
+	at org.jboss.classloader.spi.base.BaseClassLoader$2.run(BaseClassLoader.java:532)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClassLocally(BaseClassLoader.java:530)
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClassLocally(BaseClassLoader.java:507)
+	at org.jboss.classloader.spi.base.BaseDelegateLoader.loadClass(BaseDelegateLoader.java:134)
+	at org.jboss.classloader.spi.filter.FilteredDelegateLoader.loadClass(FilteredDelegateLoader.java:131)
+	at org.jboss.classloader.spi.base.ClassLoadingTask$ThreadTask.run(ClassLoadingTask.java:452)
+	at org.jboss.classloader.spi.base.ClassLoaderManager.nextTask(ClassLoaderManager.java:251)
+	at org.jboss.classloader.spi.base.ClassLoaderManager.process(ClassLoaderManager.java:150)
+	at org.jboss.classloader.spi.base.BaseClassLoaderDomain.loadClass(BaseClassLoaderDomain.java:265)
+	at org.jboss.classloader.spi.base.BaseClassLoaderDomain.loadClass(BaseClassLoaderDomain.java:1119)
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClassFromDomain(BaseClassLoader.java:798)
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClass(BaseClassLoader.java:441)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at org.jboss.webservices.integration.util.ASHelper.getEndpointClass(ASHelper.java:295)
+	at org.jboss.webservices.integration.util.ASHelper.getWebServiceServlets(ASHelper.java:398)
+	at org.jboss.webservices.integration.util.ASHelper.getJaxwsServlets(ASHelper.java:194)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.isJaxwsJseDeployment(WSTypeDeployer.java:153)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.internalDeploy(WSTypeDeployer.java:68)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractRealDeployer.deploy(AbstractRealDeployer.java:50)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:171)
+	... 25 more
+Caused by: java.lang.ClassNotFoundException: com.hd.directweb.service.constants.Constants
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:200)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:188)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:307)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:247)
+	at org.jboss.classloader.spi.base.BaseClassLoaderDomain.loadClass(BaseClassLoaderDomain.java:292)
+	at org.jboss.classloader.spi.base.BaseClassLoaderDomain.loadClass(BaseClassLoaderDomain.java:1119)
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClassFromDomain(BaseClassLoader.java:798)
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClass(BaseClassLoader.java:441)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	... 50 more
+2011-07-25 18:06:47,269 WARN  [org.jboss.system.server.profileservice.hotdeploy.HDScanner] (HDScanner) Failed to process changes
+org.jboss.deployers.client.spi.IncompleteDeploymentException: Summary of incomplete deployments (SEE PREVIOUS ERRORS FOR DETAILS):
+
+*** DEPLOYMENTS IN ERROR: Name -> Error
+
+vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/ -> org.jboss.deployers.spi.DeploymentException: Error during deploy: vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/
+
+
+DEPLOYMENTS IN ERROR:
+  Deployment "vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/" is in error due to the following reason(s): java.lang.ClassNotFoundException: com.hd.directweb.service.constants.Constants
+
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.checkComplete(DeployersImpl.java:993)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.checkComplete(DeployersImpl.java:939)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.checkComplete(MainDeployerImpl.java:873)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.checkComplete(MainDeployerAdapter.java:128)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:369)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2011-07-25 18:32:34,566 WARN  [org.jboss.webservices.integration.util.ASHelper] (HDScanner) Cannot load servlet class: org.apache.struts.action.ActionServlet
+java.lang.ClassNotFoundException: org.apache.struts.action.ActionServlet from BaseClassLoader@165b360{VFSClassLoaderPolicy@1e376ce{name=vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/ domain=ClassLoaderDomain@9ec43d{name=vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/ parentPolicy=AFTER_BUT_JAVA_BEFORE parent=BaseClassLoader@1ce4c17{vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/}} roots=[FileHandler@9235212[path=DirectWeb.ear/DirectWeb.war/WEB-INF/classes context=file:/D:/jboss-5.1.0.GA/server/default/deploy/ real=file:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/WEB-INF/classes/]]  delegates=null exported=[com.hd.directweb.servlet.photogallery, com.hd.directweb.action] <IMPORT-ALL>NON_EMPTY}}
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClass(BaseClassLoader.java:448)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at org.jboss.webservices.integration.util.ASHelper.getEndpointClass(ASHelper.java:295)
+	at org.jboss.webservices.integration.util.ASHelper.getWebServiceServlets(ASHelper.java:398)
+	at org.jboss.webservices.integration.util.ASHelper.getJaxwsServlets(ASHelper.java:194)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.isJaxwsJseDeployment(WSTypeDeployer.java:153)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.internalDeploy(WSTypeDeployer.java:68)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractRealDeployer.deploy(AbstractRealDeployer.java:50)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:171)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doDeploy(DeployersImpl.java:1439)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1157)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1210)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.install(DeployersImpl.java:1098)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.process(DeployersImpl.java:781)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.process(MainDeployerImpl.java:702)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.process(MainDeployerAdapter.java:117)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:362)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2011-07-25 18:32:34,566 WARN  [org.jboss.webservices.integration.util.ASHelper] (HDScanner) Cannot load servlet class: com.hd.directweb.servlet.SessionValidator
+java.lang.ClassNotFoundException: com.hd.directweb.servlet.SessionValidator from BaseClassLoader@165b360{VFSClassLoaderPolicy@1e376ce{name=vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/ domain=ClassLoaderDomain@9ec43d{name=vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/ parentPolicy=AFTER_BUT_JAVA_BEFORE parent=BaseClassLoader@1ce4c17{vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/}} roots=[FileHandler@9235212[path=DirectWeb.ear/DirectWeb.war/WEB-INF/classes context=file:/D:/jboss-5.1.0.GA/server/default/deploy/ real=file:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/WEB-INF/classes/]]  delegates=null exported=[com.hd.directweb.servlet.photogallery, com.hd.directweb.action] <IMPORT-ALL>NON_EMPTY}}
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClass(BaseClassLoader.java:448)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at org.jboss.webservices.integration.util.ASHelper.getEndpointClass(ASHelper.java:295)
+	at org.jboss.webservices.integration.util.ASHelper.getWebServiceServlets(ASHelper.java:398)
+	at org.jboss.webservices.integration.util.ASHelper.getJaxwsServlets(ASHelper.java:194)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.isJaxwsJseDeployment(WSTypeDeployer.java:153)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.internalDeploy(WSTypeDeployer.java:68)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractRealDeployer.deploy(AbstractRealDeployer.java:50)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:171)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doDeploy(DeployersImpl.java:1439)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1157)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1210)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.install(DeployersImpl.java:1098)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.process(DeployersImpl.java:781)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.process(MainDeployerImpl.java:702)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.process(MainDeployerAdapter.java:117)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:362)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2011-07-25 18:32:34,582 ERROR [org.jboss.kernel.plugins.dependency.AbstractKernelController] (HDScanner) Error installing to Real: name=vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/ state=PreReal mode=Manual requiredState=Real
+org.jboss.deployers.spi.DeploymentException: Error during deploy: vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/
+	at org.jboss.deployers.spi.DeploymentException.rethrowAsDeploymentException(DeploymentException.java:49)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:177)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doDeploy(DeployersImpl.java:1439)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1157)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1210)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.install(DeployersImpl.java:1098)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.process(DeployersImpl.java:781)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.process(MainDeployerImpl.java:702)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.process(MainDeployerAdapter.java:117)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:362)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: java.lang.NoClassDefFoundError: com/hd/directweb/service/constants/Constants
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:621)
+	at org.jboss.classloader.spi.base.BaseClassLoader.access$200(BaseClassLoader.java:63)
+	at org.jboss.classloader.spi.base.BaseClassLoader$2.run(BaseClassLoader.java:572)
+	at org.jboss.classloader.spi.base.BaseClassLoader$2.run(BaseClassLoader.java:532)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClassLocally(BaseClassLoader.java:530)
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClassLocally(BaseClassLoader.java:507)
+	at org.jboss.classloader.spi.base.BaseDelegateLoader.loadClass(BaseDelegateLoader.java:134)
+	at org.jboss.classloader.spi.filter.FilteredDelegateLoader.loadClass(FilteredDelegateLoader.java:131)
+	at org.jboss.classloader.spi.base.ClassLoadingTask$ThreadTask.run(ClassLoadingTask.java:452)
+	at org.jboss.classloader.spi.base.ClassLoaderManager.nextTask(ClassLoaderManager.java:251)
+	at org.jboss.classloader.spi.base.ClassLoaderManager.process(ClassLoaderManager.java:150)
+	at org.jboss.classloader.spi.base.BaseClassLoaderDomain.loadClass(BaseClassLoaderDomain.java:265)
+	at org.jboss.classloader.spi.base.BaseClassLoaderDomain.loadClass(BaseClassLoaderDomain.java:1119)
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClassFromDomain(BaseClassLoader.java:798)
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClass(BaseClassLoader.java:441)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at org.jboss.webservices.integration.util.ASHelper.getEndpointClass(ASHelper.java:295)
+	at org.jboss.webservices.integration.util.ASHelper.getWebServiceServlets(ASHelper.java:398)
+	at org.jboss.webservices.integration.util.ASHelper.getJaxwsServlets(ASHelper.java:194)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.isJaxwsJseDeployment(WSTypeDeployer.java:153)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.internalDeploy(WSTypeDeployer.java:68)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractRealDeployer.deploy(AbstractRealDeployer.java:50)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:171)
+	... 25 more
+Caused by: java.lang.ClassNotFoundException: com.hd.directweb.service.constants.Constants
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:200)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:188)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:307)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:247)
+	at org.jboss.classloader.spi.base.BaseClassLoaderDomain.loadClass(BaseClassLoaderDomain.java:292)
+	at org.jboss.classloader.spi.base.BaseClassLoaderDomain.loadClass(BaseClassLoaderDomain.java:1119)
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClassFromDomain(BaseClassLoader.java:798)
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClass(BaseClassLoader.java:441)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	... 50 more
+2011-07-25 18:32:34,597 WARN  [org.jboss.system.server.profileservice.hotdeploy.HDScanner] (HDScanner) Failed to process changes
+org.jboss.deployers.client.spi.IncompleteDeploymentException: Summary of incomplete deployments (SEE PREVIOUS ERRORS FOR DETAILS):
+
+*** DEPLOYMENTS IN ERROR: Name -> Error
+
+vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/ -> org.jboss.deployers.spi.DeploymentException: Error during deploy: vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/
+
+
+DEPLOYMENTS IN ERROR:
+  Deployment "vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/" is in error due to the following reason(s): java.lang.ClassNotFoundException: com.hd.directweb.service.constants.Constants
+
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.checkComplete(DeployersImpl.java:993)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.checkComplete(DeployersImpl.java:939)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.checkComplete(MainDeployerImpl.java:873)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.checkComplete(MainDeployerAdapter.java:128)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:369)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2011-07-25 18:48:42,254 WARN  [org.jboss.webservices.integration.util.ASHelper] (HDScanner) Cannot load servlet class: org.apache.struts.action.ActionServlet
+java.lang.ClassNotFoundException: org.apache.struts.action.ActionServlet from BaseClassLoader@165667f{VFSClassLoaderPolicy@2c1d96{name=vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/ domain=ClassLoaderDomain@1fc4635{name=vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/ parentPolicy=AFTER_BUT_JAVA_BEFORE parent=BaseClassLoader@e3d1be{vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/}} roots=[FileHandler@4890486[path=DirectWeb.ear/DirectWeb.war/WEB-INF/classes context=file:/D:/jboss-5.1.0.GA/server/default/deploy/ real=file:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/WEB-INF/classes/]]  delegates=null exported=[com.hd.directweb.action] <IMPORT-ALL>NON_EMPTY}}
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClass(BaseClassLoader.java:448)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at org.jboss.webservices.integration.util.ASHelper.getEndpointClass(ASHelper.java:295)
+	at org.jboss.webservices.integration.util.ASHelper.getWebServiceServlets(ASHelper.java:398)
+	at org.jboss.webservices.integration.util.ASHelper.getJaxwsServlets(ASHelper.java:194)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.isJaxwsJseDeployment(WSTypeDeployer.java:153)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.internalDeploy(WSTypeDeployer.java:68)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractRealDeployer.deploy(AbstractRealDeployer.java:50)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:171)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doDeploy(DeployersImpl.java:1439)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1157)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1210)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.install(DeployersImpl.java:1098)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.process(DeployersImpl.java:781)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.process(MainDeployerImpl.java:702)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.process(MainDeployerAdapter.java:117)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:362)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2011-07-25 18:48:42,254 WARN  [org.jboss.webservices.integration.util.ASHelper] (HDScanner) Cannot load servlet class: com.hd.directweb.servlet.SessionValidator
+java.lang.ClassNotFoundException: com.hd.directweb.servlet.SessionValidator from BaseClassLoader@165667f{VFSClassLoaderPolicy@2c1d96{name=vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/ domain=ClassLoaderDomain@1fc4635{name=vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/ parentPolicy=AFTER_BUT_JAVA_BEFORE parent=BaseClassLoader@e3d1be{vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/}} roots=[FileHandler@4890486[path=DirectWeb.ear/DirectWeb.war/WEB-INF/classes context=file:/D:/jboss-5.1.0.GA/server/default/deploy/ real=file:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/WEB-INF/classes/]]  delegates=null exported=[com.hd.directweb.action] <IMPORT-ALL>NON_EMPTY}}
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClass(BaseClassLoader.java:448)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at org.jboss.webservices.integration.util.ASHelper.getEndpointClass(ASHelper.java:295)
+	at org.jboss.webservices.integration.util.ASHelper.getWebServiceServlets(ASHelper.java:398)
+	at org.jboss.webservices.integration.util.ASHelper.getJaxwsServlets(ASHelper.java:194)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.isJaxwsJseDeployment(WSTypeDeployer.java:153)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.internalDeploy(WSTypeDeployer.java:68)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractRealDeployer.deploy(AbstractRealDeployer.java:50)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:171)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doDeploy(DeployersImpl.java:1439)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1157)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1210)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.install(DeployersImpl.java:1098)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.process(DeployersImpl.java:781)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.process(MainDeployerImpl.java:702)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.process(MainDeployerAdapter.java:117)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:362)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2011-07-25 18:48:42,269 WARN  [org.jboss.webservices.integration.util.ASHelper] (HDScanner) Cannot load servlet class: com.hd.directweb.servlet.photogallery.PhotoController
+java.lang.ClassNotFoundException: com.hd.directweb.servlet.photogallery.PhotoController from BaseClassLoader@165667f{VFSClassLoaderPolicy@2c1d96{name=vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/ domain=ClassLoaderDomain@1fc4635{name=vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/ parentPolicy=AFTER_BUT_JAVA_BEFORE parent=BaseClassLoader@e3d1be{vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/}} roots=[FileHandler@4890486[path=DirectWeb.ear/DirectWeb.war/WEB-INF/classes context=file:/D:/jboss-5.1.0.GA/server/default/deploy/ real=file:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/WEB-INF/classes/]]  delegates=null exported=[com.hd.directweb.action] <IMPORT-ALL>NON_EMPTY}}
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClass(BaseClassLoader.java:448)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at org.jboss.webservices.integration.util.ASHelper.getEndpointClass(ASHelper.java:295)
+	at org.jboss.webservices.integration.util.ASHelper.getWebServiceServlets(ASHelper.java:398)
+	at org.jboss.webservices.integration.util.ASHelper.getJaxwsServlets(ASHelper.java:194)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.isJaxwsJseDeployment(WSTypeDeployer.java:153)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.internalDeploy(WSTypeDeployer.java:68)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractRealDeployer.deploy(AbstractRealDeployer.java:50)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:171)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doDeploy(DeployersImpl.java:1439)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1157)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1210)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.install(DeployersImpl.java:1098)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.process(DeployersImpl.java:781)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.process(MainDeployerImpl.java:702)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.process(MainDeployerAdapter.java:117)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:362)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2011-07-25 18:48:42,285 ERROR [org.jboss.kernel.plugins.dependency.AbstractKernelController] (HDScanner) Error installing to Real: name=vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/ state=PreReal mode=Manual requiredState=Real
+org.jboss.deployers.spi.DeploymentException: Error during deploy: vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/
+	at org.jboss.deployers.spi.DeploymentException.rethrowAsDeploymentException(DeploymentException.java:49)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:177)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doDeploy(DeployersImpl.java:1439)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1157)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1210)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.install(DeployersImpl.java:1098)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.process(DeployersImpl.java:781)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.process(MainDeployerImpl.java:702)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.process(MainDeployerAdapter.java:117)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:362)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: java.lang.NoClassDefFoundError: com/hd/directweb/service/constants/Constants
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:621)
+	at org.jboss.classloader.spi.base.BaseClassLoader.access$200(BaseClassLoader.java:63)
+	at org.jboss.classloader.spi.base.BaseClassLoader$2.run(BaseClassLoader.java:572)
+	at org.jboss.classloader.spi.base.BaseClassLoader$2.run(BaseClassLoader.java:532)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClassLocally(BaseClassLoader.java:530)
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClassLocally(BaseClassLoader.java:507)
+	at org.jboss.classloader.spi.base.BaseDelegateLoader.loadClass(BaseDelegateLoader.java:134)
+	at org.jboss.classloader.spi.base.ClassLoadingTask$ThreadTask.run(ClassLoadingTask.java:452)
+	at org.jboss.classloader.spi.base.ClassLoaderManager.nextTask(ClassLoaderManager.java:251)
+	at org.jboss.classloader.spi.base.ClassLoaderManager.process(ClassLoaderManager.java:150)
+	at org.jboss.classloader.spi.base.BaseClassLoaderDomain.loadClass(BaseClassLoaderDomain.java:265)
+	at org.jboss.classloader.spi.base.BaseClassLoaderDomain.loadClass(BaseClassLoaderDomain.java:1119)
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClassFromDomain(BaseClassLoader.java:798)
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClass(BaseClassLoader.java:441)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at org.jboss.webservices.integration.util.ASHelper.getEndpointClass(ASHelper.java:295)
+	at org.jboss.webservices.integration.util.ASHelper.getWebServiceServlets(ASHelper.java:398)
+	at org.jboss.webservices.integration.util.ASHelper.getJaxwsServlets(ASHelper.java:194)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.isJaxwsJseDeployment(WSTypeDeployer.java:153)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.internalDeploy(WSTypeDeployer.java:68)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractRealDeployer.deploy(AbstractRealDeployer.java:50)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:171)
+	... 25 more
+Caused by: java.lang.ClassNotFoundException: com.hd.directweb.service.constants.Constants
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:200)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:188)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:307)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:247)
+	at org.jboss.classloader.spi.base.BaseClassLoaderDomain.loadClass(BaseClassLoaderDomain.java:292)
+	at org.jboss.classloader.spi.base.BaseClassLoaderDomain.loadClass(BaseClassLoaderDomain.java:1119)
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClassFromDomain(BaseClassLoader.java:798)
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClass(BaseClassLoader.java:441)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	... 49 more
+2011-07-25 18:48:42,300 WARN  [org.jboss.system.server.profileservice.hotdeploy.HDScanner] (HDScanner) Failed to process changes
+org.jboss.deployers.client.spi.IncompleteDeploymentException: Summary of incomplete deployments (SEE PREVIOUS ERRORS FOR DETAILS):
+
+*** DEPLOYMENTS IN ERROR: Name -> Error
+
+vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/ -> org.jboss.deployers.spi.DeploymentException: Error during deploy: vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/DirectWeb.war/
+
+
+DEPLOYMENTS IN ERROR:
+  Deployment "vfsfile:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/" is in error due to the following reason(s): java.lang.ClassNotFoundException: com.hd.directweb.service.constants.Constants
+
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.checkComplete(DeployersImpl.java:993)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.checkComplete(DeployersImpl.java:939)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.checkComplete(MainDeployerImpl.java:873)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.checkComplete(MainDeployerAdapter.java:128)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:369)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2011-07-25 18:48:57,910 INFO  [org.hibernate.jmx.HibernateServiceMBean] (HDScanner) starting service at JNDI name: java:/DirectWebHibernateFactory
+2011-07-25 18:48:57,910 INFO  [org.hibernate.jmx.HibernateServiceMBean] (HDScanner) service properties: {hibernate.session_factory_name=java:/DirectWebHibernateFactory, hibernate.transaction.factory_class=org.hibernate.transaction.JTATransactionFactory, hibernate.connection.datasource=java:/JDBCIntranetDS, jta.UserTransaction=UserTransaction}
+2011-07-25 18:48:57,957 INFO  [org.hibernate.cfg.Environment] (HDScanner) Hibernate 3.0.3
+2011-07-25 18:48:57,972 INFO  [org.hibernate.cfg.Environment] (HDScanner) hibernate.properties not found
+2011-07-25 18:48:57,972 INFO  [org.hibernate.cfg.Environment] (HDScanner) using CGLIB reflection optimizer
+2011-07-25 18:48:57,972 INFO  [org.hibernate.cfg.Environment] (HDScanner) using JDK 1.4 java.sql.Timestamp handling
+2011-07-25 18:48:58,097 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: AdminPages.hbm.xml
+2011-07-25 18:48:58,316 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.AdminPagesMaster -> DW_ADMIN_PAGES
+2011-07-25 18:48:58,347 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: DynamicFieldsMapping.hbm.xml
+2011-07-25 18:48:58,363 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.DynamicFieldsMapping -> DW_DYNAMIC_FIELD_MAPPING
+2011-07-25 18:48:58,363 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: FooterDesignAdmin.hbm.xml
+2011-07-25 18:48:58,379 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.FooterDesignAdmin -> DW_FOOTER_ADMIN
+2011-07-25 18:48:58,379 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: HeaderDesignAdmin.hbm.xml
+2011-07-25 18:48:58,394 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.HeaderDesignAdmin -> DW_HEADER_ADMIN
+2011-07-25 18:48:58,394 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: MenuDesignAdmin.hbm.xml
+2011-07-25 18:48:58,394 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.MenuDesignAdmin -> DW_MENU_ADMIN
+2011-07-25 18:48:58,410 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: TemplateDetails.hbm.xml
+2011-07-25 18:48:58,410 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.TemplateDetails -> DW_TEMPLATE_DETAILS
+2011-07-25 18:48:58,410 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: TemplateItems.hbm.xml
+2011-07-25 18:48:58,425 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.TemplateItems -> DW_TEMPLATE_DETAIL_ITEMS
+2011-07-25 18:48:58,425 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Group.hbm.xml
+2011-07-25 18:48:58,441 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Group -> UMM_GROUPS
+2011-07-25 18:48:58,441 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Group.groupAccessLevels -> UMM_GROUP_USER_TYPES
+2011-07-25 18:48:58,441 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: GroupAccessLevels.hbm.xml
+2011-07-25 18:48:58,457 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.GroupAccessLevels -> UMM_GROUP_USER_TYPES
+2011-07-25 18:48:58,457 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: GroupCollectionMapping.hbm.xml
+2011-07-25 18:48:58,472 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.GroupCollectionMapping -> DW_GROUP_COLLECTION_MAPPING
+2011-07-25 18:48:58,472 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Menu.hbm.xml
+2011-07-25 18:48:58,488 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Menu -> DW_MENU
+2011-07-25 18:48:58,488 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: SharedMenu.hbm.xml
+2011-07-25 18:48:58,504 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.SharedMenu -> DW_SHARED_MENU
+2011-07-25 18:48:58,629 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: SubMenu.hbm.xml
+2011-07-25 18:48:58,644 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.SubMenu -> DW_SUB_MENU
+2011-07-25 18:48:58,644 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: SharedSubMenu.hbm.xml
+2011-07-25 18:48:58,660 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.SharedSubMenu -> DW_SHARED_SUB_MENU
+2011-07-25 18:48:58,660 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Templates.hbm.xml
+2011-07-25 18:48:58,675 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Templates -> DW_TEMPLATES
+2011-07-25 18:48:58,675 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Templates.sections -> DW_TEMPLATE_DETAILS
+2011-07-25 18:48:58,675 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: GroupDesignDetails.hbm.xml
+2011-07-25 18:48:58,691 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.GroupDesignDetails -> DW_GROUP_DESIGN_DETAILS
+2011-07-25 18:48:58,691 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Content.hbm.xml
+2011-07-25 18:48:58,707 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Content -> DW_CONTENT
+2011-07-25 18:48:58,707 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Content.contentItemValues -> DW_CONTENT_REFERENCE
+2011-07-25 18:48:58,707 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: SharedContent.hbm.xml
+2011-07-25 18:48:58,722 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.SharedContent -> DW_SHARED_CONTENT
+2011-07-25 18:48:58,722 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: ContentReference.hbm.xml
+2011-07-25 18:48:58,738 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.ContentReference -> DW_CONTENT_REFERENCE
+2011-07-25 18:48:58,738 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: GroupMapping.hbm.xml
+2011-07-25 18:48:58,754 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.GroupMapping -> UMM_GROUP_MAPPING
+2011-07-25 18:48:58,754 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: User.hbm.xml
+2011-07-25 18:48:58,769 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.User -> UMM_USERS
+2011-07-25 18:48:58,769 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: ApplicationMapping.hbm.xml
+2011-07-25 18:48:58,785 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.ApplicationMapping -> UMM_APPLICATION_MAPPING
+2011-07-25 18:48:58,785 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Application.hbm.xml
+2011-07-25 18:48:58,785 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Application -> UMM_APPLICATION
+2011-07-25 18:48:58,785 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Repository.hbm.xml
+2011-07-25 18:48:58,800 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Repository -> DR_REPOSITORY
+2011-07-25 18:48:58,800 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: ApplicationDetails.hbm.xml
+2011-07-25 18:48:58,816 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.ApplicationDetails -> DW_APPLICATION_DETAILS
+2011-07-25 18:48:58,816 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Shortcuts.hbm.xml
+2011-07-25 18:48:58,816 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Shortcuts -> DW_SHORTCUTS
+2011-07-25 18:48:58,816 INFO  [org.hibernate.cfg.Configuration] (HDScanner) processing extends queue
+2011-07-25 18:48:58,816 INFO  [org.hibernate.cfg.Configuration] (HDScanner) processing collection mappings
+2011-07-25 18:48:58,816 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.AdminPagesMaster.pageSpecificFields -> DW_DYNAMIC_FIELD_MAPPING
+2011-07-25 18:48:58,832 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Group.groupSpecificMenus -> DW_MENU
+2011-07-25 18:48:58,832 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Group.getGroupCollection -> DW_GROUP_COLLECTION_MAPPING
+2011-07-25 18:48:58,832 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Group.groupSpecificTemplates -> DW_TEMPLATES
+2011-07-25 18:48:58,832 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.GroupCollectionMapping.getSharingGroupCollection -> UMM_GROUPS
+2011-07-25 18:48:58,832 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Menu.subMenus -> DW_SUB_MENU
+2011-07-25 18:48:58,832 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Menu.sharedMenu -> DW_SHARED_MENU
+2011-07-25 18:48:58,832 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Menu.menuBasedContent -> DW_CONTENT
+2011-07-25 18:48:58,832 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.SubMenu.sharedSubMenu -> DW_SHARED_SUB_MENU
+2011-07-25 18:48:58,832 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.SubMenu.subMenuBasedContent -> DW_CONTENT
+2011-07-25 18:48:58,832 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Content.sharedContent -> DW_SHARED_CONTENT
+2011-07-25 18:48:58,832 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Content.contentReference -> DW_CONTENT_REFERENCE
+2011-07-25 18:48:58,832 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Content.contentSharedToAGroup -> DW_SHARED_CONTENT
+2011-07-25 18:48:58,832 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.ApplicationMapping.groupMapping -> UMM_GROUP_MAPPING
+2011-07-25 18:48:58,832 INFO  [org.hibernate.cfg.Configuration] (HDScanner) processing association property references
+2011-07-25 18:48:58,832 INFO  [org.hibernate.cfg.Configuration] (HDScanner) processing foreign key constraints
+2011-07-25 18:48:59,160 INFO  [org.hibernate.util.NamingHelper] (HDScanner) JNDI InitialContext properties:{}
+2011-07-25 18:48:59,207 INFO  [org.hibernate.connection.DatasourceConnectionProvider] (HDScanner) Using datasource: java:/JDBCIntranetDS
+2011-07-25 18:49:01,988 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) RDBMS: Oracle, version: Oracle Database 11g Release 11.1.0.0.0 - Production
+2011-07-25 18:49:01,988 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) JDBC driver: Oracle JDBC driver, version: 10.2.0.4.0
+2011-07-25 18:49:02,035 INFO  [org.hibernate.dialect.Dialect] (HDScanner) Using dialect: org.hibernate.dialect.OracleDialect
+2011-07-25 18:49:02,050 INFO  [org.hibernate.transaction.TransactionFactoryFactory] (HDScanner) Transaction strategy: org.hibernate.transaction.JTATransactionFactory
+2011-07-25 18:49:02,050 INFO  [org.hibernate.util.NamingHelper] (HDScanner) JNDI InitialContext properties:{}
+2011-07-25 18:49:02,050 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] (HDScanner) No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2011-07-25 18:49:02,050 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Automatic flush during beforeCompletion(): disabled
+2011-07-25 18:49:02,050 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Automatic session close at end of transaction: disabled
+2011-07-25 18:49:02,050 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) JDBC batch size: 15
+2011-07-25 18:49:02,050 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) JDBC batch updates for versioned data: disabled
+2011-07-25 18:49:02,050 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Scrollable result sets: enabled
+2011-07-25 18:49:02,050 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) JDBC3 getGeneratedKeys(): enabled
+2011-07-25 18:49:02,050 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Connection release mode: null
+2011-07-25 18:49:02,066 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Default batch fetch size: 1
+2011-07-25 18:49:02,066 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Generate SQL with comments: disabled
+2011-07-25 18:49:02,066 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Order SQL updates by primary key: disabled
+2011-07-25 18:49:02,066 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2011-07-25 18:49:02,066 INFO  [org.hibernate.hql.ast.ASTQueryTranslatorFactory] (HDScanner) Using ASTQueryTranslatorFactory
+2011-07-25 18:49:02,066 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Query language substitutions: {false=0, true=1}
+2011-07-25 18:49:02,066 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Second-level cache: enabled
+2011-07-25 18:49:02,066 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Query cache: disabled
+2011-07-25 18:49:02,066 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Cache provider: org.hibernate.cache.EhCacheProvider
+2011-07-25 18:49:02,066 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Optimize cache for minimal puts: disabled
+2011-07-25 18:49:02,066 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Structured second-level cache entries: enabled
+2011-07-25 18:49:02,082 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Statistics: disabled
+2011-07-25 18:49:02,082 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Deleted entity synthetic identifier rollback: disabled
+2011-07-25 18:49:02,082 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Default entity-mode: pojo
+2011-07-25 18:49:02,144 INFO  [org.hibernate.impl.SessionFactoryImpl] (HDScanner) building session factory
+2011-07-25 18:49:02,160 WARN  [net.sf.ehcache.config.Configurator] (HDScanner) No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/lib/ehcache-1.1.jar/ehcache-failsafe.xml
+2011-07-25 18:49:04,175 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) Factory name: java:/DirectWebHibernateFactory
+2011-07-25 18:49:04,175 INFO  [org.hibernate.util.NamingHelper] (HDScanner) JNDI InitialContext properties:{}
+2011-07-25 18:49:04,191 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) Bound factory to JNDI name: java:/DirectWebHibernateFactory
+2011-07-25 18:49:04,191 WARN  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) InitialContext did not implement EventContext
+2011-07-25 18:49:04,191 INFO  [org.hibernate.impl.SessionFactoryImpl] (HDScanner) Checking 0 named queries
+2011-07-25 18:49:04,207 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/DirectWeb
+2011-07-25 18:49:04,410 INFO  [STDOUT] (HDScanner) URLInterceptor init, now processing URL request.
+2011-07-25 18:49:04,425 INFO  [STDOUT] (HDScanner) HibernateFilter init, now opening/closing a Session for each request.
+2011-07-25 18:49:04,769 INFO  [org.apache.struts.validator.ValidatorPlugIn] (HDScanner) Loading validation rules file from '/WEB-INF/struts/validator-rules.xml'
+2011-07-25 18:49:04,769 INFO  [org.apache.struts.validator.ValidatorPlugIn] (HDScanner) Loading validation rules file from '/WEB-INF/struts/validation.xml'
+2011-07-25 18:49:04,988 ERROR [STDERR] (HDScanner) SLF4J: Class path contains multiple SLF4J bindings.
+2011-07-25 18:49:04,988 ERROR [STDERR] (HDScanner) SLF4J: Found binding in [vfszip:/D:/jboss-5.1.0.GA/common/lib/slf4j-jboss-logging.jar/org/slf4j/impl/StaticLoggerBinder.class]
+2011-07-25 18:49:04,988 ERROR [STDERR] (HDScanner) SLF4J: Found binding in [vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/lib/slf4j-simple-1.5.8.jar/org/slf4j/impl/StaticLoggerBinder.class]
+2011-07-25 18:49:04,988 ERROR [STDERR] (HDScanner) SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+2011-07-25 18:49:05,019 ERROR [STDERR] (HDScanner) 31 [HDScanner] INFO net.fckeditor.connector.Dispatcher - Connector initialized to net.fckeditor.connector.impl.LocalConnector
+2011-07-25 19:25:23,442 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Runtime shutdown hook called, forceHalt: true
+2011-07-25 19:25:23,458 INFO  [org.apache.coyote.http11.Http11Protocol] (JBoss Shutdown Hook) Pausing Coyote HTTP/1.1 on http-127.0.0.1-9090
+2011-07-25 19:25:23,536 INFO  [org.apache.coyote.http11.Http11Protocol] (JBoss Shutdown Hook) Stopping Coyote HTTP/1.1 on http-127.0.0.1-9090
+2011-07-25 19:25:23,567 INFO  [org.apache.coyote.ajp.AjpProtocol] (JBoss Shutdown Hook) Pausing Coyote AJP/1.3 on ajp-127.0.0.1-9019
+2011-07-25 19:25:23,567 INFO  [org.apache.coyote.ajp.AjpProtocol] (JBoss Shutdown Hook) Stopping Coyote AJP/1.3 on ajp-127.0.0.1-9019
+2011-07-25 19:25:23,645 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@189db56 undeployed
+2011-07-25 19:25:23,645 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@f21f54 undeployed
+2011-07-25 19:25:23,645 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@e61c47 undeployed
+2011-07-25 19:25:23,661 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/web-console
+2011-07-25 19:25:23,723 INFO  [org.jboss.jms.server.destination.QueueService] (JBoss Shutdown Hook) Queue[/queue/ExpiryQueue] stopped
+2011-07-25 19:25:23,723 INFO  [org.jboss.jms.server.destination.QueueService] (JBoss Shutdown Hook) Queue[/queue/DLQ] stopped
+2011-07-25 19:25:23,755 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2011-07-25 19:25:23,817 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureProfileServiceBean ejbName: SecureProfileService
+2011-07-25 19:25:23,864 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2011-07-25 19:25:24,051 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureDeploymentManager ejbName: SecureDeploymentManager
+2011-07-25 19:25:24,114 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2011-07-25 19:25:24,129 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureManagementView ejbName: SecureManagementView
+2011-07-25 19:25:24,270 INFO  [org.jboss.proxy.ejb.ProxyFactory] (JBoss Shutdown Hook) Unbind EJB Home 'LDAPAuthenticationEJB' from jndi 'ejb/jndi/LDAPAuthentication'
+2011-07-25 19:25:24,286 INFO  [org.jboss.ejb.EjbModule] (JBoss Shutdown Hook) Undeployed LDAPAuthenticationEJB
+2011-07-25 19:25:24,301 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' from JNDI name 'java:JmsXA'
+2011-07-25 19:25:24,442 INFO  [org.jboss.jms.server.ServerPeer] (JBoss Shutdown Hook) JMS ServerPeer[0] stopped
+2011-07-25 19:25:24,458 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/invoker
+2011-07-25 19:25:24,520 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/juddi
+2011-07-25 19:25:24,567 INFO  [org.apache.juddi.registry.RegistryServlet] (JBoss Shutdown Hook) jUDDI Stopping: Cleaning up existing resources.
+2011-07-25 19:25:24,582 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/admin-console
+2011-07-25 19:25:24,598 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/
+2011-07-25 19:25:24,598 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/content
+2011-07-25 19:25:24,614 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/jbossws
+2011-07-25 19:25:24,614 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/jmx-console
+2011-07-25 19:25:24,629 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/DirectWeb
+2011-07-25 19:25:24,661 INFO  [org.apache.catalina.core.StandardService] (JBoss Shutdown Hook) Stopping service jboss.web
+2011-07-25 19:25:24,801 INFO  [org.jboss.mail.MailService] (JBoss Shutdown Hook) Mail service 'java:/Mail' removed from JNDI
+2011-07-25 19:25:24,989 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=HdFabDS' from JNDI name 'java:HdFabDS'
+2011-07-25 19:25:25,035 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=IntranetDS' from JNDI name 'java:IntranetDS'
+2011-07-25 19:25:25,051 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=JDBCIntranetDS' from JNDI name 'java:JDBCIntranetDS'
+2011-07-25 19:25:25,051 INFO  [org.hibernate.jmx.HibernateServiceMBean] (JBoss Shutdown Hook) stopping service
+2011-07-25 19:25:25,082 INFO  [org.hibernate.util.NamingHelper] (JBoss Shutdown Hook) JNDI InitialContext properties:{}
+2011-07-25 19:25:25,098 INFO  [org.hibernate.impl.SessionFactoryImpl] (JBoss Shutdown Hook) closing
+2011-07-25 19:25:25,114 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (JBoss Shutdown Hook) Unbinding factory from JNDI name: java:/DirectWebHibernateFactory
+2011-07-25 19:25:25,114 INFO  [org.hibernate.util.NamingHelper] (JBoss Shutdown Hook) JNDI InitialContext properties:{}
+2011-07-25 19:25:25,129 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (JBoss Shutdown Hook) Unbound factory from JNDI name: java:/DirectWebHibernateFactory
+2011-07-25 19:25:25,129 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=OnlineSurveyDS' from JNDI name 'java:OnlineSurveyDS'
+2011-07-25 19:25:25,145 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=OrderStatusDS' from JNDI name 'java:OrderStatusDS'
+2011-07-25 19:25:25,160 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=PIPDS' from JNDI name 'java:PIPDS'
+2011-07-25 19:25:25,160 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=PLSDS' from JNDI name 'java:PLSDS'
+2011-07-25 19:25:25,160 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' from JNDI name 'java:DefaultDS'
+2011-07-25 19:25:25,473 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2011-07-25 19:25:25,473 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2011-07-25 19:25:25,504 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2011-07-25 19:25:25,988 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (JBoss Shutdown Hook) Stopping transaction recovery manager
+2011-07-25 19:25:26,004 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (JBoss Shutdown Hook) Destroying TransactionManagerService
+2011-07-25 19:25:26,754 INFO  [org.jboss.jdbc.HypersonicDatabase] (JBoss Shutdown Hook) Database standalone closed clean
+2011-07-25 19:25:33,314 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Shutdown complete

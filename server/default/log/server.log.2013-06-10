@@ -1,0 +1,278 @@
+2013-06-10 15:16:22,846 INFO  [org.jboss.profileservice.management.upload.remoting.DeployHandler] (ResourceContainer.invoker.nonDaemon-3) Stop, [vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/restws.war/]
+2013-06-10 15:16:22,933 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (ResourceContainer.invoker.nonDaemon-3) undeploy, ctxPath=/restws
+2013-06-10 15:16:23,209 INFO  [org.jboss.profileservice.management.upload.remoting.DeployHandler] (ResourceContainer.invoker.nonDaemon-3) End stop, [vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/restws.war/]
+2013-06-10 15:16:23,210 INFO  [org.jboss.profileservice.management.upload.remoting.DeployHandler] (ResourceContainer.invoker.nonDaemon-3) Remove, [vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/restws.war/]
+2013-06-10 15:16:24,180 WARN  [org.jboss.managed.plugins.factory.AbstractManagedObjectPopulator] (ResourceContainer.invoker.daemon-8) Cannot create String name from non-Simple property: ManagedProperty{JNDIName,JNDIName,metaType=SimpleMetaType:java.lang.String}, value=null
+2013-06-10 15:16:24,191 WARN  [org.jboss.managed.plugins.factory.AbstractManagedObjectPopulator] (ResourceContainer.invoker.daemon-8) Cannot create String name from non-Simple property: ManagedProperty{JNDIName,JNDIName,metaType=SimpleMetaType:java.lang.String}, value=null
+2013-06-10 15:17:03,058 INFO  [org.jboss.profileservice.management.upload.remoting.DeployHandler] (ResourceContainer.invoker.nonDaemon-3) Handle stream, deploymentTarget: names=[restws.war], copyContent=true, description=file:/E:/Siva/jboss-5.1.0.GA/server/default/tmp/embjopr/uploads/restws.war
+2013-06-10 15:17:03,067 INFO  [org.jboss.profileservice.management.upload.remoting.DeployHandler] (ResourceContainer.invoker.nonDaemon-3) End handle stream, repositoryName: vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/restws.war/
+2013-06-10 15:17:03,067 INFO  [org.jboss.profileservice.management.upload.remoting.DeployHandler] (ResourceContainer.invoker.nonDaemon-3) Begin start, [vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/restws.war/]
+2013-06-10 15:17:05,935 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (ResourceContainer.invoker.nonDaemon-3) deploy, ctxPath=/restws
+2013-06-10 15:17:06,302 INFO  [com.sun.jersey.api.core.servlet.WebAppResourceConfig] (ResourceContainer.invoker.nonDaemon-3) Scanning for root resource and provider classes in the Web app resource paths:
+  /WEB-INF/lib
+  /WEB-INF/classes
+2013-06-10 15:17:07,564 INFO  [com.sun.jersey.api.core.ScanningResourceConfig] (ResourceContainer.invoker.nonDaemon-3) Root resource classes found:
+  class com.hd.ldapws.LDAPService
+2013-06-10 15:17:07,565 INFO  [com.sun.jersey.api.core.ScanningResourceConfig] (ResourceContainer.invoker.nonDaemon-3) No provider classes found.
+2013-06-10 15:17:07,846 INFO  [com.sun.jersey.server.impl.application.WebApplicationImpl] (ResourceContainer.invoker.nonDaemon-3) Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 05:30 PM'
+2013-06-10 15:17:08,827 INFO  [org.jboss.profileservice.management.upload.remoting.DeployHandler] (ResourceContainer.invoker.nonDaemon-3) End start, [vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/restws.war/]
+2013-06-10 15:17:09,162 WARN  [org.jboss.managed.plugins.factory.AbstractManagedObjectPopulator] (ResourceContainer.invoker.daemon-7) Cannot create String name from non-Simple property: ManagedProperty{JNDIName,JNDIName,metaType=SimpleMetaType:java.lang.String}, value=null
+2013-06-10 15:17:09,274 WARN  [org.jboss.managed.plugins.factory.AbstractManagedObjectPopulator] (ResourceContainer.invoker.daemon-7) Cannot create String name from non-Simple property: ManagedProperty{JNDIName,JNDIName,metaType=SimpleMetaType:java.lang.String}, value=null
+2013-06-10 15:19:37,970 INFO  [STDOUT] (http-127.0.0.1-9090-2) LDAPWS Invalid User - javax.naming.AuthenticationException: [LDAP: error code 49 - NDS error: failed authentication (-669)]
+2013-06-10 15:31:13,767 INFO  [org.jboss.profileservice.management.upload.remoting.DeployHandler] (ResourceContainer.invoker.nonDaemon-4) Stop, [vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/restws.war/]
+2013-06-10 15:31:13,780 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (ResourceContainer.invoker.nonDaemon-4) undeploy, ctxPath=/restws
+2013-06-10 15:31:13,808 INFO  [org.jboss.profileservice.management.upload.remoting.DeployHandler] (ResourceContainer.invoker.nonDaemon-4) End stop, [vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/restws.war/]
+2013-06-10 15:31:13,809 INFO  [org.jboss.profileservice.management.upload.remoting.DeployHandler] (ResourceContainer.invoker.nonDaemon-4) Remove, [vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/restws.war/]
+2013-06-10 15:31:13,889 WARN  [org.jboss.managed.plugins.factory.AbstractManagedObjectPopulator] (ResourceContainer.invoker.daemon-9) Cannot create String name from non-Simple property: ManagedProperty{JNDIName,JNDIName,metaType=SimpleMetaType:java.lang.String}, value=null
+2013-06-10 15:31:13,913 WARN  [org.jboss.managed.plugins.factory.AbstractManagedObjectPopulator] (ResourceContainer.invoker.daemon-9) Cannot create String name from non-Simple property: ManagedProperty{JNDIName,JNDIName,metaType=SimpleMetaType:java.lang.String}, value=null
+2013-06-10 15:31:25,798 INFO  [org.jboss.profileservice.management.upload.remoting.DeployHandler] (ResourceContainer.invoker.nonDaemon-4) Handle stream, deploymentTarget: names=[restws.war], copyContent=true, description=file:/E:/Siva/jboss-5.1.0.GA/server/default/tmp/embjopr/uploads/restws.war
+2013-06-10 15:31:25,813 INFO  [org.jboss.profileservice.management.upload.remoting.DeployHandler] (ResourceContainer.invoker.nonDaemon-4) End handle stream, repositoryName: vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/restws.war/
+2013-06-10 15:31:25,823 INFO  [org.jboss.profileservice.management.upload.remoting.DeployHandler] (ResourceContainer.invoker.nonDaemon-4) Begin start, [vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/restws.war/]
+2013-06-10 15:31:26,423 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (ResourceContainer.invoker.nonDaemon-4) deploy, ctxPath=/restws
+2013-06-10 15:31:26,506 INFO  [com.sun.jersey.api.core.servlet.WebAppResourceConfig] (ResourceContainer.invoker.nonDaemon-4) Scanning for root resource and provider classes in the Web app resource paths:
+  /WEB-INF/lib
+  /WEB-INF/classes
+2013-06-10 15:31:26,682 INFO  [com.sun.jersey.api.core.ScanningResourceConfig] (ResourceContainer.invoker.nonDaemon-4) Root resource classes found:
+  class com.hd.ldapws.LDAPService
+2013-06-10 15:31:26,683 INFO  [com.sun.jersey.api.core.ScanningResourceConfig] (ResourceContainer.invoker.nonDaemon-4) No provider classes found.
+2013-06-10 15:31:26,895 INFO  [com.sun.jersey.server.impl.application.WebApplicationImpl] (ResourceContainer.invoker.nonDaemon-4) Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 05:30 PM'
+2013-06-10 15:31:27,326 INFO  [org.jboss.profileservice.management.upload.remoting.DeployHandler] (ResourceContainer.invoker.nonDaemon-4) End start, [vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/restws.war/]
+2013-06-10 15:31:27,369 WARN  [org.jboss.managed.plugins.factory.AbstractManagedObjectPopulator] (ResourceContainer.invoker.daemon-10) Cannot create String name from non-Simple property: ManagedProperty{JNDIName,JNDIName,metaType=SimpleMetaType:java.lang.String}, value=null
+2013-06-10 15:31:27,392 WARN  [org.jboss.managed.plugins.factory.AbstractManagedObjectPopulator] (ResourceContainer.invoker.daemon-10) Cannot create String name from non-Simple property: ManagedProperty{JNDIName,JNDIName,metaType=SimpleMetaType:java.lang.String}, value=null
+2013-06-10 15:31:40,877 INFO  [STDOUT] (http-127.0.0.1-9090-6) LDAPWS Exception - java.lang.NullPointerException
+2013-06-10 15:34:13,702 INFO  [org.jboss.profileservice.management.upload.remoting.DeployHandler] (ResourceContainer.invoker.nonDaemon-5) Stop, [vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/restws.war/]
+2013-06-10 15:34:13,724 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (ResourceContainer.invoker.nonDaemon-5) undeploy, ctxPath=/restws
+2013-06-10 15:34:13,778 INFO  [org.jboss.profileservice.management.upload.remoting.DeployHandler] (ResourceContainer.invoker.nonDaemon-5) End stop, [vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/restws.war/]
+2013-06-10 15:34:13,779 INFO  [org.jboss.profileservice.management.upload.remoting.DeployHandler] (ResourceContainer.invoker.nonDaemon-5) Remove, [vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/restws.war/]
+2013-06-10 15:34:13,826 WARN  [org.jboss.managed.plugins.factory.AbstractManagedObjectPopulator] (ResourceContainer.invoker.daemon-11) Cannot create String name from non-Simple property: ManagedProperty{JNDIName,JNDIName,metaType=SimpleMetaType:java.lang.String}, value=null
+2013-06-10 15:34:13,830 WARN  [org.jboss.managed.plugins.factory.AbstractManagedObjectPopulator] (ResourceContainer.invoker.daemon-11) Cannot create String name from non-Simple property: ManagedProperty{JNDIName,JNDIName,metaType=SimpleMetaType:java.lang.String}, value=null
+2013-06-10 15:34:23,012 INFO  [org.jboss.profileservice.management.upload.remoting.DeployHandler] (ResourceContainer.invoker.nonDaemon-5) Handle stream, deploymentTarget: names=[restws.war], copyContent=true, description=file:/E:/Siva/jboss-5.1.0.GA/server/default/tmp/embjopr/uploads/restws.war
+2013-06-10 15:34:23,026 INFO  [org.jboss.profileservice.management.upload.remoting.DeployHandler] (ResourceContainer.invoker.nonDaemon-5) End handle stream, repositoryName: vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/restws.war/
+2013-06-10 15:34:23,027 INFO  [org.jboss.profileservice.management.upload.remoting.DeployHandler] (ResourceContainer.invoker.nonDaemon-5) Begin start, [vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/restws.war/]
+2013-06-10 15:34:24,415 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (ResourceContainer.invoker.nonDaemon-5) deploy, ctxPath=/restws
+2013-06-10 15:34:24,504 INFO  [com.sun.jersey.api.core.servlet.WebAppResourceConfig] (ResourceContainer.invoker.nonDaemon-5) Scanning for root resource and provider classes in the Web app resource paths:
+  /WEB-INF/lib
+  /WEB-INF/classes
+2013-06-10 15:34:24,666 INFO  [com.sun.jersey.api.core.ScanningResourceConfig] (ResourceContainer.invoker.nonDaemon-5) Root resource classes found:
+  class com.hd.ldapws.LDAPService
+2013-06-10 15:34:24,667 INFO  [com.sun.jersey.api.core.ScanningResourceConfig] (ResourceContainer.invoker.nonDaemon-5) No provider classes found.
+2013-06-10 15:34:24,831 INFO  [com.sun.jersey.server.impl.application.WebApplicationImpl] (ResourceContainer.invoker.nonDaemon-5) Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 05:30 PM'
+2013-06-10 15:34:25,332 INFO  [org.jboss.profileservice.management.upload.remoting.DeployHandler] (ResourceContainer.invoker.nonDaemon-5) End start, [vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/restws.war/]
+2013-06-10 15:34:25,378 WARN  [org.jboss.managed.plugins.factory.AbstractManagedObjectPopulator] (ResourceContainer.invoker.daemon-12) Cannot create String name from non-Simple property: ManagedProperty{JNDIName,JNDIName,metaType=SimpleMetaType:java.lang.String}, value=null
+2013-06-10 15:34:25,383 WARN  [org.jboss.managed.plugins.factory.AbstractManagedObjectPopulator] (ResourceContainer.invoker.daemon-12) Cannot create String name from non-Simple property: ManagedProperty{JNDIName,JNDIName,metaType=SimpleMetaType:java.lang.String}, value=null
+2013-06-10 15:34:56,927 INFO  [STDOUT] (http-127.0.0.1-9090-2) LDAPWS Invalid User - javax.naming.AuthenticationException: [LDAP: error code 49 - NDS error: failed authentication (-669)]
+2013-06-10 15:49:14,862 INFO  [org.jboss.profileservice.management.upload.remoting.DeployHandler] (ResourceContainer.invoker.nonDaemon-6) Stop, [vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/restws.war/]
+2013-06-10 15:49:14,863 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (ResourceContainer.invoker.nonDaemon-6) undeploy, ctxPath=/restws
+2013-06-10 15:49:14,893 INFO  [org.jboss.profileservice.management.upload.remoting.DeployHandler] (ResourceContainer.invoker.nonDaemon-6) End stop, [vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/restws.war/]
+2013-06-10 15:49:14,893 INFO  [org.jboss.profileservice.management.upload.remoting.DeployHandler] (ResourceContainer.invoker.nonDaemon-6) Remove, [vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/restws.war/]
+2013-06-10 15:49:14,937 WARN  [org.jboss.managed.plugins.factory.AbstractManagedObjectPopulator] (ResourceContainer.invoker.daemon-13) Cannot create String name from non-Simple property: ManagedProperty{JNDIName,JNDIName,metaType=SimpleMetaType:java.lang.String}, value=null
+2013-06-10 15:49:14,940 WARN  [org.jboss.managed.plugins.factory.AbstractManagedObjectPopulator] (ResourceContainer.invoker.daemon-13) Cannot create String name from non-Simple property: ManagedProperty{JNDIName,JNDIName,metaType=SimpleMetaType:java.lang.String}, value=null
+2013-06-10 15:49:32,829 INFO  [org.jboss.profileservice.management.upload.remoting.DeployHandler] (ResourceContainer.invoker.nonDaemon-6) Handle stream, deploymentTarget: names=[restws.war], copyContent=true, description=file:/E:/Siva/jboss-5.1.0.GA/server/default/tmp/embjopr/uploads/restws.war
+2013-06-10 15:49:32,856 INFO  [org.jboss.profileservice.management.upload.remoting.DeployHandler] (ResourceContainer.invoker.nonDaemon-6) End handle stream, repositoryName: vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/restws.war/
+2013-06-10 15:49:32,857 INFO  [org.jboss.profileservice.management.upload.remoting.DeployHandler] (ResourceContainer.invoker.nonDaemon-6) Begin start, [vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/restws.war/]
+2013-06-10 15:49:33,395 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (ResourceContainer.invoker.nonDaemon-6) deploy, ctxPath=/restws
+2013-06-10 15:49:33,541 INFO  [com.sun.jersey.api.core.servlet.WebAppResourceConfig] (ResourceContainer.invoker.nonDaemon-6) Scanning for root resource and provider classes in the Web app resource paths:
+  /WEB-INF/lib
+  /WEB-INF/classes
+2013-06-10 15:49:33,691 INFO  [com.sun.jersey.api.core.ScanningResourceConfig] (ResourceContainer.invoker.nonDaemon-6) Root resource classes found:
+  class com.hd.ldapws.LDAPService
+2013-06-10 15:49:33,701 INFO  [com.sun.jersey.api.core.ScanningResourceConfig] (ResourceContainer.invoker.nonDaemon-6) No provider classes found.
+2013-06-10 15:49:33,816 INFO  [com.sun.jersey.server.impl.application.WebApplicationImpl] (ResourceContainer.invoker.nonDaemon-6) Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 05:30 PM'
+2013-06-10 15:49:34,290 INFO  [org.jboss.profileservice.management.upload.remoting.DeployHandler] (ResourceContainer.invoker.nonDaemon-6) End start, [vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/restws.war/]
+2013-06-10 15:49:34,332 WARN  [org.jboss.managed.plugins.factory.AbstractManagedObjectPopulator] (ResourceContainer.invoker.daemon-14) Cannot create String name from non-Simple property: ManagedProperty{JNDIName,JNDIName,metaType=SimpleMetaType:java.lang.String}, value=null
+2013-06-10 15:49:34,336 WARN  [org.jboss.managed.plugins.factory.AbstractManagedObjectPopulator] (ResourceContainer.invoker.daemon-14) Cannot create String name from non-Simple property: ManagedProperty{JNDIName,JNDIName,metaType=SimpleMetaType:java.lang.String}, value=null
+2013-06-10 15:58:06,969 INFO  [org.jboss.profileservice.management.upload.remoting.DeployHandler] (ResourceContainer.invoker.nonDaemon-7) Stop, [vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/restws.war/]
+2013-06-10 15:58:06,971 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (ResourceContainer.invoker.nonDaemon-7) undeploy, ctxPath=/restws
+2013-06-10 15:58:06,994 INFO  [org.jboss.profileservice.management.upload.remoting.DeployHandler] (ResourceContainer.invoker.nonDaemon-7) End stop, [vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/restws.war/]
+2013-06-10 15:58:07,017 INFO  [org.jboss.profileservice.management.upload.remoting.DeployHandler] (ResourceContainer.invoker.nonDaemon-7) Remove, [vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/restws.war/]
+2013-06-10 15:58:07,055 WARN  [org.jboss.managed.plugins.factory.AbstractManagedObjectPopulator] (ResourceContainer.invoker.daemon-16) Cannot create String name from non-Simple property: ManagedProperty{JNDIName,JNDIName,metaType=SimpleMetaType:java.lang.String}, value=null
+2013-06-10 15:58:07,059 WARN  [org.jboss.managed.plugins.factory.AbstractManagedObjectPopulator] (ResourceContainer.invoker.daemon-16) Cannot create String name from non-Simple property: ManagedProperty{JNDIName,JNDIName,metaType=SimpleMetaType:java.lang.String}, value=null
+2013-06-10 15:58:20,035 INFO  [org.jboss.profileservice.management.upload.remoting.DeployHandler] (ResourceContainer.invoker.nonDaemon-7) Handle stream, deploymentTarget: names=[restws.war], copyContent=true, description=file:/E:/Siva/jboss-5.1.0.GA/server/default/tmp/embjopr/uploads/restws.war
+2013-06-10 15:58:20,340 INFO  [org.jboss.profileservice.management.upload.remoting.DeployHandler] (ResourceContainer.invoker.nonDaemon-7) End handle stream, repositoryName: vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/restws.war/
+2013-06-10 15:58:20,341 INFO  [org.jboss.profileservice.management.upload.remoting.DeployHandler] (ResourceContainer.invoker.nonDaemon-7) Begin start, [vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/restws.war/]
+2013-06-10 15:58:20,783 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (ResourceContainer.invoker.nonDaemon-7) deploy, ctxPath=/restws
+2013-06-10 15:58:20,868 INFO  [com.sun.jersey.api.core.servlet.WebAppResourceConfig] (ResourceContainer.invoker.nonDaemon-7) Scanning for root resource and provider classes in the Web app resource paths:
+  /WEB-INF/lib
+  /WEB-INF/classes
+2013-06-10 15:58:21,051 INFO  [com.sun.jersey.api.core.ScanningResourceConfig] (ResourceContainer.invoker.nonDaemon-7) Root resource classes found:
+  class com.hd.ldapws.LDAPService
+2013-06-10 15:58:21,052 INFO  [com.sun.jersey.api.core.ScanningResourceConfig] (ResourceContainer.invoker.nonDaemon-7) No provider classes found.
+2013-06-10 15:58:21,187 INFO  [com.sun.jersey.server.impl.application.WebApplicationImpl] (ResourceContainer.invoker.nonDaemon-7) Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 05:30 PM'
+2013-06-10 15:58:21,615 INFO  [org.jboss.profileservice.management.upload.remoting.DeployHandler] (ResourceContainer.invoker.nonDaemon-7) End start, [vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/restws.war/]
+2013-06-10 15:58:21,662 WARN  [org.jboss.managed.plugins.factory.AbstractManagedObjectPopulator] (ResourceContainer.invoker.daemon-16) Cannot create String name from non-Simple property: ManagedProperty{JNDIName,JNDIName,metaType=SimpleMetaType:java.lang.String}, value=null
+2013-06-10 15:58:21,671 WARN  [org.jboss.managed.plugins.factory.AbstractManagedObjectPopulator] (ResourceContainer.invoker.daemon-16) Cannot create String name from non-Simple property: ManagedProperty{JNDIName,JNDIName,metaType=SimpleMetaType:java.lang.String}, value=null
+2013-06-10 15:59:13,668 INFO  [STDOUT] (http-127.0.0.1-9090-3) LDAPWS Invalid User - javax.naming.AuthenticationException: [LDAP: error code 49 - NDS error: failed authentication (-669)]
+2013-06-10 16:01:56,608 INFO  [STDOUT] (http-127.0.0.1-9090-3) LDAPWS Exception - java.lang.NullPointerException
+2013-06-10 16:06:27,659 INFO  [STDOUT] (http-127.0.0.1-9090-3) LDAPWS Invalid User - javax.naming.AuthenticationException: [LDAP: error code 49 - NDS error: failed authentication (-669)]
+2013-06-10 16:09:02,460 INFO  [org.jboss.profileservice.management.upload.remoting.DeployHandler] (ResourceContainer.invoker.nonDaemon-8) Stop, [vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/restws.war/]
+2013-06-10 16:09:02,462 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (ResourceContainer.invoker.nonDaemon-8) undeploy, ctxPath=/restws
+2013-06-10 16:09:02,490 INFO  [org.jboss.profileservice.management.upload.remoting.DeployHandler] (ResourceContainer.invoker.nonDaemon-8) End stop, [vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/restws.war/]
+2013-06-10 16:09:02,491 INFO  [org.jboss.profileservice.management.upload.remoting.DeployHandler] (ResourceContainer.invoker.nonDaemon-8) Remove, [vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/restws.war/]
+2013-06-10 16:09:02,550 WARN  [org.jboss.managed.plugins.factory.AbstractManagedObjectPopulator] (ResourceContainer.invoker.daemon-18) Cannot create String name from non-Simple property: ManagedProperty{JNDIName,JNDIName,metaType=SimpleMetaType:java.lang.String}, value=null
+2013-06-10 16:09:02,552 WARN  [org.jboss.managed.plugins.factory.AbstractManagedObjectPopulator] (ResourceContainer.invoker.daemon-18) Cannot create String name from non-Simple property: ManagedProperty{JNDIName,JNDIName,metaType=SimpleMetaType:java.lang.String}, value=null
+2013-06-10 16:09:12,680 INFO  [org.jboss.profileservice.management.upload.remoting.DeployHandler] (ResourceContainer.invoker.nonDaemon-8) Handle stream, deploymentTarget: names=[ldapws.war], copyContent=true, description=file:/E:/Siva/jboss-5.1.0.GA/server/default/tmp/embjopr/uploads/ldapws.war
+2013-06-10 16:09:12,693 INFO  [org.jboss.profileservice.management.upload.remoting.DeployHandler] (ResourceContainer.invoker.nonDaemon-8) End handle stream, repositoryName: vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/ldapws.war/
+2013-06-10 16:09:12,693 INFO  [org.jboss.profileservice.management.upload.remoting.DeployHandler] (ResourceContainer.invoker.nonDaemon-8) Begin start, [vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/ldapws.war/]
+2013-06-10 16:09:13,164 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (ResourceContainer.invoker.nonDaemon-8) deploy, ctxPath=/ldapws
+2013-06-10 16:09:13,281 INFO  [com.sun.jersey.api.core.servlet.WebAppResourceConfig] (ResourceContainer.invoker.nonDaemon-8) Scanning for root resource and provider classes in the Web app resource paths:
+  /WEB-INF/lib
+  /WEB-INF/classes
+2013-06-10 16:09:13,445 INFO  [com.sun.jersey.api.core.ScanningResourceConfig] (ResourceContainer.invoker.nonDaemon-8) Root resource classes found:
+  class com.hd.ldapws.LDAPService
+2013-06-10 16:09:13,446 INFO  [com.sun.jersey.api.core.ScanningResourceConfig] (ResourceContainer.invoker.nonDaemon-8) No provider classes found.
+2013-06-10 16:09:13,539 INFO  [com.sun.jersey.server.impl.application.WebApplicationImpl] (ResourceContainer.invoker.nonDaemon-8) Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 05:30 PM'
+2013-06-10 16:09:14,025 INFO  [org.jboss.profileservice.management.upload.remoting.DeployHandler] (ResourceContainer.invoker.nonDaemon-8) End start, [vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/ldapws.war/]
+2013-06-10 16:09:14,063 WARN  [org.jboss.managed.plugins.factory.AbstractManagedObjectPopulator] (ResourceContainer.invoker.daemon-18) Cannot create String name from non-Simple property: ManagedProperty{JNDIName,JNDIName,metaType=SimpleMetaType:java.lang.String}, value=null
+2013-06-10 16:09:14,067 WARN  [org.jboss.managed.plugins.factory.AbstractManagedObjectPopulator] (ResourceContainer.invoker.daemon-18) Cannot create String name from non-Simple property: ManagedProperty{JNDIName,JNDIName,metaType=SimpleMetaType:java.lang.String}, value=null
+2013-06-10 16:09:30,182 INFO  [STDOUT] (http-127.0.0.1-9090-3) LDAPWS Invalid User - javax.naming.AuthenticationException: [LDAP: error code 49 - NDS error: failed authentication (-669)]
+2013-06-10 17:54:40,171 INFO  [org.jboss.profileservice.management.upload.remoting.DeployHandler] (ResourceContainer.invoker.nonDaemon-9) Stop, [vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/ldapws.war/]
+2013-06-10 17:54:40,213 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (ResourceContainer.invoker.nonDaemon-9) undeploy, ctxPath=/ldapws
+2013-06-10 17:54:40,658 INFO  [org.jboss.profileservice.management.upload.remoting.DeployHandler] (ResourceContainer.invoker.nonDaemon-9) End stop, [vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/ldapws.war/]
+2013-06-10 17:54:40,659 INFO  [org.jboss.profileservice.management.upload.remoting.DeployHandler] (ResourceContainer.invoker.nonDaemon-9) Remove, [vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/ldapws.war/]
+2013-06-10 17:54:40,868 WARN  [org.jboss.managed.plugins.factory.AbstractManagedObjectPopulator] (ResourceContainer.invoker.daemon-21) Cannot create String name from non-Simple property: ManagedProperty{JNDIName,JNDIName,metaType=SimpleMetaType:java.lang.String}, value=null
+2013-06-10 17:54:40,871 WARN  [org.jboss.managed.plugins.factory.AbstractManagedObjectPopulator] (ResourceContainer.invoker.daemon-21) Cannot create String name from non-Simple property: ManagedProperty{JNDIName,JNDIName,metaType=SimpleMetaType:java.lang.String}, value=null
+2013-06-10 17:54:49,863 INFO  [org.jboss.profileservice.management.upload.remoting.DeployHandler] (ResourceContainer.invoker.nonDaemon-9) Handle stream, deploymentTarget: names=[ldapws.war], copyContent=true, description=file:/E:/Siva/jboss-5.1.0.GA/server/default/tmp/embjopr/uploads/ldapws.war
+2013-06-10 17:54:49,891 INFO  [org.jboss.profileservice.management.upload.remoting.DeployHandler] (ResourceContainer.invoker.nonDaemon-9) End handle stream, repositoryName: vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/ldapws.war/
+2013-06-10 17:54:49,892 INFO  [org.jboss.profileservice.management.upload.remoting.DeployHandler] (ResourceContainer.invoker.nonDaemon-9) Begin start, [vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/ldapws.war/]
+2013-06-10 17:54:50,120 WARN  [org.jboss.webservices.integration.util.ASHelper] (ResourceContainer.invoker.nonDaemon-9) Cannot load servlet class: com.sun.jersey.spi.container.servlet.ServletContainer
+java.lang.ClassNotFoundException: com.sun.jersey.spi.container.servlet.ServletContainer from BaseClassLoader@d2205d{VFSClassLoaderPolicy@14aec5a{name=vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/ldapws.war/ domain=ClassLoaderDomain@1347495{name=vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/ldapws.war/ parentPolicy=AFTER_BUT_JAVA_BEFORE parent=ClassLoaderDomain@e14d81{DefaultDomain}} roots=[MemoryContextHandler@31666792[path= context=vfsmemory://4sv62p-3jig6u-hhm0bmz8-1-hhrmvcey-587 real=vfsmemory://4sv62p-3jig6u-hhm0bmz8-1-hhrmvcey-587], ZipEntryHandler@16929015[path=ldapws.war/WEB-INF/classes context=file:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/ real=file:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/ldapws.war/WEB-INF/classes], DelegatingHandler@17934450[path=ldapws.war/WEB-INF/lib/jsr311-api-1.1.1.jar context=file:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/ real=file:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/ldapws.war/WEB-INF/lib/jsr311-api-1.1.1.jar]]  delegates=null exported=[META-INF.maven.javax.ws.rs.jsr311-api, javax.ws.rs, com.hd.ldapws, javax.ws.rs.ext, META-INF, javax.ws.rs.core] <IMPORT-ALL>NON_EMPTY}}
+	at org.jboss.classloader.spi.base.BaseClassLoader.loadClass(BaseClassLoader.java:448)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at org.jboss.webservices.integration.util.ASHelper.getEndpointClass(ASHelper.java:295)
+	at org.jboss.webservices.integration.util.ASHelper.getWebServiceServlets(ASHelper.java:398)
+	at org.jboss.webservices.integration.util.ASHelper.getJaxwsServlets(ASHelper.java:194)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.isJaxwsJseDeployment(WSTypeDeployer.java:153)
+	at org.jboss.webservices.integration.deployers.WSTypeDeployer.internalDeploy(WSTypeDeployer.java:68)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractRealDeployer.deploy(AbstractRealDeployer.java:50)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:171)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doDeploy(DeployersImpl.java:1439)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1157)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.install(DeployersImpl.java:1098)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.process(DeployersImpl.java:781)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.process(MainDeployerImpl.java:702)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.process(MainDeployerAdapter.java:117)
+	at org.jboss.profileservice.management.upload.remoting.AbstractDeployHandler.start(AbstractDeployHandler.java:263)
+	at org.jboss.profileservice.management.upload.remoting.AbstractDeployHandler.invoke(AbstractDeployHandler.java:177)
+	at org.jboss.remoting.ServerInvoker.invoke(ServerInvoker.java:891)
+	at org.jboss.remoting.transport.local.LocalClientInvoker.invoke(LocalClientInvoker.java:106)
+	at org.jboss.remoting.Client.invoke(Client.java:1724)
+	at org.jboss.remoting.Client.invoke(Client.java:629)
+	at org.jboss.profileservice.management.upload.remoting.StreamingDeploymentTarget.invoke(StreamingDeploymentTarget.java:305)
+	at org.jboss.profileservice.management.upload.remoting.StreamingDeploymentTarget.start(StreamingDeploymentTarget.java:190)
+	at org.jboss.profileservice.management.upload.DeploymentProgressImpl.start(DeploymentProgressImpl.java:231)
+	at org.jboss.profileservice.management.upload.DeploymentProgressImpl.run(DeploymentProgressImpl.java:88)
+	at org.rhq.plugins.jbossas5.util.DeploymentUtils.run(DeploymentUtils.java:120)
+	at org.rhq.plugins.jbossas5.util.DeploymentUtils.deployArchive(DeploymentUtils.java:103)
+	at org.rhq.plugins.jbossas5.ApplicationServerComponent.createContentBasedResource(ApplicationServerComponent.java:400)
+	at org.rhq.plugins.jbossas5.ApplicationServerComponent.createResource(ApplicationServerComponent.java:211)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.rhq.core.pc.inventory.ResourceContainer$ComponentInvocationThread.call(ResourceContainer.java:482)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2013-06-10 17:54:50,244 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (ResourceContainer.invoker.nonDaemon-9) deploy, ctxPath=/ldapws
+2013-06-10 17:54:50,318 INFO  [org.apache.catalina.core.ContainerBase.[jboss.web].[localhost].[/ldapws]] (ResourceContainer.invoker.nonDaemon-9) Marking servlet JAX-RS REST Servlet as unavailable
+2013-06-10 17:54:50,319 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[localhost].[/ldapws]] (ResourceContainer.invoker.nonDaemon-9) Servlet /ldapws threw load() exception
+java.lang.ClassNotFoundException: com.sun.jersey.spi.container.servlet.ServletContainer
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:200)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:188)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:307)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at org.jboss.web.tomcat.service.TomcatInjectionContainer.newInstance(TomcatInjectionContainer.java:262)
+	at org.jboss.web.tomcat.service.TomcatInjectionContainer.newInstance(TomcatInjectionContainer.java:256)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1006)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:950)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4122)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4421)
+	at org.jboss.web.tomcat.service.deployers.TomcatDeployment.performDeployInternal(TomcatDeployment.java:310)
+	at org.jboss.web.tomcat.service.deployers.TomcatDeployment.performDeploy(TomcatDeployment.java:142)
+	at org.jboss.web.deployers.AbstractWarDeployment.start(AbstractWarDeployment.java:461)
+	at org.jboss.web.deployers.WebModule.startModule(WebModule.java:118)
+	at org.jboss.web.deployers.WebModule.start(WebModule.java:97)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:157)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:96)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:88)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:668)
+	at org.jboss.system.microcontainer.ServiceProxy.invoke(ServiceProxy.java:206)
+	at $Proxy38.start(Unknown Source)
+	at org.jboss.system.microcontainer.StartStopLifecycleAction.installAction(StartStopLifecycleAction.java:42)
+	at org.jboss.system.microcontainer.StartStopLifecycleAction.installAction(StartStopLifecycleAction.java:37)
+	at org.jboss.dependency.plugins.action.SimpleControllerContextAction.simpleInstallAction(SimpleControllerContextAction.java:62)
+	at org.jboss.dependency.plugins.action.AccessControllerContextAction.install(AccessControllerContextAction.java:71)
+	at org.jboss.dependency.plugins.AbstractControllerContextActions.install(AbstractControllerContextActions.java:51)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.system.microcontainer.ServiceControllerContext.install(ServiceControllerContext.java:286)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.system.ServiceController.doChange(ServiceController.java:688)
+	at org.jboss.system.ServiceController.start(ServiceController.java:460)
+	at org.jboss.system.deployers.ServiceDeployer.start(ServiceDeployer.java:163)
+	at org.jboss.system.deployers.ServiceDeployer.deploy(ServiceDeployer.java:99)
+	at org.jboss.system.deployers.ServiceDeployer.deploy(ServiceDeployer.java:46)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractSimpleRealDeployer.internalDeploy(AbstractSimpleRealDeployer.java:62)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractRealDeployer.deploy(AbstractRealDeployer.java:50)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:171)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doDeploy(DeployersImpl.java:1439)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1157)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1178)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.install(DeployersImpl.java:1098)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.process(DeployersImpl.java:781)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.process(MainDeployerImpl.java:702)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.process(MainDeployerAdapter.java:117)
+	at org.jboss.profileservice.management.upload.remoting.AbstractDeployHandler.start(AbstractDeployHandler.java:263)
+	at org.jboss.profileservice.management.upload.remoting.AbstractDeployHandler.invoke(AbstractDeployHandler.java:177)
+	at org.jboss.remoting.ServerInvoker.invoke(ServerInvoker.java:891)
+	at org.jboss.remoting.transport.local.LocalClientInvoker.invoke(LocalClientInvoker.java:106)
+	at org.jboss.remoting.Client.invoke(Client.java:1724)
+	at org.jboss.remoting.Client.invoke(Client.java:629)
+	at org.jboss.profileservice.management.upload.remoting.StreamingDeploymentTarget.invoke(StreamingDeploymentTarget.java:305)
+	at org.jboss.profileservice.management.upload.remoting.StreamingDeploymentTarget.start(StreamingDeploymentTarget.java:190)
+	at org.jboss.profileservice.management.upload.DeploymentProgressImpl.start(DeploymentProgressImpl.java:231)
+	at org.jboss.profileservice.management.upload.DeploymentProgressImpl.run(DeploymentProgressImpl.java:88)
+	at org.rhq.plugins.jbossas5.util.DeploymentUtils.run(DeploymentUtils.java:120)
+	at org.rhq.plugins.jbossas5.util.DeploymentUtils.deployArchive(DeploymentUtils.java:103)
+	at org.rhq.plugins.jbossas5.ApplicationServerComponent.createContentBasedResource(ApplicationServerComponent.java:400)
+	at org.rhq.plugins.jbossas5.ApplicationServerComponent.createResource(ApplicationServerComponent.java:211)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.rhq.core.pc.inventory.ResourceContainer$ComponentInvocationThread.call(ResourceContainer.java:482)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2013-06-10 17:54:50,492 INFO  [org.jboss.profileservice.management.upload.remoting.DeployHandler] (ResourceContainer.invoker.nonDaemon-9) End start, [vfszip:/E:/Siva/jboss-5.1.0.GA/server/default/deploy/ldapws.war/]
+2013-06-10 17:54:50,534 WARN  [org.jboss.managed.plugins.factory.AbstractManagedObjectPopulator] (ResourceContainer.invoker.daemon-22) Cannot create String name from non-Simple property: ManagedProperty{JNDIName,JNDIName,metaType=SimpleMetaType:java.lang.String}, value=null
+2013-06-10 17:54:50,553 WARN  [org.jboss.managed.plugins.factory.AbstractManagedObjectPopulator] (ResourceContainer.invoker.daemon-22) Cannot create String name from non-Simple property: ManagedProperty{JNDIName,JNDIName,metaType=SimpleMetaType:java.lang.String}, value=null
+2013-06-10 17:55:05,128 INFO  [org.apache.catalina.core.ContainerBase.[jboss.web].[localhost].[/ldapws].[JAX-RS REST Servlet]] (http-127.0.0.1-9090-3) Servlet JAX-RS REST Servlet is currently unavailable

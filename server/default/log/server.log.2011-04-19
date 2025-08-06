@@ -1,0 +1,632 @@
+2011-04-19 14:06:48,174 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (HDScanner) Encountered deployment AbstractVFSDeploymentContext@7892947{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/dwsearch.jar/}
+2011-04-19 14:06:48,393 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (HDScanner) Encountered deployment AbstractVFSDeploymentContext@7892947{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/dwsearch.jar/}
+2011-04-19 14:06:48,393 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (HDScanner) Encountered deployment AbstractVFSDeploymentContext@7892947{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/dwsearch.jar/}
+2011-04-19 14:06:48,815 WARN  [org.jboss.ejb.deployers.EjbDeployer.verifier] (HDScanner) EJB spec violation: 
+Bean   : SearchEJB
+Section: 22.2
+Warning: The Bean Provider must specify the fully-qualified name of the Java class that implements the enterprise bean's business methods in the <ejb-class> element.
+Info   : Class not found on 'com.hd.directweb.search.SearchnBean': com.hd.directweb.search.SearchnBean from BaseClassLoader@d5e2ed{VFSClassLoaderPolicy@25611e{name=vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/dwsearch.jar/ domain=ClassLoaderDomain@163da38{name=be.thorgull.exemple:loader=SomeUniqueLoaderName parentPolicy=AFTER_BUT_JAVA_BEFORE parent=ClassLoaderDomain@873723{DefaultDomain}} roots=[MemoryContextHandler@724002[path= context=vfsmemory://4sv5n-u1z7m7-gmhl665t-1-gmoky378-ag real=vfsmemory://4sv5n-u1z7m7-gmhl665t-1-gmoky378-ag], DelegatingHandler@21609840[path=dwsearch.jar context=file:/D:/jboss-5.1.0.GA/server/default/deploy/ real=file:/D:/jboss-5.1.0.GA/server/default/deploy/dwsearch.jar]]  delegates=null exported=[com.hd.directweb.search, com.hd.directweb.search.utils, META-INF, com.hd.directweb.search.database] <IMPORT-ALL>NON_EMPTY}}
+
+2011-04-19 14:06:48,830 ERROR [org.jboss.kernel.plugins.dependency.AbstractKernelController] (HDScanner) Error installing to Real: name=vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/dwsearch.jar/ state=PreReal mode=Manual requiredState=Real
+org.jboss.deployers.spi.DeploymentException: Verification of Enterprise Beans failed, see above for error messages.
+	at org.jboss.ejb.deployers.EjbDeployer.deploy(EjbDeployer.java:275)
+	at org.jboss.ejb.deployers.EjbDeployer.deploy(EjbDeployer.java:73)
+	at org.jboss.deployers.vfs.spi.deployer.AbstractSimpleVFSRealDeployer.deploy(AbstractSimpleVFSRealDeployer.java:56)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractSimpleRealDeployer.internalDeploy(AbstractSimpleRealDeployer.java:62)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractRealDeployer.deploy(AbstractRealDeployer.java:50)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:171)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doDeploy(DeployersImpl.java:1439)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1157)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.install(DeployersImpl.java:1098)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.process(DeployersImpl.java:781)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.process(MainDeployerImpl.java:702)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.process(MainDeployerAdapter.java:117)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:362)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2011-04-19 14:06:48,830 WARN  [org.jboss.system.server.profileservice.hotdeploy.HDScanner] (HDScanner) Failed to process changes
+org.jboss.deployers.client.spi.IncompleteDeploymentException: Summary of incomplete deployments (SEE PREVIOUS ERRORS FOR DETAILS):
+
+*** DEPLOYMENTS IN ERROR: Name -> Error
+
+vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/dwsearch.jar/ -> org.jboss.deployers.spi.DeploymentException: Verification of Enterprise Beans failed, see above for error messages.
+
+
+DEPLOYMENTS IN ERROR:
+  Deployment "vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/dwsearch.jar/" is in error due to the following reason(s): org.jboss.deployers.spi.DeploymentException: Verification of Enterprise Beans failed, see above for error messages.
+
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.checkComplete(DeployersImpl.java:993)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.checkComplete(DeployersImpl.java:939)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.checkComplete(MainDeployerImpl.java:873)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.checkComplete(MainDeployerAdapter.java:128)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:369)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2011-04-19 14:08:13,391 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (HDScanner) Encountered deployment AbstractVFSDeploymentContext@18805309{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/dwsearch.jar/}
+2011-04-19 14:08:13,391 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (HDScanner) Encountered deployment AbstractVFSDeploymentContext@18805309{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/dwsearch.jar/}
+2011-04-19 14:08:13,391 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (HDScanner) Encountered deployment AbstractVFSDeploymentContext@18805309{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/dwsearch.jar/}
+2011-04-19 14:08:13,641 WARN  [org.jboss.ejb.deployers.EjbDeployer.verifier] (HDScanner) EJB spec violation: 
+Bean   : SearchEJB
+Method : public abstract Document; searchDocuments(SimpleProperty, String, String, int) throws Exception
+Section: 7.10.5
+Warning: The methods in the remote interface must include java.rmi.RemoteException in their throws clause.
+
+2011-04-19 14:08:13,672 ERROR [org.jboss.kernel.plugins.dependency.AbstractKernelController] (HDScanner) Error installing to Real: name=vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/dwsearch.jar/ state=PreReal mode=Manual requiredState=Real
+org.jboss.deployers.spi.DeploymentException: Verification of Enterprise Beans failed, see above for error messages.
+	at org.jboss.ejb.deployers.EjbDeployer.deploy(EjbDeployer.java:275)
+	at org.jboss.ejb.deployers.EjbDeployer.deploy(EjbDeployer.java:73)
+	at org.jboss.deployers.vfs.spi.deployer.AbstractSimpleVFSRealDeployer.deploy(AbstractSimpleVFSRealDeployer.java:56)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractSimpleRealDeployer.internalDeploy(AbstractSimpleRealDeployer.java:62)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractRealDeployer.deploy(AbstractRealDeployer.java:50)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:171)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doDeploy(DeployersImpl.java:1439)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1157)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.install(DeployersImpl.java:1098)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.process(DeployersImpl.java:781)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.process(MainDeployerImpl.java:702)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.process(MainDeployerAdapter.java:117)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:362)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2011-04-19 14:08:13,813 WARN  [org.jboss.system.server.profileservice.hotdeploy.HDScanner] (HDScanner) Failed to process changes
+org.jboss.deployers.client.spi.IncompleteDeploymentException: Summary of incomplete deployments (SEE PREVIOUS ERRORS FOR DETAILS):
+
+*** DEPLOYMENTS IN ERROR: Name -> Error
+
+vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/dwsearch.jar/ -> org.jboss.deployers.spi.DeploymentException: Verification of Enterprise Beans failed, see above for error messages.
+
+
+DEPLOYMENTS IN ERROR:
+  Deployment "vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/dwsearch.jar/" is in error due to the following reason(s): org.jboss.deployers.spi.DeploymentException: Verification of Enterprise Beans failed, see above for error messages.
+
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.checkComplete(DeployersImpl.java:993)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.checkComplete(DeployersImpl.java:939)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.checkComplete(MainDeployerImpl.java:873)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.checkComplete(MainDeployerAdapter.java:128)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:369)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2011-04-19 14:09:09,187 ERROR [org.jboss.kernel.plugins.dependency.AbstractKernelController] (HDScanner) Error installing to Parse: name=vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/dwsearch.jar/ state=Not Installed mode=Manual requiredState=Parse
+org.jboss.deployers.spi.DeploymentException: Error creating managed object for vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/dwsearch.jar/
+	at org.jboss.deployers.spi.DeploymentException.rethrowAsDeploymentException(DeploymentException.java:49)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractParsingDeployerWithOutput.createMetaData(AbstractParsingDeployerWithOutput.java:362)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractParsingDeployerWithOutput.createMetaData(AbstractParsingDeployerWithOutput.java:322)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractParsingDeployerWithOutput.createMetaData(AbstractParsingDeployerWithOutput.java:294)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractParsingDeployerWithOutput.deploy(AbstractParsingDeployerWithOutput.java:234)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:171)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doDeploy(DeployersImpl.java:1439)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1157)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.install(DeployersImpl.java:1098)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.process(DeployersImpl.java:781)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.process(MainDeployerImpl.java:702)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.process(MainDeployerAdapter.java:117)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:362)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: org.jboss.xb.binding.JBossXBException: Failed to parse source: java.io.IOException: Entry no longer available: META-INF/ejb-jar.xml in file D:\jboss-5.1.0.GA\server\default\deploy\dwsearch.jar
+	at org.jboss.xb.binding.parser.sax.SaxJBossXBParser.parse(SaxJBossXBParser.java:203)
+	at org.jboss.xb.binding.UnmarshallerImpl.unmarshal(UnmarshallerImpl.java:168)
+	at org.jboss.xb.util.JBossXBHelper.parse(JBossXBHelper.java:189)
+	at org.jboss.xb.util.JBossXBHelper.parse(JBossXBHelper.java:166)
+	at org.jboss.deployers.vfs.spi.deployer.SchemaResolverDeployer.parse(SchemaResolverDeployer.java:137)
+	at org.jboss.deployers.vfs.spi.deployer.SchemaResolverDeployer.parse(SchemaResolverDeployer.java:121)
+	at org.jboss.deployers.vfs.spi.deployer.AbstractVFSParsingDeployer.parseAndInit(AbstractVFSParsingDeployer.java:256)
+	at org.jboss.deployers.vfs.spi.deployer.AbstractVFSParsingDeployer.parse(AbstractVFSParsingDeployer.java:188)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractParsingDeployerWithOutput.createMetaData(AbstractParsingDeployerWithOutput.java:348)
+	... 28 more
+Caused by: java.lang.RuntimeException: java.io.IOException: Entry no longer available: META-INF/ejb-jar.xml in file D:\jboss-5.1.0.GA\server\default\deploy\dwsearch.jar
+	at org.jboss.virtual.VFSInputSource.getByteStream(VFSInputSource.java:70)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.jboss.xb.binding.parser.sax.SaxJBossXBParser.parse(SaxJBossXBParser.java:199)
+	... 36 more
+Caused by: java.io.IOException: Entry no longer available: META-INF/ejb-jar.xml in file D:\jboss-5.1.0.GA\server\default\deploy\dwsearch.jar
+	at org.jboss.virtual.plugins.context.zip.ZipFileWrapper.openStream(ZipFileWrapper.java:216)
+	at org.jboss.virtual.plugins.context.zip.ZipEntryContext.openStream(ZipEntryContext.java:1082)
+	at org.jboss.virtual.plugins.context.zip.ZipEntryHandler.openStream(ZipEntryHandler.java:153)
+	at org.jboss.virtual.VirtualFile.openStream(VirtualFile.java:230)
+	at org.jboss.virtual.VFSInputSource.getByteStream(VFSInputSource.java:66)
+	... 39 more
+2011-04-19 14:09:09,421 WARN  [org.jboss.system.server.profileservice.hotdeploy.HDScanner] (HDScanner) Failed to process changes
+org.jboss.deployers.client.spi.IncompleteDeploymentException: Summary of incomplete deployments (SEE PREVIOUS ERRORS FOR DETAILS):
+
+*** DEPLOYMENTS IN ERROR: Name -> Error
+
+vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/dwsearch.jar/ -> org.jboss.deployers.spi.DeploymentException: Error creating managed object for vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/dwsearch.jar/
+
+
+DEPLOYMENTS IN ERROR:
+  Deployment "vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/dwsearch.jar/" is in error due to the following reason(s): java.io.IOException: Entry no longer available: META-INF/ejb-jar.xml in file D:\jboss-5.1.0.GA\server\default\deploy\dwsearch.jar
+
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.checkComplete(DeployersImpl.java:993)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.checkComplete(DeployersImpl.java:939)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.checkComplete(MainDeployerImpl.java:873)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.checkComplete(MainDeployerAdapter.java:128)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:369)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2011-04-19 14:13:15,776 ERROR [org.jboss.kernel.plugins.dependency.AbstractKernelController] (HDScanner) Error installing to Parse: name=vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/dwsearch.jar/ state=Not Installed mode=Manual requiredState=Parse
+org.jboss.deployers.spi.DeploymentException: Error creating managed object for vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/dwsearch.jar/
+	at org.jboss.deployers.spi.DeploymentException.rethrowAsDeploymentException(DeploymentException.java:49)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractParsingDeployerWithOutput.createMetaData(AbstractParsingDeployerWithOutput.java:362)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractParsingDeployerWithOutput.createMetaData(AbstractParsingDeployerWithOutput.java:322)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractParsingDeployerWithOutput.createMetaData(AbstractParsingDeployerWithOutput.java:294)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractParsingDeployerWithOutput.deploy(AbstractParsingDeployerWithOutput.java:234)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:171)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doDeploy(DeployersImpl.java:1439)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1157)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.install(DeployersImpl.java:1098)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.process(DeployersImpl.java:781)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.process(MainDeployerImpl.java:702)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.process(MainDeployerAdapter.java:117)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:362)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: org.jboss.xb.binding.JBossXBException: Failed to parse source: java.io.IOException: Entry no longer available: META-INF/ejb-jar.xml in file D:\jboss-5.1.0.GA\server\default\deploy\dwsearch.jar
+	at org.jboss.xb.binding.parser.sax.SaxJBossXBParser.parse(SaxJBossXBParser.java:203)
+	at org.jboss.xb.binding.UnmarshallerImpl.unmarshal(UnmarshallerImpl.java:168)
+	at org.jboss.xb.util.JBossXBHelper.parse(JBossXBHelper.java:189)
+	at org.jboss.xb.util.JBossXBHelper.parse(JBossXBHelper.java:166)
+	at org.jboss.deployers.vfs.spi.deployer.SchemaResolverDeployer.parse(SchemaResolverDeployer.java:137)
+	at org.jboss.deployers.vfs.spi.deployer.SchemaResolverDeployer.parse(SchemaResolverDeployer.java:121)
+	at org.jboss.deployers.vfs.spi.deployer.AbstractVFSParsingDeployer.parseAndInit(AbstractVFSParsingDeployer.java:256)
+	at org.jboss.deployers.vfs.spi.deployer.AbstractVFSParsingDeployer.parse(AbstractVFSParsingDeployer.java:188)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractParsingDeployerWithOutput.createMetaData(AbstractParsingDeployerWithOutput.java:348)
+	... 28 more
+Caused by: java.lang.RuntimeException: java.io.IOException: Entry no longer available: META-INF/ejb-jar.xml in file D:\jboss-5.1.0.GA\server\default\deploy\dwsearch.jar
+	at org.jboss.virtual.VFSInputSource.getByteStream(VFSInputSource.java:70)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.jboss.xb.binding.parser.sax.SaxJBossXBParser.parse(SaxJBossXBParser.java:199)
+	... 36 more
+Caused by: java.io.IOException: Entry no longer available: META-INF/ejb-jar.xml in file D:\jboss-5.1.0.GA\server\default\deploy\dwsearch.jar
+	at org.jboss.virtual.plugins.context.zip.ZipFileWrapper.openStream(ZipFileWrapper.java:216)
+	at org.jboss.virtual.plugins.context.zip.ZipEntryContext.openStream(ZipEntryContext.java:1082)
+	at org.jboss.virtual.plugins.context.zip.ZipEntryHandler.openStream(ZipEntryHandler.java:153)
+	at org.jboss.virtual.VirtualFile.openStream(VirtualFile.java:230)
+	at org.jboss.virtual.VFSInputSource.getByteStream(VFSInputSource.java:66)
+	... 39 more
+2011-04-19 14:13:15,963 WARN  [org.jboss.system.server.profileservice.hotdeploy.HDScanner] (HDScanner) Failed to process changes
+org.jboss.deployers.client.spi.IncompleteDeploymentException: Summary of incomplete deployments (SEE PREVIOUS ERRORS FOR DETAILS):
+
+*** DEPLOYMENTS IN ERROR: Name -> Error
+
+vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/dwsearch.jar/ -> org.jboss.deployers.spi.DeploymentException: Error creating managed object for vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/dwsearch.jar/
+
+
+DEPLOYMENTS IN ERROR:
+  Deployment "vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/dwsearch.jar/" is in error due to the following reason(s): java.io.IOException: Entry no longer available: META-INF/ejb-jar.xml in file D:\jboss-5.1.0.GA\server\default\deploy\dwsearch.jar
+
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.checkComplete(DeployersImpl.java:993)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.checkComplete(DeployersImpl.java:939)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.checkComplete(MainDeployerImpl.java:873)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.checkComplete(MainDeployerAdapter.java:128)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:369)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2011-04-19 14:18:42,441 ERROR [org.jboss.kernel.plugins.dependency.AbstractKernelController] (HDScanner) Error installing to Parse: name=vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/dwsearch.jar/ state=Not Installed mode=Manual requiredState=Parse
+org.jboss.deployers.spi.DeploymentException: Error creating managed object for vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/dwsearch.jar/
+	at org.jboss.deployers.spi.DeploymentException.rethrowAsDeploymentException(DeploymentException.java:49)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractParsingDeployerWithOutput.createMetaData(AbstractParsingDeployerWithOutput.java:362)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractParsingDeployerWithOutput.createMetaData(AbstractParsingDeployerWithOutput.java:322)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractParsingDeployerWithOutput.createMetaData(AbstractParsingDeployerWithOutput.java:294)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractParsingDeployerWithOutput.deploy(AbstractParsingDeployerWithOutput.java:234)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:171)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doDeploy(DeployersImpl.java:1439)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1157)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.install(DeployersImpl.java:1098)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.process(DeployersImpl.java:781)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.process(MainDeployerImpl.java:702)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.process(MainDeployerAdapter.java:117)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:362)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: org.jboss.xb.binding.JBossXBException: Failed to parse source: java.io.IOException: Entry no longer available: META-INF/ejb-jar.xml in file D:\jboss-5.1.0.GA\server\default\deploy\dwsearch.jar
+	at org.jboss.xb.binding.parser.sax.SaxJBossXBParser.parse(SaxJBossXBParser.java:203)
+	at org.jboss.xb.binding.UnmarshallerImpl.unmarshal(UnmarshallerImpl.java:168)
+	at org.jboss.xb.util.JBossXBHelper.parse(JBossXBHelper.java:189)
+	at org.jboss.xb.util.JBossXBHelper.parse(JBossXBHelper.java:166)
+	at org.jboss.deployers.vfs.spi.deployer.SchemaResolverDeployer.parse(SchemaResolverDeployer.java:137)
+	at org.jboss.deployers.vfs.spi.deployer.SchemaResolverDeployer.parse(SchemaResolverDeployer.java:121)
+	at org.jboss.deployers.vfs.spi.deployer.AbstractVFSParsingDeployer.parseAndInit(AbstractVFSParsingDeployer.java:256)
+	at org.jboss.deployers.vfs.spi.deployer.AbstractVFSParsingDeployer.parse(AbstractVFSParsingDeployer.java:188)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractParsingDeployerWithOutput.createMetaData(AbstractParsingDeployerWithOutput.java:348)
+	... 28 more
+Caused by: java.lang.RuntimeException: java.io.IOException: Entry no longer available: META-INF/ejb-jar.xml in file D:\jboss-5.1.0.GA\server\default\deploy\dwsearch.jar
+	at org.jboss.virtual.VFSInputSource.getByteStream(VFSInputSource.java:70)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.jboss.xb.binding.parser.sax.SaxJBossXBParser.parse(SaxJBossXBParser.java:199)
+	... 36 more
+Caused by: java.io.IOException: Entry no longer available: META-INF/ejb-jar.xml in file D:\jboss-5.1.0.GA\server\default\deploy\dwsearch.jar
+	at org.jboss.virtual.plugins.context.zip.ZipFileWrapper.openStream(ZipFileWrapper.java:216)
+	at org.jboss.virtual.plugins.context.zip.ZipEntryContext.openStream(ZipEntryContext.java:1082)
+	at org.jboss.virtual.plugins.context.zip.ZipEntryHandler.openStream(ZipEntryHandler.java:153)
+	at org.jboss.virtual.VirtualFile.openStream(VirtualFile.java:230)
+	at org.jboss.virtual.VFSInputSource.getByteStream(VFSInputSource.java:66)
+	... 39 more
+2011-04-19 14:18:42,629 WARN  [org.jboss.system.server.profileservice.hotdeploy.HDScanner] (HDScanner) Failed to process changes
+org.jboss.deployers.client.spi.IncompleteDeploymentException: Summary of incomplete deployments (SEE PREVIOUS ERRORS FOR DETAILS):
+
+*** DEPLOYMENTS IN ERROR: Name -> Error
+
+vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/dwsearch.jar/ -> org.jboss.deployers.spi.DeploymentException: Error creating managed object for vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/dwsearch.jar/
+
+
+DEPLOYMENTS IN ERROR:
+  Deployment "vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/dwsearch.jar/" is in error due to the following reason(s): java.io.IOException: Entry no longer available: META-INF/ejb-jar.xml in file D:\jboss-5.1.0.GA\server\default\deploy\dwsearch.jar
+
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.checkComplete(DeployersImpl.java:993)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.checkComplete(DeployersImpl.java:939)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.checkComplete(MainDeployerImpl.java:873)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.checkComplete(MainDeployerAdapter.java:128)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:369)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2011-04-19 15:35:37,618 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (HDScanner) Encountered deployment AbstractVFSDeploymentContext@19160226{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/dwsearch.jar/}
+2011-04-19 15:35:37,618 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (HDScanner) Encountered deployment AbstractVFSDeploymentContext@19160226{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/dwsearch.jar/}
+2011-04-19 15:35:37,618 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (HDScanner) Encountered deployment AbstractVFSDeploymentContext@19160226{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/dwsearch.jar/}
+2011-04-19 15:35:37,743 WARN  [org.jboss.ejb.deployers.EjbDeployer.verifier] (HDScanner) EJB spec violation: 
+Bean   : SearchEJB
+Method : public abstract Document; searchDocuments(SimpleProperty, String, String, int) throws RemoteException
+Section: 7.10.5
+Warning: All the exceptions defined in the throws clause of the matching method of the session bean class must be defined in the throws clause of the method of the remote interface.
+
+2011-04-19 15:35:37,743 ERROR [org.jboss.kernel.plugins.dependency.AbstractKernelController] (HDScanner) Error installing to Real: name=vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/dwsearch.jar/ state=PreReal mode=Manual requiredState=Real
+org.jboss.deployers.spi.DeploymentException: Verification of Enterprise Beans failed, see above for error messages.
+	at org.jboss.ejb.deployers.EjbDeployer.deploy(EjbDeployer.java:275)
+	at org.jboss.ejb.deployers.EjbDeployer.deploy(EjbDeployer.java:73)
+	at org.jboss.deployers.vfs.spi.deployer.AbstractSimpleVFSRealDeployer.deploy(AbstractSimpleVFSRealDeployer.java:56)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractSimpleRealDeployer.internalDeploy(AbstractSimpleRealDeployer.java:62)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractRealDeployer.deploy(AbstractRealDeployer.java:50)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:171)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doDeploy(DeployersImpl.java:1439)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1157)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.install(DeployersImpl.java:1098)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.process(DeployersImpl.java:781)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.process(MainDeployerImpl.java:702)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.process(MainDeployerAdapter.java:117)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:362)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2011-04-19 15:35:37,759 WARN  [org.jboss.system.server.profileservice.hotdeploy.HDScanner] (HDScanner) Failed to process changes
+org.jboss.deployers.client.spi.IncompleteDeploymentException: Summary of incomplete deployments (SEE PREVIOUS ERRORS FOR DETAILS):
+
+*** DEPLOYMENTS IN ERROR: Name -> Error
+
+vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/dwsearch.jar/ -> org.jboss.deployers.spi.DeploymentException: Verification of Enterprise Beans failed, see above for error messages.
+
+
+DEPLOYMENTS IN ERROR:
+  Deployment "vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/dwsearch.jar/" is in error due to the following reason(s): org.jboss.deployers.spi.DeploymentException: Verification of Enterprise Beans failed, see above for error messages.
+
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.checkComplete(DeployersImpl.java:993)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.checkComplete(DeployersImpl.java:939)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.checkComplete(MainDeployerImpl.java:873)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.checkComplete(MainDeployerAdapter.java:128)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:369)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2011-04-19 15:37:04,070 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (HDScanner) Encountered deployment AbstractVFSDeploymentContext@15655035{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/dwsearch.jar/}
+2011-04-19 15:37:04,070 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (HDScanner) Encountered deployment AbstractVFSDeploymentContext@15655035{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/dwsearch.jar/}
+2011-04-19 15:37:04,070 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (HDScanner) Encountered deployment AbstractVFSDeploymentContext@15655035{vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/dwsearch.jar/}
+2011-04-19 15:37:04,101 INFO  [org.jboss.ejb.deployers.EjbDeployer] (HDScanner) installing bean: ejb/#SearchEJB,uid7646331
+2011-04-19 15:37:04,101 INFO  [org.jboss.ejb.deployers.EjbDeployer] (HDScanner)   with dependencies:
+2011-04-19 15:37:04,101 INFO  [org.jboss.ejb.deployers.EjbDeployer] (HDScanner)   and supplies:
+2011-04-19 15:37:04,101 INFO  [org.jboss.ejb.deployers.EjbDeployer] (HDScanner) 	jndi:ejb/jndi/DirectWebSearch
+2011-04-19 15:37:04,507 INFO  [org.jboss.ejb.EjbModule] (HDScanner) Deploying SearchEJB
+2011-04-19 15:37:05,289 WARN  [org.jboss.ejb.EjbModule] (HDScanner) EJB configured to bypass security. Please verify if this is intended. Bean=SearchEJB Deployment=vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/dwsearch.jar/
+2011-04-19 15:37:05,570 INFO  [org.jboss.proxy.ejb.ProxyFactory] (HDScanner) Bound EJB Home 'SearchEJB' to jndi 'ejb/jndi/DirectWebSearch'
+2011-04-19 18:44:39,795 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) undeploy, ctxPath=/DirectWeb
+2011-04-19 18:44:39,920 INFO  [org.hibernate.jmx.HibernateServiceMBean] (HDScanner) stopping service
+2011-04-19 18:44:39,920 INFO  [org.hibernate.util.NamingHelper] (HDScanner) JNDI InitialContext properties:{}
+2011-04-19 18:44:39,920 INFO  [org.hibernate.impl.SessionFactoryImpl] (HDScanner) closing
+2011-04-19 18:44:39,920 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) Unbinding factory from JNDI name: java:/DirectWebHibernateFactory
+2011-04-19 18:44:39,920 INFO  [org.hibernate.util.NamingHelper] (HDScanner) JNDI InitialContext properties:{}
+2011-04-19 18:44:39,920 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) Unbound factory from JNDI name: java:/DirectWebHibernateFactory
+2011-04-19 18:46:30,683 INFO  [org.hibernate.jmx.HibernateServiceMBean] (HDScanner) starting service at JNDI name: java:/DirectWebHibernateFactory
+2011-04-19 18:46:30,683 INFO  [org.hibernate.jmx.HibernateServiceMBean] (HDScanner) service properties: {hibernate.session_factory_name=java:/DirectWebHibernateFactory, hibernate.transaction.factory_class=org.hibernate.transaction.JTATransactionFactory, hibernate.connection.datasource=java:/JDBCIntranetDS, jta.UserTransaction=UserTransaction}
+2011-04-19 18:46:30,980 INFO  [org.hibernate.cfg.Environment] (HDScanner) Hibernate 3.0.3
+2011-04-19 18:46:30,980 INFO  [org.hibernate.cfg.Environment] (HDScanner) hibernate.properties not found
+2011-04-19 18:46:30,996 INFO  [org.hibernate.cfg.Environment] (HDScanner) using CGLIB reflection optimizer
+2011-04-19 18:46:30,996 INFO  [org.hibernate.cfg.Environment] (HDScanner) using JDK 1.4 java.sql.Timestamp handling
+2011-04-19 18:46:31,152 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: AdminPages.hbm.xml
+2011-04-19 18:46:34,094 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.AdminPagesMaster -> DW_ADMIN_PAGES
+2011-04-19 18:46:34,125 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: DynamicFieldsMapping.hbm.xml
+2011-04-19 18:46:34,188 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.DynamicFieldsMapping -> DW_DYNAMIC_FIELD_MAPPING
+2011-04-19 18:46:34,188 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: FooterDesignAdmin.hbm.xml
+2011-04-19 18:46:34,313 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.FooterDesignAdmin -> DW_FOOTER_ADMIN
+2011-04-19 18:46:34,313 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: HeaderDesignAdmin.hbm.xml
+2011-04-19 18:46:34,563 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.HeaderDesignAdmin -> DW_HEADER_ADMIN
+2011-04-19 18:46:34,579 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: MenuDesignAdmin.hbm.xml
+2011-04-19 18:46:34,845 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.MenuDesignAdmin -> DW_MENU_ADMIN
+2011-04-19 18:46:34,845 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: TemplateDetails.hbm.xml
+2011-04-19 18:46:34,986 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.TemplateDetails -> DW_TEMPLATE_DETAILS
+2011-04-19 18:46:34,986 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: TemplateItems.hbm.xml
+2011-04-19 18:46:35,158 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.TemplateItems -> DW_TEMPLATE_DETAIL_ITEMS
+2011-04-19 18:46:35,158 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Group.hbm.xml
+2011-04-19 18:46:35,424 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Group -> UMM_GROUPS
+2011-04-19 18:46:35,424 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Group.groupAccessLevels -> UMM_GROUP_USER_TYPES
+2011-04-19 18:46:35,424 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: GroupAccessLevels.hbm.xml
+2011-04-19 18:46:35,440 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.GroupAccessLevels -> UMM_GROUP_USER_TYPES
+2011-04-19 18:46:35,440 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: GroupCollectionMapping.hbm.xml
+2011-04-19 18:46:35,815 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.GroupCollectionMapping -> DW_GROUP_COLLECTION_MAPPING
+2011-04-19 18:46:35,815 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Menu.hbm.xml
+2011-04-19 18:46:36,660 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Menu -> DW_MENU
+2011-04-19 18:46:36,660 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: SharedMenu.hbm.xml
+2011-04-19 18:46:37,051 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.SharedMenu -> DW_SHARED_MENU
+2011-04-19 18:46:37,270 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: SubMenu.hbm.xml
+2011-04-19 18:46:37,286 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.SubMenu -> DW_SUB_MENU
+2011-04-19 18:46:37,286 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: SharedSubMenu.hbm.xml
+2011-04-19 18:46:37,317 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.SharedSubMenu -> DW_SHARED_SUB_MENU
+2011-04-19 18:46:37,317 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Templates.hbm.xml
+2011-04-19 18:46:37,395 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Templates -> DW_TEMPLATES
+2011-04-19 18:46:37,395 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: GroupDesignDetails.hbm.xml
+2011-04-19 18:46:39,163 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.GroupDesignDetails -> DW_GROUP_DESIGN_DETAILS
+2011-04-19 18:46:39,179 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: Content.hbm.xml
+2011-04-19 18:46:40,587 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.Content -> DW_CONTENT
+2011-04-19 18:46:40,618 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Content.contentItemValues -> DW_CONTENT_REFERENCE
+2011-04-19 18:46:40,618 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: SharedContent.hbm.xml
+2011-04-19 18:46:40,681 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.SharedContent -> DW_SHARED_CONTENT
+2011-04-19 18:46:40,681 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: ContentReference.hbm.xml
+2011-04-19 18:46:40,697 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.ContentReference -> DW_CONTENT_REFERENCE
+2011-04-19 18:46:40,712 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: GroupMapping.hbm.xml
+2011-04-19 18:46:40,728 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.GroupMapping -> UMM_GROUP_MAPPING
+2011-04-19 18:46:40,728 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: User.hbm.xml
+2011-04-19 18:46:40,744 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.User -> UMM_USERS
+2011-04-19 18:46:40,744 INFO  [org.hibernate.cfg.Configuration] (HDScanner) Mapping resource: ApplicationMapping.hbm.xml
+2011-04-19 18:46:40,775 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping class: com.hd.directweb.db.ApplicationMapping -> UMM_APPLICATION_MAPPING
+2011-04-19 18:46:40,775 INFO  [org.hibernate.cfg.Configuration] (HDScanner) processing extends queue
+2011-04-19 18:46:40,775 INFO  [org.hibernate.cfg.Configuration] (HDScanner) processing collection mappings
+2011-04-19 18:46:40,806 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.AdminPagesMaster.pageSpecificFields -> DW_DYNAMIC_FIELD_MAPPING
+2011-04-19 18:46:40,853 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Group.groupSpecificMenus -> DW_MENU
+2011-04-19 18:46:40,853 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Group.getGroupCollection -> DW_GROUP_COLLECTION_MAPPING
+2011-04-19 18:46:40,853 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Group.groupSpecificTemplates -> DW_TEMPLATES
+2011-04-19 18:46:40,853 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.GroupCollectionMapping.getSharingGroupCollection -> UMM_GROUPS
+2011-04-19 18:46:40,853 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Menu.subMenus -> DW_SUB_MENU
+2011-04-19 18:46:40,853 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Menu.sharedMenu -> DW_SHARED_MENU
+2011-04-19 18:46:40,853 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.SubMenu.sharedSubMenu -> DW_SHARED_SUB_MENU
+2011-04-19 18:46:40,853 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Content.sharedContent -> DW_SHARED_CONTENT
+2011-04-19 18:46:40,853 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Content.contentReference -> DW_CONTENT_REFERENCE
+2011-04-19 18:46:40,853 INFO  [org.hibernate.cfg.HbmBinder] (HDScanner) Mapping collection: com.hd.directweb.db.Content.contentSharedToAGroup -> DW_SHARED_CONTENT
+2011-04-19 18:46:40,853 INFO  [org.hibernate.cfg.Configuration] (HDScanner) processing association property references
+2011-04-19 18:46:40,853 INFO  [org.hibernate.cfg.Configuration] (HDScanner) processing foreign key constraints
+2011-04-19 18:46:44,546 INFO  [org.hibernate.util.NamingHelper] (HDScanner) JNDI InitialContext properties:{}
+2011-04-19 18:46:50,241 INFO  [org.hibernate.connection.DatasourceConnectionProvider] (HDScanner) Using datasource: java:/JDBCIntranetDS
+2011-04-19 18:46:54,809 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) RDBMS: Oracle, version: Oracle Database 11g Release 11.2.0.2.0 - 64bit Production
+2011-04-19 18:46:54,809 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) JDBC driver: Oracle JDBC driver, version: 11.2.0.2.0
+2011-04-19 18:46:56,108 INFO  [org.hibernate.dialect.Dialect] (HDScanner) Using dialect: org.hibernate.dialect.OracleDialect
+2011-04-19 18:46:56,124 INFO  [org.hibernate.transaction.TransactionFactoryFactory] (HDScanner) Transaction strategy: org.hibernate.transaction.JTATransactionFactory
+2011-04-19 18:46:56,124 INFO  [org.hibernate.util.NamingHelper] (HDScanner) JNDI InitialContext properties:{}
+2011-04-19 18:46:56,139 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] (HDScanner) No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2011-04-19 18:46:56,155 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Automatic flush during beforeCompletion(): disabled
+2011-04-19 18:46:56,155 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Automatic session close at end of transaction: disabled
+2011-04-19 18:46:56,155 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) JDBC batch size: 15
+2011-04-19 18:46:56,155 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) JDBC batch updates for versioned data: disabled
+2011-04-19 18:46:56,264 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Scrollable result sets: enabled
+2011-04-19 18:46:56,264 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) JDBC3 getGeneratedKeys(): enabled
+2011-04-19 18:46:56,264 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Connection release mode: null
+2011-04-19 18:46:56,264 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Default batch fetch size: 1
+2011-04-19 18:46:56,264 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Generate SQL with comments: disabled
+2011-04-19 18:46:56,264 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Order SQL updates by primary key: disabled
+2011-04-19 18:46:56,264 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2011-04-19 18:46:56,264 INFO  [org.hibernate.hql.ast.ASTQueryTranslatorFactory] (HDScanner) Using ASTQueryTranslatorFactory
+2011-04-19 18:46:56,264 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Query language substitutions: {false=0, true=1}
+2011-04-19 18:46:56,264 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Second-level cache: enabled
+2011-04-19 18:46:56,264 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Query cache: disabled
+2011-04-19 18:46:56,264 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Cache provider: org.hibernate.cache.EhCacheProvider
+2011-04-19 18:46:57,094 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Optimize cache for minimal puts: disabled
+2011-04-19 18:46:57,125 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Structured second-level cache entries: enabled
+2011-04-19 18:46:57,141 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Statistics: disabled
+2011-04-19 18:46:57,141 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Deleted entity synthetic identifier rollback: disabled
+2011-04-19 18:46:57,141 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Default entity-mode: pojo
+2011-04-19 18:46:58,142 INFO  [org.hibernate.impl.SessionFactoryImpl] (HDScanner) building session factory
+2011-04-19 18:46:58,158 WARN  [net.sf.ehcache.config.Configurator] (HDScanner) No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/lib/ehcache-1.1.jar/ehcache-failsafe.xml
+2011-04-19 18:47:12,975 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) Factory name: java:/DirectWebHibernateFactory
+2011-04-19 18:47:12,975 INFO  [org.hibernate.util.NamingHelper] (HDScanner) JNDI InitialContext properties:{}
+2011-04-19 18:47:12,990 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) Bound factory to JNDI name: java:/DirectWebHibernateFactory
+2011-04-19 18:47:12,990 WARN  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) InitialContext did not implement EventContext
+2011-04-19 18:47:12,990 INFO  [org.hibernate.impl.SessionFactoryImpl] (HDScanner) Checking 0 named queries
+2011-04-19 18:47:13,021 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/DirectWeb
+2011-04-19 18:47:14,649 INFO  [STDOUT] (HDScanner) Servlet filter init, now opening/closing a Session for each request.
+2011-04-19 18:47:15,368 INFO  [org.apache.struts.validator.ValidatorPlugIn] (HDScanner) Loading validation rules file from '/WEB-INF/struts/validator-rules.xml'
+2011-04-19 18:47:15,494 INFO  [org.apache.struts.validator.ValidatorPlugIn] (HDScanner) Loading validation rules file from '/WEB-INF/struts/validation.xml'
+2011-04-19 18:47:16,213 ERROR [STDERR] (HDScanner) SLF4J: Class path contains multiple SLF4J bindings.
+2011-04-19 18:47:16,213 ERROR [STDERR] (HDScanner) SLF4J: Found binding in [vfszip:/D:/jboss-5.1.0.GA/common/lib/slf4j-jboss-logging.jar/org/slf4j/impl/StaticLoggerBinder.class]
+2011-04-19 18:47:16,213 ERROR [STDERR] (HDScanner) SLF4J: Found binding in [vfszip:/D:/jboss-5.1.0.GA/server/default/deploy/DirectWeb.ear/lib/slf4j-simple-1.5.8.jar/org/slf4j/impl/StaticLoggerBinder.class]
+2011-04-19 18:47:16,213 ERROR [STDERR] (HDScanner) SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+2011-04-19 18:47:16,291 ERROR [STDERR] (HDScanner) 47 [HDScanner] INFO net.fckeditor.handlers.PropertiesLoader - /fckeditor.properties not found
+2011-04-19 18:47:16,291 ERROR [STDERR] (HDScanner) 62 [HDScanner] INFO net.fckeditor.connector.Dispatcher - Connector initialized to net.fckeditor.connector.impl.ContextConnector
+2011-04-19 21:33:08,415 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Runtime shutdown hook called, forceHalt: true
+2011-04-19 21:33:08,525 INFO  [org.apache.coyote.http11.Http11Protocol] (JBoss Shutdown Hook) Pausing Coyote HTTP/1.1 on http-127.0.0.1-9090
+2011-04-19 21:33:08,603 INFO  [org.apache.coyote.http11.Http11Protocol] (JBoss Shutdown Hook) Stopping Coyote HTTP/1.1 on http-127.0.0.1-9090
+2011-04-19 21:33:08,665 INFO  [org.apache.coyote.ajp.AjpProtocol] (JBoss Shutdown Hook) Pausing Coyote AJP/1.3 on ajp-127.0.0.1-9019
+2011-04-19 21:33:08,665 INFO  [org.apache.coyote.ajp.AjpProtocol] (JBoss Shutdown Hook) Stopping Coyote AJP/1.3 on ajp-127.0.0.1-9019
+2011-04-19 21:33:08,712 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@14a123f undeployed
+2011-04-19 21:33:08,712 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@86ef5c undeployed
+2011-04-19 21:33:08,728 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@1923f1f undeployed
+2011-04-19 21:33:08,728 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/web-console
+2011-04-19 21:33:08,774 INFO  [org.jboss.jms.server.destination.QueueService] (JBoss Shutdown Hook) Queue[/queue/ExpiryQueue] stopped
+2011-04-19 21:33:08,790 INFO  [org.jboss.jms.server.destination.QueueService] (JBoss Shutdown Hook) Queue[/queue/DLQ] stopped
+2011-04-19 21:33:08,806 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2011-04-19 21:33:09,056 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureProfileServiceBean ejbName: SecureProfileService
+2011-04-19 21:33:09,243 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2011-04-19 21:33:10,024 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureDeploymentManager ejbName: SecureDeploymentManager
+2011-04-19 21:33:10,071 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2011-04-19 21:33:10,102 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureManagementView ejbName: SecureManagementView
+2011-04-19 21:33:10,243 INFO  [org.jboss.proxy.ejb.ProxyFactory] (JBoss Shutdown Hook) Unbind EJB Home 'LDAPAuthenticationEJB' from jndi 'ejb/jndi/LDAPAuthentication'
+2011-04-19 21:33:10,243 INFO  [org.jboss.ejb.EjbModule] (JBoss Shutdown Hook) Undeployed LDAPAuthenticationEJB
+2011-04-19 21:33:10,258 INFO  [org.jboss.proxy.ejb.ProxyFactory] (JBoss Shutdown Hook) Unbind EJB Home 'SearchEJB' from jndi 'ejb/jndi/DirectWebSearch'
+2011-04-19 21:33:10,274 INFO  [org.jboss.ejb.EjbModule] (JBoss Shutdown Hook) Undeployed SearchEJB
+2011-04-19 21:33:10,290 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' from JNDI name 'java:JmsXA'
+2011-04-19 21:33:10,696 INFO  [org.jboss.jms.server.ServerPeer] (JBoss Shutdown Hook) JMS ServerPeer[0] stopped
+2011-04-19 21:33:10,711 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/invoker
+2011-04-19 21:33:11,008 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/juddi
+2011-04-19 21:33:11,024 INFO  [org.apache.juddi.registry.RegistryServlet] (JBoss Shutdown Hook) jUDDI Stopping: Cleaning up existing resources.
+2011-04-19 21:33:11,039 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/admin-console
+2011-04-19 21:33:11,039 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/
+2011-04-19 21:33:11,070 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/content
+2011-04-19 21:33:11,086 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/jbossws
+2011-04-19 21:33:11,102 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/jmx-console
+2011-04-19 21:33:11,102 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/DirectWeb
+2011-04-19 21:33:11,117 INFO  [org.apache.catalina.core.StandardService] (JBoss Shutdown Hook) Stopping service jboss.web
+2011-04-19 21:33:11,274 INFO  [org.jboss.mail.MailService] (JBoss Shutdown Hook) Mail service 'java:/Mail' removed from JNDI
+2011-04-19 21:33:11,445 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=HdFabDS' from JNDI name 'java:HdFabDS'
+2011-04-19 21:33:11,461 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=IntranetDS' from JNDI name 'java:IntranetDS'
+2011-04-19 21:33:11,461 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=JDBCIntranetDS' from JNDI name 'java:JDBCIntranetDS'
+2011-04-19 21:33:11,477 INFO  [org.hibernate.jmx.HibernateServiceMBean] (JBoss Shutdown Hook) stopping service
+2011-04-19 21:33:11,539 INFO  [org.hibernate.util.NamingHelper] (JBoss Shutdown Hook) JNDI InitialContext properties:{}
+2011-04-19 21:33:11,539 INFO  [org.hibernate.impl.SessionFactoryImpl] (JBoss Shutdown Hook) closing
+2011-04-19 21:33:11,539 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (JBoss Shutdown Hook) Unbinding factory from JNDI name: java:/DirectWebHibernateFactory
+2011-04-19 21:33:11,539 INFO  [org.hibernate.util.NamingHelper] (JBoss Shutdown Hook) JNDI InitialContext properties:{}
+2011-04-19 21:33:11,555 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (JBoss Shutdown Hook) Unbound factory from JNDI name: java:/DirectWebHibernateFactory
+2011-04-19 21:33:11,555 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=OnlineSurveyDS' from JNDI name 'java:OnlineSurveyDS'
+2011-04-19 21:33:11,555 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=OrderStatusDS' from JNDI name 'java:OrderStatusDS'
+2011-04-19 21:33:11,570 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=PIPDS' from JNDI name 'java:PIPDS'
+2011-04-19 21:33:11,570 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=PLSDS' from JNDI name 'java:PLSDS'
+2011-04-19 21:33:11,570 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' from JNDI name 'java:DefaultDS'
+2011-04-19 21:33:11,695 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2011-04-19 21:33:11,695 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2011-04-19 21:33:11,695 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2011-04-19 21:33:12,742 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (JBoss Shutdown Hook) Stopping transaction recovery manager
+2011-04-19 21:33:12,757 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (JBoss Shutdown Hook) Destroying TransactionManagerService
+2011-04-19 21:33:13,538 INFO  [org.jboss.jdbc.HypersonicDatabase] (JBoss Shutdown Hook) Database standalone closed clean
+2011-04-19 21:33:22,863 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Shutdown complete
